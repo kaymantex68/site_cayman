@@ -5,8 +5,8 @@ import i2 from '../PicSlider/2.png';
 import ImgComp from '../components/ImgComp';
 function Slider(){
     let slideArr=[
-    <ImgComp src={i1}/>,
-    <ImgComp src={i2}/>
+    <ImgComp src={i1} text="IP Камера уличная"/>,
+    <ImgComp src={i2} text="IP Камера купольная с микрофоном"/>
     ];
     const[x,setX]=React.useState(0)
     const goLeft=()=>{

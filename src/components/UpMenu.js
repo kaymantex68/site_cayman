@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from '../components/UpMenu.module.css';
-import Logo from '../Logo/logo.png';
+import Logo from '../Logo/logo.svg';
 import Menu from '../components/Menu'
 function UpMenu(){
     return(   

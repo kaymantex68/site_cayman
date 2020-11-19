@@ -17,9 +17,9 @@
    }
    
    .Slide{
-       /* border: 1px solid blue; */
+        /* border: 10px solid blue;  */
        min-width: 100%;
-       height: 70%;
+       height: 100%;
        position: relative;
        transition: 0.5s;
        overflow: hidden;
