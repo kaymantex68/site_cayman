@@ -2,36 +2,27 @@
     position: absolute;
     height: 100%;
     width: 100%;
-   
 }
 .Mail{
-   
     float: left;
     width: 30%;
     height: 100%;
     background-color: #ECEFF0;
-  
-    
+    margin-left: 5%;
 }
-
- .Phone{
-    
+ .Phone{   
     float: left;
     width: 30%;
     height: 100%;
     background-color: #ECEFF0;
 } 
-
-.Info{
-    
+.Info{  
     height: 100%;
- 
     background-color: #ECEFF0;
 }
-span{
+.span_info{
     color: black;
     position: absolute;
     transform: translateY(-60%);
     top: 50%;
-    
 }
