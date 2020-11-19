@@ -1,0 +1,37 @@
+.Main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+}
+.Mail{
+   
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #ECEFF0;
+  
+    
+}
+
+ .Phone{
+    
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #ECEFF0;
+} 
+
+.Info{
+    
+    height: 100%;
+ 
+    background-color: #ECEFF0;
+}
+span{
+    color: black;
+    position: absolute;
+    transform: translateY(-60%);
+    top: 50%;
+    
+}
