@@ -16,7 +16,8 @@ export const SidebarData=[
             text4: 'Водонепроницаемость: IP66',
             text5: 'Подсветка: 30м'
         },
-        coast: '5590₽'
+        coast: '5590₽',
+        new: true
     },
     {
         title: 'IP купольная',
@@ -30,7 +31,8 @@ export const SidebarData=[
             text4: 'Водонепроницаемость: IP66',
             text5: 'Подсветка: 15м'
         },
-        coast: '5590₽'
+        coast: '5590₽',
+        new: true
     },
     {
         title: 'С тепловизором',
@@ -46,7 +48,8 @@ export const SidebarData=[
             text6: 'Комплект: Камера, диск, и прочая херня'
 
         },
-        coast: '5590₽'
+        coast: '5590₽',
+        new: false
     },
     {
         title: 'Какая то еще камера',
@@ -56,6 +59,7 @@ export const SidebarData=[
             text: 'Разрешение: 2mpx',
             text1: 'Вариофокальный объектив: 3,6mm',
         },
-        coast: '5590₽'
+        coast: '5590₽',
+        new: false
     },
 ]
