@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './App.module.css';
-import Slider from './components/Slider';
+import Slider from './components/Slider/Slider';
 import UpHeader from './components/UpHeader';
 import UpMenu from './components/UpMenu';
 function App() {

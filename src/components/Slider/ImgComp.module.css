@@ -1,3 +1,9 @@
+.Main_div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
 .IMG_SLIDE{
     width: auto;
     height: 60%;
@@ -24,6 +30,7 @@
 }
 
  .Slider_info_block{
+    
     box-sizing: border-box;
     position: absolute;
     min-width: 450px;
@@ -38,7 +45,12 @@
     padding: 20px; 
 } 
 
-
+.Text_information{
+    position: relative;
+    /* background-color: red; */
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .Slider_text p {
     color:black;
