@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from '../components/UpMenu.module.css';
+import classes from '../components/NavigationBar.module.css';
 import Logo from '../Logo/logo.svg';
-import Menu from '../components/Menu'
+import Menu from './Menu'
 function UpMenu(){
     return(   
         <div className={classes.Main}>
