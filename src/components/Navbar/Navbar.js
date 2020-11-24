@@ -6,6 +6,7 @@ function Navbar() {
         <div className={classes.Main}>
 
             <div className={classes.Container}>
+                <input type="checkbox" name="" className={classes.check}></input>
                 <div className={classes.Logo}>
                     <img src={logo} />
                 </div>
@@ -140,6 +141,11 @@ function Navbar() {
                         </ul>
                     </div>
                     {/* <div className={classes.Log_Sign}></div> */}
+                </div>
+                <div className={classes.Hanburger_menu_container}>
+                    <div className={classes.Hamburger_menu}>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </div>

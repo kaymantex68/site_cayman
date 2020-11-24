@@ -17,8 +17,10 @@
     left: 5%; 
     position: absolute;
     top: 25%;
-    
     transform: rotate(-15deg);
+}
+.Little_New{
+    display: none;       
 }
 .New_span{
     color: white;
@@ -27,6 +29,7 @@
     padding: 10px;
     border-radius: 10px;
 }
+
 .Slider_info_block_alpha{
     box-sizing: border-box;
     position: absolute;
@@ -47,7 +50,7 @@
     
     box-sizing: border-box;
     position: absolute;
-    min-width: 450px;
+    /* min-width: 350px; */
     width: 60%;
     height: 90%;
     top: 50%;
@@ -104,3 +107,28 @@
 
 }
 
+@media (max-width: 720px){
+    .IMG_SLIDE{
+        display: none;
+    }
+    .Slider_info_block{
+        width: 90%;
+    }
+    .New{
+        display: none;
+    }
+    .Little_New{
+        display: block;
+        right: 10%; 
+        position: absolute;
+        top: 15%;
+        transform: rotate(-15deg);
+    }
+    .New_span{
+        color: white;
+        font-size: 2rem;
+        background-color: red;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

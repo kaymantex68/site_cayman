@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 
-.top_header{
+.Header{
     position: relative;
     width: 100%;
     height: 45px; 
@@ -24,6 +24,7 @@ a{
     width: 100%;
     height: 50px;
     background-color: white;
+    
     z-index: 9999;
 }
 
@@ -39,4 +40,11 @@ a{
     height: 500px;
     /* background-color: cornflowerblue; */
     /* z-index: -1; */
+}
+
+
+@media (max-width: 920px){
+    .Header{
+        display: none;
+    }
 }

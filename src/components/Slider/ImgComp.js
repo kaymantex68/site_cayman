@@ -10,6 +10,9 @@ function ImgComp({ obj }) {
             {obj.new ==true &&
                 <div className={classes.New}><span className={classes.New_span}>новинка</span></div>
             }
+            {obj.new ==true &&
+               <div className={classes.Little_New}><span className={classes.New_span }>новинка</span></div>
+            }
             <div className={classes.Slider_info_block_alpha}></div>
             <div className={classes.Slider_info_block}>
                 <div className={classes.Text_information}>

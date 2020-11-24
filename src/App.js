@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <>
-      <div className={classes.top_header}>
+      <div className={classes.Header}>
         <UpHeader />
       </div>
       <div className={classes.Navbar}>
