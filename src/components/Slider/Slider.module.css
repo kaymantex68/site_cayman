@@ -63,5 +63,14 @@
    }
 
 
+   @media (max-width: 920px){
+    .goLeft{
+        width: 20%;
+    }
+    .goRight{
+        width: 20%;
+    }
+   }
+
 
    

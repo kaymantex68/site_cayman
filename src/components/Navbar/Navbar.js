@@ -126,6 +126,9 @@ function Navbar() {
                                         <li className={classes.Dropdown_Links}>
                                             <a href="#">Кабельная продукция</a>
                                         </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <a href="#">Сетевое оборудование</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -134,6 +137,19 @@ function Navbar() {
                             </li>
                             <li className={classes.Links}>
                                 <a href="#">Автоматика</a>
+                                <div className={classes.Dropdown}>
+                                    <ul>
+                                        <li className={classes.Dropdown_Links}>
+                                            <a href="#">Вентиляция</a>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <a href="#">Автоматический ввод резерва</a>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <a href="#">Модульные котельные</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li className={classes.Links}>
                                 <a href="#">Контакты</a>

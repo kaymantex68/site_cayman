@@ -33,7 +33,13 @@ a{
     height: 400px;
     position: relative;
 }
-
+.Fast_link{
+    width:100%;
+    height:400px;
+   
+    color: black;
+    
+}
 .Content{
     position: relative;
     width: 100%;
