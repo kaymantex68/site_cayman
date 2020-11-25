@@ -17,14 +17,14 @@ function App() {
         <div className={classes.slider}>
           <Slider />
         </div>
-        <div className={classes.Fast_link}>
+        <div className={classes.Lider_of_sale}>
         <div className={classes.Lider_main}>
           <div className={classes.Lider_text}>Лидеры продаж</div>
           </div>
           <LiderOfSale />
           
         </div>
-        <div className={classes.Fast_link}>
+        <div className={classes.Rasprodaga}>
         <div className={classes.Lider_main}>
           <div className={classes.Lider_text}>Распродажа</div>
           </div>

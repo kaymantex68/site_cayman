@@ -9,7 +9,7 @@
 }
 .Slider_Conteiner{
     /* position: absolute; */
-     max-width: 95%; 
+     max-width: 100%; 
     /* padding: 2rem 2rem; */
     /* background-color: red; */
     height: 100%; 
@@ -18,7 +18,7 @@
     position: relative; 
     top:50%;
     transform: translateY(-50%);
-     /* background-color: cornflowerblue;     */
+     /* background-color: cornflowerblue;       */
 }
 
 .Swiper_cont{
@@ -39,17 +39,35 @@
     width: 80%;
     height: 220px;
     border-radius: 10px;
-    border: 1px solid #3C475B;
+    border: 1px solid #DCDCDC;
     /* padding: 10px; */
     /* position: relative; */
-    
-    
+    transition: .1s;
+}
+
+.Lider_card:hover{
+    transform: scale(1.05) translateY(10px);;
+    transition: .1s;
+    border: 2px solid #3C475B;  
+}
+
+.Lider_card:hover .Back_pic{
+    background-color:#78C47A; 
+    /* background-color: #3C475B; */
+    border-radius:20px;
+    opacity: 0.7;
+    top:0;
+    /* transform: scale(1.1); */
+    transition: 1s;
+    -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
 }
 
 
 
 .Lider_pic{
-    /* position: absolute; */
+     position: relative; 
     width: 100%;
      height: 65%; 
     /* background-color: red; */
@@ -57,14 +75,36 @@
     margin:0;
     padding: 10px;
     text-align: -webkit-center;
+    overflow:hidden;
+    /* border-radius:10px; */
 }
+
 
 .Lider_pic > img{
     height: auto;
   max-height: 100%;
   /* еще больше контроля с max-width */
-  max-width: 100%;
+  max-width: 100%; 
 }
+
+.Back_pic{
+    position: absolute;
+    top:70%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#78C47A; 
+    /* background-color: #3C475B; */
+    opacity: 0.2;
+    border-radius:10px;
+    transform: rotate(158deg);
+    z-index: -1; 
+
+    
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .Lider_text{
     width:100%;
@@ -72,15 +112,22 @@
     color:black;
     padding: 5px;
     text-align: left;
+    border-top: 1px solid #DCDCDC;
 }
 
-.Lider_text > h1{
+.Model{
     color: #3C475B;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+}
+
+.Coast{
+    margin-top: 3px;
+    font-size: 1rem;
+    color: #3C475B;
 }
 .Lider_text > p{
     color: #3C475B;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 .Item_box{
     display: flex;

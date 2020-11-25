@@ -50,7 +50,7 @@ function LiderOfSale() {
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={5}
-                    navigation
+                    // navigation
                     pagination={{ clickable: true }}
                     // scrollbar={{ draggable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -63,11 +63,14 @@ function LiderOfSale() {
                                 <div className={classes.Lider_card}>
 
                                     <div className={classes.Lider_pic}>
+                                        
                                         <img src={item.pic} />
+                                        <div className={classes.Back_pic}></div>
                                     </div>
 
                                     <div className={classes.Lider_text}>
-                                        <h1> {item.title}</h1>
+                                        <h1 className={classes.Model}> {item.model}</h1>
+                                        <p> {item.type}</p>
                                         <p> {item.info.text}</p>
                                         {/* {
                                     Object.keys(item.info).map((key, index) => {
@@ -76,7 +79,7 @@ function LiderOfSale() {
                                         )
                                     })
                                 } */}
-                                        <h1> {item.coast}</h1>
+                                        <h1 className={classes.Coast}> {item.coast}</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
