@@ -35,10 +35,25 @@ a{
 }
 .Fast_link{
     width:100%;
-    height:400px;
+    height:270px;
    
     color: black;
-    
+}
+
+.Lider_main{
+    /* position: absolute; */
+    width: 100%;
+    height: 2rem;
+      /* background-color: cornflowerblue;     */
+  
+    margin-top:10px;
+ 
+}
+.Lider_text{
+    font-weight: bold;
+    color:  #3C475B;
+    text-align: -webkit-center;
+    font-size: 1.3rem;
 }
 .Content{
     position: relative;

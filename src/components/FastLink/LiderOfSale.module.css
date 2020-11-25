@@ -1,0 +1,98 @@
+.Main{
+    position: absolute;
+    width: 100%;
+    height: 52%;
+     /* background-color: cornflowerblue;    */
+    color: black;
+    /* margin-top:10px */
+    
+}
+.Slider_Conteiner{
+    /* position: absolute; */
+     max-width: 95%; 
+    /* padding: 2rem 2rem; */
+    /* background-color: red; */
+    height: 100%; 
+    display: flex;
+    margin: 0 auto; 
+    position: relative; 
+    top:50%;
+    transform: translateY(-50%);
+     /* background-color: cornflowerblue;     */
+}
+
+.Swiper_cont{
+    
+    /* background-color: red;  */
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+      /* padding-left: 20px; */
+      /* background-color: green; */
+}
+
+.SwiperSlide{
+    
+    text-align: -webkit-center;
+}
+.Lider_card{
+    /* background-color: red; */
+    width: 80%;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid #3C475B;
+    /* padding: 10px; */
+    /* position: relative; */
+    
+    
+}
+
+
+
+.Lider_pic{
+    /* position: absolute; */
+    width: 100%;
+     height: 65%; 
+    /* background-color: red; */
+    /* background-color: green; */
+    margin:0;
+    padding: 10px;
+    text-align: -webkit-center;
+}
+
+.Lider_pic > img{
+    height: auto;
+  max-height: 100%;
+  /* еще больше контроля с max-width */
+  max-width: 100%;
+}
+
+.Lider_text{
+    width:100%;
+    height: auto;
+    color:black;
+    padding: 5px;
+    text-align: left;
+}
+
+.Lider_text > h1{
+    color: #3C475B;
+    font-size: 1.1rem;
+}
+.Lider_text > p{
+    color: #3C475B;
+    font-size: 0.9rem;
+}
+.Item_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    color: #3C475B;
+    margin: 0 15px; 
+    font-size: 1rem;
+    border: solid 1px #3C475B;
+    border-radius: 10px;
+}
+
