@@ -1,31 +1,26 @@
 .Main {
-    position: absolute;
-    height: 100%;
+    display: flex;
     width: 100%;
-    background-color: #ECEFF0;
+    height: 100%;
+    background-color: #ECEFF0; 
+}
+.Container{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 80%;
 }
 .Mail{
-    float: left;
-    width: 20%;
-    min-width: 120px;
-    height: 100%;
-    /* background-color: blue; */
-    margin-left: 5%; 
+    flex: 1;
+    text-align: -webkit-center;
 }
  .Phone{   
-    float: left;
-    width: 30%;
-    min-width: 50px;
-    height: 100%;
-    /* background-color: red; */
+     flex:1;
+    text-align: -webkit-center; 
 } 
 .Info{  
-    float: left;
-    width: 30%;
-    height: 100%;
-    right: 0;
-     /* background-color: green;  */
-  
+    flex:1;
+    text-align: -webkit-center; 
 }
 .span_info{
     color: black;

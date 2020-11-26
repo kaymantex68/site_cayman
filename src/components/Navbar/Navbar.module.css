@@ -141,20 +141,24 @@
 .Hanburger_menu_container{
     flex: 1;
     display: none;
+    
     align-items: center;
     justify-content: flex-end;
 }
 
 .Hamburger_menu{
+    
     width: 2.5rem;
     height: 2.5rem;
     background-color: white; 
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .Hamburger_menu div{
+    
     width: 1.6rem;
     height: 3px;
     border-radius: 3px;

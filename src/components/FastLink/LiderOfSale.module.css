@@ -115,6 +115,22 @@
     border-top: 1px solid #DCDCDC;
 }
 
+.Brand{
+    position:absolute;
+    height: 20%;
+    width: 40%;
+    /* background-color: red; */
+    bottom: 0px;
+    right:5px;
+    
+}
+
+.Brand >img{
+    height: auto;
+    max-height: 100%;
+  /* еще больше контроля с max-width */
+  max-width: 100%; 
+}
 .Model{
     color: #3C475B;
     font-size: 0.8rem;
@@ -124,6 +140,16 @@
     margin-top: 3px;
     font-size: 1rem;
     color: #3C475B;
+}
+.Old_coast{
+    /* font-size: 1rem; */
+    text-decoration: line-through;
+    color: #3C475B;
+}
+
+.New_coast{
+    color: red;
+    font-size: 1.1rem;
 }
 .Lider_text > p{
     color: #3C475B;

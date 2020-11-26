@@ -4,9 +4,14 @@ import Slider from './components/Slider/Slider';
 import UpHeader from './components/UpHeader';
 import Navbar from './components/Navbar/Navbar';
 import LiderOfSale from './components/FastLink/LiderOfSale'
+
+
+
+
+
 function App() {
   return (
-    <>
+    <div className={classes.Main}>
       <div className={classes.Header}>
         <UpHeader />
       </div>
@@ -35,7 +40,7 @@ function App() {
       </div>
 
 
-    </>
+      </div>
   );
 };
 export default App;
