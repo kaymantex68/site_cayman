@@ -74,7 +74,7 @@ function LiderOfSale() {
 
                                     <div className={classes.Lider_pic}>
                                         {/* {console.log(this.info)} */}
-                                        <img src={item.pic} onClick={clickHandler} data={item.model}/>
+                                        <img src={item.pic}/>
                                         <div className={classes.Back_pic}></div>
                                         {item.pic_brand != false ?
                                             <><div className={classes.Brand}>
@@ -101,7 +101,10 @@ function LiderOfSale() {
                                                 item.coast}
                                         </h1>
                                     </div>
+                                    <div className={classes.Lider_card_click} onClick={clickHandler} data={item.model}></div>   
                                 </div>
+                                
+
                             </SwiperSlide>
                         );
                     })}

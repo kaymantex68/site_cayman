@@ -35,7 +35,7 @@
     text-align: -webkit-center;
 }
 .Lider_card{
-    /* background-color: red; */
+     /* background-color: red;  */
     width: 80%;
     height: 220px;
     border-radius: 10px;
@@ -47,7 +47,7 @@
 
 .Lider_card:hover{
     transform: scale(1.05) translateY(10px);;
-    transition: .1s;
+    transition: .2s;
     border: 2px solid #3C475B;  
 }
 
@@ -64,7 +64,18 @@
     animation:spin 20s linear infinite;
 }
 
-
+.Lider_card_click{
+    /* background-color: red;   */
+   width: 80%;
+   height: 220px;
+   border-radius: 10px;
+   /* border: 1px solid #DCDCDC; */
+   /* padding: 10px; */
+   position: absolute;
+   top:0;
+   right: 20px;
+   transition: .1s;
+}
 
 .Lider_pic{
      position: relative; 
