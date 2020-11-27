@@ -21,9 +21,9 @@ function ModalWindow() {
     <div className={classes.Modal_back} onClick={OpenModal}></div>    
     <div className={classes.Modal}>{Model.model}
     <div className={classes.Pic} onClick={OpenModal}>
-        
+
     </div>
-        <div className={classes.exit} onClick={OpenModal}>X</div>
+        <div className={classes.exit} onClick={OpenModal}>закрыть</div>
     </div>
     </> 
     )

@@ -26,13 +26,19 @@
 
 .exit{
     position: absolute;
-    width:30px;
-    height: 30px;
-    background-color: red;
-    right:10px;
-    top:10px;
+   padding:10px;
+    background-color: #3C475B;
+    right:5px;
+    top:5px;
     border-radius: 5px;
-
+    text-align: center;
+    border: 1px solid #3C475B;
+    color:white;
+    cursor: pointer;
+}
+.exit:hover{
+    background-color: white;
+    color: #3C475B;
 }
 
 
