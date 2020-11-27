@@ -1,20 +1,13 @@
 import React, { useState, useEffect, useContext } from 'react';
 import classes from './LiderOfSale.module.css'
-// import { Data } from '../../Data'
 import { Context } from '../../Context'
-
-
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-
 // install Swiper components
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
