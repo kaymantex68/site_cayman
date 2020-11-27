@@ -20,9 +20,16 @@ function ModalWindow() {
     <>
     <div className={classes.Modal_back} onClick={OpenModal}></div>    
     <div className={classes.Modal}>{Model.model}
-    <div className={classes.Pic} onClick={OpenModal}>
-
-    </div>
+    {Object.keys(Model.info).map((item, index) => {
+                        return (
+                            <div className={classes.Stroka} key={index}>
+                            <div className={classes.tag}>{Model.info[item][0]}</div>
+                            <div className={classes.Centre}>..................................................................</div>
+                            <div className={classes.info}>{Model.info[item][1]}</div>
+                            </div>
+                        )
+                    })}
+    <div className={classes.Pic} onClick={OpenModal}></div>
         <div className={classes.exit} onClick={OpenModal}>закрыть</div>
     </div>
     </> 

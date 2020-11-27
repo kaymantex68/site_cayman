@@ -24,6 +24,11 @@
     z-index: 9999;
 }
 
+.Modal >p {
+    color: #3C475B;
+    font-size: 0.8rem;
+}
+
 .exit{
     position: absolute;
    padding:10px;
@@ -41,6 +46,33 @@
     color: #3C475B;
 }
 
+
+.Stroka{
+    width: 300px;
+    /* background-color:green; */
+    display: flex;
+}
+.tag{
+    flex:auto;
+    color: #3C475B;
+    font-weight: bold;
+    
+    /* background-color: aquamarine; */
+    
+}
+
+.Centre{
+    flex:25;
+    overflow: hidden;
+    color:#3C475B;
+}
+.info{
+    flex:auto;
+    color: #3C475B;
+    text-align: right;
+    /* background-color: blue; */
+    
+}
 
 @media (max-width: 1100px){
     .Modal{
