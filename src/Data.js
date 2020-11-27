@@ -1,15 +1,14 @@
-// import React from 'react'
-import i1 from '../Slider/PicSlider/1.png';
-import i1_brand from '../Slider/PicSlider/brand_1.png';
-import i2 from '../Slider/PicSlider/2.png';
-import i2_brand from '../Slider/PicSlider/brand_2.png';
-import i3 from '../Slider/PicSlider/3.png';
-import i3_brand from '../Slider/PicSlider/brand_3.png';
-import i4 from '../Slider/PicSlider/4.png';
-import i5 from '../Slider/PicSlider/5.png';
-import i6 from '../Slider/PicSlider/6.png';
-import i7 from '../Slider/PicSlider/7.png';
-export const LiderOfSaleData=[
+import i1 from '../src/Img_products/1.png';
+import i1_brand from '../src/Img_products/brand_1.png';
+import i2 from '../src/Img_products/2.png';
+import i2_brand from '../src/Img_products/brand_2.png';
+import i3 from '../src/Img_products/3.png';
+import i3_brand from '../src/Img_products/brand_3.png';
+import i4 from '../src/Img_products/4.png';
+import i5 from '../src/Img_products/5.png';
+import i6 from '../src/Img_products/6.png';
+import i7 from '../src/Img_products/7.png';
+export const Data=[
     {
         model: 'ST-2203',
         type: 'IP камера уличная',

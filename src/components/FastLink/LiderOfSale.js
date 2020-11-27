@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import classes from './LiderOfSale.module.css'
-import { LiderOfSaleData } from './LiderOfSaleData'
+// import { Data } from '../../Data'
+import { Context } from '../../Context'
 
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -17,14 +19,7 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
-let slideArr = [];
-{
-    LiderOfSaleData.map((item, index) => {
-        return (
-            slideArr.push(item)
-        )
-    })
-}
+
 
 
 function useWindowSize() {
@@ -43,16 +38,27 @@ function useWindowSize() {
     // return size;
 }
 
-const  clickHandler=(e)=> {
-    let data = e.target;
-    const value = e.target.getAttribute('data');
-    console.log(data);
-    console.log(value);
-  }
+
 
 function LiderOfSale() {
-  
+    
+    const { Modal, OpenModal, Data, IdModel} = useContext(Context);
+
+    function handleClick(model){
+        IdModel(model);
+    }
+
+    let slideArr = [];
+    {
+        Data.map((item, index) => {
+            return (
+                slideArr.push(item)
+            )
+        })
+    }
     return (
+
+        
 
         <div className={classes.Main}>
             <div className={classes.Slider_Conteiner}>
@@ -74,7 +80,7 @@ function LiderOfSale() {
 
                                     <div className={classes.Lider_pic}>
                                         {/* {console.log(this.info)} */}
-                                        <img src={item.pic}/>
+                                        <img src={item.pic} />
                                         <div className={classes.Back_pic}></div>
                                         {item.pic_brand != false ?
                                             <><div className={classes.Brand}>
@@ -101,9 +107,10 @@ function LiderOfSale() {
                                                 item.coast}
                                         </h1>
                                     </div>
-                                    <div className={classes.Lider_card_click} onClick={clickHandler} data={item.model}></div>   
+                                    <div className={classes.Lider_card_click} onClick={(e) => {handleClick(item)}} Model={item.model}></div>
+
                                 </div>
-                                
+
 
                             </SwiperSlide>
                         );
