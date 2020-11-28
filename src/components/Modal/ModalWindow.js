@@ -19,43 +19,44 @@ function ModalWindow() {
         <>
             <div className={classes.Modal_back} onClick={OpenModal}></div>
             <div className={classes.Modal}>
-                <div className={classes.Galery}>
-
-                    <Swiper
-                        spaceBetween={0}
-                        slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
-                        className={classes.Swiper_cont}
-                    >
-                        <SwiperSlide>
-                            <div className={classes.Container_pic}>
-                                <img src={Model.pic} />
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-
-
-
-
-
-                </div>
-                <div className={classes.Description}>
-                    <div className={classes.Model}>{Model.model}</div>
-                    {Object.keys(Model.info).map((item, index) => {
-                        return (
-                            <div className={classes.Stroka} key={index}>
-                                <div className={classes.tag}>{Model.info[item][0]}</div>
-                                <div className={classes.Centre}>................................................................................................................</div>
-                                <div className={classes.info}>{Model.info[item][1]}</div>
-                            </div>
-                        )
-                    })}
-                    <div className={classes.Pic} onClick={OpenModal}></div>
+                <div className={classes.Exit_container}>
                     <div className={classes.exit} onClick={OpenModal}>закрыть</div>
+                </div>
+                <div className={classes.Modal_container}>
+                    <div className={classes.Galery}>
+                        <Swiper
+                            spaceBetween={0}
+                            slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+                            scrollbar={{ draggable: true }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}
+                            className={classes.Swiper_cont}
+                        >
+                            <SwiperSlide>
+                                <div className={classes.Container_pic}>
+                                    <img src={Model.pic} />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+                    <div className={classes.Description}>
+                        <div className={classes.Model}>{Model.model}</div>
+                        <div className={classes.Type}>{Model.description}</div>
+                        {Object.keys(Model.info).map((item, index) => {
+                            return (
+                                <div className={classes.Stroka} key={index}>
+                                    <div className={classes.tag}>{Model.info[item][0]}</div>
+                                     <div className={classes.Centre}></div>  
+                                    <div className={classes.info}>{Model.info[item][1]}</div>
+                                </div>
+                            )
+                        })}
+                        <div className={classes.Pic} onClick={OpenModal}></div>
+
+                    </div>
+
                 </div>
             </div>
         </>

@@ -12,6 +12,7 @@ export const Data=[
     {
         model: 'ST-2203',
         type: 'IP камера уличная',
+        description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
         path: '/',
         pic: i1,
         pic_brand: i1_brand,
