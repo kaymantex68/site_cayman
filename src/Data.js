@@ -11,6 +11,7 @@ import i7 from '../src/Img_products/7.png';
 export const Data=[
     {
         model: 'ST-2203',
+        brand: 'ST',
         type: 'IP камера уличная',
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
         path: '/',
@@ -43,7 +44,8 @@ export const Data=[
         new: true
     },
     {
-        model: 'Samsung RT-3456',
+        model: 'RT-3456',
+        brand: 'Samsung',
         type: 'IP камера купольная',
         path: '/products',
         pic: i2,
@@ -62,6 +64,7 @@ export const Data=[
     },
     {
         model: 'AXIS DF324',
+        brand: 'ST',
         type: 'IP камера уличная',
         path: '/products',
         pic: i3,
@@ -81,6 +84,7 @@ export const Data=[
     },
     {
         model: 'ST RT-3456',
+        brand: 'ST',
         type: 'IP камера панорамная',
         path: '/products',
         pic: i4,
@@ -95,6 +99,7 @@ export const Data=[
     },
     {
         model: 'SVN-1234',
+        brand: 'ST',
         type: 'IP камера уличная',
         path: '/products',
         pic: i5,
@@ -114,6 +119,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        brand: 'ST',
         type: 'IP камера уличная',
         path: '/products',
         pic: i6,
@@ -133,6 +139,7 @@ export const Data=[
     },
     {
         model: 'D-Link DES-1002',
+        brand: 'ST',
         type: 'Коммутатор сетевой',
         path: '/products',
         pic: i7,

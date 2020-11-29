@@ -27,14 +27,61 @@
 }
 .Exit_container{
     position: relative;
+    display: flex;
     width: 100%;
     height: 8%;
+    min-height: 50px;
     border-bottom: 1px solid #DCDCDC;
     /* background-color:green; */
 }
-.exit{
+
+
+
+.Model{
+    flex:2;
+    
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    bottom:0;
+    color:  #3C475B;
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 40%;
+    /* background-color:red;  */
+  }
+
+  .Model>p{
     position: absolute;
-   padding:10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #3C475B;
+}
+
+  .Brand_pic{
+
+      flex:2;
+      /* margin-bottom: 10px; */
+       /* background-color:salmon;   */
+  }
+  .Brand_pic >img{
+      position: absolute;
+    /* height: 80%; */
+    height:  60%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+  .Links{
+      flex:2;
+      
+
+  }
+.exit{
+    flex:1;
+    /* position: absolute; */
+    padding:10px; 
+   padding-top: 0.6rem;
+   margin-bottom: 10px;
     background-color: #3C475B;
     right:5px;
     top:5px;
@@ -43,6 +90,8 @@
     border: 1px solid #3C475B;
     color:white;
     cursor: pointer;
+    font-size: 1rem;
+   
 }
 .Modal_container{
     position: relative;
@@ -73,6 +122,7 @@
     /* background-color: green;   */
     
 } 
+
 
 
 .Container_pic{
@@ -115,13 +165,7 @@
 }
 
 
-.Model{
-    color:  #3C475B;;
-    font-weight: bold;
-    font-size: 1.2rem;
-    width: 40%;
-    
-  }
+
 
   .Type{
     color:  #3C475B;;
@@ -193,10 +237,11 @@
 
 @media (max-width: 800px){
     .Modal{
-        width:90%;
-        height: 90%;
-        bottom: 5%;
-        overflow: ;
+        width:100%;
+        height: 100%;
+        top:0;
+        /* bottom: 20%;  */
+        /* overflow: ; */
     }
     .Modal_container{
      flex-direction: column;
@@ -212,7 +257,9 @@
        width: 100%;
     }
     
-    
+    .exit{
+        padding-top: 0.8rem;
+    }
     
      
 } 
