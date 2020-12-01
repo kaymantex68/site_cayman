@@ -80,8 +80,8 @@ a{
 .Content_Rout{
     position: relative;
     width: 100%;
-    height: 2000px;
-    /* background-color: red; */
+    height: 100%;
+    /* background-color: red;  */
 }
 
 @media (max-width: 920px){

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import classes from './Navbar.module.css';
 import logo from '../../Logo/logo.svg'
+import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
 function Navbar() {
+    const { Modal, OpenModal, Data, IdModel, Model,getNav, Nav } = useContext(Context);
+    function handleClick(param){
+        getNav(param);
+    }
     return (
+        
         <div className={classes.Main}>
 
             <div className={classes.Container}>
@@ -15,10 +21,10 @@ function Navbar() {
                     <div className={classes.Nav_Links}>
                         <ul>
                             <li className={classes.Links}>
-                                <NavLink to="/">Главная</NavLink>
+                                <NavLink to="/" onClick={(e) => {handleClick(['main','main'])}}>Главная</NavLink>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="/catalog">Каталог</NavLink>
+                                <NavLink to="/catalog" onClick={(e) => {handleClick(['catalog','catalog'])}}>Каталог</NavLink>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
