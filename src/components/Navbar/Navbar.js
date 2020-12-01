@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Navbar.module.css';
 import logo from '../../Logo/logo.svg'
+import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
 function Navbar() {
     return (
         <div className={classes.Main}>
@@ -14,10 +15,10 @@ function Navbar() {
                     <div className={classes.Nav_Links}>
                         <ul>
                             <li className={classes.Links}>
-                                <a href="#">Главная</a>
+                                <NavLink to="/">Главная</NavLink>
                             </li>
                             <li className={classes.Links}>
-                                <a href="#">Каталог</a>
+                                <NavLink to="/catalog">Каталог</NavLink>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>

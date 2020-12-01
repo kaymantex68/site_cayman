@@ -73,10 +73,16 @@ a{
     position: relative;
     width: 100%;
     height: 500px;
-    /* background-color: cornflowerblue; */
+    /* background-color: cornflowerblue;  */
     /* z-index: -1; */
 }
 
+.Content_Rout{
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    /* background-color: red; */
+}
 
 @media (max-width: 920px){
     .Header{

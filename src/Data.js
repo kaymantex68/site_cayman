@@ -10,13 +10,16 @@ import i6 from '../src/Img_products/6.png';
 import i7 from '../src/Img_products/7.png';
 export const Data=[
     {
-        model: 'ST-2203',
-        brand: 'ST',
-        type: 'IP камера уличная',
+        model: 'ST-2203',   
+        brand: 'ST',        
+        type: ['IP камера уличная','IP' ,'outdoore'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
         path: '/',
         pic: i1,
         pic_brand: i1_brand,
+        coast: '5590₽',
+        old_coast: false,
+        new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
             text1: ['Вариофокальный объектив:', '2.8-12mm'],
@@ -39,14 +42,12 @@ export const Data=[
             text18: ['Количество кадров:', '25к/с'],
             text19: ['Коридорный формат:', 'ROI'],
         },
-        coast: '5590₽',
-        old_coast: false,
-        new: true
+        
     },
     {
         model: 'RT-3456',
         brand: 'Samsung',
-        type: 'IP камера купольная',
+        type: ['IP камера купольная','IP' , 'indoore'],
         path: '/products',
         pic: i2,
         pic_brand: i3_brand,
@@ -65,7 +66,7 @@ export const Data=[
     {
         model: 'AXIS DF324',
         brand: 'ST',
-        type: 'IP камера уличная',
+        type: ['IP камера уличная','IP' , 'outdoore'],
         path: '/products',
         pic: i3,
         pic_brand: i2_brand,
@@ -85,7 +86,7 @@ export const Data=[
     {
         model: 'ST RT-3456',
         brand: 'ST',
-        type: 'IP камера панорамная',
+        type: ['IP камера купольная','IP' ,'indoore'],
         path: '/products',
         pic: i4,
         pic_brand: i1_brand,

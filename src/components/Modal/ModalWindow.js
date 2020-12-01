@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
 import classes from './ModalWindow.module.css'
-
 import { Context } from '../../Context'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -22,16 +21,18 @@ function ModalWindow() {
     const [controlledSwiper, setControlledSwiper] = useState(null);
     // { console.log('модальное окно') }
     // { console.log(Model) }
+    
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
+       
         slides.push(
             <SwiperSlide key={`slide-${i}`}>
-            <div className={classes.Container_pic}>
-                <img
-                    
-                    src={`img_products/${Model.brand}/${Model.model}/${i}.png`}
-                    
-                />
+                <div className={classes.Container_pic}>
+                    <img
+
+                        src={`img_products/${Model.brand}/${Model.model}/${i}.png`}
+
+                    />
                 </div>
             </SwiperSlide>
         );
@@ -63,10 +64,10 @@ function ModalWindow() {
                 </div>
                 <div className={classes.Modal_container}>
                     <div className={classes.Galery}>
-                       
 
-                        
-                         <Swiper
+
+
+                        <Swiper
                             spaceBetween={0}
                             slidesPerView={1}
                             navigation
@@ -77,7 +78,7 @@ function ModalWindow() {
                             className={classes.Swiper_cont}
 
                         >
-                        {slides}
+                            {slides}
                             {/* <SwiperSlide>
                                 {({ isActive }) => 
                                 (
@@ -87,7 +88,7 @@ function ModalWindow() {
                                     <img src={Model.pic} />
                                 </div>
                             </SwiperSlide> */}
-                        </Swiper> 
+                        </Swiper>
 
 
 
