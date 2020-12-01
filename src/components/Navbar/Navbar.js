@@ -28,7 +28,7 @@ function Navbar() {
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
-                                            <a href="#">IP камеры</a>
+                                        <NavLink to="/catalog" onClick={(e) => {handleClick(['IP','catalog'])}}>IP камеры</NavLink>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
