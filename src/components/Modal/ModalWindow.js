@@ -19,8 +19,7 @@ function ModalWindow() {
     const { Modal, OpenModal, Data, IdModel, Model } = useContext(Context);
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [controlledSwiper, setControlledSwiper] = useState(null);
-    // { console.log('модальное окно') }
-    // { console.log(Model) }
+   
     
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
@@ -65,8 +64,6 @@ function ModalWindow() {
                 <div className={classes.Modal_container}>
                     <div className={classes.Galery}>
 
-
-
                         <Swiper
                             spaceBetween={0}
                             slidesPerView={1}
@@ -76,24 +73,9 @@ function ModalWindow() {
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}
                             className={classes.Swiper_cont}
-
                         >
                             {slides}
-                            {/* <SwiperSlide>
-                                {({ isActive }) => 
-                                (
-                                 console.log('active')
-                                )}
-                                <div className={classes.Container_pic}>
-                                    <img src={Model.pic} />
-                                </div>
-                            </SwiperSlide> */}
                         </Swiper>
-
-
-
-
-
 
                     </div>
                     <div className={classes.Description}>

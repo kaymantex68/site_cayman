@@ -31,21 +31,9 @@ function Main() {
         OpenModal();
     }
 
-    // useEffect(() => {
-    //   //  <App />,
-
-    //   console.log('из useEffect ')
-    //   console.log(Model)
-    // }, [Model]);
-
     return (
         <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model }}>
             <div className={classes.Main}>
-
-
-
-
-
                 <div className={classes.Content}>
                     <div className={classes.slider}>
                         <Slider />
@@ -64,9 +52,6 @@ function Main() {
                     </div>
                 </div>
             </div>
-
-
-
             {Modal && <ModalWindow />}
         </Context.Provider>
     );

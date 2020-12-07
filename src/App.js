@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import classes from './App.module.css';
-import Slider from './components/Slider/Slider';
 import UpHeader from './components/UpHeader';
 import Navbar from './components/Navbar/Navbar';
-import LiderOfSale from './components/FastLink/LiderOfSale'
-import ModalWindow from './components/Modal/ModalWindow'
 import { Context } from './Context'
 import { Data } from './Data'
 import Main from './components/Main'
-import Catalog from './components/Catalog'
+import Catalog from './components/Catalog/Catalog'
+
 
 
 function App() {
@@ -43,7 +41,11 @@ function App() {
           <div className={classes.Content_Rout}>
           <Switch>
             <Route exact path="/" component={Main}/>
-            <Route path="/catalog" component={Catalog}/>
+            <Route exact path="/catalog" component={Catalog}/>
+            <Route exact path="/catalog/:cat" component={Catalog}/>
+            <Route exact path="/catalog/:cat/:type" component={Catalog}/>
+            <Route  path="/catalog/:cat/:type/:brand" component={Catalog}/>
+           
           </Switch>
           </div>
         </div>
