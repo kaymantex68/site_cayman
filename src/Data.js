@@ -12,7 +12,7 @@ export const Data=[
     {
         model: 'ST-2203',   
         brand: 'ST',        
-        type: ['IP камера уличная','IP' ,'outdoore'],
+        type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
         path: '/',
         pic: i1,
@@ -46,8 +46,8 @@ export const Data=[
     },
     {
         model: 'RT-3456',
-        brand: 'Samsung',
-        type: ['IP камера купольная','IP' , 'indoore'],
+        brand: 'Dahua',
+        type: ['IP камера купольная','ip' , 'outdoor'],
         path: '/products',
         pic: i2,
         pic_brand: i3_brand,
@@ -65,8 +65,8 @@ export const Data=[
     },
     {
         model: 'AXIS DF324',
-        brand: 'ST',
-        type: ['IP камера уличная','IP' , 'outdoore'],
+        brand: 'Dahua',
+        type: ['IP камера уличная','ip' , 'outdoor'],
         path: '/products',
         pic: i3,
         pic_brand: i2_brand,
@@ -86,7 +86,7 @@ export const Data=[
     {
         model: 'ST RT-3456',
         brand: 'ST',
-        type: ['IP камера купольная','IP' ,'indoore'],
+        type: ['IP камера купольная','ip' ,'indoor'],
         path: '/products',
         pic: i4,
         pic_brand: i1_brand,
@@ -101,7 +101,7 @@ export const Data=[
     {
         model: 'SVN-1234',
         brand: 'ST',
-        type: 'IP камера уличная',
+        type: ['IP камера купольная','ip' ,'indoor'],
         path: '/products',
         pic: i5,
         pic_brand: i1_brand,
@@ -121,7 +121,7 @@ export const Data=[
     {
         model: 'DAHUA F-23-23',
         brand: 'ST',
-        type: 'IP камера уличная',
+        type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
         pic: i6,
         pic_brand: false,
