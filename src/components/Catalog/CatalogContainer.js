@@ -15,61 +15,87 @@ function CatalogContainer({ match }) {
     }
     const ProductDisplay = (product, index) => {
         return (
-            <>
-                <div className={classes.Product_container}>
-                    <div>{product.model}</div>
+
+            <div className={classes.Lider_card} >
+
+                <div className={classes.Lider_pic}>
+                    {/* {console.log(this.info)} */}
+                    <img src={product.pic} />
+                    <div className={classes.Back_pic}></div>
+                    {product.pic_brand != false ?
+                        <><div className={classes.Brand}>
+                            <img src={product.pic_brand} />
+                        </div></> : null}
                 </div>
-            </>
+
+                <div className={classes.Lider_text}>
+                    <h1 className={classes.Model}> {product.model}</h1>
+                    <p> {product.type[0]}</p>
+                    <p> {product.info.text}</p>
+
+            
+
+                    <h1 className={classes.Coast}>
+                        {product.old_coast != false ?
+                            <><span className={classes.Old_coast} >{product.old_coast}</span><span className={classes.New_coast}>   {product.coast}</span></> :
+                            product.coast}
+                    </h1>
+                </div>
+                
+
+            </div>
+
+
         )
     }
 
     if (match.params.brand != null) {
         return (
-            <div className={classes.Main}>
+            <>
                 {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type) && (item.brand == match.params.brand)) {
                             return (
-                                 ProductDisplay(item) 
+                                ProductDisplay(item)
                             )
                         }
                     })
                 }
-            </div>
+            </>
         )
     }
     if (match.params.type != null) {
         return (
             <>
-                <div className={classes.Main}>
-                    {
-                        DataCatalog.map((item, index) => {
-                            if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type)) {
-                                return (
-                                    ProductDisplay(item)
 
-                                )
-                            }
-                        })
-                    }
-                </div>
+                {
+                    DataCatalog.map((item, index) => {
+                        if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type)) {
+                            return (
+                                ProductDisplay(item)
+
+                            )
+                        }
+                    })
+                }
+
             </>
         )
     }
     if (match.params.cat != null) {
         return (
             <>
-                <div className={classes.Main}>
-                    {
-                        DataCatalog.map((item, index) => {
-                            if (item.type[1] == match.params.cat) {
-                                return (
-                                    ProductDisplay(item)
-                                )
-                            }
-                        })
-                    }
-                </div>
+
+                {
+                    DataCatalog.map((item, index) => {
+                        if (item.type[1] == match.params.cat) {
+                            return (
+                                ProductDisplay(item)
+                            )
+                        }
+                    })
+                }
+
             </>
         )
     }

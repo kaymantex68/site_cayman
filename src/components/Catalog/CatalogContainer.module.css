@@ -1,23 +1,137 @@
-.Main{
-    width: 100%;
-    height: 100%;
-    
-    color: black;
+
+
+.Lider_card{
+    /* background-color: red;  */
+   width: 180px;
+   height: 220px;
+   border-radius: 10px;
+   border: 1px solid #DCDCDC;
+   /* padding: 10px; */
+   /* position: relative; */
+   transition: .1s;
+   margin: 10px 10px 10px 10px;
 }
 
-.Product_container{
-    width: 180px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: green;
-    float: left;
-    margin-top:10px;
-    /* margin-left: 10px; */
-    margin-bottom: 10px;
-    color: black;
+.Lider_card:hover{
+   transform: scale(1.05) translateY(10px);;
+   transition: .2s;
+   border: 2px solid #3C475B;  
 }
 
-p {
-    color: black;
+.Lider_card:hover .Back_pic{
+   background-color:#78C47A; 
+   /* background-color: #3C475B; */
+   border-radius:20px;
+   opacity: 0.7;
+   top:0;
+   /* transform: scale(1.1); */
+   transition: 1s;
+   -webkit-animation:spin 20s linear infinite;
+   -moz-animation:spin 20s linear infinite;
+   animation:spin 20s linear infinite;
 }
+
+.Lider_card_click{
+   /* background-color: red;   */
+  width: 80%;
+  height: 220px;
+  border-radius: 10px;
+  /* border: 1px solid #DCDCDC; */
+  /* padding: 10px; */
+  position: absolute;
+  top:0;
+  right: 20px;
+  transition: .1s;
+}
+
+.Lider_pic{
+    position: relative; 
+   width: 100%;
+    height: 65%; 
+   /* background-color: red; */
+   /* background-color: green; */
+   margin:0;
+   padding: 10px;
+   text-align: -webkit-center;
+   overflow:hidden;
+   /* border-radius:10px; */
+}
+
+
+.Lider_pic > img{
+   height: auto;
+ max-height: 100%;
+ /* еще больше контроля с max-width */
+ max-width: 100%; 
+}
+
+.Back_pic{
+   position: absolute;
+   top:70%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color:#78C47A; 
+   /* background-color: #3C475B; */
+   opacity: 0.2;
+   border-radius:10px;
+   transform: rotate(158deg);
+   z-index: -1; 
+
+   
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.Lider_text{
+   width:100%;
+   height: 100%;
+   color:black;
+   padding: 5px;
+   text-align: left;
+   border-top: 1px solid #DCDCDC;
+}
+
+.Lider_text >p{
+    color:black;
+    font-size: 0.8rem;
+}
+
+.Brand{
+   position:absolute;
+   height: 20%;
+   width: 40%;
+   /* background-color: red; */
+   bottom: 0px;
+   right:5px;
+   
+}
+
+.Brand >img{
+   height: auto;
+   max-height: 100%;
+ /* еще больше контроля с max-width */
+ max-width: 100%; 
+}
+.Model{
+   color: #3C475B;
+   font-size: 0.8rem;
+}
+
+.Coast{
+   /* margin-top: 3px; */
+   font-size: 1rem;
+   color: #3C475B;
+}
+.Old_coast{
+   /* font-size: 1rem; */
+   text-decoration: line-through;
+   color: #3C475B;
+}
+
+.New_coast{
+   color: red;
+   font-size: 1.1rem;
+}
+

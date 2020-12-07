@@ -7,15 +7,9 @@ function Catalog({ match }) {
     return (
         <>
             <div className={classes.Main}>
-                <div className={classes.Manual}></div>
+                <div className={classes.Manual}>фильтр и прочая лабуда</div>
                 <div className={classes.Container}>
-                    <div className={classes.Left}></div>
-                    <div className={classes.Catalog}>
-                        <div className={classes.Centre}>
-                            <CatalogContainer match={match} />
-                        </div>
-                    </div>
-                    <div className={classes.Right}></div>
+                    <CatalogContainer match={match} />
                 </div>
             </div>
         </>
