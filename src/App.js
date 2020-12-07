@@ -45,7 +45,6 @@ function App() {
             <Route exact path="/catalog/:cat" component={Catalog}/>
             <Route exact path="/catalog/:cat/:type" component={Catalog}/>
             <Route  path="/catalog/:cat/:type/:brand" component={Catalog}/>
-           
           </Switch>
           </div>
         </div>
