@@ -16,6 +16,58 @@
     height: 50px;
     background-color: #ECEFF0;
     color: #3C475B; 
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.Direct{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-top:1rem;
+    width: auto;
+    height: 100%;
+     background-color: #e6e4e4;
+    
+}
+.FastDirect{
+    line-height: 100%; vertical-align: middle;
+    color: #3C475B;
+    font-size: 0.9rem;
+    transition: 0.1s;   
+    /* font-weight: bold; */
+}
+.FastDirect:hover{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+    transition: 0.1s;
+    font-weight: bold;
+    
+}
+.FastDirectDot{
+   /* font-weight: bold; */
+    color: #3C475B;
+    font-size: 0.6rem;
+}
+
+.FilterContainer{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: 100%;
+    background-color: #e6e4e4;
+    padding-top:1rem;
+}
+.FilterText{
+    line-height: 100%; vertical-align: middle;
+    color: #3C475B;
+    font-size: 0.9rem;
+    transition: 0.1s;   
+    
+    
 }
 
 .Container{
