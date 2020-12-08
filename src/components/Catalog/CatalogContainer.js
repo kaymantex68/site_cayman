@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import classes from './CatalogContainer.module.css'
 import { Context } from '../../Context'
+import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
 
 
 function CatalogContainer({ match }) {
@@ -33,7 +34,7 @@ function CatalogContainer({ match }) {
                     <p> {product.type[0]}</p>
                     <p> {product.info.text}</p>
 
-            
+
 
                     <h1 className={classes.Coast}>
                         {product.old_coast != false ?
@@ -41,7 +42,7 @@ function CatalogContainer({ match }) {
                             product.coast}
                     </h1>
                 </div>
-                
+
 
             </div>
 
@@ -56,7 +57,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type) && (item.brand == match.params.brand)) {
                             return (
-                                ProductDisplay(item)
+                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                    {ProductDisplay(item)}
+                                </NavLink>
                             )
                         }
                     })
@@ -72,8 +75,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type)) {
                             return (
-                                ProductDisplay(item)
-
+                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                    {ProductDisplay(item)}
+                                </NavLink>
                             )
                         }
                     })
@@ -90,7 +94,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if (item.type[1] == match.params.cat) {
                             return (
-                                ProductDisplay(item)
+                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                    {ProductDisplay(item)}
+                                </NavLink>
                             )
                         }
                     })

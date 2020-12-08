@@ -11,6 +11,7 @@ import i7 from '../src/Img_products/7.png';
 export const Data=[
     {
         model: 'ST-2203',   
+        id: 'ST_2203',
         brand: 'ST',        
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
@@ -43,9 +44,11 @@ export const Data=[
             text19: ['Коридорный формат:', 'ROI'],
         },
         
+        
     },
     {
         model: 'RT-3456',
+        id: 'RT_3456',
         brand: 'Dahua',
         type: ['IP камера купольная','ip' , 'outdoor'],
         path: '/products',
@@ -65,6 +68,7 @@ export const Data=[
     },
     {
         model: 'AXIS DF324',
+        id: 'AXIS_DF324',
         brand: 'Dahua',
         type: ['IP камера уличная','ip' , 'outdoor'],
         path: '/products',
@@ -85,6 +89,7 @@ export const Data=[
     },
     {
         model: 'ST RT-3456',
+        id: 'ST_RT_3456_1',
         brand: 'ST',
         type: ['IP камера купольная','ip' ,'indoor'],
         path: '/products',
@@ -100,6 +105,7 @@ export const Data=[
     },
     {
         model: 'SVN-1234',
+        id: 'SVN_1234_2',
         brand: 'ST',
         type: ['IP камера купольная','ip' ,'indoor'],
         path: '/products',
@@ -120,6 +126,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23',
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
@@ -140,6 +147,7 @@ export const Data=[
     },
     {
         model: 'D-Link DES-1002',
+        id: 'D_Link_DES_1002',
         brand: 'ST',
         type: 'Коммутатор сетевой',
         path: '/products',
@@ -159,7 +167,8 @@ export const Data=[
         new: false
     },
     {
-        model: 'ST-22df03',   
+        model: 'ST-22df03', 
+        id: 'ST_22df03',  
         brand: 'ST',        
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
@@ -194,7 +203,8 @@ export const Data=[
         
     },
     {
-        model: 'ST-22403',   
+        model: 'ST-22403',  
+        id: 'ST_22403', 
         brand: 'ST',        
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
@@ -229,7 +239,8 @@ export const Data=[
         
     },
     {
-        model: 'ST-22033',   
+        model: 'ST-22033', 
+        id: 'ST_22033_2',   
         brand: 'ST',        
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
@@ -264,7 +275,8 @@ export const Data=[
         
     },
     {
-        model: 'ST-22203',   
+        model: 'ST-22203',  
+        id: 'ST_22033_3',    
         brand: 'ST',        
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
@@ -300,6 +312,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23_2',   
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
@@ -320,6 +333,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23_4', 
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
@@ -340,6 +354,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23_5', 
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
@@ -360,6 +375,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23_6', 
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
@@ -380,6 +396,7 @@ export const Data=[
     },
     {
         model: 'DAHUA F-23-23',
+        id: 'DAHUA_F_23_23_7', 
         brand: 'ST',
         type: ['IP камера уличная','ip' ,'outdoor'],
         path: '/products',
