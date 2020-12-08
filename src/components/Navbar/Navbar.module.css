@@ -28,7 +28,7 @@
 }
 
 .Logo img:hover{
-   transform: scale(1.05);
+   transform: scale(1.05) rotate(-1deg);
    transition: 0.2s;
  }
 
@@ -53,6 +53,7 @@
 
 .Links{
     position: relative;
+    margin-top: 2px;
 }
 
 .Links >a{

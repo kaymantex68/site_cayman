@@ -63,7 +63,7 @@ export const Data=[
             text5: 'Подсветка: 15м'
         },
         coast: '5590₽',
-        old_coast: '7000₽',
+        old_coast: false,
         new: true
     },
     {

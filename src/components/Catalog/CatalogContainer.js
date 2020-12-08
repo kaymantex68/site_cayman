@@ -20,7 +20,7 @@ function CatalogContainer({ match }) {
             <div className={classes.Lider_card} >
 
                 <div className={classes.Lider_pic}>
-                    {/* {console.log(this.info)} */}
+                
                     <img src={product.pic} />
                     <div className={classes.Back_pic}></div>
                     {product.pic_brand != false ?
@@ -75,7 +75,7 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type)) {
                             return (
-                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${item.brand}/${item.id}`}>
                                     {ProductDisplay(item)}
                                 </NavLink>
                             )
@@ -94,7 +94,7 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if (item.type[1] == match.params.cat) {
                             return (
-                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                <NavLink to={`/catalog/${match.params.cat}/${item.type[2]}/${item.brand}/${item.id}`}>
                                     {ProductDisplay(item)}
                                 </NavLink>
                             )

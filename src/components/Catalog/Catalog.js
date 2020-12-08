@@ -1,8 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import classes from './Catalog.module.css'
-import { Context } from '../../Context'
 import CatalogContainer from './CatalogContainer'
-import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 function Catalog({ match }) {
@@ -17,16 +16,21 @@ function Catalog({ match }) {
                             return (
                                 <>
                                     <span className={classes.FastDirectDot}> ᐅ </span>
-                                    <NavLink to="#"><span className={classes.FastDirect}>{match.params[item]}</span></NavLink>
+                                    <NavLink key={`cat-nav-${index}`} to="#"><span key={`cat-sp-${index}`} className={classes.FastDirect}>{match.params[item]}</span></NavLink>
                                     
                                 </>
                             )
                         })}
                     </div>
-                    <div className={classes.FilterContainer}><span className={classes.FilterText}>Отсортировать - - - - по цене - - - - по популярности</span></div>
+                    <div className={classes.FilterContainer}>
+                    <span className={classes.FilterText}>отсортировать </span>
+                    <input className={classes.InputSort} type="text" name="name" />
+                    </div>
                 </div>
 
                 <div className={classes.Container}>
+                <div className={classes.Romb1}></div>
+                <div className={classes.Romb2}></div>
                     <CatalogContainer match={match} />
                 </div>
             </div>

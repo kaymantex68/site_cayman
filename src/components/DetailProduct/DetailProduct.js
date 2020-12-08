@@ -39,7 +39,7 @@ function DetailProduct({ match }) {
                             return (<></>)}
                     })}
                 </div>
-                <div className={classes.FilterContainer}><span className={classes.FilterText}>Отсортировать - - - - по цене - - - - по популярности</span></div>
+              
             </div>
             <p className={classes.info}>{DetailInfo.model}</p>
             {Object.keys(DetailInfo.info).map((item, index) => {
