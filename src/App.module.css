@@ -7,7 +7,13 @@
 
 .Main{
     width:100%;
-    height: 1200px;
+    
+    /* min-height: 1030px;
+    height: auto;
+    flex: content; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* background-color: lightcoral;  */
     overflow: hidden;
 }
 ul{
@@ -40,7 +46,14 @@ a{
 .slider{
     width: 100%;
     height: 400px;
-    position: relative;
+    /* position: relative; */
+}
+
+.FastLink{
+    /* position: relative; */
+    width: 100%;
+    /* background-color: khaki; */
+    height: 600px;
 }
 .Lider_of_sale{
     width:100%;
@@ -51,7 +64,7 @@ a{
     width:100%;
     height:290px;
     /* color: black; */
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
 }
 
 .Lider_main{
@@ -72,7 +85,7 @@ a{
 .Content{
     position: relative;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     /* background-color: cornflowerblue;  */
     /* z-index: -1; */
 }
@@ -80,8 +93,14 @@ a{
 .Content_Rout{
     position: relative;
     width: 100%;
-    height: 100%;
-    /* background-color: red;  */
+    /* height: 100%; */
+    /* background-color: red;   */
+}
+
+.FooterContainer{
+    width: 100%;
+    height: 200px;
+    background-color: red;
 }
 
 @media (max-width: 920px){

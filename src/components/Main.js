@@ -12,9 +12,6 @@ import { Data } from '../Data'
 
 function Main() {
 
-
-
-
     const [Modal, setModal] = useState(false);
     const [Model, setModel] = useState('');
     const OpenModal = () => {
@@ -33,12 +30,14 @@ function Main() {
 
     return (
         <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model }}>
-            <div className={classes.Main}>
-                <div className={classes.Content}>
-                    <div className={classes.slider}>
-                        <Slider />
-                    </div>
+          
+            <div className={classes.Content}>
+                <div className={classes.slider}>
+                    <Slider />
+                </div>
+                <div className={classes.FastLink}>
                     <div className={classes.Lider_of_sale}>
+
                         <div className={classes.Lider_main}>
                             <div className={classes.Lider_text}>Лидеры продаж</div>
                         </div>
@@ -51,9 +50,11 @@ function Main() {
                         <LiderOfSale />
                     </div>
                 </div>
+                { Modal && <ModalWindow />}
             </div>
-            {Modal && <ModalWindow />}
-        </Context.Provider>
+       
+            
+        </Context.Provider >
     );
 };
 export default Main;

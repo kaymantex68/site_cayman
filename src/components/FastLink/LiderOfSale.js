@@ -53,7 +53,7 @@ function LiderOfSale() {
 
         
 
-        <div className={classes.Main}>
+        // <div className={classes.Main}>
             <div className={classes.Slider_Conteiner}>
                 <Swiper
 
@@ -110,7 +110,7 @@ function LiderOfSale() {
                     })}
                 </Swiper>
             </div>
-        </div>
+        // </div>
     );
 }
 

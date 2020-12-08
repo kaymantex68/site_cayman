@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 52%;
-     /* background-color: cornflowerblue;    */
+      /* background-color: cornflowerblue;     */
     color: black;
     /* margin-top:10px */
     
@@ -12,13 +12,13 @@
      max-width: 100%; 
     /* padding: 2rem 2rem; */
     /* background-color: red; */
-    height: 100%; 
+    height: 90%; 
     display: flex;
     margin: 0 auto; 
     position: relative; 
     top:50%;
     transform: translateY(-50%);
-     /* background-color: cornflowerblue;       */
+     /* background-color: cornflowerblue;        */
 }
 
 .Swiper_cont{

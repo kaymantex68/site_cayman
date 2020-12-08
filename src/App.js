@@ -7,6 +7,8 @@ import { Context } from './Context'
 import { Data } from './Data'
 import Main from './components/Main'
 import Catalog from './components/Catalog/Catalog'
+import Footer from './components/Footer'
+import DetailProduct from './components/DetailProduct/DetailProduct'
 
 
 
@@ -21,13 +23,13 @@ function App() {
     setModel(e);
     OpenModal();
   }
-  const [Nav,setNav]=useState(null);
-  const getNav=(e)=>{
+  const [Nav, setNav] = useState(null);
+  const getNav = (e) => {
     setNav(e);
   }
   console.log(Nav);
   return (
-    
+
 
     <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model, getNav, Nav }}>
       <Router>
@@ -39,15 +41,20 @@ function App() {
             <Navbar />
           </div>
           <div className={classes.Content_Rout}>
-          <Switch>
-            <Route exact path="/" component={Main}/>
-            {/* <Route exact path="/catalog" component={Catalog}/> */}
-            <Route exact path="/catalog/:cat" component={Catalog}/>
-            <Route exact path="/catalog/:cat/:type" component={Catalog}/>
-            <Route  path="/catalog/:cat/:type/:brand" component={Catalog}/>
-          </Switch>
+            <Switch>
+              <Route exact path="/" component={Main} />
+              {/* <Route exact path="/catalog" component={Catalog}/> */}
+              <Route exact path="/catalog/:cat" component={Catalog} />
+              <Route exact path="/catalog/:cat/:type" component={Catalog} />
+              <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
+              <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
+            </Switch>
           </div>
+          <Footer />
         </div>
+        {/* <div className={classes.FooterContainer}> */}
+        
+        {/* </div> */}
       </Router>
     </Context.Provider>
 
