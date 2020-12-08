@@ -83,7 +83,7 @@ function LiderOfSale() {
 
                                     <div className={classes.Lider_text}>
                                         <h1 className={classes.Model}> {item.model}</h1>
-                                        <p> {item.type}</p>
+                                        <p> {item.type[0]}</p>
                                         <p> {item.info.text}</p>
 
                                         {/* {

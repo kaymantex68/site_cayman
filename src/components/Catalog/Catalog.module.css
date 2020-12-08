@@ -13,7 +13,8 @@
 .Manual{
     width: 100%;
     height: 50px;
-    background-color: gray;
+    background-color: #ECEFF0;
+    color: #3C475B; 
 }
 
 .Container{

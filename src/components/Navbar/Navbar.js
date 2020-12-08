@@ -24,7 +24,7 @@ function Navbar() {
                                 <NavLink to="/">Главная</NavLink>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="/catalog">Каталог</NavLink>
+                                <NavLink to="#">Каталог</NavLink>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>

@@ -41,7 +41,7 @@ function App() {
           <div className={classes.Content_Rout}>
           <Switch>
             <Route exact path="/" component={Main}/>
-            <Route exact path="/catalog" component={Catalog}/>
+            {/* <Route exact path="/catalog" component={Catalog}/> */}
             <Route exact path="/catalog/:cat" component={Catalog}/>
             <Route exact path="/catalog/:cat/:type" component={Catalog}/>
             <Route  path="/catalog/:cat/:type/:brand" component={Catalog}/>
