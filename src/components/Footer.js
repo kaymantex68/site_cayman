@@ -5,7 +5,7 @@ function Footer(){
 
     return(
        <div className={classes.Main}>
-           <span className={classes.Text}>Footer</span>
+           <span className={classes.Text}>Foooter</span>
        </div>
     )
 }
