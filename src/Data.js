@@ -23,7 +23,7 @@ export const Data=[
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
-            text1: ['Вариофокальный объектив:', '2.8-12mm'],
+            text1: ['Объектив:', '2.8-12mm'],
             text2: ['Матрица:', 'Sony IMX 323'],
             text3: ['Процессор:', 'HiSilicon'],
             text4: ['Водонепроницаемость:', 'IP66'],
@@ -56,7 +56,7 @@ export const Data=[
         pic_brand: i3_brand,
         info: {
             text: 'Разрешение: 5mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 572',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -76,7 +76,7 @@ export const Data=[
         pic_brand: i2_brand,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -97,7 +97,7 @@ export const Data=[
         pic_brand: i1_brand,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
         },
         coast: '5590₽',
         old_coast: false,
@@ -113,7 +113,7 @@ export const Data=[
         pic_brand: i1_brand,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -134,7 +134,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -155,7 +155,7 @@ export const Data=[
         pic_brand: i1_brand,
         info: {
             text: '8 POE + 2 UpLink 1000m/s',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -180,7 +180,7 @@ export const Data=[
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
-            text1: ['Вариофокальный объектив:', '2.8-12mm'],
+            text1: ['Объектив:', '2.8-12mm'],
             text2: ['Матрица:', 'Sony IMX 323'],
             text3: ['Процессор:', 'HiSilicon'],
             text4: ['Водонепроницаемость:', 'IP66'],
@@ -216,7 +216,7 @@ export const Data=[
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
-            text1: ['Вариофокальный объектив:', '2.8-12mm'],
+            text1: ['Объектив:', '2.8-12mm'],
             text2: ['Матрица:', 'Sony IMX 323'],
             text3: ['Процессор:', 'HiSilicon'],
             text4: ['Водонепроницаемость:', 'IP66'],
@@ -252,7 +252,7 @@ export const Data=[
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
-            text1: ['Вариофокальный объектив:', '2.8-12mm'],
+            text1: ['Объектив:', '2.8-12mm'],
             text2: ['Матрица:', 'Sony IMX 323'],
             text3: ['Процессор:', 'HiSilicon'],
             text4: ['Водонепроницаемость:', 'IP66'],
@@ -288,7 +288,7 @@ export const Data=[
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
-            text1: ['Вариофокальный объектив:', '2.8-12mm'],
+            text1: ['Объектив:', '2.8-12mm'],
             text2: ['Матрица:', 'Sony IMX 323'],
             text3: ['Процессор:', 'HiSilicon'],
             text4: ['Водонепроницаемость:', 'IP66'],
@@ -320,7 +320,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -341,7 +341,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -362,7 +362,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -383,7 +383,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
@@ -404,7 +404,7 @@ export const Data=[
         pic_brand: false,
         info: {
             text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
+            text1: ['Объектив:', '2.8-12mm'],
             text2: 'Матрица: Sony IMX 222',
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',

@@ -33,7 +33,7 @@ function CatalogContainer({ match }) {
                     <h1 className={classes.Model}> {product.model}</h1>
                     <p> {product.type[0]}</p>
                     <p> {product.info.text}</p>
-
+                    <p> {product.info.text1[0]}  {product.info.text1[1]}</p>
 
 
                     <h1 className={classes.Coast}>

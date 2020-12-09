@@ -1,12 +1,12 @@
 .Main{
     
     width: 100%;
-    min-height: 120px;
+    min-height: 160px;
     height: auto;
     background-color: #3C475B; 
     /* display:inline-block;    */
       position:relative;
-      margin-top:10px;
+      /* margin-top:10px; */
 }
 
 .Text{
@@ -17,3 +17,10 @@
     left:0px;
     color: white;
 }
+
+
+@media (max-width: 411px){
+    .Main{
+        min-height: 80px;
+    }
+ }
