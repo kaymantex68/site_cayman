@@ -27,11 +27,7 @@ function DetailProduct({ match }) {
         })
     }
     const DetailInfo = DataProducts.find(x => x.id === match.params.model);
-    // console.log('detail----------------------');
-    // console.log(match);
-
-
-
+   
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
 
@@ -39,17 +35,13 @@ function DetailProduct({ match }) {
             <SwiperSlide key={`slide-${i}`}>
                 <div className={classes.Container_pic}>
                     <img
-
                         src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
-
                     />
-                    {/* {console.log(`../img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`)} */}
                 </div>
             </SwiperSlide>
         );
     }
     return (
-
         <div className={classes.ContainerDetail}>
             <div className={classes.Manual}>
                 <div className={classes.Direct}>
@@ -79,8 +71,6 @@ function DetailProduct({ match }) {
                 <div className={classes.Romb2}></div>
                 <div className={classes.Block}>
                     <div className={classes.Picture}>
-
-
                         <Swiper
                             spaceBetween={0}
                             slidesPerView={1}
@@ -93,14 +83,10 @@ function DetailProduct({ match }) {
                         >
                             {slides}
                         </Swiper>
-
-
-
-
-
                     </div>
                     <div className={classes.Description}>
-                        <p className={classes.info}>{DetailInfo.model}</p>
+                        <p className={classes.infoModel}>{DetailInfo.model}</p>
+                        <p className={classes.infoDescription}>{DetailInfo.description}</p>
                         {Object.keys(DetailInfo.info).map((item, index) => {
                             return (
                                 <div className={classes.String}>
@@ -116,8 +102,6 @@ function DetailProduct({ match }) {
                     </div>
                 </div>
             </div>
-
-
         </div >
 
     )
