@@ -30,16 +30,18 @@ function DetailProduct({ match }) {
 
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
-
-        slides.push(
-            <SwiperSlide key={`slide-${i}`}>
-                <div className={classes.Container_pic}>
-                    <img
-                        src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
-                    />
-                </div>
-            </SwiperSlide>
-        );
+        
+        if (true) {
+            slides.push(
+                <SwiperSlide key={`slide-${i}`}>
+                    <div className={classes.Container_pic}>
+                        <img
+                            src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
+                        />
+                    </div>
+                </SwiperSlide>
+            );
+        }
     }
     return (
         <div className={classes.ContainerDetail}>
@@ -97,23 +99,44 @@ function DetailProduct({ match }) {
                             </p>
                         </div>
                         <p className={classes.infoDescription}>{DetailInfo.description}</p>
-                        {console.log('youtube link')}
-                        {console.log(DetailInfo.youtube)}
 
 
 
-                        {DetailInfo.youtube != undefined ?
-                            <>
-                                <a href={DetailInfo.youtube}>
-                                <div className={classes.YoutubeContainer}>
-                                    <div className={classes.YoutubeButton}>
-                                        <span className={classes.YoutubeText}>Видео</span>
-                                        <img className={classes.youtubeIMG} src={youtubePic}></img>
-                                    </div>
-                                </div>
-                                </a>
-                            </> :
-                            <></>}
+                        <div className={classes.YoutubeLinks}>
+                            {DetailInfo.youtube_instruction != undefined ?
+                                <>
+                                    <a href={DetailInfo.youtube_instruction}>
+                                        <div className={classes.YoutubeContainer}>
+                                            <div className={classes.YoutubeButton}>
+                                                <span className={classes.YoutubeText}>Инструкция</span>
+                                                <img className={classes.youtubeIMG} src={youtubePic}></img>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </> :
+                                <></>}
+
+                            {DetailInfo.youtube != undefined ?
+                                <>
+                                    <a href={DetailInfo.youtube}>
+                                        <div className={classes.YoutubeContainer}>
+                                            <div className={classes.YoutubeButton}>
+                                                <span className={classes.YoutubeText}>Видео</span>
+                                                <img className={classes.youtubeIMG} src={youtubePic}></img>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </> :
+                                <></>}
+                        </div>
+
+
+                        <div className={classes.menu_description}>
+                        <div className={classes.Button_description}>Характеристики</div>
+                        <div className={classes.Button_download}>Загрузка</div>
+
+                        </div>
+
 
 
 

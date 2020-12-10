@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import classes from './Footer.module.css'
-import logo from '../Logo/logo.svg'
+import logo from '../Logo/LogoCopyright.svg'
 function Footer() {
 
     return (

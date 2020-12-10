@@ -16,6 +16,7 @@ export const Data=[
         type: ['IP камера уличная','ip' ,'outdoor'],
         description:'Антивандальная камера с вариофокальным объективом 2.8-12мм. Встроенный микрофон.',
         youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
+        youtube_instruction: 'https://www.youtube.com/watch?v=eb-ezWgHmBo',
         path: '/',
         pic: i1,
         pic_brand: i1_brand,
@@ -43,6 +44,11 @@ export const Data=[
             text17: ['Молниезащита:', 'есть'],
             text18: ['Количество кадров:', '25к/с'],
             text19: ['Коридорный формат:', 'ROI'],
+            text20: ['Протокол:', 'ONVIF 2.4'],
+            text21: ['Облачный сервис:', 'FREEIP'],
+            text22: ['Габариты:', '43х65х287'],
+            text23: ['Звук:', 'встроенный микрофон'],
+            text24: ['Разъемы:', 'Ethernet'],
         },
         
         
