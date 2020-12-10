@@ -27,7 +27,7 @@ function DetailProduct({ match }) {
         })
     }
     const DetailInfo = DataProducts.find(x => x.id === match.params.model);
-   
+
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
 
@@ -85,7 +85,16 @@ function DetailProduct({ match }) {
                         </Swiper>
                     </div>
                     <div className={classes.Description}>
-                        <p className={classes.infoModel}>{DetailInfo.model}</p>
+                    <img className={classes.PicBrand} src={DetailInfo.pic_brand}/>
+                        <div className={classes.UpInfo}>
+                            <p className={classes.infoModel}>{DetailInfo.model}</p>
+                            <p className={classes.coastModel}>
+
+                                {DetailInfo.old_coast != false ?
+                                    <><span className={classes.Old_coast} >{DetailInfo.old_coast}</span><span className={classes.New_coast}>   {DetailInfo.coast}</span></> :
+                                    DetailInfo.coast}
+                            </p>
+                        </div>
                         <p className={classes.infoDescription}>{DetailInfo.description}</p>
                         {Object.keys(DetailInfo.info).map((item, index) => {
                             return (

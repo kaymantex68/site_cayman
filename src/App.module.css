@@ -86,6 +86,7 @@ a{
 .Content{
     position: relative;
     width: 100%;
+    
     /* height: 500px; */
     /* background-color: cornflowerblue;  */
     /* z-index: -1; */
@@ -94,7 +95,7 @@ a{
 .Content_Rout{
     position: relative;
     width: 100%;
-     height: 100%; 
+    /* height: 100%; 
     /* background-color: red;   */
 }
 

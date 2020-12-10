@@ -1,8 +1,9 @@
 .ContainerDetail{
-   
+    position: relative;
     width: 100%;
-     /* min-height: 1200px; 
-     height: 100%; 
+     min-height: 700px;  
+     
+     /*height: 100%; 
      */
     color: black;
      /* background-color: red;   */
@@ -71,7 +72,7 @@
 
 
 .DescriptionConteiner{
-  
+ 
     display: flex;
     justify-content: center;
     
@@ -104,9 +105,12 @@
 }
 
 .Block{
+    
      padding: 20px;
     display: flex;
     justify-content: center;
+    /* min-height: 600px; */
+   
     /* flex-wrap: wrap;  */
   
     
@@ -116,8 +120,8 @@
     min-width: 600px;
     /* min-width:500px;  */
     
-    height: 600px;
-    border: 1px solid #dee3ec;
+    height: 500px;
+    /* border: 1px solid #dee3ec; */
     border-radius: 10px;
     /* background-color: green; */
     margin-right:10px;
@@ -162,13 +166,18 @@
     /* min-width: 300px; */
     padding: 10px;
     min-width: 200px;
-    
+    height: fit-content;
     /* width:auto;
     height: auto; */
-    border: 1px solid #dee3ec;
+    /* border: 1px solid #dee3ec; */
     border-radius: 10px;
     /* background-color: yellow; */
     
+}
+
+.UpInfo{
+    display: flex;
+    justify-content: space-between;
 }
 
 .String{
@@ -194,9 +203,45 @@
 }
 .infoModel{
     color: #3C475B;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top:0.8rem;
+}
+
+.PicBrand{
+
+    height: 40px;
+    /* max-width:80%; */
+    padding: 0;
+    margin:0;
+}
+
+.coastModel{
+    color: #3C475B;
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #78c47b2d;
+}
+
+.Coast{
+    margin-top: 3px;
+    font-size: 1rem;
+    color: #3C475B;
+}
+.New_coast{
+    margin-top: 3px;
+    font-size: 1.4rem;
+    color: red;
+}
+.Old_coast{
+    /* font-size: 1rem; */
+    text-decoration: line-through;
+    color: #3C475B;
+    font-size: 1.2rem;
 }
 
 .infoDescription{

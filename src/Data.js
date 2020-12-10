@@ -19,7 +19,7 @@ export const Data=[
         pic: i1,
         pic_brand: i1_brand,
         coast: '5590₽',
-        old_coast: false,
+        old_coast: '7695₽',
         new: true,
         info: {
             text: ['Разрешение:', '2mpx'],
@@ -51,6 +51,7 @@ export const Data=[
         id: 'RT_3456',
         brand: 'Dahua',
         type: ['IP камера купольная','ip' , 'outdoor'],
+        description:'Панорамная 2mpx камера с углом обзора 360. Встроенный микрофон, подсветка 15м.',
         path: '/products',
         pic: i2,
         pic_brand: i3_brand,
