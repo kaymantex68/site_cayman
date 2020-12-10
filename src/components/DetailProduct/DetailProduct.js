@@ -4,7 +4,7 @@ import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import youtubePic from './youtube.svg';
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
@@ -69,6 +69,7 @@ function DetailProduct({ match }) {
             <div className={classes.DescriptionConteiner}>
                 <div className={classes.Romb1}></div>
                 <div className={classes.Romb2}></div>
+                <div className={classes.Romb3}></div>
                 <div className={classes.Block}>
                     <div className={classes.Picture}>
                         <Swiper
@@ -85,7 +86,7 @@ function DetailProduct({ match }) {
                         </Swiper>
                     </div>
                     <div className={classes.Description}>
-                    <img className={classes.PicBrand} src={DetailInfo.pic_brand}/>
+                        <img className={classes.PicBrand} src={DetailInfo.pic_brand} />
                         <div className={classes.UpInfo}>
                             <p className={classes.infoModel}>{DetailInfo.model}</p>
                             <p className={classes.coastModel}>
@@ -96,6 +97,28 @@ function DetailProduct({ match }) {
                             </p>
                         </div>
                         <p className={classes.infoDescription}>{DetailInfo.description}</p>
+                        {console.log('youtube link')}
+                        {console.log(DetailInfo.youtube)}
+
+
+
+                        {DetailInfo.youtube != undefined ?
+                            <>
+                                <a href={DetailInfo.youtube}>
+                                <div className={classes.YoutubeContainer}>
+                                    <div className={classes.YoutubeButton}>
+                                        <span className={classes.YoutubeText}>Видео</span>
+                                        <img className={classes.youtubeIMG} src={youtubePic}></img>
+                                    </div>
+                                </div>
+                                </a>
+                            </> :
+                            <></>}
+
+
+
+
+
                         {Object.keys(DetailInfo.info).map((item, index) => {
                             return (
                                 <div className={classes.String}>

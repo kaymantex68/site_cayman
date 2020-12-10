@@ -93,11 +93,23 @@
 
 .Romb2{
     position: absolute;
-    top:10%;
+    top:40%;
     right:-30%;
     width: 1000px;
     height: 500px;
     transform: rotate(25deg);
+    background-color:#44b1488e;
+    opacity: 0.08;
+    z-index: -2;
+    border-radius:5%;
+}
+.Romb3{
+    position: absolute;
+    top:-10%;
+    left:10%;
+    width: 1000px;
+    height: 500px;
+    transform: rotate(55deg);
     background-color:#78C47A;
     opacity: 0.1;
     z-index: -2;
@@ -120,7 +132,7 @@
     min-width: 600px;
     /* min-width:500px;  */
     
-    height: 500px;
+    height: 550px;
     /* border: 1px solid #dee3ec; */
     border-radius: 10px;
     /* background-color: green; */
@@ -224,7 +236,7 @@
     margin-bottom: 10px;
     padding: 6px;
     border-radius: 5px;
-    background-color: #78c47b2d;
+    /* background-color: #78c47b2d; */
 }
 
 .Coast{
@@ -253,6 +265,37 @@
     padding: 7px;
     border-radius: 4px;
     background-color: #78c47b2d;
+}
+
+.YoutubeContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    /* background-color: #3c475b21; */
+}
+.YoutubeButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+     background-color: white; 
+    border: 1px solid #c0c0c075;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.YoutubeButton:hover{
+    background-color:#3c475b2f;
+}
+.YoutubeText{
+    color: #3C475B;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+.youtubeIMG{
+
+    width:40px;
 }
 
 
