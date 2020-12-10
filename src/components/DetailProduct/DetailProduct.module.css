@@ -201,7 +201,8 @@
     justify-content: space-between;
 }
 
-.String{
+.Stringe{
+    
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #c4ccda;
@@ -373,7 +374,69 @@
     background-color:#3c475b2f;
     font-weight: bold;
 }
+.info_download{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+     /* background-color:yellow;  */
+    overflow: hidden;
+}
 
+
+
+
+
+
+.Download{
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    position: absolute;
+    right: -100%; 
+    height: 400px;
+    width: 100%;
+    background-color:#3c475b2f;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius:5px;
+    transition: 0.5s;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
+.Download_on{
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    position: absolute;
+    right: 0; 
+    height: 400px;
+    width: 100%;
+    background-color:white;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius:5px;
+    transition: 0.5s;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.download_links{
+    
+   
+    width:100%;
+   
+     /* background-color:yellow;  */
+}
+
+.Link_text{
+    color:#3C475B;
+    font-size: 0.8rem;
+    padding: 10px; 
+    /* background-color:red; */
+    margin-top: 5px;
+    
+}
 
 
 @media (max-width: 1200px){

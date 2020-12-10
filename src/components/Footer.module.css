@@ -7,14 +7,17 @@
     /* display:inline-block;    */
       position:relative;
        margin-top:30px; 
+       display: flex;
+       justify-content: space-between;
+       align-items:center;
 }
 
 .info{
-    position: absolute;
-    margin-left: 5%;
+    /* position: absolute;
+    margin-left: 5%; */
     height: 100%;
-    width: 250px;
-    /* background-color: red; */
+    width: 180px; 
+     /* background-color: red;  */
     padding: 5px;
 }
 
@@ -28,20 +31,42 @@
     color: white;
     margin: 10px;
 }
-
-.Logo{
-    position: absolute;
+.Social{
+    /* position: absolute; */
     height: 100%;
+    width:100px;
+    /* background-color: #1f242e;  */
+    /* right: 0;
+    margin-right: 2%; */
+    padding: 2px;
+    display: flex;
+}
+
+.Icon{
+    max-height: 40px;
+    margin:5px;
+    transition: 0.3s;
+}
+
+.Icon:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     width:150px;
+    height: 100px;
      background-color: #1f242e; 
-    right: 0;
+    /* right: 0; */
     margin-right: 2%;
     padding: 2px;
-    /* border-radius: 5px; */
+     /* border-radius: 100%;  */
 }
 .Logo img{
-    width: 100%;
-    height:  100%;
+    width: 90px;
+    height:  90px;
   
  }
 
@@ -49,5 +74,14 @@
 @media (max-width: 1000px){
     .Main{
         min-height: 80px;
+    }
+ }
+
+ @media (max-width: 500px){
+    .Logo{
+        display: none;
+    }
+    .Social{
+        margin-right:5px;
     }
  }

@@ -23,7 +23,7 @@
     text-align: -webkit-center; 
 }
 .span_info{
-    color: black;
+    color: #3C475B;
     position: absolute;
     transform: translateY(-60%);
     font-size: 0.8rem;
