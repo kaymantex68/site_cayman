@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
+import { NavLink, Link } from 'react-router-dom'
 import classes from './LiderOfSale.module.css'
 import { Context } from '../../Context'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -23,11 +24,13 @@ function useWindowSize() {
         };
         window.addEventListener("resize", handleResize);
     }, []);
-    if (window.innerWidth > 1200) { return 6 }
-    if (window.innerWidth < 1200 && window.innerWidth > 1000) { return 5 }
-    if (window.innerWidth < 1000 && window.innerWidth > 820) { return 4 }
-    if (window.innerWidth < 820 && window.innerWidth > 600) { return 3 }
-    if (window.innerWidth < 600 && window.innerWidth > 300) { return 2 }
+    if (window.innerWidth > 1700) { return 8 }
+    if (window.innerWidth < 1700 && window.innerWidth > 1500) { return 7 }
+    if (window.innerWidth < 1500 && window.innerWidth > 1400) { return 6 }
+    if (window.innerWidth < 1400 && window.innerWidth > 1100) { return 5 }
+    if (window.innerWidth < 1100 && window.innerWidth > 900) { return 4 }
+    if (window.innerWidth < 900 && window.innerWidth > 600) { return 3 }
+    if (window.innerWidth < 600) { return 2 }
     // return size;
 }
 
@@ -57,18 +60,20 @@ function LiderOfSale() {
             <div className={classes.Slider_Conteiner}>
                 <Swiper
 
-                    spaceBetween={20}
+                    spaceBetween={5}
                     slidesPerView={useWindowSize()}
                     // navigation
                     pagination={{ clickable: true }}
-                    // scrollbar={{ draggable: true }}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    onSlideChange={() => console.log('slide change')}
+                    //  scrollbar={{ draggable: true }}
+                    // onSwiper={(swiper) => console.log(swiper)}
+                    // onSlideChange={() => console.log('slide change')}
                     className={classes.Swiper_cont}
                 >
                     {slideArr.map((item, index) => {
                         return (
+                            
                             <SwiperSlide key={index} className={classes.SwiperSlide} >
+                                <NavLink to={`/${item.id}`}>
                                 <div className={classes.Lider_card} >
 
                                     <div className={classes.Lider_pic}>
@@ -86,13 +91,7 @@ function LiderOfSale() {
                                         <p> {item.type[0]}</p>
                                         <p> {item.info.text}</p>
 
-                                        {/* {
-                                    Object.keys(item.info).map((key, index) => {
-                                        return (
-                                            <p>{item.info[key]}</p>
-                                        )
-                                    })
-                                } */}
+                                      
 
                                         <h1 className={classes.Coast}>
                                             {item.old_coast != false ?
@@ -100,12 +99,13 @@ function LiderOfSale() {
                                                 item.coast}
                                         </h1>
                                     </div>
-                                    <div className={classes.Lider_card_click} onClick={(e) => {handleClick(item)}} Model={item.model}></div>
+                                    {/* <div className={classes.Lider_card_click} onClick={(e) => {handleClick(item)}} Model={item.model}></div> */}
 
                                 </div>
 
-
+                                </NavLink>
                             </SwiperSlide>
+                           
                         );
                     })}
                 </Swiper>
