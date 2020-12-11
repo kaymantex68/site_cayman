@@ -146,29 +146,37 @@ function DetailProduct({ match }) {
                         <div className={classes.info_download}>
                             <div className={open ? classes.Download_on : classes.Download}>
                                 <div className={classes.download_links}>
-                                    <p className={classes.Link_text}>CMS iVMS</p>
-                                    <p className={classes.Link_text}>Документация</p>
-                                    <p className={classes.Link_text}>Сертификат</p>
-                                    <p className={classes.Link_text}>Еще какая нибудь херь</p>
+                                    {
+                                    DetailInfo.download &&
+                                        Object.keys(DetailInfo.download).map((item, index) => {
+                                            return (
+                                                <a href={DetailInfo.download[item][1]}><p className={classes.Link_text}>{DetailInfo.download[item][0]}</p></a>
+                                            )
+                                        })
+                                    }
+                                    
+
+
+
                                 </div>
                             </div>
 
                             {/* <div className={classes.Info_on}> */}
-                            
-                                {Object.keys(DetailInfo.info).map((item, index) => {
-                                    return (
-                                        <div className={classes.Stringe}>
-                                            <div className={classes.Id}>
-                                                <span className={classes.infoBold}>{DetailInfo.info[item][0]}</span>
-                                            </div>
-                                            <div className={classes.Text}>
-                                                <span className={classes.info}>{DetailInfo.info[item][1]}</span>
-                                            </div>
+
+                            {Object.keys(DetailInfo.info).map((item, index) => {
+                                return (
+                                    <div className={classes.Stringe}>
+                                        <div className={classes.Id}>
+                                            <span className={classes.infoBold}>{DetailInfo.info[item][0]}</span>
                                         </div>
-                                    )
-                                })}
-                                {/* </div> */}
-                            
+                                        <div className={classes.Text}>
+                                            <span className={classes.info}>{DetailInfo.info[item][1]}</span>
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                            {/* </div> */}
+
                         </div>
                     </div>
                 </div>

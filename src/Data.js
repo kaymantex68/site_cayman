@@ -50,6 +50,10 @@ export const Data=[
             text23: ['Звук:', 'встроенный микрофон'],
             text24: ['Разъемы:', 'Ethernet'],
         },
+        download: {
+            Link1 : ['CMS iVMS для мониторинга системы видеонаблюдения', 'https://www.dropbox.com/s/icxkbo913gq6pj8/iVMS%204.1%20Lite.exe?dl=0'],
+            Link2 : ['Таможенная декларация, сертефикат','https://www.dahua.market/doc/b/Sertifikat.jpg'],
+        },
         
         
     },
