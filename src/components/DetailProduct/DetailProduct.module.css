@@ -146,7 +146,7 @@
     border-radius: 10px;
     /* background-color: green; */
     margin-right:10px;
-   background-color:rgba(255, 255, 255, 0.726);
+   background-color:rgba(231, 231, 231, 0.726);
     
 }
 
@@ -192,6 +192,7 @@
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 20px;
+    padding-top: 10px;
     
     min-width: 200px;
     height: fit-content;
@@ -199,7 +200,7 @@
     height: auto; */
     /* border: 1px solid #dee3ec; */
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.842); 
+    background-color:rgba(248, 247, 247, 0.726);
     
 }
 
@@ -357,12 +358,14 @@
     color: #3C475B;  
     cursor: pointer;
     margin-right: 10px;
+    transition: 0.3s;
     
 }
 
 .Button_description:hover{
     background-color:#3c475b2f;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .Button_download{
@@ -377,11 +380,13 @@
     font-size: 0.9rem;
     color: #3C475B;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .Button_download:hover{
     background-color:#3c475b2f;
     font-weight: bold;
+    transition: 0.3s;
 }
 .info_download{
     
