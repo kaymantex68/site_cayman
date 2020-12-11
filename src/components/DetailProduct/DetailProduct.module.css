@@ -476,6 +476,7 @@
       }
 
       .Block{
+        padding-top: 0px; 
        flex-wrap: wrap;  
    }
 }
