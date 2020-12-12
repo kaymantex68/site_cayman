@@ -14,24 +14,30 @@ import DetailProduct from './components/DetailProduct/DetailProduct'
 
 function App() {
 
-  const [Modal, setModal] = useState(false);
-  const [Model, setModel] = useState('');
-  const OpenModal = () => {
-    setModal(!Modal);
-  }
-  const IdModel = (e) => {
-    setModel(e);
-    OpenModal();
-  }
-  const [Nav, setNav] = useState(null);
-  const getNav = (e) => {
-    setNav(e);
-  }
-  console.log(Nav);
+  // const [Modal, setModal] = useState(false);
+  // const [Model, setModel] = useState('');
+  // const OpenModal = () => {
+  //   setModal(!Modal);
+  // }
+  // const IdModel = (e) => {
+  //   setModel(e);
+  //   OpenModal();
+  // }
+  // const [Nav, setNav] = useState(null);
+  // const getNav = (e) => {
+  //   setNav(e);
+  // }
+  // console.log(Nav);
   return (
 
 
-    <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model, getNav, Nav }}>
+    <Context.Provider value={{ 
+      // Modal, 
+      // OpenModal, 
+      Data, 
+      // IdModel, Model, 
+      // getNav, Nav 
+      }}>
       <Router>
         <div className={classes.Main}>
           <div className={classes.Header}>

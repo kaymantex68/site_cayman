@@ -124,6 +124,7 @@
      padding-top: 20px; 
     display: flex;
     justify-content: center;
+    padding: 30px;
     /* align-items:center; */
     /* min-height: 600px; */
    /* border: 1px solid #9e9e9e;
@@ -139,14 +140,14 @@
     position: relative;
     min-width: 600px;
     /* min-width:500px;  */
-    
+    max-height: 700px;
     min-height: 550px;
     /* height: 100%; */
     /* border: 1px solid #dee3ec; */
     border-radius: 10px;
     /* background-color: green; */
     margin-right:10px;
-   background-color:rgba(231, 231, 231, 0.726);
+   background-color:rgba(243, 243, 243, 0.726);
     
 }
 
@@ -189,8 +190,8 @@
 .Description{
     /* background-color: red;  */
     /* min-width: 300px; */
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 20px;
     padding-top: 10px;
     
@@ -214,13 +215,18 @@
     /* padding-right: 10px; */
     display: flex;
     justify-content: space-between;
+    align-items:center;
     border-bottom: 1px solid #c4ccda;
 }
 
 .Id{
     /* background-color: red; */
+    max-width: 45%;
+    text-align:left;
 }
 .Text{
+    max-width: 45%;
+    text-align:right;
     /* background-color: green; */
 }
 .infoBold{
@@ -466,8 +472,8 @@
         width: 60%;
     }
     .Description{
-        padding-left: 5%;
-    padding-right: 5%;
+        padding-left: 10px;
+    padding-right: 10px;
          min-width: 300px;   
         width:35%;
        

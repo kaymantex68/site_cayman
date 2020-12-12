@@ -28,13 +28,16 @@ function Navbar() {
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
-                                            <NavLink to="/catalog/ip">IP камеры</NavLink>
+                                            <Link to="/catalog/ip">IP камеры</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <NavLink to="/catalog/ip/outdoor">Уличные</NavLink>
+                                                        <Link to="/catalog/ip/outdoor">Уличные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/ip/outdoor/IMOU">IMOU</NavLink>
+                                                                </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <NavLink to="/catalog/ip/outdoor/ST">ST</NavLink>
                                                                 </li>
@@ -60,11 +63,11 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <a href="#">Купольные</a>
+                                                    <Link to="/catalog/ip/indoor">Внутренние</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">ST</a>
+                                                                <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>

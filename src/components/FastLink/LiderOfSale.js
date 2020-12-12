@@ -78,7 +78,8 @@ function LiderOfSale() {
 
                                     <div className={classes.Lider_pic}>
                                         {/* {console.log(this.info)} */}
-                                        <img src={item.pic} />
+                                        {/* <img src={item.pic} /> */}
+                                        <img src={`/img_products/${item.brand}/${item.model}/1.png`} />
                                         <div className={classes.Back_pic}></div>
                                         {item.pic_brand != false ?
                                             <><div className={classes.Brand}>

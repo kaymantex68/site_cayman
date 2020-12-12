@@ -20,8 +20,8 @@ function CatalogContainer({ match }) {
             <div className={classes.Lider_card} >
 
                 <div className={classes.Lider_pic}>
-                
-                    <img src={product.pic} />
+                    <img src={`/img_products/${product.brand}/${product.model}/1.png`} />
+                    {/* <img src={product.pic} /> */}
                     <div className={classes.Back_pic}></div>
                     {product.pic_brand != false ?
                         <><div className={classes.Brand}>
