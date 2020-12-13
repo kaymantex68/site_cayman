@@ -63,11 +63,11 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                    <Link to="/catalog/ip/indoor">Внутренние</Link>
+                                                        <Link to="/catalog/ip/indoor">Внутренние</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
+                                                                    <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>
@@ -137,7 +137,41 @@ function Navbar() {
                                             <a href="#">Кабельная продукция</a>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <a href="#">Сетевое оборудование</a>
+                                            <Link to="/catalog/net">Сетевое оборудование</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/switch">Сетевые коммутаторы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/net/switch/D-Link">D-Link</NavLink>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/net/switch/Dahua">Dahua</NavLink>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/ip/outdoor/ST">Zyxel</NavLink>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/poe">POE коммутаторы</Link>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/wi_fi">Wi-Fi оборудование</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</NavLink>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                              
                                         </li>
                                     </ul>
                                 </div>
