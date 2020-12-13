@@ -223,6 +223,9 @@
     /* background-color: red; */
     max-width: 45%;
     text-align:left;
+    
+     border-radius:5px;
+     
 }
 .Text{
     max-width: 45%;

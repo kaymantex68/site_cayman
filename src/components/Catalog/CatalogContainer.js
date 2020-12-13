@@ -35,7 +35,12 @@ function CatalogContainer({ match }) {
                     <p> {product.info.text}</p>
                     <p> {product.info.text1[0]}  {product.info.text1[1]}</p>
 
-
+                    {product.inStock_outStock &&
+                        <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
+                    }
+                    {!product.inStock_outStock &&
+                        <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
+                    }
                     <h1 className={classes.Coast}>
                         {product.old_coast != false ?
                             <><span className={classes.Old_coast} >{product.old_coast}</span><span className={classes.New_coast}>   {product.coast}</span></> :

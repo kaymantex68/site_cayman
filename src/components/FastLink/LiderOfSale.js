@@ -37,10 +37,10 @@ function useWindowSize() {
 
 
 function LiderOfSale() {
-    
-    const { Modal, OpenModal, Data, IdModel} = useContext(Context);
 
-    function handleClick(model){
+    const { Modal, OpenModal, Data, IdModel } = useContext(Context);
+
+    function handleClick(model) {
         IdModel(model);
     }
 
@@ -54,26 +54,26 @@ function LiderOfSale() {
     }
     return (
 
-        
+
 
         // <div className={classes.Main}>
-            <div className={classes.Slider_Conteiner}>
-                <Swiper
+        <div className={classes.Slider_Conteiner}>
+            <Swiper
 
-                    spaceBetween={5}
-                    slidesPerView={useWindowSize()}
-                    // navigation
-                    pagination={{ clickable: true }}
-                    //  scrollbar={{ draggable: true }}
-                    // onSwiper={(swiper) => console.log(swiper)}
-                    // onSlideChange={() => console.log('slide change')}
-                    className={classes.Swiper_cont}
-                >
-                    {slideArr.map((item, index) => {
-                        return (
-                            
-                            <SwiperSlide key={index} className={classes.SwiperSlide} >
-                                <NavLink to={`/${item.id}`}>
+                spaceBetween={5}
+                slidesPerView={useWindowSize()}
+                // navigation
+                pagination={{ clickable: true }}
+                //  scrollbar={{ draggable: true }}
+                // onSwiper={(swiper) => console.log(swiper)}
+                // onSlideChange={() => console.log('slide change')}
+                className={classes.Swiper_cont}
+            >
+                {slideArr.map((item, index) => {
+                    return (
+
+                        <SwiperSlide key={index} className={classes.SwiperSlide} >
+                            <NavLink to={`/${item.id}`}>
                                 <div className={classes.Lider_card} >
 
                                     <div className={classes.Lider_pic}>
@@ -91,9 +91,14 @@ function LiderOfSale() {
                                         <h1 className={classes.Model}> {item.model}</h1>
                                         <p> {item.type[0]}</p>
                                         <p> {item.info.text}</p>
+                                        <p> {item.info.text1[0]}  {item.info.text1[1]}</p>
 
-                                      
-
+                                        {item.inStock_outStock &&
+                                            <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
+                                        }
+                                        {!item.inStock_outStock &&
+                                            <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
+                                        }
                                         <h1 className={classes.Coast}>
                                             {item.old_coast != false ?
                                                 <><span className={classes.Old_coast} >{item.old_coast}</span><span className={classes.New_coast}>   {item.coast}</span></> :
@@ -104,13 +109,13 @@ function LiderOfSale() {
 
                                 </div>
 
-                                </NavLink>
-                            </SwiperSlide>
-                           
-                        );
-                    })}
-                </Swiper>
-            </div>
+                            </NavLink>
+                        </SwiperSlide>
+
+                    );
+                })}
+            </Swiper>
+        </div>
         // </div>
     );
 }

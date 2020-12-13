@@ -136,7 +136,7 @@ function DetailProduct({ match }) {
 
                         <div className={classes.menu_description}>
                             <div className={classes.Button_description} onClick={() => { setOpen(false) }}>Характеристики</div>
-                            <div className={classes.Button_download} onClick={() => { setOpen(true) }}>Загрузка</div>
+                            {DetailInfo.download && <div className={classes.Button_download} onClick={() => { setOpen(true) }}>Загрузка</div>}
 
                         </div>
 
