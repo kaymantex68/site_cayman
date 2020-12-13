@@ -27,19 +27,31 @@
     transform: translateY(-50%);
 }
 .Adress{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: white;
     margin: 10px;
 }
 .Social{
     /* position: absolute; */
     height: 100%;
-    width:100px;
+    /* width:100px; */
     /* background-color: #1f242e;  */
     /* right: 0;
     margin-right: 2%; */
     padding: 2px;
     display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.inst{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.inst:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
 }
 
 .Icon{
@@ -49,8 +61,8 @@
 }
 
 .Icon:hover{
-    transform: scale(1.09);
-    transition: 0.3s;
+    /* transform: scale(1.09);
+    transition: 0.3s; */
 }
 .Logo{
     display: flex;

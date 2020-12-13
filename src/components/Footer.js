@@ -16,13 +16,16 @@ function Footer() {
 
             </div>
             <div className={classes.Social}>
-                <a href="https://www.instagram.com/cayman_security/">
-                    <img  className={classes.Icon} src={instagramLogo} />
+            
+                <a className={classes.inst} href="https://www.instagram.com/cayman_security/">
+                <span>Instagramm</span>
+                    <img className={classes.Icon} src={instagramLogo} />
                 </a>
                 {/* <img className={classes.Icon} src={vkLogo} /> */}
             </div>
             <div className={classes.Logo}>
-                <img    src={logo} />
+
+                <img src={logo} />
             </div>
 
         </div>
