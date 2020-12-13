@@ -60,7 +60,7 @@ function LiderOfSale() {
         <div className={classes.Slider_Conteiner}>
             <Swiper
 
-                spaceBetween={5}
+                spaceBetween={2}
                 slidesPerView={useWindowSize()}
                 // navigation
                 pagination={{ clickable: true }}

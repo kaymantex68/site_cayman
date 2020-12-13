@@ -28,6 +28,7 @@ export const Data=[
         coast: '5590₽',
         old_coast: '7695₽',
         new: true,
+        inStock_outStock: true,
         info: {
             text: ['Разрешение:', '2mpx'],
             text1: ['Объектив:', '2.8-12mm'],
@@ -86,7 +87,7 @@ export const Data=[
         old_coast: '7000₽',
         new: false
     },
-    /**
+    /** 
      * ---------------------------------------IMOU
      */
     /**
