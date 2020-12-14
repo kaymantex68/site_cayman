@@ -24,7 +24,7 @@ function Navbar() {
                                 <NavLink to="/">Главная</NavLink>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="/catalog">Каталог</NavLink>
+                                <NavLink to="#">Каталог</NavLink>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
@@ -126,7 +126,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <NavLink to="/catalog/apc/open/IEK">IEK</NavLink>
                                                                 </li>
-                                                              
+
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -137,7 +137,33 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <NavLink to="/catalog/apc/close/IEK">IEK</NavLink>
                                                                 </li>
-                                                              
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/apc/avtonomnuy">Автономный</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/apc/avtonomnuy/ST">ST</NavLink>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/apc/accumulate">Аккумуляторы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/apc/accumulate/Delta">Delta</NavLink>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <NavLink to="/catalog/apc/accumulate/Security force">Security force</NavLink>
+                                                                </li>
+
+
                                                             </ul>
                                                         </div>
                                                     </li>
