@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import classes from './CatalogContainer.module.css'
 import { Context } from '../../Context'
-import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
 function CatalogContainer({ match }) {
@@ -62,9 +62,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type) && (item.brand == match.params.brand)) {
                             return (
-                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
+                                <Link to={`/catalog/${match.params.cat}/${match.params.type}/${match.params.brand}/${item.id}`}>
                                     {ProductDisplay(item)}
-                                </NavLink>
+                                </Link>
                             )
                         }
                     })
@@ -80,9 +80,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if ((item.type[1] == match.params.cat) && (item.type[2] == match.params.type)) {
                             return (
-                                <NavLink to={`/catalog/${match.params.cat}/${match.params.type}/${item.brand}/${item.id}`}>
+                                <Link to={`/catalog/${match.params.cat}/${match.params.type}/${item.brand}/${item.id}`}>
                                     {ProductDisplay(item)}
-                                </NavLink>
+                                </Link>
                             )
                         }
                     })
@@ -99,9 +99,9 @@ function CatalogContainer({ match }) {
                     DataCatalog.map((item, index) => {
                         if (item.type[1] == match.params.cat) {
                             return (
-                                <NavLink to={`/catalog/${match.params.cat}/${item.type[2]}/${item.brand}/${item.id}`}>
+                                <Link to={`/catalog/${match.params.cat}/${item.type[2]}/${item.brand}/${item.id}`}>
                                     {ProductDisplay(item)}
-                                </NavLink>
+                                </Link>
                             )
                         }
                     })

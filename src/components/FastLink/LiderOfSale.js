@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import classes from './LiderOfSale.module.css'
 import { Context } from '../../Context'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -73,7 +73,7 @@ function LiderOfSale() {
                     return (
 
                         <SwiperSlide key={index} className={classes.SwiperSlide} >
-                            <NavLink to={`/${item.id}`}>
+                            <Link to={`/${item.id}`}>
                                 <div className={classes.Lider_card} >
 
                                     <div className={classes.Lider_pic}>
@@ -109,7 +109,7 @@ function LiderOfSale() {
 
                                 </div>
 
-                            </NavLink>
+                            </Link>
                         </SwiperSlide>
 
                     );

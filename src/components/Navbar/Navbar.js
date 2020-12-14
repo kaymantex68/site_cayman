@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import classes from './Navbar.module.css';
 import logo from '../../Logo/logo.svg'
 import { Context } from '../../Context'
-import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 function Navbar() {
     const { Modal, OpenModal, Data, IdModel, Model, getNav, Nav } = useContext(Context);
     function handleClick(param) {
@@ -15,56 +15,56 @@ function Navbar() {
             <div className={classes.Container}>
                 <input type="checkbox" name="" className={classes.check}></input>
                 <div className={classes.Logo}>
-                    <NavLink to="/"><img src={logo} /></NavLink>
+                    <Link to="/"><img src={logo} /></Link>
                 </div>
                 <div className={classes.Nav_btn}>
                     <div className={classes.Nav_Links}>
                         <ul>
                             <li className={classes.Links}>
-                                <NavLink to="/">Главная</NavLink>
+                                <Link to="/">Главная</Link>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="#">Каталог</NavLink>
+                                <Link to="#">Каталог</Link>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
-                                            <NavLink to="/catalog/ip">IP камеры</NavLink>
+                                            <Link to="/catalog/ip">IP камеры</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <NavLink to="/catalog/ip/outdoor">Уличные</NavLink>
+                                                        <Link to="/catalog/ip/outdoor">Уличные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/IMOU">IMOU</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/IMOU">IMOU</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/HiWatch">HiWatch</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/HiWatch">HiWatch</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/Dahua">Dahua</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/Dahua">Dahua</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/EzViz">EzViz</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/EzViz">EzViz</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/SVN">SVN</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/SVN">SVN</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/Matrix">Matrix</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/Matrix">Matrix</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/Atis">Atis</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/Atis">Atis</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <NavLink to="/catalog/ip/indoor">Внутренние</NavLink>
+                                                        <Link to="/catalog/ip/indoor">Внутренние</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
+                                                                    <Link to="/catalog/ip/indoor/IMOU">IMOU</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>
@@ -124,7 +124,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/apc/open/IEK">IEK</NavLink>
+                                                                    <Link to="/catalog/apc/open/IEK">IEK</Link>
                                                                 </li>
 
                                                             </ul>
@@ -135,7 +135,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/apc/close/IEK">IEK</NavLink>
+                                                                    <Link to="/catalog/apc/close/IEK">IEK</Link>
                                                                 </li>
 
                                                             </ul>
@@ -146,7 +146,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/apc/avtonomnuy/ST">ST</NavLink>
+                                                                    <Link to="/catalog/apc/avtonomnuy/ST">ST</Link>
                                                                 </li>
 
                                                             </ul>
@@ -157,10 +157,10 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/apc/accumulate/Delta">Delta</NavLink>
+                                                                    <Link to="/catalog/apc/accumulate/Delta">Delta</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/apc/accumulate/Security force">Security force</NavLink>
+                                                                    <Link to="/catalog/apc/accumulate/Security force">Security force</Link>
                                                                 </li>
 
 
@@ -194,13 +194,13 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/switch/D-Link">D-Link</NavLink>
+                                                                    <Link to="/catalog/net/switch/D-Link">D-Link</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/switch/Dahua">Dahua</NavLink>
+                                                                    <Link to="/catalog/net/switch/Dahua">Dahua</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/ST">Zyxel</NavLink>
+                                                                    <Link to="/catalog/ip/outdoor/ST">Zyxel</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -213,7 +213,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</NavLink>
+                                                                    <Link to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -244,7 +244,7 @@ function Navbar() {
                                 </div>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="/contacts/adress">Контакты</NavLink>
+                                <Link to="/contacts/adress">Контакты</Link>
                             </li>
                         </ul>
                     </div>

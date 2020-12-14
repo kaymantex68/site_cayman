@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import classes from './DetailProduct.module.css'
 import { Context } from '../../Context'
-import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import youtubePic from './youtube.svg';
@@ -58,7 +58,7 @@ function DetailProduct({ match }) {
                             return (
                                 <>
                                     <span className={classes.FastDirectDot}> ᐅ </span>
-                                    <NavLink to="#"><span className={classes.FastDirect}>{match.params[item]}</span></NavLink>
+                                    <Link to="#"><span className={classes.FastDirect}>{match.params[item]}</span></Link>
 
                                 </>
                             )

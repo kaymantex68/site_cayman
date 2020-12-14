@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Catalog.module.css'
 import CatalogContainer from './CatalogContainer'
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function Catalog({ match }) {
@@ -17,11 +17,11 @@ function Catalog({ match }) {
                             return (
                                 <>
                                     <span className={classes.FastDirectDot}> ᐅ </span>
-                                    <NavLink to={`/catalog/${Object.keys(match.params).map((item, index) => {
+                                    <Link to={`/catalog/${Object.keys(match.params).map((item, index) => {
                                       
                                         return (`${match.params[item]}/`);
                                     })
-                                        }`} key={`cat-nav-${index}`}><span key={`cat-sp-${index}`} className={classes.FastDirect}>{match.params[item]}</span></NavLink>
+                                        }`} key={`cat-nav-${index}`}><span key={`cat-sp-${index}`} className={classes.FastDirect}>{match.params[item]}</span></Link>
 
                                 </>
                             )
