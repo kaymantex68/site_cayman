@@ -36,7 +36,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/ST">ST</NavLink>
+                                                                    <NavLink to="/catalog/ip/outdoor/IMOU">IMOU</NavLink>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <NavLink to="/catalog/ip/outdoor/HiWatch">HiWatch</NavLink>
@@ -60,11 +60,11 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <a href="#">Купольные</a>
+                                                        <a href="#">Внутренние</a>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">ST</a>
+                                                                <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>
