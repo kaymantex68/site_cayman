@@ -43,6 +43,9 @@
     align-items:center;
     justify-content: center;
 }
+.Social span{
+    color:white;
+}
 .inst{
     display: flex;
     align-items:center;
