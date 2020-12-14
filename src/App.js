@@ -9,6 +9,7 @@ import Main from './components/Main'
 import Catalog from './components/Catalog/Catalog'
 import Footer from './components/Footer'
 import DetailProduct from './components/DetailProduct/DetailProduct'
+import Contacts from './components/Contacts/Contacts'
 
 
 
@@ -49,12 +50,14 @@ function App() {
           <div className={classes.Content_Rout}>
             <Switch>
               <Route exact path="/" component={Main} />
+              <Route exact path="/contacts/adress" component={Contacts} />
               <Route exact path="/:model" component={DetailProduct} />
               {/* <Route exact path="/catalog" component={Catalog}/> */}
               <Route exact path="/catalog/:cat" component={Catalog} />
               <Route exact path="/catalog/:cat/:type" component={Catalog} />
               <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
               <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
+              
             </Switch>
           </div>
           <Footer />

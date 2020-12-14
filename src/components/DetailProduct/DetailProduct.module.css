@@ -194,8 +194,8 @@
     padding-right: 5%;
     padding-bottom: 20px;
     padding-top: 10px;
-    
-    min-width: 200px;
+    max-width: 700px;
+    min-width: 600px;
     height: fit-content;
     /* width:auto;
     height: auto; */
@@ -470,16 +470,23 @@
 }
 
 
-@media (max-width: 1200px){
-    .Picture{
-         min-width: 500px; 
-        width: 60%;
+@media (max-width: 1100px){
+    .Block{
+        max-width: 90%;
+        flex-wrap: wrap;  
+    }
+            .Picture{
+                min-height: 400px;
+                min-width: 100%;
+                margin-bottom: 10px;
+        /* width: 50%; */
     }
     .Description{
-        padding-left: 10px;
-    padding-right: 10px;
-         min-width: 300px;   
-        width:35%;
+        /* padding-left: 10px;
+    padding-right: 10px; */
+   
+    min-width:100%; 
+        /* width:35%; */
        
    }
 }
@@ -488,30 +495,22 @@
 
   
 /* Стили для больших экранов (ПК, дисплей 992 пикселей и более) */
-@media (max-width: 900px){
+@media (max-width: 900px) { 
     .Picture{
-        min-height: 400px;
+        min-height: 300px;
           width: 100%;
           
           margin-right:0px;
           margin-bottom: 10px;
           
       }
-      .Container_pic > img{
-          max-height: 80%;
-      }
       .Description{
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 5%;  
           /* min-width: 300px; */
           width:100%;
           
       }
-
-      .Block{
-        padding-top: 0px; 
-       flex-wrap: wrap;  
-   }
 }
 
 /* Стили для средних экранов (планшеты, дисплей 768 пикселей и более) */

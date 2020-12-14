@@ -24,20 +24,17 @@ function Navbar() {
                                 <NavLink to="/">Главная</NavLink>
                             </li>
                             <li className={classes.Links}>
-                                <NavLink to="#">Каталог</NavLink>
+                                <NavLink to="/catalog">Каталог</NavLink>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/ip">IP камеры</Link>
+                                            <NavLink to="/catalog/ip">IP камеры</NavLink>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/ip/outdoor">Уличные</Link>
+                                                        <NavLink to="/catalog/ip/outdoor">Уличные</NavLink>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/IMOU">IMOU</NavLink>
-                                                                </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <NavLink to="/catalog/ip/outdoor/ST">ST</NavLink>
                                                                 </li>
@@ -63,11 +60,11 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/ip/indoor">Внутренние</Link>
+                                                        <a href="#">Купольные</a>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
+                                                                    <a href="#">ST</a>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>
@@ -137,41 +134,7 @@ function Navbar() {
                                             <a href="#">Кабельная продукция</a>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/net">Сетевое оборудование</Link>
-                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                <ul>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/net/switch">Сетевые коммутаторы</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/switch/D-Link">D-Link</NavLink>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/switch/Dahua">Dahua</NavLink>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/ip/outdoor/ST">Zyxel</NavLink>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/net/poe">POE коммутаторы</Link>
-                                                    </li>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/net/wi_fi">Wi-Fi оборудование</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <NavLink to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</NavLink>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                              
+                                            <a href="#">Сетевое оборудование</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -196,7 +159,7 @@ function Navbar() {
                                 </div>
                             </li>
                             <li className={classes.Links}>
-                                <a href="#">Контакты</a>
+                            <NavLink to="/contacts/adress">Контакты</NavLink>
                             </li>
                         </ul>
                     </div>
