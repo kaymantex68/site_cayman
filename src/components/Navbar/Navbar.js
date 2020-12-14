@@ -60,11 +60,11 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <a href="#">Внутренние</a>
+                                                        <NavLink to="/catalog/ip/indoor">Внутренние</NavLink>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
+                                                                    <NavLink to="/catalog/ip/indoor/IMOU">IMOU</NavLink>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <a href="#">HiWatch</a>

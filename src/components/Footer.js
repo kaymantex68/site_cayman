@@ -18,7 +18,7 @@ function Footer() {
             <div className={classes.Social}>
             
                 <a className={classes.inst} href="https://www.instagram.com/cayman_security/">
-                <span>Instagramm</span>
+                <span>Instagram</span>
                     <img className={classes.Icon} src={instagramLogo} />
                 </a>
                 {/* <img className={classes.Icon} src={vkLogo} /> */}

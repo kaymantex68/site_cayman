@@ -4,7 +4,7 @@ import classes from './ImgComp.module.css';
 function ImgComp({ obj }) {
 
     let a = (
-        <div>
+        <div className={classes.Main}>
 
             <img src={obj.pic} alt="slide-img" className={classes.IMG_SLIDE} />
             {obj.new ==true &&

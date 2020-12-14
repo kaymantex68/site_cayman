@@ -82,42 +82,46 @@ background-color:rgba(248, 247, 247, 0.959);
 margin:5px;
 padding: 10px;
 border-radius: 10px;
+/* display: flex;
+align-items:center; */
 }
 
 .NameLTD{
     color:#3C475B;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .AdressInfo{
     color:#3C475B;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
     
 }
 
 .Phone{
     margin-top: 10px;
     color:#3C475B;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
 }
 
 .Mail{
     
     color:#3C475B;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
 }
 
 .Regim{
     margin-top: 10px;   
+    margin-bottom: 20px;
     color:#3C475B;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
 }
 .Question{
-    margin-top: 10px;   
+    margin-top: 30px;   
     color:#3C475B;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 1200px){
