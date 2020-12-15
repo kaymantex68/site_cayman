@@ -148,7 +148,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/avtonomnuy/ST">ST</Link>
                                                                 </li>
-                                                               
+
 
                                                             </ul>
                                                         </div>
@@ -177,7 +177,7 @@ function Navbar() {
                                             <a href="#">Домофония</a>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                        <Link to="/catalog/security">Охранно-пожарное оборудование</Link>
+                                            <Link to="/catalog/security">Охранно-пожарное оборудование</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
@@ -185,7 +185,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/head_unit/TEKO">ТЭКО</Link>
+                                                                    <Link to="/catalog/security/head_unit/TEKO">ТЕКО</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/head_unit/Syberian_arsenal">Сибирский арсенал</Link>
@@ -194,18 +194,19 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/net/poe">POE коммутаторы</Link>
-                                                    </li>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/net/wi_fi">Wi-Fi оборудование</Link>
+                                                        <Link to="/catalog/security/iz_opt_electr">Извещатели оптико-электронные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</Link>
+                                                                    <Link to="/catalog/security/iz_opt_electr/TEKO">ТЕКО</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/iz_opt_electr/Syberian_arsenal">Сибирский арсенал</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                   
                                                 </ul>
                                             </div>
                                         </li>
