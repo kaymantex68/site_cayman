@@ -148,6 +148,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/avtonomnuy/ST">ST</Link>
                                                                 </li>
+                                                               
 
                                                             </ul>
                                                         </div>
@@ -162,7 +163,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/accumulate/Security force">Security force</Link>
                                                                 </li>
-
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/apc/accumulate/Rexant">Rexant</Link>
+                                                                </li>
 
                                                             </ul>
                                                         </div>
@@ -174,7 +177,37 @@ function Navbar() {
                                             <a href="#">Домофония</a>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <a href="#">Охранная сигнализация</a>
+                                        <Link to="/catalog/security">Охранно-пожарное оборудование</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/head_unit">Головные приборы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/head_unit/TEKO">ТЭКО</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/head_unit/Syberian_arsenal">Сибирский арсенал</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/poe">POE коммутаторы</Link>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/wi_fi">Wi-Fi оборудование</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
                                             <a href="#">Пожарная сигнализация</a>
