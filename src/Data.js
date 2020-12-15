@@ -146,7 +146,7 @@ export const Data=[
         },
         coast: '2130₽',
         old_coast: false,
-        new: false,
+       
     },
     /**
      *  ТЕКО Астра-712/2
@@ -184,7 +184,7 @@ export const Data=[
         },
         coast: '2330₽',
         old_coast: false,
-        new: false,
+     
     },
     /**
      *  ТЕКО Астра-712/4
@@ -222,7 +222,7 @@ export const Data=[
         },
         coast: '2950₽',
         old_coast: false,
-        new: false,
+     
     },
      /** 
      * ---------------------------------------Rexant
