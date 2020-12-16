@@ -13,7 +13,7 @@ function Catalog({ match }) {
     useEffect(() => {
         setNalichie(false);
         setBrand('All');
-      });
+      }, []);
 
 
     const { Data } = useContext(Context);
