@@ -1,4 +1,4 @@
-import React, { useState, useContext,useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import classes from './Catalog.module.css'
 import CatalogContainer from './CatalogContainer'
 import { Link } from 'react-router-dom'
@@ -8,12 +8,14 @@ function Catalog({ match }) {
     // const { Unics, setUnics } = useContext(Context);
     const [Nalichie, setNalichie] = useState(false);
     const [Brand, setBrand] = useState('All');
+    const [Sort, setSort] = useState('Остортировать по');
 
-    
-     useEffect(() => {
+
+    useEffect(() => {
         //  setNalichie(false);
-         setBrand('All');
-       }, [match.url]);
+        setSort('Остортировать по');
+        setBrand('All');
+    }, [match.url]);
     //    console.log(match)
 
     const { Data } = useContext(Context);
@@ -28,18 +30,17 @@ function Catalog({ match }) {
     let unic = [];
 
     DataCatalog.map((item, index) => {
-        if (match.params.cat==item.type[1])
-        {
-        unic.push(item.brand);
-        unic = [...new Set(unic)];
+        if (match.params.cat == item.type[1]) {
+            unic.push(item.brand);
+            unic = [...new Set(unic)];
         }
     })
 
 
 
-    
+
     return (
-       
+
         <>
             <div className={classes.Main}>
                 <div className={classes.Manual}>
@@ -72,7 +73,6 @@ function Catalog({ match }) {
                             <input className={classes.CheckboxNalichie} type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
                         </div>
                         <div className={classes.ContainerBrand}>
-
                             <select className={classes.SelectBrand} value={Brand} onChange={(e) => { setBrand(e.target.value) }}>
                                 <option value="All">Все</option>
                                 {
@@ -84,14 +84,23 @@ function Catalog({ match }) {
 
                             </select>
                         </div>
+                        <div className={classes.ContainerBrand}>
+
+                            <select className={classes.SelectBrand} value={Sort} onChange={(e) => { setSort(e.target.value) }}>
+                                <option>Отсортировать по</option>
+                                <option value="UP_COAST">- по возрастанию цены</option>
+                                <option value="DOWN_COAST">- по убыванию цены</option>
+
+                            </select>
+                        </div>
                     </div>
                 </div>
 
                 <div className={classes.Container}>
                     <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>
-                    <CatalogContainer match={match} nalichie={Nalichie} brand={Brand}/>
-                                    {/* {console.log(Brand)} */}
+                    <CatalogContainer match={match} nalichie={Nalichie} brand={Brand} sort={Sort} />
+                    {/* {console.log(Brand)} */}
                 </div>
             </div>
         </>

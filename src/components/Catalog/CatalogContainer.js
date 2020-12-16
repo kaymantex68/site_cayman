@@ -4,7 +4,7 @@ import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
-function CatalogContainer({ match, nalichie, brand, unic }) {
+function CatalogContainer({ match, nalichie, brand, sort }) {
 
     const { Data} = useContext(Context);
     let DataCatalog = [];
@@ -22,6 +22,15 @@ function CatalogContainer({ match, nalichie, brand, unic }) {
 
     if (brand != 'All') {
         DataCatalog = DataCatalog.filter((e) => { if (e.brand == brand) { return e } })
+    }
+
+
+    if (sort== 'UP_COAST') {
+        DataCatalog.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
+    }
+    
+    if (sort== 'DOWN_COAST') {
+        DataCatalog.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
     }
 
    

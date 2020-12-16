@@ -1349,7 +1349,7 @@ export const Data = [
             text19: ['Teмпepaтypa экcплyaтaции: ', '-З0…+50 °C'],
             text20: ['Гaбapитныe paзмepы: ', '165×190×79 мм'],
         },
-        coast: '2950₽',
+        coast: 2950,
         old_coast: false,
 
     },
@@ -1377,7 +1377,7 @@ export const Data = [
             text2: ['Форм-фактор батареи:', '6CR123'],
             text14: ['Габариты: ', '16x6x0.1мм'],
         },
-        coast: '180₽',
+        coast: 180,
         old_coast: false,
         new: false,
     },
@@ -1415,7 +1415,7 @@ export const Data = [
             text15: ['Полная высота: ', '167мм'],
             text16: ['Вес (±3%), кг: ', '5,7'],
         },
-        coast: '4900₽',
+        coast: 4900,
         old_coast: false,
         new: false,
     },
@@ -1448,7 +1448,7 @@ export const Data = [
             text15: ['Полная высота: ', '100мм'],
             text16: ['Вес (±3%), кг: ', '2,3'],
         },
-        coast: '4900₽',
+        coast: 4900,
         old_coast: false,
         new: false
     },
@@ -1491,7 +1491,7 @@ export const Data = [
             text20: ['Ток ограничения выхода при коротком замыкании нагрузки мощность по сети 220В: ', '8 каналов - 1А,1 канал - 2,5АВт'],
 
         },
-        coast: '4900₽',
+        coast: 4900,
         old_coast: false,
         new: false
     },
@@ -1532,7 +1532,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: '3190₽',
+        coast: 3190,
         old_coast: false,
         new: false
     },
@@ -1573,7 +1573,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: '2750₽',
+        coast: 2750,
         old_coast: false,
         new: false
     },
@@ -1614,7 +1614,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: '2750₽',
+        coast: 2750,
         old_coast: false,
         new: false
     },
@@ -1651,7 +1651,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '450₽',
+        coast: 450,
         old_coast: false,
         new: false
     },
@@ -1685,7 +1685,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '500₽',
+        coast: 500,
         old_coast: false,
         new: false
     },
@@ -1719,7 +1719,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '550₽',
+        coast: 550,
         old_coast: false,
         new: false
     },
@@ -1753,7 +1753,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '700₽',
+        coast: 700,
         old_coast: false,
         new: false
     },
@@ -1787,7 +1787,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '750₽',
+        coast: 750,
         old_coast: false,
         new: false
     },
@@ -1821,7 +1821,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '900₽',
+        coast: 900,
         old_coast: false,
         new: false
     },
@@ -1855,7 +1855,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '390₽',
+        coast: 390,
         old_coast: false,
         new: false
     },
@@ -1889,7 +1889,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: '390₽',
+        coast: 390,
         old_coast: false,
         new: false
     },
