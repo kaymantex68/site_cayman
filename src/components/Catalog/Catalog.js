@@ -11,7 +11,7 @@ function Catalog({ match }) {
 
     
      useEffect(() => {
-         setNalichie(false);
+        //  setNalichie(false);
          setBrand('All');
        }, [match]);
 
@@ -69,7 +69,7 @@ function Catalog({ match }) {
                         {/* <span className={classes.FilterText}>отсортировать </span> */}
                         <div className={classes.ContainerNalichie}>
                             <label className={classes.LabelNalichie}>в наличии</label>
-                            <input className={classes.CheckboxNalichie} type="checkbox" onChange={(e) => { setNalichie(e.target.checked) }} ></input>
+                            <input className={classes.CheckboxNalichie} type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
                         </div>
                         <div className={classes.ContainerBrand}>
 
