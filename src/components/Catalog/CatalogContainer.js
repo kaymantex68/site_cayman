@@ -70,8 +70,8 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
                     }
                     <h1 className={classes.Coast}>
                         {product.old_coast != false ?
-                            <><span className={classes.Old_coast} >{product.old_coast}</span><span className={classes.New_coast}>   {product.coast}</span></> :
-                            product.coast}
+                            <><span className={classes.Old_coast} >{`${product.old_coast}₽`}</span><span className={classes.New_coast}>   {`${product.coast}₽`}</span></> :
+                            `${product.coast}₽`}
                     </h1>
                 </div>
 
