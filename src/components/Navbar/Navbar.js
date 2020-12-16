@@ -93,10 +93,10 @@ function Navbar() {
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li className={classes.Dropdown_Links}>
+                                        {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">IP регистраторы</a>
-                                        </li>
-                                        <li className={classes.Dropdown_Links}>
+                                        </li> */}
+                                        {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">AHD камеры</a>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
@@ -114,7 +114,7 @@ function Navbar() {
                                         </li>
                                         <li className={classes.Dropdown_Links}>
                                             <a href="#">AHD  регистраторы</a>
-                                        </li>
+                                        </li> */}
                                         <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/apc">Источники питания</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -173,9 +173,9 @@ function Navbar() {
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li className={classes.Dropdown_Links}>
+                                        {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">Домофония</a>
-                                        </li>
+                                        </li> */}
                                         <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/security">Охранно-пожарное оборудование</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -223,7 +223,7 @@ function Navbar() {
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li className={classes.Dropdown_Links}>
+                                        {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">Пожарная сигнализация</a>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
@@ -231,7 +231,7 @@ function Navbar() {
                                         </li>
                                         <li className={classes.Dropdown_Links}>
                                             <a href="#">Кабельная продукция</a>
-                                        </li>
+                                        </li> */}
                                         <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/net">Сетевое оборудование</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
