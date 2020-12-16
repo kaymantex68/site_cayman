@@ -13,8 +13,8 @@ function Catalog({ match }) {
      useEffect(() => {
         //  setNalichie(false);
          setBrand('All');
-       }, [match]);
-
+       }, [match.url]);
+    //    console.log(match)
 
     const { Data } = useContext(Context);
     let DataCatalog = [];
@@ -91,7 +91,7 @@ function Catalog({ match }) {
                     <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>
                     <CatalogContainer match={match} nalichie={Nalichie} brand={Brand}/>
-                                    {console.log(Brand)}
+                                    {/* {console.log(Brand)} */}
                 </div>
             </div>
         </>
