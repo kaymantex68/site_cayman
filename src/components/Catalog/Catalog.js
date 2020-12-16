@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext,useEffect } from 'react';
 import classes from './Catalog.module.css'
 import CatalogContainer from './CatalogContainer'
 import { Link } from 'react-router-dom'
@@ -8,6 +8,13 @@ function Catalog({ match }) {
     // const { Unics, setUnics } = useContext(Context);
     const [Nalichie, setNalichie] = useState(false);
     const [Brand, setBrand] = useState('All');
+
+    
+    useEffect(() => {
+        setNalichie(false);
+        setBrand('All');
+      });
+
 
     const { Data } = useContext(Context);
     let DataCatalog = [];
