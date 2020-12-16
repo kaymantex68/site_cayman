@@ -10,10 +10,10 @@ function Catalog({ match }) {
     const [Brand, setBrand] = useState('All');
 
     
-    useEffect(() => {
-        setNalichie(false);
-        setBrand('All');
-      }, []);
+     useEffect(() => {
+         setNalichie(false);
+         setBrand('All');
+       }, [match]);
 
 
     const { Data } = useContext(Context);
@@ -37,8 +37,9 @@ function Catalog({ match }) {
 
 
 
-
+    
     return (
+       
         <>
             <div className={classes.Main}>
                 <div className={classes.Manual}>
@@ -89,8 +90,8 @@ function Catalog({ match }) {
                 <div className={classes.Container}>
                     <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>
-                    <CatalogContainer match={match} nalichie={Nalichie} brand={Brand} />
-
+                    <CatalogContainer match={match} nalichie={Nalichie} brand={Brand}/>
+                                    {console.log(Brand)}
                 </div>
             </div>
         </>
