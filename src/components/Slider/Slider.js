@@ -50,8 +50,8 @@ function Slider() {
                 slidesPerView={1}
                 navigation={{ clickable: true }}
                 pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
+                // onSwiper={(swiper) => console.log(swiper)}
+                // onSlideChange={() => console.log('slide change')}
                 loop={true}
                 autoplay={{
                     delay: 7000,

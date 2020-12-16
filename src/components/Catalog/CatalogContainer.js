@@ -4,10 +4,9 @@ import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
-function CatalogContainer({ match, nalichie }) {
-    console.log('наличие')
-    console.log(nalichie);
-    const { Data } = useContext(Context);
+function CatalogContainer({ match, nalichie, brand, unic }) {
+
+    const { Data} = useContext(Context);
     let DataCatalog = [];
 
     Data.map((item) => {
@@ -16,21 +15,31 @@ function CatalogContainer({ match, nalichie }) {
         )
     })
 
-    // useEffect(() => {
-         if (nalichie === true) {
-          DataCatalog =DataCatalog.filter((e) => {if (e.inStock_outStock){return e}})
-         }
-    //   });
-      console.log(DataCatalog)
-    
+
+    if (nalichie === true) {
+        DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock) { return e } })
+    }
+
+    if (brand != 'All') {
+        DataCatalog = DataCatalog.filter((e) => { if (e.brand == brand) { return e } })
+    }
+
+   
+   
     const ProductDisplay = (product, index) => {
+        
+        // unic.push(product.brand);
+        //  unic=[...new Set(unic)];
+       
+        
+
         return (
 
             <div className={classes.Lider_card} >
 
                 <div className={classes.Lider_pic}>
                     <img src={`/img_products/${product.brand}/${product.model}/1.png`} />
-                    {/* <img src={product.pic} /> */}
+
                     <div className={classes.Back_pic}></div>
                     {product.pic_brand != false ?
                         <><div className={classes.Brand}>

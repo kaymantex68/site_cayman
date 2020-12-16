@@ -14,6 +14,7 @@ function Main() {
 
     const [Modal, setModal] = useState(false);
     const [Model, setModel] = useState('');
+    
     const OpenModal = () => {
         setModal(!Modal);
     }
@@ -27,6 +28,8 @@ function Main() {
         console.log(Model);
         OpenModal();
     }
+
+
 
     return (
         <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model }}>
