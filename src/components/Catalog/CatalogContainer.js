@@ -1,19 +1,28 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import classes from './CatalogContainer.module.css'
 import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
-function CatalogContainer({ match }) {
+function CatalogContainer({ match, nalichie }) {
+    console.log('наличие')
+    console.log(nalichie);
     const { Data } = useContext(Context);
     let DataCatalog = [];
-    {
-        Data.map((item, index) => {
-            return (
-                DataCatalog.push(item)
-            )
-        })
-    }
+
+    Data.map((item) => {
+        return (
+            DataCatalog.push(item)
+        )
+    })
+
+    // useEffect(() => {
+         if (nalichie === true) {
+          DataCatalog =DataCatalog.filter((e) => {if (e.inStock_outStock){return e}})
+         }
+    //   });
+      console.log(DataCatalog)
+    
     const ProductDisplay = (product, index) => {
         return (
 
