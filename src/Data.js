@@ -26,8 +26,8 @@ export const Data = [
         path: '/',
         // pic: i1,
         pic_brand: i1_brand,
-        coast: '5590₽',
-        old_coast: '7695₽',
+        coast: 5590,
+        old_coast: 7695,
         new: true,
         inStock_outStock: true,
         info: {
@@ -76,7 +76,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
-        coast: '5590₽',
+        coast: 5590,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -103,8 +103,8 @@ export const Data = [
             text18: ['Размеры:', '66× 33× 109 мм'],
             text19: ['Вес:', '102,7 г'],
         },
-        coast: '5590₽',
-        old_coast: '7000₽',
+        coast: 5590,
+        old_coast: 7000,
         new: false
     },
     /** 
@@ -153,7 +153,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        coast: '1780₽',
+        coast: 1780,
         old_coast: false,
 
     },
@@ -194,7 +194,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        coast: '1780₽',
+        coast: 1780,
         old_coast: false,
 
     },
@@ -227,7 +227,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПД', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-        coast: '688₽',
+        coast: 688,
         old_coast: false,
 
     },
@@ -260,7 +260,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПД', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-        coast: '865₽',
+        coast: 865,
         old_coast: false,
 
     },
@@ -293,7 +293,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПП', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-        coast: '865₽',
+        coast: 865,
         old_coast: false,
 
     },
@@ -335,7 +335,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        coast: '734₽',
+        coast: 734,
         old_coast: false,
 
     },
@@ -375,7 +375,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        coast: '734₽',
+        coast: 734,
         old_coast: false,
 
     },
@@ -419,7 +419,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '2363₽',
+        coast: 2363,
         old_coast: false,
 
     },
@@ -464,7 +464,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '1767₽',
+        coast: 1767,
         old_coast: false,
 
     },
@@ -508,7 +508,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '1767₽',
+        coast: 1767,
         old_coast: false,
 
     },
@@ -552,7 +552,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '1767₽',
+        coast: 1767,
         old_coast: false,
 
     },
@@ -596,7 +596,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '1767₽',
+        coast: 1767,
         old_coast: false,
 
     },
@@ -640,7 +640,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        coast: '1781₽',
+        coast: 1781,
         old_coast: false,
 
     },
@@ -681,7 +681,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-9', 'https://www.teko.biz/upload/rukovod/9-v3_10.pdf'],
         },
-        coast: '509₽',
+        coast: 509,
         old_coast: false,
 
     },
@@ -721,7 +721,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-6', 'https://www.teko.biz/upload/rukovod/6-v6_7.pdf'],
         },
-        coast: '635₽',
+        coast: 635,
         old_coast: false,
 
     },
@@ -759,7 +759,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп. Б', 'https://www.teko.biz/upload/rukovod/7-bv9_8.pdf'],
         },
-        coast: '875₽',
+        coast: 875,
         old_coast: false,
 
     },
@@ -798,7 +798,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп. А', 'https://www.teko.biz/upload/rukovod/7-av11_8.pdf'],
         },
-        coast: '762₽',
+        coast: 762,
         old_coast: false,
 
     },
@@ -838,7 +838,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-531 исп. ИК', 'https://www.teko.biz/upload/rukovod/531-ikv5_8.pdf'],
         },
-        coast: '651₽',
+        coast: 651,
         old_coast: false,
 
     },
@@ -877,7 +877,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-516', 'https://www.teko.biz/upload/rukovod/516-v1_10.pdf'],
         },
-        coast: '651₽',
+        coast: 651,
         old_coast: false,
 
     },
@@ -917,7 +917,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-515 исп.Б', 'https://www.teko.biz/upload/rukovod/515-bv5_11.pdf'],
         },
-        coast: '429₽',
+        coast: 429,
         old_coast: false,
 
     },
@@ -957,7 +957,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-515 исп.А', 'https://www.teko.biz/upload/rukovod/515-av5_12.pdf'],
         },
-        coast: '429₽',
+        coast: 429,
         old_coast: false,
 
     },
@@ -999,7 +999,7 @@ export const Data = [
             Link3: ['Сертификат CE', 'https://www.teko.biz/upload/sert/CE_512.jpg'],
             Link4: ['Руководство пользователя Астра-512', 'https://www.teko.biz/upload/rukovod/512-v7_9.pdf'],
         },
-        coast: '739₽',
+        coast: 739,
         old_coast: false,
 
     },
@@ -1039,7 +1039,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27388_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-517)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link3: ['Руководство пользователя Астра-517', 'https://www.teko.biz/upload/rukovod/517-v2_2.pdf'],
         },
-        coast: '480₽',
+        coast: 480,
         old_coast: false,
 
     },
@@ -1079,7 +1079,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27388_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-517)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link3: ['Руководство пользователя Астра-517', 'https://www.teko.biz/upload/rukovod/517-v2_2.pdf'],
         },
-        coast: '480₽',
+        coast: 480,
         old_coast: false,
 
     },
@@ -1114,7 +1114,7 @@ export const Data = [
             text16: ['Степень защиты оболочкой: ', 'IP41'],
             text17: ['Информативность: ', '-выход извещателя на дежурный режим -норма -тревога -тревога в режиме -память тревоги -тревога в тестовом режиме -вскрытие -неисправность'],
         },
-        coast: '619₽',
+        coast: 619,
         old_coast: false,
 
     },
@@ -1149,7 +1149,7 @@ export const Data = [
             text16: ['Степень защиты оболочкой: ', 'IP41'],
             text17: ['Информативность: ', '-выход извещателя на дежурный режим -норма -тревога -тревога в режиме -память тревоги -тревога в тестовом режиме -вскрытие -неисправность'],
         },
-        coast: '619₽',
+        coast: 619,
         old_coast: false,
 
     },
@@ -1186,7 +1186,7 @@ export const Data = [
 
 
         },
-        coast: '619₽',
+        coast: 619,
         old_coast: false,
 
     },
@@ -1235,7 +1235,7 @@ export const Data = [
             text30: ['Относительная влажность воздуха без конденсации влаги: ', 'до 98 % при + 40 °С'],
 
         },
-        coast: '4770₽',
+        coast: 4770,
         old_coast: false,
 
     },
@@ -1273,7 +1273,7 @@ export const Data = [
             text19: ['Teмпepaтypa экcплyaтaции: ', '-З0…+50 °C'],
             text20: ['Гaбapитныe paзмepы: ', '165×190×79 мм'],
         },
-        coast: '2130₽',
+        coast: 2130,
         old_coast: false,
 
     },
@@ -1311,7 +1311,7 @@ export const Data = [
             text19: ['Teмпepaтypa экcплyaтaции: ', '-З0…+50 °C'],
             text20: ['Гaбapитныe paзмepы: ', '165×190×79 мм'],
         },
-        coast: '2330₽',
+        coast: 2330,
         old_coast: false,
 
     },
@@ -1918,7 +1918,7 @@ export const Data = [
             text3: ['Скорость передачи портов', ' 4x10/100 POE, 2x10/100 Uplink'],
             text15: ['Питание:', 'DC 48~57В'],
         },
-        coast: '4790₽',
+        coast: 4790,
         old_coast: false,
         new: false
     },
@@ -1937,7 +1937,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5590₽',
+        coast: 5590,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -1979,7 +1979,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2023,8 +2023,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
-        old_coast: '7830₽',
+        coast: 5690,
+        old_coast: 7830,
         new: true,
         inStock_outStock: true,
         info: {
@@ -2071,7 +2071,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2114,7 +2114,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2158,7 +2158,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2201,7 +2201,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2244,7 +2244,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2287,7 +2287,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2329,7 +2329,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2370,7 +2370,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2414,7 +2414,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2459,7 +2459,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2506,7 +2506,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         info: {
@@ -2552,7 +2552,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2596,7 +2596,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: true,
@@ -2641,7 +2641,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: '5690₽',
+        coast: 5690,
         old_coast: false,
         new: true,
         inStock_outStock: false,
