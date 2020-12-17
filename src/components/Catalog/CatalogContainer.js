@@ -81,7 +81,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
 
         )
     }
-
+    console.log(match)
     if (match.params.brand != null) {
         return (
             <>
@@ -137,6 +137,28 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
             </>
         )
     }
+
+    if (match.path == '/catalog/all') {
+        return (
+            <>
+
+                {
+                    DataCatalog.map((item, index) => {
+                       
+                            return (
+                                <Link to={`/catalog/all/${item.id}`}>
+                                    {ProductDisplay(item)}
+                                </Link>
+                            )
+                        
+                    })
+                }
+
+            </>
+        )
+    }
+
+    
 
     return (
         <div>общий каталог</div>

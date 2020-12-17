@@ -24,7 +24,7 @@ function Navbar() {
                                 <Link to="/">Главная</Link>
                             </li>
                             <li className={classes.Links}>
-                                <Link to="#">Каталог</Link>
+                                <Link to="/catalog/all">Каталог</Link>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
