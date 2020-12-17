@@ -93,9 +93,35 @@ function Navbar() {
                                                 </ul>
                                             </div>
                                         </li>
-                                        {/* <li className={classes.Dropdown_Links}>
-                                            <a href="#">IP регистраторы</a>
-                                        </li> */}
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/reg">Регистраторы</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/reg/nvr">NVR</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/ST">ST</Link>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/reg/xvr">XVR</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/xvr/ST">ST</Link>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                         {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">AHD камеры</a>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -219,7 +245,7 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
                                         </li>
