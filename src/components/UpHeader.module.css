@@ -9,14 +9,19 @@
     margin: 0 auto;
     width: 80%;
     max-width: 80%;
+    align-items: center;
 }
 .Mail{
     flex: 1;
     text-align: -webkit-center;
 }
  .Phone{   
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
      flex:1;
-    text-align: -webkit-center; 
+    /* text-align: -webkit-center;  */
+    /* background-color: red; */
 } 
 .Info{  
     flex:1;
@@ -24,8 +29,8 @@
 }
 .span_info{
     color: #3C475B;
-    position: absolute;
-    transform: translateY(-60%);
+    /* position: absolute;
+    transform: translateY(-60%); */
     font-size: 0.8rem;
     top: 50%;
 }
