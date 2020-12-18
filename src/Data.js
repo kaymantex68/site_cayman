@@ -1,7 +1,5 @@
 
-import i2_brand from '../src/Img_products/brand_2.png';
-import i3_brand from '../src/Img_products/brand_3.png';
-import imou_cue_2 from './Img_products/IPCam/IMOU/Cue 2/1.png'
+
 import imou_brand from './Img_products/imou_brand.png';
 import d_link_brand from './Img_products/D-Link_brand.png';
 import ez_ip_brand from './Img_products/ez-ip_brand.png';
@@ -16,6 +14,7 @@ import zte_brand from '../src/Img_products/zte_brand.png';
 import tp_link_brand from '../src/Img_products/tp-link_brand.svg';
 import zyxel_brand from '../src/Img_products/zyxel_brand.png';
 import ezviz_brand from '../src/Img_products/ezviz_brand.png';
+import atis_brand from '../src/Img_products/atis_brand.png';
 export const Data = [
  /** 
   * -------------------------------------------------------------------------------Zyxel
@@ -3319,7 +3318,7 @@ export const Data = [
             text31: ['Вес:', '170 г'],
             text32: ['Комплект поставки:', 'Wi-Fi камера, адаптер питания, инструкция'],
         },
-        coast: 2990,
+        coast: 6590,
         old_coast: false,
         download: {
             link1: ['Паспорт Паспорт EZ-IPC-C1B40P-POE','https://videoglaz.ru/upload/manuals/EZ-IP/EZ-IPC-C1B40P-POE.pdf'],
@@ -4124,6 +4123,113 @@ export const Data = [
         },
 
     },
+    /** 
+     * ----------------------------------------------------------------------Atis
+     */
+    /** 
+     * ------------------------------------------------------------Atis камеры
+     */
+    /**
+     *  Atis H ANH-B12-Pro
+    */
+    {
+        model: 'Atis H ANH-B12-Pro',
+        id: 'Atis_H_ANH_B12_Pro',
+        brand: 'Atis',
+        type: ['Уличная IP камера', 'ip', 'outdoor'],
+        description: 'IP видеокамера уличная - Разрешение 2Мп (1920×1080) real time - H.265+/ H.265/H.264+/ H.264/MJPEG - Фиксированный объектив 2.8мм - Поддержка DWDR - ИК-подсветка 30м (механический ИК-фильтр) - Слот microSD до 128Гб - Обнаружение движения, вторжения в область и пересечения линии - Питание 12В, PoE',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: atis_brand,
+        
+        new: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение:', '2 Мп'],
+            text1: ['Объектив:', '2,8 мм'],
+            text2: ['Подсветка: ', '30 м'],
+            text3: ['Матрица:', '1/2.8 progressive scan CMOS'],
+           
+            text5: ['Сжатие видео:', 'H.265+/H.265/H.264+/H.264/MJPEG'],
+            text6: ['Частота кадров:', '30fps@1080P'],
+            text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+            text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+           
+            text12: ['Приватные зоны: ', 'есть'],
+            text13: ['Детекция движения:', 'есть'],
+            text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+            text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+            text16: ['Cовместимость:', 'ONVIF(PROFILE S,PROFILE G), ISAPI'],
+            text17: ['Максимальное число подключений:', '32'],
+            text18: ['Веб интерфейс:', 'IE8+, Chrome 31.0-44, Firefox 30.0-51, Safari 8.0+'],
+            text19: ['Локальное хранилище:', 'слот для microSD/SDHC/SDXC до 128 Гб'],
+            text20: ['Питание:', 'DC12V, PoE (802.3af)'],
+            text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+            text22: ['Условия эксплуатации', '	-30°C ~ +60°C'],
+            text23: ['Степень защищенности', 'IP67'],
+            text24: ['Материал корпуса', 'маталл+пластик'],
+            text25: ['Размеры:', '	69.7х69.7х171.4'],
+            text26: ['Вес:', '350 г'],
+            
+        },
+        coast: 5500,
+        old_coast: false,
+        // download: {
+        //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+        // },
+
+    },
+    /**
+     *  Atis H ANH-D12-Pro
+    */
+   {
+    model: 'Atis H ANH-D12-Pro',
+    id: 'Atis_H_ANH_D12_Pro',
+    brand: 'Atis',
+    type: ['Уличная IP камера', 'ip', 'outdoor'],
+    description: 'IP видеокамера уличная - Разрешение 2Мп (1920×1080) real time - H.265+/ H.265/H.264+/ H.264/MJPEG - Фиксированный объектив 2.8мм - Поддержка DWDR - ИК-подсветка 30м (механический ИК-фильтр) - Слот microSD до 128Гб - Обнаружение движения, вторжения в область и пересечения линии - Питание 12В, PoE',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: atis_brand,
+    
+    new: false,
+    inStock_outStock: 1,
+    info: {
+        text: ['Разрешение:', '2 Мп'],
+        text1: ['Объектив:', '2,8 мм'],
+        text2: ['Подсветка: ', '30 м'],
+        text3: ['Матрица:', '1/2.8 progressive scan CMOS'],
+       
+        text5: ['Сжатие видео:', 'H.265+/H.265/H.264+/H.264/MJPEG'],
+        text6: ['Частота кадров:', '30fps@1080P'],
+        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+       
+        text12: ['Приватные зоны: ', 'есть'],
+        text13: ['Детекция движения:', 'есть'],
+        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+        text16: ['Cовместимость:', 'ONVIF(PROFILE S,PROFILE G), ISAPI'],
+        text17: ['Максимальное число подключений:', '32'],
+        text18: ['Веб интерфейс:', 'IE8+, Chrome 31.0-44, Firefox 30.0-51, Safari 8.0+'],
+        text19: ['Локальное хранилище:', 'слот для microSD/SDHC/SDXC до 128 Гб'],
+        text20: ['Питание:', 'DC12V, PoE (802.3af)'],
+        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+        text22: ['Условия эксплуатации', '	-30°C ~ +60°C'],
+        text23: ['Степень защищенности', 'IP67'],
+        text24: ['Материал корпуса', 'маталл+пластик'],
+        text25: ['Размеры:', '111х82.4'],
+        text26: ['Вес:', '497 г'],
+        
+    },
+    coast: 6000,
+    old_coast: false,
+    // download: {
+    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+    // },
+
+},
+
     
 
 

@@ -39,21 +39,6 @@ function Navbar() {
                                                                     <Link to="/catalog/ip/outdoor/IMOU">IMOU</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/HiWatch">HiWatch</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/Dahua">Dahua</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/EzViz">EzViz</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/SVN">SVN</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/Matrix">Matrix</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/outdoor/Atis">Atis</Link>
                                                                 </li>
                                                             </ul>
