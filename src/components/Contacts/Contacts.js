@@ -25,7 +25,7 @@ function Contacts() {
                             <p className={classes.Mail}>Mail: mail@kaymantex.ru</p>
 
 
-                            <p className={classes.Question}>Все ваши вопросы вы можете задать нам в личном чате в Instagram. Будем рады ответить вам на всю вашу херню.</p>
+                            <p className={classes.Question}>Все ваши вопросы вы можете задать нам в личном чате в Instagram. Будем рады ответить вам на все ваши вопросы.</p>
                         </div>
                     </div>
                 </div>

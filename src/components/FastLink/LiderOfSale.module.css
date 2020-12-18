@@ -186,6 +186,23 @@
     padding-right: 5px;
  }
 
+ .Stock_soon{
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+    
+ }
+ 
+ .Stock_span_soon{
+    color:white;
+    background-color:orangered;
+    padding: 3px;
+    border-radius:7px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
 .Coast{
     margin-top: 3px;
     font-size: 1rem;

@@ -18,7 +18,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
     DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
 
     if (nalichie === true) {
-        DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock) { return e } })
+        DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock==1) { return e } })
     }
 
     if (brand != 'All') {
@@ -65,11 +65,14 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
                     <p> {product.info.text}</p>
                     <p> {product.info.text1[0]}  {product.info.text1[1]}</p>
 
-                    {product.inStock_outStock &&
+                    {product.inStock_outStock===1 &&
                         <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
                     }
                     {!product.inStock_outStock &&
                         <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
+                    }
+                    {product.inStock_outStock===2 &&
+                        <p className={classes.Stock_soon}><span className={classes.Stock_span_soon}>ожидается поступление</span></p>
                     }
                     <h1 className={classes.Coast}>
                         {product.old_coast != false ?

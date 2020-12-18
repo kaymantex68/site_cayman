@@ -33,7 +33,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: zyxel_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '10/100BASE-TX'],
@@ -72,7 +72,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: zyxel_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '110/100BASE-TX/4G'],
@@ -111,7 +111,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: zyxel_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '110/100BASE-TX/4G'],
@@ -156,7 +156,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: tp_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Беспроводной интернет: ', 'есть'],
             text1: ['Порты:', '1x10/100Mbs'],
@@ -196,7 +196,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: zte_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Встроенный модем: ', '2G/3G/4G'],
             text1: ['Порты:', '4x10/100/1000Mbs'],
@@ -241,7 +241,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: zte_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Модем: ', '2G/3G/4G'],
             text1: ['Тип:', 'внешний'],
@@ -285,7 +285,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Количество портов: ', '5 up-link'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -327,7 +327,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Порты: ', '8х10/100/1000Base-T'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -369,7 +369,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Порты: ', '8х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -411,7 +411,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Порты: ', '5х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -453,7 +453,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: d_link_brand,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Порты: ', '16х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -500,7 +500,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', 'Радиоканальный'],
             text1: ['Эквивалент: ', 'ИП101-03-А1R'],
@@ -545,7 +545,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИП212-14'],
@@ -587,7 +587,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -620,7 +620,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -653,7 +653,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -686,7 +686,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Тип: ', 'Пожарный'],
@@ -729,7 +729,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 212-13'],
@@ -772,7 +772,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО40910-7'],
@@ -813,7 +813,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -858,7 +858,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -902,7 +902,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -946,7 +946,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -990,7 +990,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1034,7 +1034,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Эквивалент: ', ' ИО 409-22'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1075,7 +1075,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 409-11'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1114,7 +1114,7 @@ export const Data = [
         path: '/',
         pic_brand: teko_brand,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент : ', 'ИО 409-15Б'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1152,7 +1152,7 @@ export const Data = [
         path: '/',
         pic_brand: teko_brand,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент : ', 'ИО 409-15А'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1191,7 +1191,7 @@ export const Data = [
         path: '/',
         pic_brand: teko_brand,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Эквивалент: ', 'ИО 309-28'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1231,7 +1231,7 @@ export const Data = [
         path: '/',
         pic_brand: teko_brand,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1271,7 +1271,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1311,7 +1311,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 409-32'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1351,7 +1351,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Эквивалент: ', 'ИО 409-42'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1393,7 +1393,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1433,7 +1433,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1473,7 +1473,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 209-24'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1508,7 +1508,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 309-11'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1543,7 +1543,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 409-10'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -1580,7 +1580,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Рабочая частота: ', '434,42 МГц'],
             text1: ['Радиус действия: ', '100 м'],
@@ -1629,7 +1629,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во шлейфов: ', '1'],
             text1: ['Кол-во реле: ', '1'],
@@ -1667,7 +1667,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Кол-во шлейфов: ', '2'],
             text1: ['Кол-во реле: ', '2'],
@@ -1705,7 +1705,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во шлейфов: ', '4'],
             text1: ['Кол-во реле: ', '3'],
@@ -1747,7 +1747,7 @@ export const Data = [
         pic_brand: rexant_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '3 В'],
             text1: ['Тип батареи: ', 'литиевая'],
@@ -1775,7 +1775,7 @@ export const Data = [
         pic_brand: delta_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '17/ч'],
@@ -1813,7 +1813,7 @@ export const Data = [
         pic_brand: security_force_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '7/ч'],
@@ -1846,7 +1846,7 @@ export const Data = [
         pic_brand: hiwatch_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во камер: ', '4 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -1901,7 +1901,7 @@ export const Data = [
         pic_brand: hiwatch_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во камер: ', '16 HD-TVI'],
             text1: ['Кол-во HDD: ', '1'],
@@ -1976,7 +1976,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во камер: ', '32 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2049,7 +2049,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во камер: ', '16'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2122,7 +2122,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '8 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2197,7 +2197,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2270,7 +2270,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '4 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2343,7 +2343,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '4 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2416,7 +2416,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '8 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2489,7 +2489,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -2562,7 +2562,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '8х0.75А/1x2A'],
@@ -2602,7 +2602,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '5А'],
@@ -2643,7 +2643,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '5А'],
@@ -2684,7 +2684,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '3А'],
@@ -2729,7 +2729,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Входы: ', '4 POE/2 UpLink'],
             text1: ['Питание: ', '110-240В'],
@@ -2766,7 +2766,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Входы: ', '16 POE / 2Up / 1SFP'],
             text1: ['Питание: ', '110-240В'],
@@ -2803,7 +2803,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Входы: ', '8 POE/2 UpLink'],
             text1: ['Питание: ', '110-240В'],
@@ -2840,7 +2840,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Вх.напряжение: ', 'DC 48 15Вт'],
             text1: ['Вых.напряжение: ', 'DC 12 1А)'],
@@ -2872,7 +2872,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Вх.напряжение: ', '	DC 48В 15 Вт'],
             text1: ['Вых.напряжение: ', 'DC 12 1А)'],
@@ -2904,7 +2904,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', 'стан. 802.3af/at'],
             text1: ['Скорость передачи: ', '100Mbps'],
@@ -2940,7 +2940,7 @@ export const Data = [
         pic_brand: st_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '100-240 В'],
             text1: ['Скорость передачи: ', '100Mbps'],
@@ -2979,7 +2979,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '2,5A'],
@@ -3013,7 +3013,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '3,33A'],
@@ -3047,7 +3047,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '4,16A'],
@@ -3081,7 +3081,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '5A'],
@@ -3115,7 +3115,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '8,33A'],
@@ -3149,7 +3149,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '12.5A'],
@@ -3183,7 +3183,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '2A'],
@@ -3217,7 +3217,7 @@ export const Data = [
         pic_brand: iek_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '3A'],
@@ -3254,7 +3254,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Порты: ', ' 4xPOE, 2xUplink'],
             text1: ['Бюджет POE: ', '≤60Вт'],
@@ -3282,8 +3282,8 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: ez_ip_brand,
         
-        new: false,
-        inStock_outStock: true,
+        new: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '4 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -3344,7 +3344,7 @@ export const Data = [
         coast: 5590,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -3386,7 +3386,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -3430,7 +3430,7 @@ export const Data = [
         coast: 5690,
         old_coast: 7830,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2.8мм/3.6мм/6мм'],
@@ -3478,7 +3478,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8/ 3.6/ 6 мм'],
@@ -3521,7 +3521,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8 мм'],
@@ -3694,7 +3694,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2,8 мм или 3,6 мм'],
@@ -3815,8 +3815,7 @@ export const Data = [
         description: 'Цветное изображение даже ночью. Обнаружение людей | 1080p | H.265 | Ночное видение Smart Color | Встроенный микрофон | Класс защиты IP67 | Встроенный прожектор | Двойная антенна и MIMO | Режим AP | Облако',
         // youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
         youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
-        // path: '/',
-        // pic: imou_cue_2,
+        inStock_outStock: 2,
         pic_brand: imou_brand,
         coast: 5690,
         old_coast: false,
@@ -3959,7 +3958,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2.8мм/3.6мм'],
@@ -4003,7 +4002,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8мм/3.6мм/6мм'],
@@ -4048,7 +4047,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
-        inStock_outStock: false,
+        inStock_outStock: 0,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2.8мм'],
@@ -4093,7 +4092,7 @@ export const Data = [
         pic_brand: ezviz_brand,
         
         new: false,
-        inStock_outStock: true,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '1 Мп'],
             text1: ['Объектив:', '2,8 мм'],

@@ -100,11 +100,14 @@ function LiderOfSale() {
                                                 <p> {item.info.text}</p>
                                                 <p> {item.info.text1[0]}  {item.info.text1[1]}</p>
 
-                                                {item.inStock_outStock &&
+                                                {item.inStock_outStock==1 &&
                                                     <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
                                                 }
                                                 {!item.inStock_outStock &&
                                                     <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
+                                                }
+                                                {item.inStock_outStock==2 &&
+                                                    <p className={classes.Stock_soon}><span className={classes.Stock_span_soon}>ожидается поступление</span></p>
                                                 }
                                                 <h1 className={classes.Coast}>
                                                     {item.old_coast != false ?
