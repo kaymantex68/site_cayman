@@ -282,6 +282,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/net/router/TP-LINK">TP-LINK</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/router/Zyxel">Zyxel</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
