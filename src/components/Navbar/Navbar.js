@@ -287,6 +287,13 @@ function Navbar() {
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/net/poe">POE коммутаторы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/poe/ST">ST</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/net/wi_fi">Wi-Fi оборудование</Link>
@@ -294,6 +301,16 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/net/wi_fi/Ubiquiti">Ubiquiti</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/splitter">Сплиттеры</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/splitter/ST">ST</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
