@@ -15,7 +15,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
         )
     })
 
-    // DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
+    DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
 
     if (nalichie === true) {
         DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock) { return e } })

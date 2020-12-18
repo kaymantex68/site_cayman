@@ -67,22 +67,10 @@ function Navbar() {
                                                                     <Link to="/catalog/ip/indoor/IMOU">IMOU</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">HiWatch</a>
+                                                                    <Link to="/catalog/ip/indoor/EzViz">EzViz</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">Dahua</a>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">EzViz</a>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">SVN</a>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">Matrix</a>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <a href="#">Atis</a>
+                                                                    <Link to="/catalog/ip/indoor/EZ-IP">EZ-IP</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
