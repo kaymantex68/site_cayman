@@ -104,9 +104,13 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/nvr/ST">ST</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/HiWatch">HiWatch</Link>
+                                                                </li>
 
                                                             </ul>
                                                         </div>
+                                                        
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/reg/xvr">XVR</Link>
@@ -114,6 +118,9 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/xvr/ST">ST</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/xvr/HiWatch">HiWatch</Link>
                                                                 </li>
 
                                                             </ul>
