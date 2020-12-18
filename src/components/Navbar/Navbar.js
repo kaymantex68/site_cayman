@@ -110,7 +110,7 @@ function Navbar() {
 
                                                             </ul>
                                                         </div>
-                                                        
+
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/reg/xvr">XVR</Link>
@@ -270,6 +270,22 @@ function Navbar() {
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/net/router">Роутеры</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/router/D-Link">D-Link</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/router/ZTE">ZTE</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/router/TP-LINK">TP-LINK</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/net/switch">Сетевые коммутаторы</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
@@ -319,6 +335,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                 </ul>
+
                                             </div>
                                         </li>
                                     </ul>
