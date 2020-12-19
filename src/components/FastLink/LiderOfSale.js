@@ -70,7 +70,8 @@ function LiderOfSale() {
                 loop={true}
                 autoplay={{
                     delay: 5000,
-                    // disableOnInteraction: true,
+                    disableOnInteraction: true,
+                    
                 }}
                 className={classes.Swiper_cont}
             >

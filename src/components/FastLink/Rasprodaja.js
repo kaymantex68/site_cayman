@@ -52,6 +52,8 @@ function LiderOfSale() {
             )
         })
     }
+
+    // slideArr.sort((a, b) => +a.coast > +b.coast ? 1 : -1);
     return (
 
 
@@ -70,7 +72,7 @@ function LiderOfSale() {
                 loop={true}
                 autoplay={{
                     delay: 5000,
-                    // disableOnInteraction: true,
+                    disableOnInteraction: false,
                 }}
                 className={classes.Swiper_cont}
             >

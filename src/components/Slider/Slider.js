@@ -41,7 +41,7 @@ function Slider() {
                 loop={true}
                 autoplay={{
                     delay: 7000,
-                    disableOnInteraction: true,
+                    disableOnInteraction: false,
                 }}
                
                 className={classes.Swiper_cont}
