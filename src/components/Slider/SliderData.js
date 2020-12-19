@@ -2,6 +2,7 @@ import React from 'react'
 import i1 from './PicSlider/slide1.png';
 import slide1_fon from './PicSlider/slide1_fon.png';
 import i2 from './PicSlider/2.png';
+import slide2_fon from './PicSlider/slide5_fon.jpg';
 import i3 from './PicSlider/3.png';
 
 export const SidebarData=[
@@ -27,8 +28,9 @@ export const SidebarData=[
     {
         title: 'IP купольная',
         backColor: '#78C47A',
+        backPicture: slide2_fon,
         colorTitle: 'white',
-        colorText: '#3C475B',
+        colorText: 'white',
         path: '/products',
         pic: i2,
         info: {
@@ -45,8 +47,9 @@ export const SidebarData=[
     {
         title: 'С тепловизором',
         backColor: '#78C47A',
+        backPicture: slide2_fon,
         colorTitle: 'white',
-        colorText: '#3C475B',
+        colorText: 'white',
         path: '/products',
         pic: i3,
         info: {
@@ -56,7 +59,7 @@ export const SidebarData=[
             text3: 'Процессор: Ambarella',
             text4: 'Водонепроницаемость: IP66',
             text5: 'Подсветка: 15м',
-            text6: 'Комплект: Камера, диск, и прочая херня'
+          
 
         },
         coast: '5590₽',
@@ -65,8 +68,9 @@ export const SidebarData=[
     {
         title: 'Какая то еще камера',
         backColor: '#78C47A',
+        backPicture: slide2_fon,
         colorTitle: 'white',
-        colorText: '#3C475B',
+        colorText: 'white',
         path: '/products',
         pic: i3,
         info: {
