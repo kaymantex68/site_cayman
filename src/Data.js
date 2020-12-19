@@ -3851,7 +3851,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        lider:false,
+        lider:true,
         coast: 5690,
         old_coast: false,
         new: true,
