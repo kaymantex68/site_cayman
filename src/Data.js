@@ -3732,7 +3732,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 5690,
+        coast: 7690,
         old_coast: false,
         new: true,
         info: {
@@ -3947,7 +3947,7 @@ export const Data = [
         model: 'Bullet lite 2MP',
         id: 'Bullet_lite_2MP',
         brand: 'IMOU',
-        type: ['IP камера уличная', 'ip', 'outdoor'],
+        type: ['Wi-Fi IP камера уличная', 'ip', 'outdoor'],
         description: 'Активная защита вашего дома. 1080P | H.265 | Ночное видение |Активная защита | Датчик PIR | Двустороняя аудиосвязь |Класс защиты IP67 | Двойная антенна 2x2 MIMO | Облако',
         // youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
         youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
@@ -3986,6 +3986,52 @@ export const Data = [
         },
 
     },
+    /**
+    *  IMOU Bullet lite 2MP
+    */
+   {
+    model: 'Bullet lite 4MP',
+    id: 'Bullet_lite_4MP',
+    brand: 'IMOU',
+    type: ['Wi-IFi P камера уличная', 'ip', 'outdoor'],
+    description: 'Активная защита вашего дома. 4МП | H.265 | Ночное видение |Активная защита | Датчик PIR | Двустороняя аудиосвязь |Класс защиты IP67 | Двойная антенна 2x2 MIMO | Облако',
+    // youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
+    youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
+    // path: '/',
+    // pic: imou_cue_2,
+    pic_brand: imou_brand,
+    coast: 6290,
+    old_coast: false,
+    new: true,
+    inStock_outStock: 1,
+    info: {
+        text: ['Разрешение: ', '4 Мп'],
+        text1: ['Объектив: ', '2.8мм/3.6мм'],
+        text2: ['Матрица: ', '1/3” 4 Megapixel Progressive CMOS'],
+        text3: ['Ночное видение: ', 'Встроенный прожектор, расстояние 30 м'],
+        text4: ['Аудио:', 'Встроенный микрофон и динамик, сирена 110 дБ'],
+        text5: ['Сжатие видео:', 'H.265/H.264'],
+        text6: ['Частота кадров:', 'до 25/30 к/с'],
+        text7: ['Максимальное разрешение:', '2560 х 1440px'],
+        text9: ['Цифровой зум:', 'х16'],
+        text11: ['Сетевые подключения: ', '1 порт Ethernet 100 Мбит/с. Wi-Fi: IEEE802.11b/g/n, 100 м на открытом пространстве. Внешние двойные антенны, 2 x 2 MIMO'],
+        texx13: ['Протокол подключения: ', 'OCGI, ONVIF'],
+        text14: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
+        text15: ['Дополнительные интерфейсы: ', 'Слот для карты Micro SD (до 128 Гб). Кнопка сброса'],
+        text16: ['Детекция движения:', 'есть'],
+        text17: ['Датчик PIR:', 'есть'],
+        text18: ['Настраиваемые области:', 'есть'],
+        text19: ['Питание:', '12 В (DC)'],
+        text20: ['Потребляемая мощность:', ' <5.1 Вт'],
+        text21: ['Материал', 'Пластик'],
+        text22: ['Условия эксплуатации', 'от -30°C до +60°C, относительная влажность менее 95%'],
+        text23: ['Класс защиты:', 'IP67'],
+        text24: ['Размеры:', '79 × 79× 166,2 мм'],
+        text25: ['Вес:', '411 г'],
+        text26: ['Комплект поставки:', '1 камера, 1 руководство по быстрому запуска, 1 адаптер питания, 1 кабель питания, 1 набор винтов, 1 крепежная пластина, Пенопласт, 1 карта с положениями при установке'],
+    },
+
+},
     /**
      *  IMOU Dome Lite
      */
