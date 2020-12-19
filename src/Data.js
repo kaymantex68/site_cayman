@@ -1577,7 +1577,9 @@ export const Data = [
         description: 'Предназначен для организации: Охранной, пожарной, тревожной, аварийной и других видов сигнализации. Компонентов системы «Умный Дом» с применением сценариев работы реле из пополняемой библиотеки',
         path: '/',
         pic_brand: teko_brand,
+        coast: 4770,
         old_coast: false,
+        lider:true,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -1611,8 +1613,7 @@ export const Data = [
             text30: ['Относительная влажность воздуха без конденсации влаги: ', 'до 98 % при + 40 °С'],
 
         },
-        coast: 4770,
-        old_coast: false,
+        
 
     },
     /**
@@ -3747,7 +3748,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ez_ip_brand,
-        
+        lider:true,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -3808,6 +3809,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: imou_brand,
         coast: 5590,
+        lider:true,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -3849,6 +3851,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        lider:false,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -3895,6 +3898,7 @@ export const Data = [
         pic_brand: imou_brand,
         coast: 5690,
         old_coast: 7830,
+        lider:false,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -3941,6 +3945,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        lider:false,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4654,7 +4659,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: atis_brand,
-        
+        coast: 5500,
+        old_coast: false,
+        lider:true,
         new: false,
         inStock_outStock: 1,
         info: {
@@ -4685,8 +4692,7 @@ export const Data = [
             text26: ['Вес:', '350 г'],
             
         },
-        coast: 5500,
-        old_coast: false,
+        
         // download: {
         //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
         // },
@@ -4704,7 +4710,9 @@ export const Data = [
     path: '/',
     // pic: imou_cue_2,
     pic_brand: atis_brand,
-    
+    coast: 6000,
+    old_coast: false,
+    lider:false,
     new: false,
     inStock_outStock: 1,
     info: {
@@ -4735,8 +4743,7 @@ export const Data = [
         text26: ['Вес:', '497 г'],
         
     },
-    coast: 6000,
-    old_coast: false,
+    
     // download: {
     //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
     // },

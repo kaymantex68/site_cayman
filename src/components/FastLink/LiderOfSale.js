@@ -77,7 +77,7 @@ function LiderOfSale() {
                 {slideArr.map((item, index) => {
                     return (
                         <>
-                            {item.new == true &&
+                            {item.lider &&
                                 < SwiperSlide key={index} className={classes.SwiperSlide} >
 
                                     <Link to={`/${item.id}`}>
