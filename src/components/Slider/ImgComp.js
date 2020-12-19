@@ -11,7 +11,7 @@ function ImgComp({ obj }) {
     let a = (
         <>
             {console.log(obj.backPicture)}
-            <div className={classes.Main} style={obj.backPicture != undefined ? { backgroundImage:`url(${obj.backPicture })` } : { backgroundColor: obj.backColor }}>
+            <div className={classes.Main} style={obj.backPicture != undefined ? { backgroundImage:`url(${obj.backPicture})` ,backgroundPosition: 'center', backgroundSize: 'auto', backgroundRepeat: 'no-repeat',} : { backgroundColor: obj.backColor }}>
 
                 <div className={classes.ContainerSlide}>
 
@@ -21,7 +21,7 @@ function ImgComp({ obj }) {
                     </div>
                     <div className={classes.Slideinfo}>
                         <div>
-                            <h3 className={classes.Slider_title} style={{color: obj.colorText}}>{obj.title}</h3>
+                            <h3 className={classes.Slider_title} style={{color: obj.colorTitle}}>{obj.title}</h3>
                             {Object.keys(obj.info).map((item, index) => {
                                 return (
                                     <p className={classes.Slider_p} key={index} style={{color: obj.colorText}}>{obj.info[item]}</p>

@@ -1,22 +1,23 @@
 import React from 'react'
 import i1 from './PicSlider/slide1.png';
-import slide1_fon from './PicSlider/slide1_fon.jpg';
+import slide1_fon from './PicSlider/slide1_fon.png';
 import i2 from './PicSlider/2.png';
 import i3 from './PicSlider/3.png';
 
 export const SidebarData=[
     {
-        title: '',
+        title: 'INSTAGRAM',
         backColor: '#78C47A',
         backPicture: slide1_fon,
-        colorText: 'white',
-        path: '/',
+        colorTitle: '#3C475B',
+        colorText: '#3C475B',
+        path: '',
         pic: i1,
         info: {
-            text: '@INSTAGRAM',
-            text1: 'cayman_security',
+            text: '',
+            text1: '@cayman_security',
             text2: 'Посетите наш инстаграм.',
-            text3: 'Мы будем рады ответить на все ваши вопросы',
+            text3: 'Мы будем рады ответить на все ваши вопросы.',
             
         },
         coast: '',
@@ -26,6 +27,7 @@ export const SidebarData=[
     {
         title: 'IP купольная',
         backColor: '#78C47A',
+        colorTitle: 'white',
         colorText: '#3C475B',
         path: '/products',
         pic: i2,
@@ -43,6 +45,7 @@ export const SidebarData=[
     {
         title: 'С тепловизором',
         backColor: '#78C47A',
+        colorTitle: 'white',
         colorText: '#3C475B',
         path: '/products',
         pic: i3,
@@ -62,6 +65,7 @@ export const SidebarData=[
     {
         title: 'Какая то еще камера',
         backColor: '#78C47A',
+        colorTitle: 'white',
         colorText: '#3C475B',
         path: '/products',
         pic: i3,
