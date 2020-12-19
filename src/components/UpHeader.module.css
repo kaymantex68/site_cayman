@@ -17,10 +17,11 @@
 }
  .Phone{   
      display: flex;
-     justify-content: space-around;
-     align-items: center;
+      justify-content: space-around;
+    
+     flex-direction:column;
      flex:1;
-    /* text-align: -webkit-center;  */
+    text-align: -webkit-center;  
     /* background-color: red; */
 } 
 .Info{  
@@ -32,5 +33,5 @@
     /* position: absolute;
     transform: translateY(-60%); */
     font-size: 0.8rem;
-    top: 50%;
+    /* top: 50%; */
 }

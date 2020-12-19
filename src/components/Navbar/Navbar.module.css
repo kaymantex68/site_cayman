@@ -28,7 +28,7 @@
 }
 
 .Logo img:hover{
-   transform: scale(1.05) rotate(-1deg);
+   transform: scale(1.07) ;
    transition: 0.2s;
  }
 

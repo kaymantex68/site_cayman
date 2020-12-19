@@ -69,7 +69,7 @@ function Catalog({ match }) {
                     <div className={classes.FilterContainer}>
                         {/* <span className={classes.FilterText}>отсортировать </span> */}
                         <div className={classes.ContainerNalichie}>
-                            <label className={classes.LabelNalichie}>в наличии</label>
+                            <label className={classes.LabelNalichie}>В наличии</label>
                             <input className={classes.CheckboxNalichie} type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
                         </div>
                         <div className={classes.ContainerBrand}>

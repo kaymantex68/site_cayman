@@ -14,20 +14,7 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y,Autoplay]);
 
 function Slider() {
-    // let slideArr=[];
-    // {SidebarData.map((item,index)=>{
-    //     return (
-    //         slideArr.push(<ImgComp key={index} obj={item}/>)
-    //     )
-    // })}
-
-    // const[x,setX]=React.useState(0)
-    // const goLeft=()=>{
-    //     (x=== 0)? setX(-100*(slideArr.length-1)) : setX(x+100);
-    // };
-    // const goRight=()=>{
-    //     (x=== -100*(slideArr.length-1))? setX(0) : setX(x-100);
-    // };
+ 
 
     const slides = [];
 
@@ -50,8 +37,7 @@ function Slider() {
                 slidesPerView={1}
                 navigation={{ clickable: true }}
                 pagination={{ clickable: true }}
-                // onSwiper={(swiper) => console.log(swiper)}
-                // onSlideChange={() => console.log('slide change')}
+             
                 loop={true}
                 autoplay={{
                     delay: 7000,
