@@ -11,7 +11,8 @@ function Footer() {
                 <div className={classes.block}>
                     <p className={classes.Adress}> г.Тамбов, Агапкина 25А</p>
                     <p className={classes.Adress}> пн-вс 9:00-18:00</p>
-                    <p className={classes.Adress}> +7 (920) 489-74-37</p>
+                    <p className={classes.Adress}> 8 (4752) 42-47-27</p>
+                    <p className={classes.Adress}> +7 920 233-34-34</p>
                 </div>
 
             </div>
