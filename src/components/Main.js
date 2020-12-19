@@ -5,6 +5,7 @@ import Slider from '../components/Slider/Slider';
 import UpHeader from '../components/UpHeader';
 import Navbar from '../components/Navbar/Navbar';
 import LiderOfSale from '../components/FastLink/LiderOfSale'
+import Rasprodaja from '../components/FastLink/Rasprodaja'
 import ModalWindow from '../components/Modal/ModalWindow'
 import { Context } from '../Context'
 import { Data } from '../Data'
@@ -50,7 +51,7 @@ function Main() {
                         <div className={classes.Lider_main}>
                             <div className={classes.Lider_text}>Распродажа</div>
                         </div>
-                        <LiderOfSale />
+                        <Rasprodaja />
                     </div>
                 </div>
                 { Modal && <ModalWindow />}
