@@ -10,25 +10,17 @@ import Catalog from './components/Catalog/Catalog'
 import Footer from './components/Footer'
 import DetailProduct from './components/DetailProduct/DetailProduct'
 import Contacts from './components/Contacts/Contacts'
+import ReactGa from 'react-ga'
 
 
 
 function App() {
 
-  // const [Modal, setModal] = useState(false);
-  // const [Model, setModel] = useState('');
-  // const OpenModal = () => {
-  //   setModal(!Modal);
-  // }
-  // const IdModel = (e) => {
-  //   setModel(e);
-  //   OpenModal();
-  // }
-  // const [Nav, setNav] = useState(null);
-  // const getNav = (e) => {
-  //   setNav(e);
-  // }
-  // console.log(Nav);
+  useEffect(()=>{
+    ReactGa.initialize('G-5Q6W9PSDJD')
+    ReactGa.pageview('/')
+  },[])
+
   return (
 
 
