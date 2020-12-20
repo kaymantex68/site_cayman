@@ -12,12 +12,12 @@ import DetailProduct from './components/DetailProduct/DetailProduct';
 import Contacts from './components/Contacts/Contacts';
 import ReactGa from 'react-ga';
 
-
+ReactGa.initialize('G-238KKXV873');
 
 function App() {
 
   useEffect(()=>{
-    ReactGa.initialize('G-238KKXV873');
+    
     ReactGa.pageview('/');
   },[]);
 
