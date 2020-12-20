@@ -8,6 +8,12 @@
     display: flex;
     justify-content: center;
     align-items:center;
+    transition: 0.5s;
+}
+
+.Main:hover{
+    transition: 0.5s;
+    transform: scale(1.04);
 }
 
 .ContainerSlide{

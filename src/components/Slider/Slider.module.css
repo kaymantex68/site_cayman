@@ -15,4 +15,7 @@
        /* background-color:green; */
    }
 
+   .ImgComp:hover{
+     transform: scale(1.1);
+   }
    

@@ -9,6 +9,7 @@ import slide3_fon from './PicSlider/slide6_fon.jpg';
 export const SidebarData=[
     {
         title: 'INSTAGRAM',
+        link_a: 'https://www.instagram.com/cayman_security/',
         backColor: '#78C47A',
         backPicture: slide1_fon,
         colorTitle: '#3C475B',
@@ -28,6 +29,7 @@ export const SidebarData=[
     },
     {
         title: 'Ranger 2',
+        link_b: '/Ranger_2',
         backColor: '#78C47A',
         backPicture: slide3_fon,
         colorTitle: 'white',
