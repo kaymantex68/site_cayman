@@ -113,7 +113,7 @@ function LiderOfSale() {
                                                 }
                                                 <h1 className={classes.Coast}>
                                                     {item.old_coast != false ?
-                                                        <><span className={classes.Old_coast} >{`${item.old_coast}₽`}</span><span className={classes.New_coast}>{`${item.coast}₽`}</span></> :
+                                                        <><span className={classes.Old_coast} >{`${item.old_coast}₽`}</span><span className={classes.New_coast}>{`  ${item.coast}₽`}</span></> :
                                                         `${item.coast}₽`}
                                                 </h1>
                                             </div>

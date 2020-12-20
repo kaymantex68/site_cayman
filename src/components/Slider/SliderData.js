@@ -8,7 +8,7 @@ import slide3_fon from './PicSlider/slide6_fon.jpg';
 
 export const SidebarData=[
     {
-        title: 'INSTAGRAM',
+        title: '@INSTAGRAM',
         link_a: 'https://www.instagram.com/cayman_security/',
         backColor: '#78C47A',
         backPicture: slide1_fon,
