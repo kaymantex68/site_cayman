@@ -139,6 +139,8 @@
     /* background-color: red; */
     bottom: 0px;
     right:5px;
+    display: flex;
+    align-items:center;
     
 }
 
