@@ -15,10 +15,10 @@ import ReactGa from 'react-ga';
 
 
 function App() {
-  ReactGa.initialize('G-238KKXV873');
+  ReactGa.initialize('G-QYDKQ70GM0');
   useEffect(() => {
     ReactGa.pageview('/');
-  });
+  },[]);
 
   return (
 
