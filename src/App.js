@@ -18,8 +18,8 @@ function App() {
   ReactGA.initialize('G-QYDKQ70GM0');
   console.log(window.location.pathname);
   useEffect(() => {
-    ReactGA.ga('send', 'pageview', '/');
-    // ReactGa.pageview('/');
+    // ReactGA.ga('send', 'pageview', '/');
+    ReactGA.pageview('/');
   },[]);
 
   return (
