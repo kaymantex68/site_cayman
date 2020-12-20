@@ -14,6 +14,7 @@
 .Mail{
     flex: 1;
     text-align: -webkit-center;
+    
 }
  .Phone{   
      display: flex;
@@ -24,6 +25,15 @@
     text-align: -webkit-center;  
     /* background-color: red; */
 } 
+
+.Raspisanie{
+    display: flex;
+    justify-content: space-around;
+  
+   flex-direction:column;
+   flex:1;
+  text-align: -webkit-center;  
+}
 .Info{  
     flex:1;
     text-align: -webkit-center; 
@@ -34,4 +44,5 @@
     transform: translateY(-60%); */
     font-size: 0.8rem;
     /* top: 50%; */
+   
 }

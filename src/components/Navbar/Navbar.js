@@ -356,7 +356,7 @@ function Navbar() {
                             <li className={classes.Links}>
                                 <a href="#">Монтаж</a>
                             </li>
-                            <li className={classes.Links}>
+                            {/* <li className={classes.Links}>
                                 <a href="#">Автоматика</a>
                                 <div className={classes.Dropdown}>
                                     <ul>
@@ -371,7 +371,7 @@ function Navbar() {
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> */}
                             <li className={classes.Links}>
                                 <Link to="/contacts/adress">Контакты</Link>
                             </li>
