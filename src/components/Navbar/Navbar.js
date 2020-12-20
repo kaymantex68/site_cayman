@@ -67,7 +67,15 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/ip/rotate/Atis">Atis</Link>
+                                                        <Link to="/catalog/ip/rotate">Поворотные</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/rotate/Atis">Atis</Link>
+                                                                </li>
+                                                            
+                                                            </ul>
+                                                        </div>
                                                     </li>
                                                 </ul>
                                             </div>
