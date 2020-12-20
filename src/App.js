@@ -3,23 +3,23 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import classes from './App.module.css';
 import UpHeader from './components/UpHeader';
 import Navbar from './components/Navbar/Navbar';
-import { Context } from './Context'
-import { Data } from './Data'
-import Main from './components/Main'
-import Catalog from './components/Catalog/Catalog'
-import Footer from './components/Footer'
-import DetailProduct from './components/DetailProduct/DetailProduct'
-import Contacts from './components/Contacts/Contacts'
-import ReactGa from 'react-ga'
+import { Context } from './Context';
+import { Data } from './Data';
+import Main from './components/Main';
+import Catalog from './components/Catalog/Catalog';
+import Footer from './components/Footer';
+import DetailProduct from './components/DetailProduct/DetailProduct';
+import Contacts from './components/Contacts/Contacts';
+import ReactGa from 'react-ga';
 
 
 
 function App() {
 
   useEffect(()=>{
-    ReactGa.initialize('G-RR2KXGN3SK')
-    ReactGa.pageview('/')
-  },[])
+    ReactGa.initialize('G-238KKXV873');
+    ReactGa.pageview('/');
+  },[]);
 
   return (
 
