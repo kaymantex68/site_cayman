@@ -15,9 +15,12 @@ import ReactGa from 'react-ga';
 
 
 function App() {
-  
+  ReactGa.initialize('G-QYDKQ70GM0');
+  ReactGa.set({
+    userId: '256770166' 
+  })
   useEffect(() => {
-    ReactGa.initialize('G-QYDKQ70GM0');
+    
     ReactGa.pageview('/');
   },[]);
 
