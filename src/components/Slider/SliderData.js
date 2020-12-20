@@ -50,40 +50,5 @@ export const SidebarData=[
         coast: 5590,
         new: true
     },
-    {
-        title: 'С тепловизором',
-        backColor: '#78C47A',
-        backPicture: slide2_fon,
-        colorTitle: 'white',
-        colorText: 'white',
-        path: '/products',
-        pic: i3,
-        info: {
-            text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
-            text2: 'Матрица: Sony IMX 222',
-            text3: 'Процессор: Ambarella',
-            text4: 'Водонепроницаемость: IP66',
-            text5: 'Подсветка: 15м',
-          
-
-        },
-        coast: 5590,
-        new: false
-    },
-    {
-        title: 'Какая то еще камера',
-        backColor: '#78C47A',
-        backPicture: slide3_fon,
-        colorTitle: 'white',
-        colorText: 'white',
-        path: '/products',
-        pic: i3,
-        info: {
-            text: 'Разрешение: 2mpx',
-            text1: 'Вариофокальный объектив: 3,6mm',
-        },
-        coast: 5590,
-        new: false
-    },
+  
 ]
