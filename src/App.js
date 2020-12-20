@@ -18,11 +18,11 @@ function App() {
   ReactGa.initialize('G-238KKXV873');
   useEffect(() => {
     ReactGa.pageview('/');
-  }, []);
+  });
 
   return (
 
-
+    
     <Context.Provider value={{
       // Modal, 
       // OpenModal, 
@@ -59,6 +59,7 @@ function App() {
         {/* </div> */}
       </Router>
     </Context.Provider>
+   
 
   );
 };
