@@ -56,7 +56,7 @@ export const Data = [
         },
         coast: 1610,
         old_coast: false,
-        new: false,
+        
     },
     /**
      *  Zyxel KEENETIC 4G
@@ -95,7 +95,7 @@ export const Data = [
         },
         coast: 2940,
         old_coast: false,
-        new: false,
+       
     },
     /**
      *  Zyxel KEENETIC Omni
@@ -136,7 +136,7 @@ export const Data = [
         },
         coast: 3390,
         old_coast: false,
-        new: false,
+        
     },
     
   /** 
@@ -177,7 +177,7 @@ export const Data = [
         },
         coast: 1590,
         old_coast: false,
-        new: false
+       
     },
     /** 
    * -------------------------------------------------------------------------------ZTE
@@ -225,7 +225,7 @@ export const Data = [
         },
         coast: 5970,
         old_coast: false,
-        new: false
+      
     },
     /**
     *  ZTE MF79RU
@@ -266,7 +266,7 @@ export const Data = [
         },
         coast: 3450,
         old_coast: false,
-        new: false
+       
     },
     /** 
      * -------------------------------------------------------------------------------D-Link
@@ -311,7 +311,7 @@ export const Data = [
         },
         coast: 1150,
         old_coast: false,
-        new: false
+     
     },
     /**
      *  D-Link DGS-1005A/D
@@ -353,7 +353,7 @@ export const Data = [
         },
         coast: 1450,
         old_coast: false,
-        new: false
+      
     },
     /**
     *  D-Link DGS-1005A/D
@@ -395,7 +395,7 @@ export const Data = [
         },
         coast: 720,
         old_coast: false,
-        new: false
+        
     },
     /**
      *  D-Link DGS-1005A/D
@@ -437,7 +437,7 @@ export const Data = [
         },
         coast: 630,
         old_coast: false,
-        new: false
+      
     },
     /**
      *  D-Link DES-1016A/E1B
@@ -479,7 +479,7 @@ export const Data = [
         },
         coast: 630,
         old_coast: false,
-        new: false
+      
     },
     /** 
     * -------------------------------------------------------------------------------ТЕКО
@@ -497,6 +497,7 @@ export const Data = [
         type: ['Дымовой извещатель', 'security', 'iz_fire'],
         description: 'Радиоканальный извещатель системы Астра-РИ-М, 433 МГц, пожарный дымовой, оптико-электронный, дальность радиоканала 300 м. Обнаружение возгораний, сопровождающихся появлением дыма, в закрытых помещениях, формирование извещения о пожаре и передача извещений по радиоканалу на радиоприемное устройство системы Астра-РИ-М (РР или МРР) непосредственно или через ретранслятор (РТР).',
         pic_brand: teko_brand,
+        coast: 1780,
         old_coast: false,
         new: false,
         inStock_outStock: 0,
@@ -528,8 +529,8 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        coast: 1780,
-        old_coast: false,
+        
+      
 
     },
     /**
@@ -4692,8 +4693,58 @@ export const Data = [
      * ----------------------------------------------------------------------Atis
      */
     /** 
-     * ------------------------------------------------------------Atis камеры
+     * ------------------------------------------------------------Atis IP камеры
      */
+    /**
+     *  Atis L ANSD-22H2MIR60
+    */
+   {
+    model: 'Atis L ANSD-22H2MIR60',
+    id: 'Atis_L_ANSD_22H2MIR60',
+    brand: 'Atis',
+    type: ['Поворотная IP камера', 'ip', 'rotate'],
+    description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: atis_brand,
+    coast: 19000,
+    old_coast: false,
+    lider:true,
+    new: false,
+    inStock_outStock: 1,
+    info: {
+        text: ['Разрешение: ' , '2 Мп'],
+        text1: ['Оптический зум:', '16х'],
+        text2: ['Объектив:', '3.9-85.5 мм'],
+        text3: ['Подсветка: ', '60 м'],
+        text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
+        text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
+        text6: ['Частота кадров:', '25/30fps@1080P'],
+        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+        text12: ['Приватные зоны: ', 'есть'],
+        text13: ['Детекция движения:', 'есть'],
+        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+        text16: ['Cовместимость:', 'ONVIF'],
+        text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
+        text18: ['Точки:', 'Preset:220, Тур:3'],
+        text19: ['Веб интерфейс:', 'есть'],
+        text20: ['Питание:', 'DC12V 2A/3A'],
+        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+        text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
+        text23: ['Степень защищенности', 'IP67'],
+        text24: ['Материал корпуса', 'маталл'],
+        text25: ['Размеры:', '295х280х170'],
+        text26: ['Вес:', '4.2 кг'],
+        
+    },
+    
+    // download: {
+    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+    // },
+
+},
     /**
      *  Atis H ANH-B12-Pro
     */

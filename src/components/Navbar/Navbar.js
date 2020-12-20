@@ -67,7 +67,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <a href="#">Поворотные</a>
+                                                        <Link to="/catalog/ip/rotate/Atis">Atis</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -83,7 +83,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/outdoor/ST">ST</Link>
                                                                 </li>
-                                                               
+
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -94,11 +94,11 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/indoor/ST">ST</Link>
                                                                 </li>
-                                                               
+
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    
+
                                                 </ul>
                                             </div>
                                         </li>
