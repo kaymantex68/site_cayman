@@ -10,18 +10,16 @@ import Catalog from './components/Catalog/Catalog';
 import Footer from './components/Footer';
 import DetailProduct from './components/DetailProduct/DetailProduct';
 import Contacts from './components/Contacts/Contacts';
-import ReactGa from 'react-ga';
+import ReactGA from 'react-ga';
 
 
 
 function App() {
-  ReactGa.initialize('G-QYDKQ70GM0');
-  ReactGa.set({
-    userId: '256770166' 
-  })
+  ReactGA.initialize('G-QYDKQ70GM0');
+  
   useEffect(() => {
-    
-    ReactGa.pageview('/');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGa.pageview('/');
   },[]);
 
   return (
