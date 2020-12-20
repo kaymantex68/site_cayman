@@ -22,7 +22,7 @@ export const SidebarData=[
             text3: 'Мы будем рады ответить на все ваши вопросы.',
             
         },
-        coast: '',
+        // coast: '',
         new: false
         
     },
@@ -34,15 +34,20 @@ export const SidebarData=[
         colorText: 'white',
         path: '/products',
         pic: i2,
+        description: 'Обзор 355°, детекция людей с помощью искусственного интеллекта и режим приватности',
         info: {
-            text: 'Разрешение: 2mpx',
-            text1: 'PTZ: 360',
-            text2: 'Матрица: Sony IMX 572',
-            text3: 'Процессор: Ambarella',
-            text4: 'SD card: 256Gb',
-            text5: 'Подсветка: 15м'
+            text1: ' - Детекция людей',
+            text2: ' - 1080P',
+            text3: ' - Обзор 355°',
+            text4: ' - Встроенная сирена',
+            text5: ' - Интеллектуальное отслеживание',
+            text6: ' - Режим приватности',
+            text7: ' - Предупреждения об аномальных звуках',
+            text8: ' - Ночное видение',
+            text9: ' - Двусторонняя аудиосвязь',
+            text10: ' - Облако'
         },
-        coast: '5590₽',
+        coast: 5590,
         new: true
     },
     {
@@ -63,7 +68,7 @@ export const SidebarData=[
           
 
         },
-        coast: '5590₽',
+        coast: 5590,
         new: false
     },
     {
@@ -78,7 +83,7 @@ export const SidebarData=[
             text: 'Разрешение: 2mpx',
             text1: 'Вариофокальный объектив: 3,6mm',
         },
-        coast: '5590₽',
+        coast: 5590,
         new: false
     },
 ]

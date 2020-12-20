@@ -21,12 +21,14 @@ function ImgComp({ obj }) {
                     </div>
                     <div className={classes.Slideinfo}>
                         <div>
-                            <h3 className={classes.Slider_title} style={{color: obj.colorTitle}}>{obj.title}</h3>
+                            <p className={classes.Slider_title} style={{color: obj.colorTitle}}>{obj.title}</p>
+                            {obj.description && <p className={classes.Slider_description} style={{color: obj.colorText}}>{obj.description}</p>}
                             {Object.keys(obj.info).map((item, index) => {
                                 return (
                                     <p className={classes.Slider_p} key={index} style={{color: obj.colorText}}>{obj.info[item]}</p>
                                 )
                             })}
+                            {obj.coast && <h2 className={classes.Slider_coast} style={{color: obj.colorText}}>{`${obj.coast}₽`}</h2>}
                         </div>
                     </div>
 
