@@ -18,7 +18,7 @@ function ImgComp({ obj }) {
 
                         <div className={classes.SlidePicture}>
                             <img src={obj.pic} className={classes.Picture} />
-
+                            {obj.new && <p className={classes.Novinka}>новинка</p>}
                         </div>
                         <div className={classes.Slideinfo}>
                             <div>

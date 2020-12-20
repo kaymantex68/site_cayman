@@ -51,6 +51,7 @@
     font-size: 1.3rem;
 }
 .SlidePicture{
+    position: relative;
     height: 100%;
     min-width: 300px;
     width: 50%;
@@ -67,6 +68,16 @@
     /* width:100%; */
     max-width: 100%;
     max-height: 100%;
+}
+
+.Novinka{
+    top:20%;
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+   padding: 5px;
+   border-radius:8px;
+    background-color:red;
 }
 .Slideinfo{
     height: 100%;
