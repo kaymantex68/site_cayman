@@ -16,7 +16,49 @@ import zyxel_brand from '../src/Img_products/zyxel_brand.png';
 import ezviz_brand from '../src/Img_products/ezviz_brand.png';
 import atis_brand from '../src/Img_products/atis_brand.png';
 import dahua_brand from '../src/Img_products/dahua_brand.png';
+import utepo_brand from '../src/Img_products/utepo_brand.png';
 export const Data = [
+    /** 
+  * -------------------------------------------------------------------------------Utepo
+  **/
+ /** 
+  * -------------------------------------------------------------Utepo poe коммутатор
+  **/
+    /**
+     *  Utepo SF6P-FHM
+     */
+    {
+        model: 'SF6P-FHM',
+        id: 'SF6P_FHM',
+        brand: 'Utepo',
+        type: ['POE коммутатор', 'net', 'poe'],
+        description: ' - 6 портовый PoE коммутатор неуправляемый - 4 порта 10/100Base-TX PoE RJ45 и 2 порта 10/100Base-TX Uplink RJ45 - Поддержка MDI/MDIX, IEEE802.3af, IEEE 802.3at - Количество портов PoE: 4 - Бюджет РОЕ: 60Вт - Режимы работы: Default, VLAN, CCTV - Расстояние передачи: 0~100м (режим DEFAULT/VLAN), 250м (режим CCTV 10Мбит/с) - Блок питания в комплекте',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: utepo_brand,
+        coast: 2650,
+        old_coast: false,
+        lider: false,
+        new: true,
+        inStock_outStock: 1,
+       
+        info: {
+            text: ['Порты: ', '	4 * PoE + 2 * UpLink'],
+            text1: ['Питание:', 'DC 54V 1.11A'],
+            text2: ['Ethernet порты:', '4*10/100Base-TX (PoE), 2*10/100Base-TX'],
+            text3: ['Потребляемая мощность (PoE):', 'порты 1-4≤30W, всего≤60W'],
+            text4: ['PoE протоколы:', 'IEEE802.3af, IEEE 802.3at'],
+            text5: ['Переключения:', '1.2Гбит/с'],
+            text6: ['Скорость передачи пакетов:', '0.86Mpps'],
+            text7: ['Размер таблицы (MАС):', '2К'],
+         
+            text9: ['Рабочая температура:', '0℃~40℃'],
+            text10: ['Вес, кг:', '0.216'],
+            text11: ['Габаритные размеры, мм:', '122х92х25'], 
+        },
+       
+        
+    },
  /** 
   * -------------------------------------------------------------------------------Dahua
   **/
@@ -2132,7 +2174,7 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 1704,
+        coast: 1700,
         old_coast: 2130,
         new: false,
         info: {
