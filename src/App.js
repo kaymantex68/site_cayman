@@ -10,11 +10,16 @@ import Catalog from './components/Catalog/Catalog';
 import Footer from './components/Footer';
 import DetailProduct from './components/DetailProduct/DetailProduct';
 import Contacts from './components/Contacts/Contacts';
-
-
+import ReactGA from 'react-ga';
 
 
 function App() {
+  ReactGA.initialize('G-QYDKQ70GM0');
+  console.log(window.location.pathname);
+  useEffect(() => {
+    // ReactGA.ga('send', 'pageview', '/');
+    ReactGA.pageview('/');
+  },[]);
 
 
   return (
