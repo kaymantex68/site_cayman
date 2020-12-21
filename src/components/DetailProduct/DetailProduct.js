@@ -50,10 +50,10 @@ function DetailProduct({ match }) {
         <div className={classes.ContainerDetail}>
             <div className={classes.Manual}>
                 <div className={classes.Direct}>
-                    <span className={classes.FastDirect}>catalog</span>
+                    {/* <span className={classes.FastDirect}>catalog</span>
 
-                    {console.log(match.params)}
-                    {Object.keys(match.params).map((item, index) => {
+                    {console.log(match.params)} */}
+                    {/* {Object.keys(match.params).map((item, index) => {
                         if (match.params[item] != "undefined") {
                             return (
                                 <>
@@ -66,7 +66,7 @@ function DetailProduct({ match }) {
                         else {
                             return (<></>)
                         }
-                    })}
+                    })} */}
                 </div>
 
             </div>
