@@ -15,7 +15,63 @@ import tp_link_brand from '../src/Img_products/tp-link_brand.svg';
 import zyxel_brand from '../src/Img_products/zyxel_brand.png';
 import ezviz_brand from '../src/Img_products/ezviz_brand.png';
 import atis_brand from '../src/Img_products/atis_brand.png';
+import dahua_brand from '../src/Img_products/dahua_brand.png';
 export const Data = [
+ /** 
+  * -------------------------------------------------------------------------------Dahua
+  **/
+ /** 
+  * -------------------------------------------------------------Dahua IP камеры
+  **/
+    /**
+     *  DAHUA DH-IPC-HDW2230TP-AS-0280B
+     */
+    {
+        model: 'DH-IPC-HDW2230TP-AS-0280B',
+        id: 'DH_IPC_HDW2230TP_AS_0280B',
+        brand: 'Dahua',
+        type: ['IP камера внутренняя', 'ip', 'outdoor'],
+        description: 'Легкая настройка. Четкое изображение. Высокая чувствительность при низкой освещенности, ан улице почти ночь, а картинка цветная и яркая. Ночная подсветка выше всяких похвал, светит равномерно и далеко. Возможность записи на флешку SD до 256Gb. Корпус камеры металл. Есть возможность быстрого демонтажа камеры на защелке. Легко настроить в приложении. Отправка сообщения на e-mail при детекции движения.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: dahua_brand,
+        new: true,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение: ', '2 МП'],
+            text1: ['Объектив:', '2.8мм'],
+            text2: ['Матрица:', '1/2.7" Progressive Scan CMOS'],
+            text3: ['Частота кадров	:', '25/30fps@1080P'],
+            text4: ['Чувствительность, Lux:', '0.005 Lux @ F1.6'],
+            text5: ['Аудио входы/выходы:', 'встроенные микрофон'],
+            text6: ['Видео сжатие:', 'H.265; H.264; H.264B; MJPEG'],
+            text7: ['ИК-подсветка:', '30 м'],
+         
+            text9: ['Дополнительные функции:', 'Smart IR, Функция день/ночь, OSD меню,  Усиление сигнала, 3DNR, Баланс белого, Обнаружение движения, Приватные зоны'],
+            text10: ['Ethernet:', 'RJ-45 (10/100Base-T)'],
+            text11: ['BLC:', 'да'],
+            text12: ['HLC:', 'да'],
+            text13: ['WDR:', 'DWDR'],
+            text14: ['Сетевые протоколы :', 'IPv4;IPv6;HTTP;HTTPS;TCP;UDP;ARP;RTP;RTSP;RTCP;RTMP;SMTP;FTP; SFTP;DHCP;DNS;DDNS;QoS;UPnP;NTP;Multicast;ICMP;IGMP;NFS;PPPoE;802.1x;SNMP'],
+            text15: ['Совместимость:', 'ONVIF(Profile S/Profile G);CGI;P2P;Milestone;Genetec'],
+            text16: ['Максимальное число подключений:', '10 (Unicast) / 20 (Multicast) пользователей одновременно'],
+            text17: ['Веб интерфейс:', 'IE, Chrome, Firefox'],
+            text18: ['Программное обеспечение:', 'Smart PSS; DSS; DMSS'],
+            text19: ['Мобильные платформы:', 'IOS; Android'],
+            text20: ['Локальное хранилище:', 'слот для microSD/SDHC до 256Гб'],
+            text21: ['Питание:', 'DC12V, PoE (802.3af)'],
+            text22: ['Потребление:', '5.9Вт'],
+            text23: ['Рабочая температура:', '-40°С — 60°С'],
+            text24: ['Степень защиты:', 'IP67'],
+            text25: ['Материал корпуса:', 'металл+пластик'],
+            text26: ['Размеры:', '100.9х109.9 мм'],
+            text27: ['Вес:', '0,4 кг'],
+           
+        },
+        coast: 7190,
+        old_coast: false,
+        
+    },
  /** 
   * -------------------------------------------------------------------------------Zyxel
   **/

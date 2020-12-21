@@ -55,6 +55,9 @@ function Navbar() {
                                                                     <Link to="/catalog/ip/indoor/IMOU">IMOU</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/indoor/Dahua">Dahua</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/indoor/EzViz">EzViz</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
@@ -102,7 +105,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/indoor/ST">ST</Link>
                                                                 </li>
-
+                                                               
                                                             </ul>
                                                         </div>
                                                     </li>
