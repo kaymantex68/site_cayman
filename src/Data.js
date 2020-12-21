@@ -35,8 +35,12 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: dahua_brand,
+        coast: 7190,
+        old_coast: false,
+        lider: true,
         new: true,
         inStock_outStock: 1,
+        small_item: '0.69rem',
         info: {
             text: ['Разрешение: ', '2 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -68,8 +72,7 @@ export const Data = [
             text27: ['Вес:', '0,4 кг'],
            
         },
-        coast: 7190,
-        old_coast: false,
+       
         
     },
  /** 

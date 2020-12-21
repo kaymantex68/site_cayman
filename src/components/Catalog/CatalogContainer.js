@@ -60,7 +60,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
                 </div>
 
                 <div className={classes.Lider_text}>
-                    <h1 className={classes.Model}> {product.model}</h1>
+                    <p className={classes.Model}  style={{ fontSize: product.small_item }}> {product.model}</p>
                     <p> {product.type[0]}</p>
                     <p> {product.info.text}</p>
                     <p> {product.info.text1[0]}  {product.info.text1[1]}</p>
