@@ -18,7 +18,11 @@ function App() {
   
   useEffect(() => {
     // ReactGA.ga('send', 'pageview', '/');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview('/');
+    ReactGA.pageview('/catalog');
+    ReactGA.pageview('/contacts/adress');
+    ReactGA.pageview('/catalog/all');
+    ReactGA.pageview('/:model');
   },[]);
 
 
