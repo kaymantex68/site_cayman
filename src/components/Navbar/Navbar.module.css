@@ -15,6 +15,7 @@
     display: flex;
     margin: 0 auto;
     position: relative;
+    align-items: center;
 }
 
 .Logo{
@@ -32,7 +33,23 @@
    transition: 0.2s;
  }
 
+.Kol_tovar{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    /* background-color:red; */
+}
 
+.Kol_tovar_span{
+    color: #3C475B;
+    /* background-color:#78C47A;  */
+    padding: 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* border-radius:8px; */
+}
 
 .Nav_btn{
     /* background-color: green; */
@@ -53,7 +70,7 @@
 
 .Links{
     position: relative;
-    margin-top: 2px;
+    /* margin-top: 1px; */
 }
 
 .Links >a{

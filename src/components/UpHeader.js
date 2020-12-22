@@ -10,6 +10,7 @@ function UpHeader() {
                 <div className={classes.Raspisanie}><span className={classes.span_info}>пн-пт 9:00-18:00</span> <span className={classes.span_info}>сб 9:00-16:00 / вс выходной</span> </div>
                 <div className={classes.Info}><span className={classes.span_info}>Тамбов, ул.Агапкина 25А</span></div>
             </div>
+            <div className={classes.Container_kol_tovarov}>колво товаров</div>
         </div>
     )
 };
