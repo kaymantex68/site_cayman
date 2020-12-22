@@ -82,16 +82,16 @@
 
 .Akciya_container{
     position: absolute;
-    top:15px;
-    right: -60px;
-    width:200px;
-    height: 50px;
-    /* margin: 5px; */
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      transform: rotate(45deg); 
+   top:6px;
+   right: -70px;
+   width:200px;
+   height: 50px;
+   /* margin: 5px; */
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+     transform: rotate(45deg); 
     /* background-color: green; */
  }
  
@@ -108,12 +108,12 @@
     padding-left: 40px; 
     /* transform: rotate(45deg); */
     /* opacity: 0.6; */
-    background-color: rgb(255, 132, 66);
+    background-color: rgb(255, 66, 66);
  }
  .Pic_akcia{
     position: absolute; 
-    left: -25px;
-    top: 60px;
+    left: -35px;
+    top: 70px;
     height: 80px;
     transform: rotate(-45deg); 
    
