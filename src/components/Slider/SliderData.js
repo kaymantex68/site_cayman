@@ -49,7 +49,7 @@ export const SidebarData=[
             text9: ' - Двусторонняя аудиосвязь',
             text10: ' - Облако'
         },
-        coast: 5590,
+        coast: 4390,
         new: true
     },
   
