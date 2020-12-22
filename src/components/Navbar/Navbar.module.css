@@ -35,20 +35,25 @@
 
 .Kol_tovar{
     height: 100%;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     color:black;
+    text-align: -webkit-center;
+    
     /* background-color:red; */
 }
 
 .Kol_tovar_span{
     color: #3C475B;
+    
     /* background-color:#78C47A;  */
-    padding: 16px;
-    font-size: 0.9rem;
+    padding: 5px;
+    font-size: 0.7rem;
     font-weight: bold;
-    /* border-radius:8px; */
+    border: 1px solid  #3C475B;
+    border-radius:8px;
 }
 
 .Nav_btn{
@@ -240,6 +245,9 @@
  }
 
 @media (max-width: 920px){
+    .Kol_tovar{
+        display: none;
+    }
     .Hanburger_menu_container{ 
         display:flex;
     }
