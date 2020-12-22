@@ -1,5 +1,7 @@
 
 
+import shar from './Img_products/shar.svg';
+
 import imou_brand from './Img_products/imou_brand.png';
 import d_link_brand from './Img_products/D-Link_brand.png';
 import ez_ip_brand from './Img_products/ez-ip_brand.png';
@@ -21,9 +23,9 @@ export const Data = [
     /** 
   * -------------------------------------------------------------------------------Utepo
   **/
- /** 
-  * -------------------------------------------------------------Utepo poe коммутатор
-  **/
+    /** 
+     * -------------------------------------------------------------Utepo poe коммутатор
+     **/
     /**
      *  Utepo SF6P-FHM
      */
@@ -41,7 +43,7 @@ export const Data = [
         lider: false,
         new: true,
         inStock_outStock: 1,
-       
+
         info: {
             text: ['Порты: ', '	4 * PoE + 2 * UpLink'],
             text1: ['Питание:', 'DC 54V 1.11A'],
@@ -51,23 +53,67 @@ export const Data = [
             text5: ['Переключения:', '1.2Гбит/с'],
             text6: ['Скорость передачи пакетов:', '0.86Mpps'],
             text7: ['Размер таблицы (MАС):', '2К'],
-         
+
             text9: ['Рабочая температура:', '0℃~40℃'],
             text10: ['Вес, кг:', '0.216'],
-            text11: ['Габаритные размеры, мм:', '122х92х25'], 
+            text11: ['Габаритные размеры, мм:', '122х92х25'],
         },
-       
-        
+
+
     },
- /** 
-  * -------------------------------------------------------------------------------Dahua
-  **/
- /** 
-  * -------------------------------------------------------------Dahua IP камеры
-  **/
- /**
-     *  Dahua DH-IPC-HDBW1431EP-S-0360B
-     */
+    /** 
+     * -------------------------------------------------------------------------------Dahua
+     **/
+    /** 
+     * -------------------------------------------------------------Dahua IP камеры
+     **/
+    /**
+        *  Dahua DH-IPC-HDBW1431EP-S-0360B
+        */
+    {
+        model: 'DH-IPC-HDPW1431FP-AS-0280B',
+        id: 'DH_IPC_HDPW1431FP_AS_0280B',
+        brand: 'Dahua',
+        type: ['IP камера внутренняя', 'ip', 'outdoor'],
+        description: 'Dahua IPC-HDPW1431FP-AS-0280B - мини-купольная камера с фиксированным объективом с фокусным расстоянием 2,8мм, создана на основе чувствительного элемента CMOS диагональю 1/3". Разрешение 4Мп (2688x1520) позволяет получать четкое и качественное изображение в любое время суток, скорость 25 кадров в секунду. Инфракрасные светодиоды позволяют вести съемку в условиях полной темноты с дальностью свечения до 20 метров. Камера поддерживает протокол ONVIF, обеспечивающий работу камеры с механизмами и программным обеспечением любых производителей. Функция 3DNR дает возможность эффективно отфильтровывать шумы даже при плохой освещенности. При высокой и одновременно низкой освещенности WDR (120 дБ) синхронно оптимизирует интенсивные и темные участки, что способствует обеспечению высокого качества изображения. Модель поддерживает технологию питания PoE. Пластиковый корпус имеет степень защиты по стандарту IP67, т.е. влагозащищенный и пыленепроницаемый. Камера устойчиво работает при температурном режиме от -30°C до +60°C, что дает возможность использовать ее в уличных условиях.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: dahua_brand,
+        coast: 7130,
+        old_coast: 11890,
+        rasprodaja: true,
+        small_item: '0.67rem',
+        new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Разрешение: ', '4 МП'],
+            text1: ['Объектив:', '2.8мм'],
+            text2: ['Матрица:', '1/3" 4 Мп CMOS Progressive Scan'],
+            text4: ['Чувствительность, Lux:', '0.02 лк@ F2.1(цвет, 1/3 с); 0.2 лк@ F2.1(цвет, 1/30 с); 0 лк@ F2.0 (ИК вкл.) в тератек'],
+            text5: ['Встроенный микрофон:', 'есть'],
+            text5: ['Электронный затвор:', 'авто, вручную, 1/3 ~ 1/100000 с.'],
+            text7: ['ИК-подсветка:', '25 м'],
+            text8: ['Количество эффективных пикселей:', ' 2688x1520'],
+            text12: ['Cлот для карты памяти:', 'MicroSD 128 ГБ'],
+            text19: ['Компрессия:', 'H.265, H.264H, MJPEG (вспомогательный поток)'],
+            text20: ['Число потоков:', '2'],
+            text23: ['Управление битрейтом:', 'CBR, VBR'],
+            text27: ['Ethernet:', 'RJ-45 (10/100Base-T)'],
+            text28: ['Протоколы:', 'HTTP, HTTPS, TCP, ARP, RTSP, RTP, RTCP, UDP, SMTP, FTP, DHCP, DNS, DDNS, PPPoE, IPV4/V6, QoS, UPnP, NTP, Bonjour, IEEE 802.1X, Multicast, ICMP, IGMP, TLS'],
+            text29: ['Функциональная совместимость:', 'ONVIF'],
+            text5: ['Климатическое исполнение:', 'уличная'],
+            text30: ['Программное обеспечение для управления:', 'Smart PSS, DSS, DMSS'],
+            text31: ['Питание:', 'DC 12 В, PoE (IEEE802.3af) (класс 0)'],
+            text32: ['Рабочие условия:', '-40 ºС… +60 ºС, относительная влажность менее 95%'],
+            text33: ['Материал корпуса:', 'металл'],
+        },
+
+
+    },
+    /**
+        *  Dahua DH-IPC-HDBW1431EP-S-0360B
+        */
     {
         model: 'DH-IPC-K35AP',
         id: 'DH_IPC_K35AP',
@@ -103,12 +149,12 @@ export const Data = [
             text32: ['Рабочие условия:', '-30 ºС… +60 ºС, относительная влажность менее 95%'],
             text33: ['Материал корпуса:', 'металл'],
         },
-       
-        
+
+
     },
-  /**
-     *  Dahua DH-IPC-HDBW1431EP-S-0360B
-     */
+    /**
+       *  Dahua DH-IPC-HDBW1431EP-S-0360B
+       */
     {
         model: 'DH-IPC-HDBW1431EP-S-0360B',
         id: 'DH_IPC_HDBW1431EP_S_0360B',
@@ -123,7 +169,7 @@ export const Data = [
         rasprodaja: true,
         new: true,
         inStock_outStock: 1,
-        small_item: '0.69rem',
+        small_item: '0.68rem',
         info: {
             text: ['Разрешение: ', '4 МП'],
             text1: ['Объектив:', '3.6мм'],
@@ -161,8 +207,8 @@ export const Data = [
             text33: ['Материал корпуса:', 'металл'],
             text34: ['Размеры:', 'Ø109.9×81 мм'],
         },
-       
-        
+
+
     },
     /**
      *  DAHUA DH-IPC-HDW2230TP-AS-0280B
@@ -181,7 +227,7 @@ export const Data = [
         lider: true,
         new: true,
         inStock_outStock: 1,
-        small_item: '0.69rem',
+        small_item: '0.68rem',
         info: {
             text: ['Разрешение: ', '2 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -191,7 +237,7 @@ export const Data = [
             text5: ['Аудио входы/выходы:', 'встроенные микрофон'],
             text6: ['Видео сжатие:', 'H.265; H.264; H.264B; MJPEG'],
             text7: ['ИК-подсветка:', '30 м'],
-         
+
             text9: ['Дополнительные функции:', 'Smart IR, Функция день/ночь, OSD меню,  Усиление сигнала, 3DNR, Баланс белого, Обнаружение движения, Приватные зоны'],
             text10: ['Ethernet:', 'RJ-45 (10/100Base-T)'],
             text11: ['BLC:', 'да'],
@@ -211,14 +257,14 @@ export const Data = [
             text25: ['Материал корпуса:', 'металл+пластик'],
             text26: ['Размеры:', '100.9х109.9 мм'],
             text27: ['Вес:', '0,4 кг'],
-           
+
         },
-       
-        
+
+
     },
- /** 
-  * -------------------------------------------------------------------------------Zyxel
-  **/
+    /** 
+     * -------------------------------------------------------------------------------Zyxel
+     **/
     /**
      *  Zyxel KEENETIC Start
      */
@@ -256,7 +302,7 @@ export const Data = [
         },
         coast: 1610,
         old_coast: false,
-        
+
     },
     /**
      *  Zyxel KEENETIC 4G
@@ -295,7 +341,7 @@ export const Data = [
         },
         coast: 2940,
         old_coast: false,
-       
+
     },
     /**
      *  Zyxel KEENETIC Omni
@@ -336,12 +382,12 @@ export const Data = [
         },
         coast: 3390,
         old_coast: false,
-        
+
     },
-    
-  /** 
-  * -------------------------------------------------------------------------------TP-LINK
-  **/
+
+    /** 
+    * -------------------------------------------------------------------------------TP-LINK
+    **/
     /**
      *  TP-LINK TL-MR3020
      */
@@ -377,7 +423,7 @@ export const Data = [
         },
         coast: 1590,
         old_coast: false,
-       
+
     },
     /** 
    * -------------------------------------------------------------------------------ZTE
@@ -425,7 +471,7 @@ export const Data = [
         },
         coast: 5970,
         old_coast: false,
-      
+
     },
     /**
     *  ZTE MF79RU
@@ -466,7 +512,7 @@ export const Data = [
         },
         coast: 3450,
         old_coast: false,
-       
+
     },
     /** 
      * -------------------------------------------------------------------------------D-Link
@@ -511,7 +557,7 @@ export const Data = [
         },
         coast: 1150,
         old_coast: false,
-     
+
     },
     /**
      *  D-Link DGS-1005A/D
@@ -553,7 +599,7 @@ export const Data = [
         },
         coast: 1450,
         old_coast: false,
-      
+
     },
     /**
     *  D-Link DGS-1005A/D
@@ -595,7 +641,7 @@ export const Data = [
         },
         coast: 720,
         old_coast: false,
-        
+
     },
     /**
      *  D-Link DGS-1005A/D
@@ -637,7 +683,7 @@ export const Data = [
         },
         coast: 630,
         old_coast: false,
-      
+
     },
     /**
      *  D-Link DES-1016A/E1B
@@ -679,7 +725,7 @@ export const Data = [
         },
         coast: 630,
         old_coast: false,
-      
+
     },
     /** 
     * -------------------------------------------------------------------------------ТЕКО
@@ -729,8 +775,8 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        
-      
+
+
 
     },
     /**
@@ -1780,7 +1826,7 @@ export const Data = [
         pic_brand: teko_brand,
         coast: 4770,
         old_coast: false,
-        lider:true,
+        lider: true,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -1814,7 +1860,7 @@ export const Data = [
             text30: ['Относительная влажность воздуха без конденсации влаги: ', 'до 98 % при + 40 °С'],
 
         },
-        
+
 
     },
     /**
@@ -2184,8 +2230,8 @@ export const Data = [
         new: false,
         info: {
             text: ['Разрешение: ', '2MP'],
-            text1: ['Объектив:  ', '3.6 мм'],       
-            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],    
+            text1: ['Объектив:  ', '3.6 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
             text10: ['Сигнал/шум: ', '>52 Дб'],
@@ -2194,10 +2240,10 @@ export const Data = [
             text13: ['Дальность ИК подсветки:', 'до 20 м'],
             text14: ['Гамма-коррекция:', 'Авто'],
             text15: ['Функции улучшения изображения: ', 'BLC,2DNR,D-WDR'],
-            text16: ['OSD-меню:' , 'Да'],
+            text16: ['OSD-меню:', 'Да'],
             text17: ['Дальность ИК подсветки: ', '20 м'],
             text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
-            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],     
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
             text22: ['Напряжение питания: ', '12В'],
             text23: ['Максимальный ток потребления: ', '0,63А'],
             text24: ['Материал корпуса: ', 'МЕТАЛЛ'],
@@ -2211,7 +2257,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /**
      *  ST ST-2202
@@ -2231,8 +2277,8 @@ export const Data = [
         new: false,
         info: {
             text: ['Разрешение: ', '2MP'],
-            text1: ['Объектив:  ', '3.6 мм'],       
-            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],    
+            text1: ['Объектив:  ', '3.6 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
             text10: ['Сигнал/шум: ', '>52 Дб'],
@@ -2241,10 +2287,10 @@ export const Data = [
             text13: ['Дальность ИК подсветки:', 'до 20 м'],
             text14: ['Гамма-коррекция:', 'Авто'],
             text15: ['Функции улучшения изображения: ', 'BLC,2DNR,D-WDR'],
-            text16: ['OSD-меню:' , 'Да'],
+            text16: ['OSD-меню:', 'Да'],
             text17: ['Дальность ИК подсветки: ', '20 м'],
             text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
-            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],     
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
             text22: ['Напряжение питания: ', '12В'],
             text23: ['Максимальный ток потребления: ', '0,63А'],
             text24: ['Материал корпуса: ', 'ПЛАСТИК'],
@@ -2258,7 +2304,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /**
      *  ST ST-2004
@@ -2278,9 +2324,9 @@ export const Data = [
         new: false,
         info: {
             text: ['Разрешение: ', '2MP'],
-            text1: ['Объектив:  ', '2.8 мм'],       
-            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],    
-            text4: ['Формат видео:', 'AHD/TVI/CVI/CVBS'], 
+            text1: ['Объектив:  ', '2.8 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
+            text4: ['Формат видео:', 'AHD/TVI/CVI/CVBS'],
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
             text10: ['Сигнал/шум: ', '>52 Дб'],
@@ -2288,11 +2334,11 @@ export const Data = [
             text12: ['Функции улучшения изображения:', 'BLC,DWDR,AWB,MWB,2DNR,AGC'],
             text13: ['Дальность ИК подсветки:', 'до 20 м'],
             text14: ['Гамма-коррекция:', 'Авто'],
-          
-            text16: ['OSD-меню:' , 'Да'],
+
+            text16: ['OSD-меню:', 'Да'],
             text17: ['Дальность ИК подсветки: ', '20 м'],
             text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
-            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],     
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
             text22: ['Напряжение питания: ', '12В'],
             text23: ['Максимальный ток потребления: ', '0,63А'],
             text24: ['Материал корпуса: ', 'ПЛАСТИК'],
@@ -2306,7 +2352,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /** 
      * ---------------------------------------ST AHD камеры уличные
@@ -2329,8 +2375,8 @@ export const Data = [
         new: false,
         info: {
             text: ['Разрешение: ', '2MP'],
-            text1: ['Объектив:  ', '3.6 мм'],       
-            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],    
+            text1: ['Объектив:  ', '3.6 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
             text10: ['Сигнал/шум: ', '>52 Дб'],
@@ -2338,10 +2384,10 @@ export const Data = [
             text12: ['Функции улучшения изображения:', 'BLC,DWDR,AWB,MWB,2DNR,AGC'],
             text13: ['Дальность ИК подсветки:', 'до 20 м'],
             text14: ['Гамма-коррекция:', 'Авто'],
-            text16: ['OSD-меню:' , 'Да'],
+            text16: ['OSD-меню:', 'Да'],
             text17: ['Дальность ИК подсветки: ', '20 м'],
             text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
-            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],     
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
             text22: ['Напряжение питания: ', '12В'],
             text23: ['Максимальный ток потребления: ', '0,63А'],
             text24: ['Материал корпуса: ', 'МЕТАЛЛ'],
@@ -2355,7 +2401,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /**
      *  ST ST-2003
@@ -2375,10 +2421,10 @@ export const Data = [
         new: false,
         info: {
             text: ['Разрешение: ', '2MP'],
-            text1: ['Объектив:  ', '2.8 мм'],       
-            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'], 
-            text3: ['Формат видео:', 'AHD/TVI/CVI/CVBS'],  
-            
+            text1: ['Объектив:  ', '2.8 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
+            text3: ['Формат видео:', 'AHD/TVI/CVI/CVBS'],
+
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
             text10: ['Сигнал/шум: ', '>52 Дб'],
@@ -2386,10 +2432,10 @@ export const Data = [
             text12: ['Функции улучшения изображения:', 'BLC,DWDR,AWB,MWB,2DNR,AGC'],
             text13: ['Дальность ИК подсветки:', 'до 20 м'],
             text14: ['Гамма-коррекция:', 'Авто'],
-            text16: ['OSD-меню:' , 'Да'],
+            text16: ['OSD-меню:', 'Да'],
             text17: ['Дальность ИК подсветки: ', '20 м'],
             text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
-            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],     
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
             text22: ['Напряжение питания: ', '12В'],
             text23: ['Максимальный ток потребления: ', '0,63А'],
             text24: ['Материал корпуса: ', 'МЕТАЛЛ'],
@@ -2403,14 +2449,14 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /** 
      * ---------------------------------------ST IP камеры уличные
      */
-     /**
-     *  ST ST-S2541 2.8 LIGHT
-     */
+    /**
+    *  ST ST-S2541 2.8 LIGHT
+    */
     {
         model: 'ST-S2541 2.8 LIGHT',
         id: 'ST_S2541_2.8_LIGHT',
@@ -2452,7 +2498,7 @@ export const Data = [
             text27: ['Степень защищенности/вандалостойкость: ', 'IP66'],
             text28: ['Комплектность: ', 'Камера с кабелем для подключения видеокамеры,крепеж (дюбель-пробка + шуруп),cтикер бумажный самоклеящийся предостережение "Ведется видеонаблюдение",CD диск с подробным описанием и инструкцией по эксплуатации,паспорт, упаковочная коробка.'],
             text29: ['Габариты видеокамеры, мм (b*l*k): ', '62х106,84х188,36'],
-           
+
 
 
         },
@@ -2460,7 +2506,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /**
      *  ST ST-S2541 LIGHT
@@ -2506,7 +2552,7 @@ export const Data = [
             text27: ['Степень защищенности/вандалостойкость: ', 'IP66'],
             text28: ['Комплектность: ', 'Камера с кабелем для подключения видеокамеры,крепеж (дюбель-пробка + шуруп),cтикер бумажный самоклеящийся предостережение "Ведется видеонаблюдение",CD диск с подробным описанием и инструкцией по эксплуатации,паспорт, упаковочная коробка.'],
             text29: ['Габариты видеокамеры, мм (b*l*k): ', '62х106,84х188,36'],
-           
+
 
 
         },
@@ -2514,7 +2560,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /** 
      * ---------------------------------------ST IP камеры внутренние
@@ -2563,7 +2609,7 @@ export const Data = [
             text27: ['Степень защищенности/вандалостойкость: ', 'IP54'],
             text28: ['Комплектность: ', 'Камера с кабелем для подключения видеокамеры,крепеж (дюбель-пробка + шуруп),cтикер бумажный самоклеящийся предостережение "Ведется видеонаблюдение",CD диск с подробным описанием и инструкцией по эксплуатации,паспорт, упаковочная коробка.'],
             text29: ['Габариты видеокамеры,мм (d*h): ', '110х85'],
-           
+
 
 
         },
@@ -2571,7 +2617,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /**
      *  ST ST-S2543 LIGHT
@@ -2617,7 +2663,7 @@ export const Data = [
             text27: ['Степень защищенности/вандалостойкость: ', 'IP66'],
             text28: ['Комплектность: ', 'Камера с кабелем для подключения ,с двумя разъемами, крепеж (дюбель-пробка + шуруп),колпачок защитный, ПВХ, для изоляции LAN (RJ-45) разъема от влаги,cтикер бумажный самоклеящийся предостережение "Ведется видеонаблюдение",CD диск с подробным описанием и инструкцией по эксплуатации, паспорт,упаковочная коробка.'],
             text29: ['Габариты видеокамеры,мм (d*h): ', '93х68'],
-           
+
 
 
         },
@@ -2625,7 +2671,7 @@ export const Data = [
         //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
         // },
-        
+
     },
     /** 
      * ---------------------------------------ST регистраторы
@@ -3949,7 +3995,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ez_ip_brand,
-        lider:true,
+        lider: true,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -3990,33 +4036,38 @@ export const Data = [
         coast: 6590,
         old_coast: false,
         download: {
-            link1: ['Паспорт Паспорт EZ-IPC-C1B40P-POE','https://videoglaz.ru/upload/manuals/EZ-IP/EZ-IPC-C1B40P-POE.pdf'],
+            link1: ['Паспорт Паспорт EZ-IPC-C1B40P-POE', 'https://videoglaz.ru/upload/manuals/EZ-IP/EZ-IPC-C1B40P-POE.pdf'],
         },
 
     },
     /** 
      * ----------------------------------------------------------------------IMOU
      */
-    /**
-     *  IMOU Cue 2
+    /** 
+     * ----------------------------------------------------------IMOU IP камеры
      */
+    /**
+    *  IMOU Cue 2C
+    */
     {
-        model: 'Cue 2',
-        id: 'Cue_2',
+        model: 'Cue 2C',
+        id: 'Cue_2C',
         brand: 'IMOU',
-        type: ['IP камера внутренняя', 'ip', 'indoor'],
+        type: ['Wi-Fi IP камера внутренняя', 'ip', 'indoor'],
         description: 'Smart-мониторинг и детекция людей с помощью искусственного интеллекта. Детекция людей | 1080P | Встроенная сирена | Предупреждение об аномальных звуках | Ночное видение | Двусторонняя аудиосвязь | Облако',
         path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 5590,
-        lider:true,
+        coast: 2990,
+        lider: true,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
-            text1: ['Объектив:', '2,8 мм'],
+            text1: ['Объектив:', '3,6 мм'],
             text2: ['Матрица:', '1/2.7” 2 Мп Progressive CMOS'],
             text3: ['Микрофон и динамик:', 'есть'],
             text4: ['Сжатие видео:', 'H.265/H.264'],
@@ -4041,6 +4092,52 @@ export const Data = [
 
     },
     /**
+     *  IMOU Cue 2
+     */
+    {
+        model: 'Cue 2',
+        id: 'Cue_2',
+        brand: 'IMOU',
+        type: ['Wi-Fi IP камера внутренняя', 'ip', 'indoor'],
+        description: 'Smart-мониторинг и детекция людей с помощью искусственного интеллекта. Детекция людей | 1080P | Встроенная сирена | Предупреждение об аномальных звуках | Ночное видение | Двусторонняя аудиосвязь | Облако',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: imou_brand,
+        coast: 3890,
+        lider: true,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
+        old_coast: false,
+        new: true,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение:', '2 Мп'],
+            text1: ['Объектив:', '2,8 мм'],
+            text2: ['Матрица:', '1/2.7” 2 Мп Progressive CMOS'],
+            text3: ['Микрофон и динамик:', 'есть'],
+            text4: ['Сжатие видео:', 'H.265/H.264'],
+            text5: ['Частота кадров:', 'до 25/30 к/с'],
+            text21: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text6: ['Цифровой зум:', 'х16'],
+            text7: ['Видео/аудио:', 'Двусторонняя аудиосвязь'],
+            text8: ['Сетевые подключения', 'Wi-Fi:IEEE802.11b/g/n, 50 м на открытом'],
+            text9: ['Приложение IMOU', 'iOS, Android,ONVIF'],
+            text10: ['Детекция движения:', 'есть'],
+            text11: ['Детекция людей:', 'есть'],
+            text12: ['Встроенная сирена:', 'есть'],
+            text13: ['Настраиваемые области:', 'есть'],
+            text14: ['Уведомления об аномальных звуках:', 'есть'],
+            text15: ['Дополнительные интерфейсы:', 'Слот для карты Micro SD (до 256 Гб), Кнопка сброса'],
+            text16: ['Питание:', 'DC 5 В, 1 А'],
+            text17: ['Потребляемая мощность:', '<3,1 Вт'],
+            text18: ['Условия эксплуатации', '-10° C~+45° C, относительная влажность менее 95%'],
+            text19: ['Размеры:', '66× 33× 109 мм'],
+            text20: ['Вес:', '102,7 г'],
+            text21: ['Комплект поставки:', '1 камера, 1 руководство по быстрому запуска, 1 адаптер питания, 1 кабель питания, 1 набор винтов, 1 крепежная пластина, Пенопласт, 1 карта с положениями при установке'],
+        },
+
+    },
+    /**
      *  IMOU Ranger 2
      */
     {
@@ -4052,8 +4149,10 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        lider:true,
-        coast: 5690,
+        lider: true,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
+        coast: 4390,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -4099,7 +4198,9 @@ export const Data = [
         pic_brand: imou_brand,
         coast: 5690,
         old_coast: 7830,
-        lider:false,
+        lider: false,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -4146,7 +4247,9 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        lider:false,
+        lider: false,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4190,6 +4293,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4234,6 +4339,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4277,6 +4384,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4320,6 +4429,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4363,6 +4474,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4405,6 +4518,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 7690,
         old_coast: false,
         new: true,
@@ -4446,6 +4561,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4489,6 +4606,8 @@ export const Data = [
         youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
         inStock_outStock: 2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4534,6 +4653,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4581,6 +4702,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4627,6 +4750,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4662,49 +4787,51 @@ export const Data = [
     /**
     *  IMOU Bullet lite 2MP
     */
-   {
-    model: 'Bullet lite 4MP',
-    id: 'Bullet_lite_4MP',
-    brand: 'IMOU',
-    type: ['Wi-IFi P камера уличная', 'ip', 'outdoor'],
-    description: 'Активная защита вашего дома. 4МП | H.265 | Ночное видение |Активная защита | Датчик PIR | Двустороняя аудиосвязь |Класс защиты IP67 | Двойная антенна 2x2 MIMO | Облако',
-    // youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
-    youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
-    // path: '/',
-    // pic: imou_cue_2,
-    pic_brand: imou_brand,
-    coast: 6290,
-    old_coast: false,
-    new: true,
-    inStock_outStock: 1,
-    info: {
-        text: ['Разрешение: ', '4 Мп'],
-        text1: ['Объектив: ', '2.8мм/3.6мм'],
-        text2: ['Матрица: ', '1/3” 4 Megapixel Progressive CMOS'],
-        text3: ['Ночное видение: ', 'Встроенный прожектор, расстояние 30 м'],
-        text4: ['Аудио:', 'Встроенный микрофон и динамик, сирена 110 дБ'],
-        text5: ['Сжатие видео:', 'H.265/H.264'],
-        text6: ['Частота кадров:', 'до 25/30 к/с'],
-        text7: ['Максимальное разрешение:', '2560 х 1440px'],
-        text9: ['Цифровой зум:', 'х16'],
-        text11: ['Сетевые подключения: ', '1 порт Ethernet 100 Мбит/с. Wi-Fi: IEEE802.11b/g/n, 100 м на открытом пространстве. Внешние двойные антенны, 2 x 2 MIMO'],
-        texx13: ['Протокол подключения: ', 'OCGI, ONVIF'],
-        text14: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
-        text15: ['Дополнительные интерфейсы: ', 'Слот для карты Micro SD (до 128 Гб). Кнопка сброса'],
-        text16: ['Детекция движения:', 'есть'],
-        text17: ['Датчик PIR:', 'есть'],
-        text18: ['Настраиваемые области:', 'есть'],
-        text19: ['Питание:', '12 В (DC)'],
-        text20: ['Потребляемая мощность:', ' <5.1 Вт'],
-        text21: ['Материал', 'Пластик'],
-        text22: ['Условия эксплуатации', 'от -30°C до +60°C, относительная влажность менее 95%'],
-        text23: ['Класс защиты:', 'IP67'],
-        text24: ['Размеры:', '79 × 79× 166,2 мм'],
-        text25: ['Вес:', '411 г'],
-        text26: ['Комплект поставки:', '1 камера, 1 руководство по быстрому запуска, 1 адаптер питания, 1 кабель питания, 1 набор винтов, 1 крепежная пластина, Пенопласт, 1 карта с положениями при установке'],
-    },
+    {
+        model: 'Bullet lite 4MP',
+        id: 'Bullet_lite_4MP',
+        brand: 'IMOU',
+        type: ['Wi-IFi P камера уличная', 'ip', 'outdoor'],
+        description: 'Активная защита вашего дома. 4МП | H.265 | Ночное видение |Активная защита | Датчик PIR | Двустороняя аудиосвязь |Класс защиты IP67 | Двойная антенна 2x2 MIMO | Облако',
+        // youtube: 'https://www.youtube.com/watch?v=4YF8xZ8exEE',
+        youtube_instruction: 'https://www.youtube.com/watch?v=l2O75b99dw0',
+        // path: '/',
+        // pic: imou_cue_2,
+        pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
+        coast: 6290,
+        old_coast: false,
+        new: true,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение: ', '4 Мп'],
+            text1: ['Объектив: ', '2.8мм/3.6мм'],
+            text2: ['Матрица: ', '1/3” 4 Megapixel Progressive CMOS'],
+            text3: ['Ночное видение: ', 'Встроенный прожектор, расстояние 30 м'],
+            text4: ['Аудио:', 'Встроенный микрофон и динамик, сирена 110 дБ'],
+            text5: ['Сжатие видео:', 'H.265/H.264'],
+            text6: ['Частота кадров:', 'до 25/30 к/с'],
+            text7: ['Максимальное разрешение:', '2560 х 1440px'],
+            text9: ['Цифровой зум:', 'х16'],
+            text11: ['Сетевые подключения: ', '1 порт Ethernet 100 Мбит/с. Wi-Fi: IEEE802.11b/g/n, 100 м на открытом пространстве. Внешние двойные антенны, 2 x 2 MIMO'],
+            texx13: ['Протокол подключения: ', 'OCGI, ONVIF'],
+            text14: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
+            text15: ['Дополнительные интерфейсы: ', 'Слот для карты Micro SD (до 128 Гб). Кнопка сброса'],
+            text16: ['Детекция движения:', 'есть'],
+            text17: ['Датчик PIR:', 'есть'],
+            text18: ['Настраиваемые области:', 'есть'],
+            text19: ['Питание:', '12 В (DC)'],
+            text20: ['Потребляемая мощность:', ' <5.1 Вт'],
+            text21: ['Материал', 'Пластик'],
+            text22: ['Условия эксплуатации', 'от -30°C до +60°C, относительная влажность менее 95%'],
+            text23: ['Класс защиты:', 'IP67'],
+            text24: ['Размеры:', '79 × 79× 166,2 мм'],
+            text25: ['Вес:', '411 г'],
+            text26: ['Комплект поставки:', '1 камера, 1 руководство по быстрому запуска, 1 адаптер питания, 1 кабель питания, 1 набор винтов, 1 крепежная пластина, Пенопласт, 1 карта с положениями при установке'],
+        },
 
-},
+    },
     /**
      *  IMOU Dome Lite
      */
@@ -4717,6 +4844,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4762,6 +4891,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
+        akciya: 'Подарок -10%',
+        pic_akciya: shar,
         coast: 5690,
         old_coast: false,
         new: true,
@@ -4808,7 +4939,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ezviz_brand,
-        
+
         new: false,
         inStock_outStock: 1,
         info: {
@@ -4822,11 +4953,11 @@ export const Data = [
             text7: ['Тип подключения:', 'Wi-Fi'],
             text8: ['Подключение к сети:', 'IEEE802.11b, 802.11g, 802.11n, 2.4 ГГц~ 2.4835 ГГц'],
             text9: ['Видео/аудио:', 'Двусторонняя аудиосвязь'],
-           
+
             text10: ['Приложение: ', 'Простая настройка через облако EZVIZ'],
             text11: ['Детекция движения:', 'есть'],
             text12: ['WDR:', 'цифровой'],
-            
+
             text15: ['Дополнительные интерфейсы:', 'Слот для карты Micro SD (до 256 Гб)'],
             text16: ['Питание:', 'DC 5В ±10%, 4Вт Maкс'],
             text17: ['Потребляемая мощность:', '<3,1 Вт'],
@@ -4838,7 +4969,7 @@ export const Data = [
         coast: 2990,
         old_coast: false,
         download: {
-            link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+            link1: ['Инструкция', 'https://ezviz.ru/manuals/c1c.pdf'],
         },
 
     },
@@ -4854,7 +4985,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ezviz_brand,
-        coast: 3992,
+        coast: 3990,
         old_coast: 4990,
         rasprodaja: true,
         new: false,
@@ -4870,11 +5001,11 @@ export const Data = [
             text7: ['Тип подключения:', 'Wi-Fi'],
             text8: ['Подключение к сети:', 'IEEE802.11b, 802.11g, 802.11n, 2.4 ГГц~ 2.4835 ГГц'],
             text9: ['Видео/аудио:', 'Двусторонняя аудиосвязь'],
-           
+
             text10: ['Приложение: ', 'Простая настройка через облако EZVIZ'],
             text11: ['Детекция движения:', 'есть'],
             text12: ['WDR:', 'цифровой'],
-            
+
             text15: ['Дополнительные интерфейсы:', 'Слот для карты Micro SD (до 256 Гб)'],
             text16: ['Питание:', 'DC 5В ±10%, 4Вт Maкс'],
             text17: ['Потребляемая мощность:', '<3,1 Вт'],
@@ -4883,7 +5014,7 @@ export const Data = [
             text20: ['Вес:', '96 г'],
             text21: ['Комплект поставки:', 'Wi-Fi камера, адаптер питания, инструкция'],
         },
-        
+
         // download: {
         //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
         // },
@@ -4898,53 +5029,53 @@ export const Data = [
     /**
      *  Atis L ANSD-22H2MIR60
     */
-   {
-    model: 'Atis L ANSD-22H2MIR60',
-    id: 'Atis_L_ANSD_22H2MIR60',
-    brand: 'Atis',
-    type: ['Поворотная IP камера', 'ip', 'rotate'],
-    description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: atis_brand,
-    coast: 19000,
-    old_coast: false,
-    lider:true,
-    new: false,
-    inStock_outStock: 1,
-    info: {
-        text: ['Разрешение: ' , '2 Мп'],
-        text1: ['Оптический зум:', '16х'],
-        text2: ['Объектив:', '3.9-85.5 мм'],
-        text3: ['Подсветка: ', '60 м'],
-        text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
-        text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
-        text6: ['Частота кадров:', '25/30fps@1080P'],
-        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
-        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
-        text12: ['Приватные зоны: ', 'есть'],
-        text13: ['Детекция движения:', 'есть'],
-        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
-        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
-        text16: ['Cовместимость:', 'ONVIF'],
-        text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
-        text18: ['Точки:', 'Preset:220, Тур:3'],
-        text19: ['Веб интерфейс:', 'есть'],
-        text20: ['Питание:', 'DC12V 2A/3A'],
-        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
-        text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
-        text23: ['Степень защищенности', 'IP67'],
-        text24: ['Материал корпуса', 'маталл'],
-        text25: ['Размеры:', '295х280х170'],
-        text26: ['Вес:', '4.2 кг'],
-        
-    },
-    
-    // download: {
-    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
-    // },
+    {
+        model: 'Atis L ANSD-22H2MIR60',
+        id: 'Atis_L_ANSD_22H2MIR60',
+        brand: 'Atis',
+        type: ['Поворотная IP камера', 'ip', 'rotate'],
+        description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: atis_brand,
+        coast: 19000,
+        old_coast: false,
+        lider: true,
+        new: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Оптический зум:', '16х'],
+            text2: ['Объектив:', '3.9-85.5 мм'],
+            text3: ['Подсветка: ', '60 м'],
+            text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
+            text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
+            text6: ['Частота кадров:', '25/30fps@1080P'],
+            text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+            text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+            text12: ['Приватные зоны: ', 'есть'],
+            text13: ['Детекция движения:', 'есть'],
+            text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+            text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+            text16: ['Cовместимость:', 'ONVIF'],
+            text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
+            text18: ['Точки:', 'Preset:220, Тур:3'],
+            text19: ['Веб интерфейс:', 'есть'],
+            text20: ['Питание:', 'DC12V 2A/3A'],
+            text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+            text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
+            text23: ['Степень защищенности', 'IP67'],
+            text24: ['Материал корпуса', 'маталл'],
+            text25: ['Размеры:', '295х280х170'],
+            text26: ['Вес:', '4.2 кг'],
 
-},
+        },
+
+        // download: {
+        //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+        // },
+
+    },
     /**
      *  Atis H ANH-B12-Pro
     */
@@ -4959,7 +5090,7 @@ export const Data = [
         pic_brand: atis_brand,
         coast: 5500,
         old_coast: false,
-        lider:true,
+        lider: true,
         new: false,
         inStock_outStock: 1,
         info: {
@@ -4967,12 +5098,12 @@ export const Data = [
             text1: ['Объектив:', '2,8 мм'],
             text2: ['Подсветка: ', '30 м'],
             text3: ['Матрица:', '1/2.8 progressive scan CMOS'],
-           
+
             text5: ['Сжатие видео:', 'H.265+/H.265/H.264+/H.264/MJPEG'],
             text6: ['Частота кадров:', '30fps@1080P'],
             text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
             text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
-           
+
             text12: ['Приватные зоны: ', 'есть'],
             text13: ['Детекция движения:', 'есть'],
             text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
@@ -4988,9 +5119,9 @@ export const Data = [
             text24: ['Материал корпуса', 'маталл+пластик'],
             text25: ['Размеры:', '	69.7х69.7х171.4'],
             text26: ['Вес:', '350 г'],
-            
+
         },
-        
+
         // download: {
         //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
         // },
@@ -4999,56 +5130,56 @@ export const Data = [
     /**
      *  Atis H ANH-D12-Pro
     */
-   {
-    model: 'Atis H ANH-D12-Pro',
-    id: 'Atis_H_ANH_D12_Pro',
-    brand: 'Atis',
-    type: ['Уличная IP камера', 'ip', 'outdoor'],
-    description: 'IP видеокамера уличная - Разрешение 2Мп (1920×1080) real time - H.265+/ H.265/H.264+/ H.264/MJPEG - Фиксированный объектив 2.8мм - Поддержка DWDR - ИК-подсветка 30м (механический ИК-фильтр) - Слот microSD до 128Гб - Обнаружение движения, вторжения в область и пересечения линии - Питание 12В, PoE',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: atis_brand,
-    coast: 6000,
-    old_coast: false,
-    lider:false,
-    new: false,
-    inStock_outStock: 1,
-    info: {
-        text: ['Разрешение:', '2 Мп'],
-        text1: ['Объектив:', '2,8 мм'],
-        text2: ['Подсветка: ', '30 м'],
-        text3: ['Матрица:', '1/2.8 progressive scan CMOS'],
-       
-        text5: ['Сжатие видео:', 'H.265+/H.265/H.264+/H.264/MJPEG'],
-        text6: ['Частота кадров:', '30fps@1080P'],
-        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
-        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
-       
-        text12: ['Приватные зоны: ', 'есть'],
-        text13: ['Детекция движения:', 'есть'],
-        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
-        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
-        text16: ['Cовместимость:', 'ONVIF(PROFILE S,PROFILE G), ISAPI'],
-        text17: ['Максимальное число подключений:', '32'],
-        text18: ['Веб интерфейс:', 'IE8+, Chrome 31.0-44, Firefox 30.0-51, Safari 8.0+'],
-        text19: ['Локальное хранилище:', 'слот для microSD/SDHC/SDXC до 128 Гб'],
-        text20: ['Питание:', 'DC12V, PoE (802.3af)'],
-        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
-        text22: ['Условия эксплуатации', '	-30°C ~ +60°C'],
-        text23: ['Степень защищенности', 'IP67'],
-        text24: ['Материал корпуса', 'маталл+пластик'],
-        text25: ['Размеры:', '111х82.4'],
-        text26: ['Вес:', '497 г'],
-        
+    {
+        model: 'Atis H ANH-D12-Pro',
+        id: 'Atis_H_ANH_D12_Pro',
+        brand: 'Atis',
+        type: ['Уличная IP камера', 'ip', 'outdoor'],
+        description: 'IP видеокамера уличная - Разрешение 2Мп (1920×1080) real time - H.265+/ H.265/H.264+/ H.264/MJPEG - Фиксированный объектив 2.8мм - Поддержка DWDR - ИК-подсветка 30м (механический ИК-фильтр) - Слот microSD до 128Гб - Обнаружение движения, вторжения в область и пересечения линии - Питание 12В, PoE',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: atis_brand,
+        coast: 6000,
+        old_coast: false,
+        lider: false,
+        new: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение:', '2 Мп'],
+            text1: ['Объектив:', '2,8 мм'],
+            text2: ['Подсветка: ', '30 м'],
+            text3: ['Матрица:', '1/2.8 progressive scan CMOS'],
+
+            text5: ['Сжатие видео:', 'H.265+/H.265/H.264+/H.264/MJPEG'],
+            text6: ['Частота кадров:', '30fps@1080P'],
+            text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+            text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+
+            text12: ['Приватные зоны: ', 'есть'],
+            text13: ['Детекция движения:', 'есть'],
+            text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+            text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+            text16: ['Cовместимость:', 'ONVIF(PROFILE S,PROFILE G), ISAPI'],
+            text17: ['Максимальное число подключений:', '32'],
+            text18: ['Веб интерфейс:', 'IE8+, Chrome 31.0-44, Firefox 30.0-51, Safari 8.0+'],
+            text19: ['Локальное хранилище:', 'слот для microSD/SDHC/SDXC до 128 Гб'],
+            text20: ['Питание:', 'DC12V, PoE (802.3af)'],
+            text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+            text22: ['Условия эксплуатации', '	-30°C ~ +60°C'],
+            text23: ['Степень защищенности', 'IP67'],
+            text24: ['Материал корпуса', 'маталл+пластик'],
+            text25: ['Размеры:', '111х82.4'],
+            text26: ['Вес:', '497 г'],
+
+        },
+
+        // download: {
+        //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+        // },
+
     },
-    
-    // download: {
-    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
-    // },
 
-},
 
-    
 
 
 ]

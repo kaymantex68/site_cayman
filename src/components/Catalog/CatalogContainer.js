@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 function CatalogContainer({ match, nalichie, brand, sort }) {
 
-    const { Data} = useContext(Context);
+    const { Data } = useContext(Context);
     let DataCatalog = [];
 
     Data.map((item) => {
@@ -18,7 +18,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
     DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
 
     if (nalichie === true) {
-        DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock==1) { return e } })
+        DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock == 1) { return e } })
     }
 
     if (brand != 'All') {
@@ -26,30 +26,36 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
     }
 
 
-    if (sort== 'UP_COAST') {
+    if (sort == 'UP_COAST') {
         DataCatalog.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
     }
-    
-    if (sort== 'DOWN_COAST') {
+
+    if (sort == 'DOWN_COAST') {
         DataCatalog.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
     }
 
-    
 
-   
-   
+
+
+
     const ProductDisplay = (product, index) => {
-        
+
         // unic.push(product.brand);
         //  unic=[...new Set(unic)];
-       
-        
+
+
 
         return (
 
             <div className={classes.Lider_card} >
 
                 <div className={classes.Lider_pic}>
+                    {product.akciya && <div className={classes.Akciya_container}>
+                        
+                        <span className={classes.Akciya_span}>{`${product.akciya}`}</span>
+                        <img src={product.pic_akciya} className={classes.Pic_akcia} />
+                    </div>}
+
                     <img src={`/img_products/${product.brand}/${product.model}/1.png`} />
 
                     <div className={classes.Back_pic}></div>
@@ -60,18 +66,18 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
                 </div>
 
                 <div className={classes.Lider_text}>
-                    <p className={classes.Model}  style={{ fontSize: product.small_item }}> {product.model}</p>
+                    <p className={classes.Model} style={{ fontSize: product.small_item }}> {product.model}</p>
                     <p> {product.type[0]}</p>
                     <p> {product.info.text}</p>
                     <p> {product.info.text1[0]}  {product.info.text1[1]}</p>
 
-                    {product.inStock_outStock===1 &&
+                    {product.inStock_outStock === 1 &&
                         <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
                     }
                     {!product.inStock_outStock &&
                         <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
                     }
-                    {product.inStock_outStock===2 &&
+                    {product.inStock_outStock === 2 &&
                         <p className={classes.Stock_soon}><span className={classes.Stock_span_soon}>ожидается поступление</span></p>
                     }
                     <h1 className={classes.Coast}>
@@ -150,13 +156,13 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
 
                 {
                     DataCatalog.map((item, index) => {
-                       
-                            return (
-                                <Link to={`/catalog/all/${item.id}`}>
-                                    {ProductDisplay(item)}
-                                </Link>
-                            )
-                        
+
+                        return (
+                            <Link to={`/catalog/all/${item.id}`}>
+                                {ProductDisplay(item)}
+                            </Link>
+                        )
+
                     })
                 }
 
@@ -164,7 +170,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
         )
     }
 
-    
+
 
     return (
         <div>общий каталог</div>
