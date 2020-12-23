@@ -4,7 +4,7 @@ import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 
-function CatalogContainer({ match, nalichie, brand, sort }) {
+function CatalogContainer({ match, nalichie, akciya, rasprodaga, brand, sort }) {
 
     const { Data } = useContext(Context);
     let DataCatalog = [];
@@ -14,11 +14,19 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
             DataCatalog.push(item)
         )
     })
-
-    DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
+        
+        DataCatalog.sort((a, b) => a.model > b.model ? 1 : -1)
 
     if (nalichie === true) {
         DataCatalog = DataCatalog.filter((e) => { if (e.inStock_outStock == 1) { return e } })
+    }
+
+    if (akciya === true) {
+        DataCatalog = DataCatalog.filter((e) => { if (e.akciya) { return e } })
+    }
+
+    if (rasprodaga === true) {
+        DataCatalog = DataCatalog.filter((e) => { if (e.old_coast) { return e } })
     }
 
     if (brand != 'All') {
@@ -51,7 +59,7 @@ function CatalogContainer({ match, nalichie, brand, sort }) {
 
                 <div className={classes.Lider_pic}>
                     {product.akciya && <div className={classes.Akciya_container}>
-                        
+
                         <span className={classes.Akciya_span}>{`${product.akciya}`}</span>
                         <img src={product.pic_akciya} className={classes.Pic_akcia} />
                     </div>}

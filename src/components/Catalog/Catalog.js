@@ -7,6 +7,8 @@ import { Context } from '../../Context'
 function Catalog({ match }) {
     // const { Unics, setUnics } = useContext(Context);
     const [Nalichie, setNalichie] = useState(false);
+    const [Akciya, setAkciya] = useState(false);
+    const [Rasprodaga, setRasprodaga] = useState(false);
     const [Brand, setBrand] = useState('All');
     const [Sort, setSort] = useState('Остортировать по');
 
@@ -73,9 +75,19 @@ function Catalog({ match }) {
                     </div>
                     <div className={classes.FilterContainer}>
                         {/* <span className={classes.FilterText}>отсортировать </span> */}
+                        <div className={classes.CheckBox}>
                         <div className={classes.ContainerNalichie}>
                             <label className={classes.LabelNalichie}>В наличии</label>
                             <input className={classes.CheckboxNalichie} type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
+                        </div>
+                        <div className={classes.ContainerNalichie}>
+                            <label className={classes.LabelNalichie}>Акция</label>
+                            <input className={classes.CheckboxNalichie} type="checkbox" value={Akciya} onChange={(e) => { setAkciya(e.target.checked) }} ></input>
+                        </div>
+                        <div className={classes.ContainerNalichie}>
+                            <label className={classes.LabelNalichie}>Распродажа</label>
+                            <input className={classes.CheckboxNalichie} type="checkbox" value={Rasprodaga} onChange={(e) => { setRasprodaga(e.target.checked) }} ></input>
+                        </div>
                         </div>
                         <div className={classes.ContainerBrand}>
                             <select className={classes.SelectBrand} value={Brand} onChange={(e) => { setBrand(e.target.value) }}>
@@ -104,7 +116,7 @@ function Catalog({ match }) {
                 <div className={classes.Container}>
                     <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>
-                    <CatalogContainer match={match} nalichie={Nalichie} brand={Brand} sort={Sort} />
+                    <CatalogContainer match={match} nalichie={Nalichie} akciya={Akciya} rasprodaga={Rasprodaga} brand={Brand} sort={Sort} />
                     {/* {console.log(Brand)} */}
                 </div>
             </div>
