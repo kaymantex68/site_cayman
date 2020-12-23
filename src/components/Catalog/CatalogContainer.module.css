@@ -102,10 +102,10 @@
 }
 .Pic_akcia{
    position: absolute; 
-   left: -35px;
-   top: 70px;
-   height: 80px;
-   transform: rotate(-45deg); 
+    left: -35px;
+    top: 100px;
+    height: 80px;
+   /* transform: rotate(-45deg);  */
   
 }
 
