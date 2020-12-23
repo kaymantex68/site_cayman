@@ -26,6 +26,7 @@ import trikolor_brand from '../src/Img_products/trikolor_brand.png';
 import ruvinil_brand from '../src/Img_products/ruvinil_brand.png';
 import promrukav_brand from '../src/Img_products/promrukav_brand.png';
 import hikvision_brand from '../src/Img_products/hikvision_brand.png';
+import kadron_brand from '../src/Img_products/kadron_brand.png';
 export const Data = [
  /** 
   * -------------------------------------------------------------------------------KadrON
@@ -44,7 +45,7 @@ export const Data = [
     description: 'Универсальная монтажная коробка KadrON для камер видеонаблюдения',
     path: '/',
     // pic: imou_cue_2,
-    pic_brand: hikvision_brand,
+    pic_brand: kadron_brand,
     coast: 400,
     old_coast: false,
     // rasprodaja: true,
