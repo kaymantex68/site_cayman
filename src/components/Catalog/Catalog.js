@@ -34,6 +34,11 @@ function Catalog({ match }) {
             unic.push(item.brand);
             unic = [...new Set(unic)];
         }
+
+        if (match.path == '/catalog/all') {
+            unic.push(item.brand);
+            unic = [...new Set(unic)];
+        }
     })
 
 
