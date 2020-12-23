@@ -22,7 +22,45 @@ import utepo_brand from '../src/Img_products/utepo_brand.png';
 import toshiba_brand from '../src/Img_products/toshiba_brand.png';
 import samsung_brand from '../src/Img_products/samsung_brand.png';
 import sandisk_brand from '../src/Img_products/sandisk_brand.png';
-export const Data = [
+import trikolor_brand from '../src/Img_products/trikolor_brand.png';
+export const Data = [ /** 
+    * -------------------------------------------------------------------------------Триколор
+    **/
+   /** 
+    * -------------------------------------------------------------Триколор усилитель 3g
+    **/
+   /**
+   *  Триколор DS-LINK (DS-4G-5kit)
+   */
+   {
+       model: 'DS-LINK (DS-4G-5kit)',
+       id: 'DS_LINK_(DS_4G_5kit)',
+       brand: 'Триколор',
+       type: ['Усилитель 3G/4G', 'net', 'power3g'],
+       description: 'Уличный модем 3G/4G с точкой доступа WI-FI (в комплекте кабель 20 метров). Отличное решение для подключения к сетям мобильного интернета при не уверенном сигнале 4G или 3G',
+       path: '/',
+       // pic: imou_cue_2,
+       pic_brand: trikolor_brand,
+       coast: 10990,
+       old_coast: false,
+       // rasprodaja: true,
+       // small_item: '0.67rem',
+       // new: true,
+       inStock_outStock: 1,
+       // small_item: '0.69rem',
+       info: {
+           text: ['Поколение сети : ', '3G/4G'],
+           text1: ['Коэффициент усиления : ', '5'],
+           text2: ['Стандарт связи : ', '3G UMTS900,3G UMTS2100,4G LTE800,4G LTE1800,4G LTE2600'],
+           text3: ['Максимальная скорость LTE 4 категории :', '100 Мб/с'],
+           text4: ['Тип симкарты:', 'Стандартная'],
+           text5: ['Питание (адаптер):', 'Input:100V~240V, 50Hz~60Hz Output:15V DC±10% Output: 500mA'],
+           text6: ['Диапазон рабочих температур (°С): ', '-35~60℃'],
+           text7: ['Габаритные размеры (мм):', '252 x 142 x 50 мм'],
+           text8: ['Вес, нетто (кг):', ' 0.57'],
+       },
+   },
+
     /** 
      * -------------------------------------------------------------------------------TOSHIBA
      **/
