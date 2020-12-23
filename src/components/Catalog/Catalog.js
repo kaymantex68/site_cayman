@@ -77,16 +77,16 @@ function Catalog({ match }) {
                         {/* <span className={classes.FilterText}>отсортировать </span> */}
                         <div className={classes.CheckBox}>
                         <div className={classes.ContainerNalichie}>
-                            <label className={classes.LabelNalichie}>В наличии</label>
-                            <input className={classes.CheckboxNalichie} type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
+                            <label className={classes.LabelNalichie} for="id1">В наличии</label>
+                            <input className={classes.CheckboxNalichie} id="id1" type="checkbox" value={Nalichie} onChange={(e) => { setNalichie(e.target.checked) }} ></input>
                         </div>
                         <div className={classes.ContainerNalichie}>
-                            <label className={classes.LabelNalichie}>Акция</label>
-                            <input className={classes.CheckboxNalichie} type="checkbox" value={Akciya} onChange={(e) => { setAkciya(e.target.checked) }} ></input>
+                            <label className={classes.LabelNalichie }for="id2">Акция</label>
+                            <input className={classes.CheckboxNalichie} id="id2"  type="checkbox" value={Akciya} onChange={(e) => { setAkciya(e.target.checked) }} ></input>
                         </div>
                         <div className={classes.ContainerNalichie}>
-                            <label className={classes.LabelNalichie}>Распродажа</label>
-                            <input className={classes.CheckboxNalichie} type="checkbox" value={Rasprodaga} onChange={(e) => { setRasprodaga(e.target.checked) }} ></input>
+                            <label className={classes.LabelNalichie} for="id3">Распродажа</label>
+                            <input className={classes.CheckboxNalichie} id="id3"  type="checkbox" value={Rasprodaga} onChange={(e) => { setRasprodaga(e.target.checked) }} ></input>
                         </div>
                         </div>
                         <div className={classes.ContainerBrand}>
