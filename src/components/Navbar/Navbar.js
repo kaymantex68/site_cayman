@@ -407,6 +407,48 @@ function Navbar() {
 
                                             </div>
                                         </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/montaj">Монтажное оборудование</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/montaj/rbox">Распределительные коробки</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/rbox/RuVinil">RuVinil</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/rbox/Промрукав">Промрукав</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/rbox/IEK">IEK</Link>
+                                                                </li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/montaj/mbox">Монтажные коробки</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/mbox/Atis">Atis</Link>
+                                                                </li>  
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/mbox/Hikvision">Hikvision</Link>
+                                                                </li>     
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/mbox/KadrON">KadrON</Link>
+                                                                </li>         
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                   
+                                                </ul>
+
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
