@@ -152,6 +152,36 @@ function Navbar() {
                                                 </ul>
                                             </div>
                                         </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/storage">Хранение данных</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/storage/hdd">Жесткие диски</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/storage/hdd/TOSHIBA">TOSHIBA</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/storage/sd">SD карты</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/storage/sd/SAMSUNG">SAMSUNG</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/storage/sd/SanDisk">SanDisk</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                         {/* <li className={classes.Dropdown_Links}>
                                             <a href="#">AHD камеры</a>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >

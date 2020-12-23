@@ -19,7 +19,271 @@ import ezviz_brand from '../src/Img_products/ezviz_brand.png';
 import atis_brand from '../src/Img_products/atis_brand.png';
 import dahua_brand from '../src/Img_products/dahua_brand.png';
 import utepo_brand from '../src/Img_products/utepo_brand.png';
+import toshiba_brand from '../src/Img_products/toshiba_brand.png';
+import samsung_brand from '../src/Img_products/samsung_brand.png';
+import sandisk_brand from '../src/Img_products/sandisk_brand.png';
 export const Data = [
+    /** 
+     * -------------------------------------------------------------------------------TOSHIBA
+     **/
+    /** 
+     * -------------------------------------------------------------TOSHIBA hdd
+     **/
+    /**
+    *  TOSHIBA V300 HDWU130UZSVA
+    */
+    {
+        model: 'V300 HDWU130UZSVA',
+        id: 'V300_HDWU130UZSVA',
+        brand: 'TOSHIBA',
+        type: ['Жесткий диск', 'storage', 'hdd'],
+        description: 'Жесткий диск TOSHIBA V300 HDWU130UZSVA, 3ТБ, HDD, SATA III, 3.5"',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: toshiba_brand,
+        coast: 6890,
+        old_coast: false,
+        rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '3 Tb'],
+            text1: ['Форм-фактор: ', '3.5'],
+            text2: ['Интерфейс:', 'SATA III'],
+            text4: ['Буферная память:', '64 МБ'],
+            text5: ['Скорость вращения шпинделя:', '5940 об/мин'],
+            text5: ['Потребляемая мощность: ', '5.4 Вт'],
+            text7: ['Мощность в режиме ожидания:', '4.2 Вт'],
+            text8: ['Толщина:', ' 26.1 мм'],
+        },
+    },
+    /**
+   *  TOSHIBA V300 HDWU120UZSVA
+   */
+    {
+        model: 'V300 HDWU120UZSVA',
+        id: 'V300_HDWU120UZSVA',
+        brand: 'TOSHIBA',
+        type: ['Жесткий диск', 'storage', 'hdd'],
+        description: 'Жесткий диск TOSHIBA V300 HDWU120UZSVA, 2ТБ, HDD, SATA III, 3.5"',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: toshiba_brand,
+        coast: 5850,
+        old_coast: false,
+        rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '2 Tb'],
+            text1: ['Форм-фактор: ', '3.5'],
+            text2: ['Интерфейс:', 'SATA III'],
+            text4: ['Буферная память:', '64 МБ'],
+            text5: ['Скорость вращения шпинделя:', '5700 об/минн'],
+            text5: ['Потребляемая мощность: ', '5.4 Вт'],
+            text7: ['Мощность в режиме ожидания:', '4.2 Вт'],
+            text8: ['Толщина:', ' 26.1 мм'],
+            text9: ['Особенности:', ' Датчик ударов'],
+        },
+    },
+    /**
+   *  TOSHIBA V300 HDWU110UZSVA
+   */
+    {
+        model: 'V300 HDWU110UZSVA',
+        id: 'V300_HDWU110UZSVA',
+        brand: 'TOSHIBA',
+        type: ['Жесткий диск', 'storage', 'hdd'],
+        description: 'Жесткий диск TOSHIBA V300 HDWU110UZSVA, 1ТБ, HDD, SATA III, 3.5"',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: toshiba_brand,
+        coast: 4450,
+        old_coast: false,
+        rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '1 Tb'],
+            text1: ['Форм-фактор: ', '3.5'],
+            text2: ['Интерфейс:', 'SATA III'],
+            text4: ['Буферная память:', '64 МБ'],
+            text5: ['Скорость вращения шпинделя:', '5700 об/минн'],
+            text5: ['Потребляемая мощность: ', '5.4 Вт'],
+            text7: ['Мощность в режиме ожидания:', '4.2 Вт'],
+            text8: ['Толщина:', ' 26.1 мм'],
+            text9: ['Особенности:', ' Количество поддерживаемых камер до 8'],
+        },
+    },
+    /** 
+     * -------------------------------------------------------------------------------SAMSUNG
+     **/
+    /** 
+     * -------------------------------------------------------------SAMSUNG sd
+     **/
+    /**
+    *  SAMSUNG U1 SAMSUNG EVO PLUS 128Gb
+    */
+    {
+        model: 'U1 SAMSUNG EVO PLUS 128Gb',
+        id: 'U1_SAMSUNG_EVO_PLUS_128Gb',
+        brand: 'SAMSUNG',
+        type: ['SD карта', 'storage', 'sd'],
+        description: 'Карта памяти microSDXC UHS-I U3 SAMSUNG EVO PLUS 128 ГБ, 100 МБ/с, Class 10, MB-MC128HA/RU, 1 шт., переходник SD',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: samsung_brand,
+        coast: 1990,
+        old_coast: false,
+        rasprodaja: true,
+        small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '128 ГБ'],
+            text1: ['Класс скорости : ', 'UHS-I U3'],
+            text2: ['Подтип:', 'microSDXC'],
+            text4: ['Классификация по скорости записи:', 'Class 10'],
+            text5: ['Скорость чтения, макс:', '100 МБ/с'],
+            text5: ['Скорость записи, макс.: ', '60 МБ/с'],
+            text7: ['Переходник:', 'SD'],
+            text8: ['Водостойкая:', 'да'],
+            text9: ['Термостойкая:', 'да'],
+            text10: ['Стойкая к рентгеновскому излучению:', 'да'],
+
+        },
+    },
+    /**
+    *  SAMSUNG U1 SAMSUNG EVO PLUS 64Gb
+    */
+    {
+        model: 'U1 SAMSUNG EVO PLUS 64Gb',
+        id: 'U1_SAMSUNG_EVO_PLUS_64Gb',
+        brand: 'SAMSUNG',
+        type: ['SD карта', 'storage', 'sd'],
+        description: 'Карта памяти microSDXC UHS-I U3 SAMSUNG EVO PLUS 64 ГБ, 100 МБ/с, Class 10, MB-MC128HA/RU, 1 шт., переходник SD',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: samsung_brand,
+        coast: 990,
+        old_coast: false,
+        rasprodaja: true,
+        small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '64 ГБ'],
+            text1: ['Класс скорости : ', 'UHS-I U3'],
+            text2: ['Подтип:', 'microSDXC'],
+            text4: ['Классификация по скорости записи:', 'Class 10'],
+            text5: ['Скорость чтения, макс:', '100 МБ/с'],
+            text5: ['Скорость записи, макс.: ', '60 МБ/с'],
+            text7: ['Переходник:', 'SD'],
+            text8: ['Водостойкая:', 'да'],
+            text9: ['Термостойкая:', 'да'],
+            text10: ['Стойкая к рентгеновскому излучению:', 'да'],
+
+        },
+    },
+    /** 
+   * -------------------------------------------------------------------------------SanDisk
+   **/
+    /** 
+     * -------------------------------------------------------------SanDisk sd
+     **/
+    /**
+    *  SanDisk UHS-I SANDISK Ultra 80 128
+    */
+    {
+        model: 'UHS-I SANDISK Ultra 80 128',
+        id: 'UHS_I_SANDISK_Ultra_80_128',
+        brand: 'SanDisk',
+        type: ['SD карта', 'storage', 'sd'],
+        description: 'Карта памяти microSD SanDisk Ultra поможет расширить дисковое пространство вашего смартфона, планшета, камеры или другой мультимедийной техники. На ней помещается большое количество документов, музыки и фильмов, кроме того, она подходит для хранения и записи видео в формате Full HD.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: sandisk_brand,
+        coast: 1490,
+        old_coast: false,
+        rasprodaja: true,
+        small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '128 ГБ'],
+            text1: ['Класс скорости : ', 'UHS-I Class 1'],
+            text2: ['Подтип:', 'microSDXC'],
+            text4: ['Классификация по скорости записи:', 'Class 10'],
+            text5: ['Скорость чтения, макс:', '100 МБ/с'],
+            text5: ['Скорость записи, макс.: ', '60 МБ/с'],
+        },
+    },
+    /**
+    *  SanDisk UHS-I SANDISK Ultra 80 64
+    */
+    {
+        model: 'UHS-I SANDISK Ultra 80 64',
+        id: 'UHS_I_SANDISK_Ultra_80_64',
+        brand: 'SanDisk',
+        type: ['SD карта', 'storage', 'sd'],
+        description: 'Карта памяти microSD SanDisk Ultra поможет расширить дисковое пространство вашего смартфона, планшета, камеры или другой мультимедийной техники. На ней помещается большое количество документов, музыки и фильмов, кроме того, она подходит для хранения и записи видео в формате Full HD.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: sandisk_brand,
+        coast: 740,
+        old_coast: false,
+        rasprodaja: true,
+        small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Объем: ', '64 ГБ'],
+            text1: ['Класс скорости : ', 'UHS-I Class 1'],
+            text2: ['Подтип:', 'microSDXC'],
+            text4: ['Классификация по скорости записи:', 'Class 10'],
+            text5: ['Скорость чтения, макс:', '100 МБ/с'],
+            text5: ['Скорость записи, макс.: ', '60 МБ/с'],
+        },
+    },
+    /**
+    *  SanDisk UHS-I SANDISK Ultra 80 32
+    */
+   {
+    model: 'UHS-I SANDISK Ultra 80 32',
+    id: 'UHS_I_SANDISK_Ultra_80_32',
+    brand: 'SanDisk',
+    type: ['SD карта', 'storage', 'sd'],
+    description: 'Карта памяти microSD SanDisk Ultra поможет расширить дисковое пространство вашего смартфона, планшета, камеры или другой мультимедийной техники. На ней помещается большое количество документов, музыки и фильмов, кроме того, она подходит для хранения и записи видео в формате Full HD.',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: sandisk_brand,
+    coast: 490,
+    old_coast: false,
+    rasprodaja: true,
+    small_item: '0.67rem',
+    // new: true,
+    inStock_outStock: 1,
+    // small_item: '0.69rem',
+    info: {
+        text: ['Объем: ', '32 ГБ'],
+        text1: ['Класс скорости : ', 'UHS-I Class 1'],
+        text2: ['Подтип:', 'microSDXC'],
+        text4: ['Классификация по скорости записи:', 'Class 10'],
+        text5: ['Скорость чтения, макс:', '100 МБ/с'],
+        text5: ['Скорость записи, макс.: ', '60 МБ/с'],
+    },
+},
+
     /** 
   * -------------------------------------------------------------------------------Utepo
   **/
