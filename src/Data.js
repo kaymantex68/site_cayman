@@ -950,6 +950,35 @@ export const Data = [
     /** 
      * -------------------------------------------------------------------------------Dahua
      **/
+     /** 
+     * -------------------------------------------------------------Dahua монтажные коробки
+     **/
+    /**
+    *  Dahua DH-PFB203W
+    */
+   {
+    model: 'DH-PFB203W',
+    id: 'DH_PFB203W',
+    brand: 'Dahua',
+    type: ['Монтажная коробка', 'montaj', 'mbox'],
+    description: 'Настенный кроштейн для купольных видеокамер серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22 ; Размеры:160*122*76mm; Вес: 0.5Kg',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: dahua_brand,
+    coast: 850,
+    old_coast: false,
+    // rasprodaja: true,
+    // small_item: '0.67rem',
+    // new: true,
+    inStock_outStock: 1,
+    // small_item: '0.69rem',
+    info: {
+        text: ['Тип крепления : ', 'настенный'],
+        text1: ['Размер : ', '160x122x76'],
+        text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22'],
+        text8: ['Вес:', '500 гр'],
+    },
+},
     /** 
      * -------------------------------------------------------------Dahua IP камеры
      **/
