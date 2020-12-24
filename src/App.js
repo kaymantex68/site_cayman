@@ -55,7 +55,7 @@ function App() {
               <Route exact path="/catalog/:cat/:type" component={Catalog} />
               <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
               <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
-
+              {/* <Route path="*" component={Main} /> */}
             </Switch>
           </div>
           <Footer />

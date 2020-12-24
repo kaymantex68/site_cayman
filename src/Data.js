@@ -29,8 +29,119 @@ import hikvision_brand from '../src/Img_products/hikvision_brand.png';
 import kadron_brand from '../src/Img_products/kadron_brand.png';
 import slt_brand from '../src/Img_products/slt_brand.png';
 import buro_brand from '../src/Img_products/buro_brand.png';
+import itk_brand from '../src/Img_products/itk_brand.png';
 export const Data = [
     /** 
+    * -------------------------------------------------------------------------------ITK
+    **/
+    /** 
+     * -------------------------------------------------------------ITK UTP кабель
+     **/
+    /**
+    *  ITK U-UTP (24AWG) кат.5е 4х2х0.51 ож PVC сер.
+    */
+    {
+        model: 'U-UTP (24AWG) 5е 4х2х0.51',
+        id: 'U_UTP_(24AWG)_5е_4х2х0ю51',
+        brand: 'ITK',
+        type: ['UTP витая пара', 'cabel', 'utp'],
+        description: 'ITK Витая пара U/UTP кат.5E 4х2х24AWG PVC серый (305м)',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: itk_brand,
+        coast: 26.4,
+        old_coast: false,
+        // rasprodaja: true,
+        small_item: '0.73rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Категория : ', '5Е'],
+            text1: ['Количество жил: ', '8'],
+            text2: ['Диаметр проводника: ', '0.51 мм'],
+            text3: ['Материал жил проводника:', 'Медный голый'],
+        },
+    },
+    /**
+    *  ITK F-UTP (24AWG) кат.5е 4х2х0.51 ож PVC сер.экран
+    */
+    {
+        model: 'F-UTP (24AWG) 5е 4х2х0.51',
+        id: 'F_UTP_(24AWG)_5е_4х2х0ю51',
+        brand: 'ITK',
+        type: ['UTP витая пара экран', 'cabel', 'utp'],
+        description: 'ITK Витая пара F/UTP кат.5E 4x2х24AWG PVC серый (305м) экранированная',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: itk_brand,
+        coast: 34.68,
+        old_coast: false,
+        // rasprodaja: true,
+        small_item: '0.73rem',
+        // new: true,
+        inStock_outStock: 1,
+        info: {
+            text: ['Категория : ', '5Е'],
+            text1: ['Количество жил: ', '8'],
+            text2: ['Диаметр проводника: ', '0.51 мм'],
+            text3: ['Материал жил проводника:', 'Медный голый'],
+            text4: ['Экран:', 'есть'],
+        },
+    },
+    /**
+   *  ITK U-UTP (24AWG) кат.5е 4х2х0.51 LDPE черн.
+   */
+    {
+        model: 'U-UTP (24AWG) 5е 4х2х0.51 LDPE',
+        id: 'U_UTP_(24AWG)_кат.5е_4х2х0.51_LDPE',
+        brand: 'ITK',
+        type: ['UTP витая пара экран', 'cabel', 'utp'],
+        description: 'ITK Витая пара F/UTP кат.5E 4x2х24AWG PVC серый (305м) экранированная',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: itk_brand,
+        coast: 34.68,
+        old_coast: false,
+        // rasprodaja: true,
+        small_item: '0.63rem',
+        // new: true,
+        inStock_outStock: 1,
+        info: {
+            text: ['Категория : ', '5Е'],
+            text1: ['Количество жил: ', '8'],
+            text2: ['Диаметр проводника: ', '0.51 мм'],
+            text3: ['Материал жил проводника:', 'Медный голый'],
+            text4: ['Экран:', 'есть'],
+        },
+    },
+    /**
+   *  ITK U-UTP (24AWG) кат.5е 4х2х0.51 LDPE черн. с троссом
+   */
+  {
+    model: 'U-UTP 5е 4х2х0.51 LDPE трос',
+    id: 'U_UTP_5е_4х2х0.51_LDPE_трос',
+    brand: 'ITK',
+    type: ['UTP витая пара + трос', 'cabel', 'utp'],
+    description: 'ITK Витая пара F/UTP кат.5E 4x2х24AWG PVC серый (305м) экранированная',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: itk_brand,
+    coast: 41.64,
+    old_coast: false,
+    // rasprodaja: true,
+    small_item: '0.63rem',
+    // new: true,
+    inStock_outStock: 1,
+    info: {
+        text: ['Категория : ', '5Е'],
+        text1: ['Количество жил: ', '8'],
+        text2: ['Диаметр проводника: ', '0.51 мм'],
+        text3: ['Материал жил проводника:', 'Медный голый'],
+        text4: ['Трос:', 'есть'],
+    },
+},
+    /**
      * -------------------------------------------------------------------------------Buro
      **/
     /** 
@@ -39,32 +150,32 @@ export const Data = [
     /**
     *  Buro
     */
-   {
-    model: '500SH-1.8-W CCA',
-    id: '500SH_1.8_W_CCA',
-    brand: 'Buro',
-    type: ['Сетевой фильтр', 'electro', 'sfilter'],
-    description: 'Удлинитель с сетевым фильтром 5х1.8м с заземл. 10А IP20 500SH-1.8-W CCA 3х0.75 бел. BURO 992284',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: buro_brand,
-    coast: 400,
-    old_coast: false,
-    // rasprodaja: true,
-    // small_item: '0.67rem',
-    // new: true,
-    inStock_outStock: 1,
-    // small_item: '0.69rem',
-    info: {
-        text: ['Длинна провода : ', '1.8 м'],
-        text1: ['Кол-во розеток: ', '5'],
-        text2: ['Номинальный ток: ', '10 А'],
-        text3: ['Сетевой помехоподавляющий фильтр:', 'есть'],
-        text4: ['Устройство защитного отключения (узо):', 'есть'],
-        text5: ['Выключатель Вкл/Откл (On/Off): ', 'есть'],
-        text6: ['Вес: ', '389 гр'],
+    {
+        model: '500SH-1.8-W CCA',
+        id: '500SH_1.8_W_CCA',
+        brand: 'Buro',
+        type: ['Сетевой фильтр', 'electro', 'sfilter'],
+        description: 'Удлинитель с сетевым фильтром 5х1.8м с заземл. 10А IP20 500SH-1.8-W CCA 3х0.75 бел. BURO 992284',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: buro_brand,
+        coast: 400,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Длинна провода : ', '1.8 м'],
+            text1: ['Кол-во розеток: ', '5'],
+            text2: ['Номинальный ток: ', '10 А'],
+            text3: ['Сетевой помехоподавляющий фильтр:', 'есть'],
+            text4: ['Устройство защитного отключения (узо):', 'есть'],
+            text5: ['Выключатель Вкл/Откл (On/Off): ', 'есть'],
+            text6: ['Вес: ', '389 гр'],
+        },
     },
-},
     /** 
      * -------------------------------------------------------------------------------SLT
      **/
@@ -4626,7 +4737,7 @@ export const Data = [
     /**
        *  IEK Корпус пластиковый ЩМПп 600х400х200мм УХЛ1 IP65
        */
-      {
+    {
         model: 'ЩМПп 400х300х170мм УХЛ1 IP65',
         id: 'ЩМПп_400х300х170мм_УХЛ1_IP65',
         brand: 'IEK',
@@ -4656,10 +4767,10 @@ export const Data = [
             text10: ['Тип монтажа:', 'Навесной'],
         },
     },
-      /**
-       *  IEK Корпус пластиковый ЩМПп 400х300х220мм прозрачная дверь УХЛ1 IP65
-       */
-      {
+    /**
+     *  IEK Корпус пластиковый ЩМПп 400х300х220мм прозрачная дверь УХЛ1 IP65
+     */
+    {
         model: 'ЩМПп 400х300х220мм УХЛ1 IP65',
         id: 'ЩМПп_400х300х220мм_УХЛ1_IP65',
         brand: 'IEK',
@@ -4722,7 +4833,7 @@ export const Data = [
     /**
        *  IEK Корпус пластиковый ЩМПп 600х400х200мм УХЛ1 IP65
        */
-      {
+    {
         model: 'ЩМПп 350х250х150мм УХЛ1 IP65',
         id: 'ЩМПп_350х250х150мм_УХЛ1_IP65',
         brand: 'IEK',
@@ -4755,7 +4866,7 @@ export const Data = [
     /**
        *  IEK Корпус пластиковый ЩМПп 600х400х200мм УХЛ1 IP65
        */
-      {
+    {
         model: 'ЩМПп 300х200х130мм УХЛ1 IP65',
         id: 'ЩМПп_300х250х130мм_УХЛ1_IP65',
         brand: 'IEK',
@@ -5433,9 +5544,9 @@ export const Data = [
         },
 
     },
-     /**
-     *  IMOU Ranger 2 black
-     */
+    /**
+    *  IMOU Ranger 2 black
+    */
     {
         model: 'Ranger 2 black',
         id: 'Ranger_2_black',

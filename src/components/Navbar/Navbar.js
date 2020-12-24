@@ -505,6 +505,38 @@ function Navbar() {
 
                                             </div>
                                         </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/cabel">Кабельная продукция</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/cabel/utp">UTP Витая пара</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/cabel/UTP/ITK">ITK</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/cabel/UTP/Generica">Generica</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/cabel/kvk">Комбинированный кабель</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/cabel/kvk/Paritet">Paritet</Link>
+                                                                </li>
+                                                               
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
