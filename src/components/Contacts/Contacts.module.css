@@ -1,7 +1,7 @@
 .Main{
     position: relative;
     width: 100%;
-    min-height: 700px;  
+    /* min-height: 700px;   */
     /* color: black; */
     /* background-color: khaki; */
     display: flex;
