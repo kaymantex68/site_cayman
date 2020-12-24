@@ -117,8 +117,8 @@ function LiderOfSale() {
                                                 }
                                                 <h1 className={classes.Coast}>
                                                     {item.old_coast != false ?
-                                                        <><span className={classes.Old_coast} >{`${item.old_coast}₽`}</span><span className={classes.New_coast}>{`${item.coast}₽`}</span></> :
-                                                        `${item.coast}₽`}
+                                                        <><span className={classes.Old_coast} >{`${item.old_coast} руб.`}</span><span className={classes.New_coast}>{`${item.coast} руб.`}</span></> :
+                                                        `${item.coast} руб.`}
                                                 </h1>
                                             </div>
                                             {/* <div className={classes.Lider_card_click} onClick={(e) => {handleClick(item)}} Model={item.model}></div> */}

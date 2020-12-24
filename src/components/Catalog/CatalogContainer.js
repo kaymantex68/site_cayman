@@ -90,8 +90,8 @@ function CatalogContainer({ match, nalichie, akciya, rasprodaga, brand, sort }) 
                     }
                     <h1 className={classes.Coast}>
                         {product.old_coast != false ?
-                            <><span className={classes.Old_coast} >{`${product.old_coast}₽`}</span><span className={classes.New_coast}>   {`${product.coast}₽`}</span></> :
-                            `${product.coast}₽`}
+                            <><span className={classes.Old_coast} >{`${product.old_coast} руб.`}</span><span className={classes.New_coast}>   {`${product.coast} руб.`}</span></> :
+                            `${product.coast} руб.`}
                     </h1>
                 </div>
 

@@ -10,7 +10,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 // install Swiper components
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y,Autoplay]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 
 
@@ -88,6 +88,11 @@ function LiderOfSale() {
                                             <div className={classes.Lider_pic}>
                                                 {/* {console.log(this.info)} */}
                                                 {/* <img src={item.pic} /> */}
+                                                {item.akciya && <div className={classes.Akciya_container}>
+
+                                                    <span className={classes.Akciya_span}>{`${item.akciya}`}</span>
+                                                    <img src={item.pic_akciya} className={classes.Pic_akcia} />
+                                                </div>}
                                                 <img src={`/img_products/${item.brand}/${item.model}/1.png`} />
                                                 <div className={classes.Back_pic}></div>
                                                 {item.pic_brand != false ?
@@ -102,19 +107,19 @@ function LiderOfSale() {
                                                 <p> {item.info.text}</p>
                                                 <p> {item.info.text1[0]}  {item.info.text1[1]}</p>
 
-                                                {item.inStock_outStock==1 &&
+                                                {item.inStock_outStock == 1 &&
                                                     <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
                                                 }
                                                 {!item.inStock_outStock &&
                                                     <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
                                                 }
-                                                {item.inStock_outStock==2 &&
+                                                {item.inStock_outStock == 2 &&
                                                     <p className={classes.Stock_soon}><span className={classes.Stock_span_soon}>ожидается поступление</span></p>
                                                 }
                                                 <h1 className={classes.Coast}>
                                                     {item.old_coast != false ?
-                                                        <><span className={classes.Old_coast} >{`${item.old_coast}₽`}</span><span className={classes.New_coast}>{`  ${item.coast}₽`}</span></> :
-                                                        `${item.coast}₽`}
+                                                        <><span className={classes.Old_coast} >{`${item.old_coast} руб.`}</span><span className={classes.New_coast}>{`  ${item.coast} руб.`}</span></> :
+                                                        `${item.coast} руб.`}
                                                 </h1>
                                             </div>
                                             {/* <div className={classes.Lider_card_click} onClick={(e) => {handleClick(item)}} Model={item.model}></div> */}
