@@ -454,6 +454,22 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/montaj/homut/IEK">IEK</Link>
                                                                 </li>  
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/homut/Rexant">Rexant</Link>
+                                                                </li> 
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/montaj/krep">Крепеж</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/krep/Промрукав">Промрукав</Link>
+                                                                </li>  
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/krep/IEK">IEK</Link>
+                                                                </li>  
                                                             </ul>
                                                         </div>
                                                     </li>
