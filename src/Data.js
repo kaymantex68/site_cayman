@@ -4503,7 +4503,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 4090,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4536,7 +4536,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 7090,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4569,7 +4569,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 3490,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4602,7 +4602,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 4190,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4635,7 +4635,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 2390,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4668,7 +4668,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 3240,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4731,7 +4731,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 1890,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -4764,7 +4764,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
-        coast: 180,
+        coast: 1290,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -5445,8 +5445,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 5690,
-        old_coast: 7830,
+        coast: 7490,
+        old_coast: false,
         lider: false,
         akciya: 'Акция -10%',
         pic_akciya: shar,
@@ -5499,7 +5499,7 @@ export const Data = [
         lider: false,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6990,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -5544,7 +5544,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 4290,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -5635,7 +5635,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 4290,
         old_coast: false,
         new: true,
         info: {
@@ -5680,7 +5680,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6590,
         old_coast: false,
         new: true,
         info: {
@@ -5812,8 +5812,9 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6590,
         old_coast: false,
+        inStock_outStock: 1,
         new: true,
         info: {
             text: ['Разрешение: ', '2 Мп'],
@@ -5843,11 +5844,11 @@ export const Data = [
 
     },
     /**
-    *  IMOU Bullet 2E
+    *  IMOU Bullet 2C
     */
     {
-        model: 'Bullet 2E',
-        id: 'Bullet_2E',
+        model: 'Bullet 2C',
+        id: 'Bullet_2C',
         brand: 'IMOU',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Цветное изображение даже ночью. Обнаружение людей | 1080p | H.265 | Ночное видение Smart Color | Встроенный микрофон | Класс защиты IP67 | Встроенный прожектор | Двойная антенна и MIMO | Режим AP | Облако',
@@ -5857,7 +5858,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 5990,
         old_coast: false,
         new: true,
         info: {
@@ -5904,7 +5905,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 8590,
         old_coast: false,
         new: true,
         info: {
@@ -5953,7 +5954,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6590,
         old_coast: false,
         new: true,
         info: {
@@ -6001,7 +6002,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6290,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -6034,7 +6035,7 @@ export const Data = [
 
     },
     /**
-    *  IMOU Bullet lite 2MP
+    *  IMOU Bullet lite 4MP
     */
     {
         model: 'Bullet lite 4MP',
@@ -6049,7 +6050,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6290,
+        coast: 7390,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -6082,7 +6083,7 @@ export const Data = [
 
     },
     /**
-     *  IMOU Dome Lite
+     *  IMOU IPC-T22A
      */
     {
         model: 'IPC-T22A',
@@ -6095,7 +6096,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 6990,
         old_coast: false,
         new: true,
         inStock_outStock: 1,
@@ -6142,7 +6143,7 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
+        coast: 15990,
         old_coast: false,
         new: true,
         inStock_outStock: 0,

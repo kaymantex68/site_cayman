@@ -412,7 +412,7 @@ function Navbar() {
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                 <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/montaj/bbox">Ящики монтажные</Link>
+                                                        <Link to="/catalog/montaj/bbox">Шкафы монтажные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>

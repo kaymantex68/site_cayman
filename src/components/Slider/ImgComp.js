@@ -29,7 +29,7 @@ function ImgComp({ obj }) {
                                         <p className={classes.Slider_p} key={index} style={{ color: obj.colorText }}>{obj.info[item]}</p>
                                     )
                                 })}
-                                {obj.coast && <h2 className={classes.Slider_coast} style={{ color: obj.colorText }}>{`${obj.coast}Р`}</h2>}
+                                {obj.coast && <h2 className={classes.Slider_coast} style={{ color: obj.colorText }}>{`${obj.coast} руб.`}</h2>}
                             </div>
                         </div>
 
