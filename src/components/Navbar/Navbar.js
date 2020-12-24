@@ -408,9 +408,19 @@ function Navbar() {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/montaj">Монтажное оборудование</Link>
+                                            <Link to="/catalog/montaj">Монтажные материалы</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
+                                                <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/montaj/bbox">Ящики монтажные</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/montaj/bbox/IEK">IEK</Link>
+                                                                </li>        
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/montaj/rbox">Распределительные коробки</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -470,6 +480,24 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/montaj/krep/IEK">IEK</Link>
                                                                 </li>  
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/electro">Электроматериалы</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/electro/sfilter">Сетевые фильтры</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/electro/sfilter/Buro">Buro</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
