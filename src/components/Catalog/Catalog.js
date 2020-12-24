@@ -43,6 +43,8 @@ function Catalog({ match }) {
         }
     })
 
+    unic.sort((a, b) => a > b ? 1 : -1)
+
 
 
 
