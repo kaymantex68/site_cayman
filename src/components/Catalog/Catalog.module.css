@@ -133,9 +133,10 @@
   overflow: hidden;
    justify-content: center;
     /* width: 100%; */
-    /* min-height: 700px;  */
+    min-height: 1150px;  
     /* height: auto; */
     /* background-color: red;   */
+    
     flex-wrap: wrap;
   
 }
