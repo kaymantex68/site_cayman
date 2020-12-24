@@ -27,39 +27,98 @@ import ruvinil_brand from '../src/Img_products/ruvinil_brand.png';
 import promrukav_brand from '../src/Img_products/promrukav_brand.png';
 import hikvision_brand from '../src/Img_products/hikvision_brand.png';
 import kadron_brand from '../src/Img_products/kadron_brand.png';
+import slt_brand from '../src/Img_products/slt_brand.png';
 export const Data = [
- /** 
-  * -------------------------------------------------------------------------------KadrON
-  **/
+    /** 
+     * -------------------------------------------------------------------------------SLT
+     **/
+    /** 
+     * -------------------------------------------------------------SLT монтажные коробки
+     **/
+    /**
+    *  SLT MK-1 Pro
+    */
+    {
+        model: 'MK-1 Pro',
+        id: 'MK_1_Pro',
+        brand: 'SLT',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Монтажная коробка предназначена для установки и подключения уличных видеокамер; Пластиковый корпус; Максимальная нагрузка 2,5кг. Вес 0,23кг. -50...+60°С; 140х140х66 мм.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: slt_brand,
+        coast: 300,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Размер : ', '140x140x60'],
+            text1: ['Цвет : ', 'белый'],
+            text2: ['Материал : ', 'Пластик'],
+            text8: ['Вес:', '160г'],
+        },
+    },
+    /**
+    *  SLT MK-1
+    */
+    {
+        model: 'MK-1',
+        id: 'MK_1_Pro',
+        brand: 'SLT',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Монтажная коробка предназначена для установки и подключения уличных видеокамер; Пластиковый корпус; Максимальная нагрузка 2,5кг. Вес 0,23кг. -50...+60°С; 140х140х66 мм.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: slt_brand,
+        coast: 200,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Размер : ', '140x140x60'],
+            text1: ['Цвет : ', 'белый'],
+            text2: ['Материал : ', 'Пластик'],
+            text8: ['Вес:', '160г'],
+        },
+    },
+    /** 
+     * -------------------------------------------------------------------------------KadrON
+     **/
     /** 
      * -------------------------------------------------------------KadrON монтажные коробки
      **/
     /**
     *  KadrON JB1-100W
     */
-   {
-    model: 'JB1-100W',
-    id: 'JB1-100W',
-    brand: 'KadrON',
-    type: ['Монтажная коробка', 'montaj', 'mbox'],
-    description: 'Универсальная монтажная коробка KadrON для камер видеонаблюдения',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: kadron_brand,
-    coast: 400,
-    old_coast: false,
-    // rasprodaja: true,
-    // small_item: '0.67rem',
-    // new: true,
-    inStock_outStock: 1,
-    // small_item: '0.69rem',
-    info: {
-        text: ['Размер : ', '130x130x42'],
-        text1: ['Цвет : ', 'белый'],
-        text2: ['Материал : ', 'Пластик'],
-        text8: ['Вес:', '160г'],
+    {
+        model: 'JB1-100W',
+        id: 'JB1-100W',
+        brand: 'KadrON',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Универсальная монтажная коробка KadrON для камер видеонаблюдения',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: kadron_brand,
+        coast: 400,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Размер : ', '130x130x42'],
+            text1: ['Цвет : ', 'белый'],
+            text2: ['Материал : ', 'Пластик'],
+            text8: ['Вес:', '160г'],
+        },
     },
-},
     /** 
   * -------------------------------------------------------------------------------Hikvision
   **/
@@ -1383,8 +1442,8 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-       
-     
+
+
 
     },
     /**
@@ -1417,7 +1476,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПД', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-        
+
 
     },
     /**
@@ -1450,7 +1509,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПД', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-        
+
 
     },
     /**
@@ -1483,7 +1542,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-45А вариант ПП', 'https://www.teko.biz/upload/rukovod/A-45%D0%90-ppv1_2.pdf'],
         },
-       
+
 
     },
     /**
@@ -1525,7 +1584,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        
+
 
     },
     /**
@@ -1565,7 +1624,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-42А', 'https://www.teko.biz/upload/rukovod/A-42%D0%90-v1_5.pdf'],
         },
-        
+
 
     },
     /**
@@ -1609,7 +1668,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
 
     },
     /**
@@ -1654,7 +1713,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
     },
     /**
       *  ТЕКО Астра-5131 исп. Б
@@ -1697,7 +1756,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
 
     },
     /**
@@ -1741,7 +1800,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
 
     },
     /**
@@ -1785,7 +1844,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
 
     },
     /**
@@ -1829,7 +1888,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-7 исп.РК', 'https://www.teko.biz/upload/rukovod/7-rkv1_4.pdf'],
         },
-        
+
 
     },
     /**
@@ -1870,7 +1929,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-9', 'https://www.teko.biz/upload/rukovod/9-v3_10.pdf'],
         },
-        
+
 
     },
     /**
@@ -1910,7 +1969,7 @@ export const Data = [
             Link2: ['Декларация соответствия ТР ЕАЭС 037/2016', 'https://www.teko.biz/upload/sert/%D0%95%D0%90%D0%AD%D0%A1_N_RU_%D0%94-RU.%D0%A0%D0%9001.%D0%92.27382_20_(%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_037_%D0%90%D1%81%D1%82%D1%80%D0%B0-512)_%D0%B4%D0%BE_22-03-2025.pdf'],
             Link4: ['Руководство пользователя Астра-6', 'https://www.teko.biz/upload/rukovod/6-v6_7.pdf'],
         },
-        
+
 
     },
     /**
@@ -4245,6 +4304,113 @@ export const Data = [
      * -----------------------------------------------------------------IEK
      */
     /** 
+     * ---------------------------------------------------IEK хомуты стяжки
+     */
+    /**
+    *  IEK Хомут-стяжка нейлон 2,5x100
+    */
+    {
+        model: 'Хомут-стяжка нейлон 2,5x100',
+        id: 'Хомут_стяжка_нейлон_2,5x100',
+        brand: 'IEK',
+        type: ['Хомут-стяжка', 'montaj', 'homut'],
+        description: 'Хомут-стяжка нейлон 2,5x100 ',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: iek_brand,
+        coast: 35,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        small_item: '0.7rem',
+        info: {
+            text: ['Размер : ', '2,5х100'],
+            text1: ['Упаковка : ', '100шт'],
+            text2: ['Материал : ', 'Нейлон 66'],
+            text3: ['Цвет :', 'Белые/Черные'],
+        },
+    },
+    /**
+    *  IEK Хомут-стяжка нейлон 2,5x150
+    */
+    {
+        model: 'Хомут-стяжка нейлон 2,5x150',
+        id: 'Хомут_стяжка_нейлон_2,5x150',
+        brand: 'IEK',
+        type: ['Хомут-стяжка', 'montaj', 'homut'],
+        description: 'Хомут-стяжка нейлон 2,5x150 ',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: iek_brand,
+        coast: 55,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        small_item: '0.7rem',
+        info: {
+            text: ['Размер : ', '2,5х150'],
+            text1: ['Упаковка : ', '100шт'],
+            text2: ['Материал : ', 'Нейлон 66'],
+            text3: ['Цвет :', 'Белые/Черные'],
+        },
+    },
+    /**
+    *  IEK Хомут-стяжка нейлон 2,5x110
+    */
+    {
+        model: 'Хомут-стяжка нейлон 2,5x110',
+        id: 'Хомут_стяжка_нейлон_2,5x110',
+        brand: 'IEK',
+        type: ['Хомут-стяжка', 'montaj', 'homut'],
+        description: 'Хомут-стяжка нейлон 2,5x110 ',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: iek_brand,
+        coast: 60,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        small_item: '0.7rem',
+        info: {
+            text: ['Размер : ', '2,5х110'],
+            text1: ['Упаковка : ', '100шт'],
+            text2: ['Материал : ', 'Нейлон 66'],
+            text3: ['Цвет :', 'Белые/Черные'],
+        },
+    },
+     /**
+    *  IEK Хомут-стяжка нейлон 2,5x200
+    */
+   {
+    model: 'Хомут-стяжка нейлон 2,5x200',
+    id: 'Хомут_стяжка_нейлон_2,5x200',
+    brand: 'IEK',
+    type: ['Хомут-стяжка', 'montaj', 'homut'],
+    description: 'Хомут-стяжка нейлон 2,5x200 ',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: iek_brand,
+    coast: 70,
+    old_coast: false,
+    // rasprodaja: true,
+    // small_item: '0.67rem',
+    // new: true,
+    inStock_outStock: 1,
+    small_item: '0.7rem',
+    info: {
+        text: ['Размер : ', '2,5х200'],
+        text1: ['Упаковка : ', '100шт'],
+        text2: ['Материал : ', 'Нейлон 66'],
+        text3: ['Цвет :', 'Белые/Черные'],
+    },
+},
+    /** 
      * ---------------------------------------------------IEK распределительные коробки
      */
     /**
@@ -5662,35 +5828,35 @@ export const Data = [
     /**
      *  Atis SP-Box 130x130x50
     */
-   {
-    model: 'SP-Box 120x50',
-    id: 'SP_Box_120x50',
-    brand: 'Atis',
-    type: ['Монтажная коробка', 'montaj', 'mbox'],
-    description: 'Кронштейн универсальный SP-Box 120x50 - монтажная влагозащищенная коробка наружного исполнения для всех типов камер видеонаблюдения. Степень защиты - IP-66. Обеспечивает удобство монтажа видеокамер на стену или потолок.',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: atis_brand,
-    coast: 150,
-    old_coast: false,
-    inStock_outStock: 1,
-    info: {
-        text: ['Размер : ', '120x50'],
-        text1: ['Отверстие диаметром : ', '35 мм'],
-        text2: ['Материал : ', 'Пластик'],
-        text3: ['Поверхность :', 'Необработанная'],
-        text4: ['Степень защиты IP:', 'IP66'],
-        text5: ['Фиксация крышки:', 'защелка'],
-        text6: ['Диапазон рабочих температур (°С): ', '-25~60℃'],
-        text8: ['Цвет:', 'Серый'],
+    {
+        model: 'SP-Box 120x50',
+        id: 'SP_Box_120x50',
+        brand: 'Atis',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Кронштейн универсальный SP-Box 120x50 - монтажная влагозащищенная коробка наружного исполнения для всех типов камер видеонаблюдения. Степень защиты - IP-66. Обеспечивает удобство монтажа видеокамер на стену или потолок.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: atis_brand,
+        coast: 150,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Размер : ', '120x50'],
+            text1: ['Отверстие диаметром : ', '35 мм'],
+            text2: ['Материал : ', 'Пластик'],
+            text3: ['Поверхность :', 'Необработанная'],
+            text4: ['Степень защиты IP:', 'IP66'],
+            text5: ['Фиксация крышки:', 'защелка'],
+            text6: ['Диапазон рабочих температур (°С): ', '-25~60℃'],
+            text8: ['Цвет:', 'Серый'],
+
+        },
+
+        // download: {
+        //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+        // },
 
     },
-
-    // download: {
-    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
-    // },
-
-},
     /** 
      * ------------------------------------------------------------Atis IP камеры
      */
