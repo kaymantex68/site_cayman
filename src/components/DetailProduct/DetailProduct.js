@@ -10,6 +10,7 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+import fs from 'fs';
 // install Swiper components
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
@@ -31,20 +32,27 @@ function DetailProduct({ match }) {
     }
     const DetailInfo = DataProducts.find(x => x.id === match.params.model);
 
+
     const slides = [];
+   
     for (let i = 1; i < 5; i += 1) {
 
-        if (true) {
-            slides.push(
-                <SwiperSlide key={`slide-${i}`}>
-                    <div className={classes.Container_pic}>
-                        <img
-                            src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
-                        />
-                    </div>
-                </SwiperSlide>
-            );
-        }
+      
+                slides.push(
+                    <SwiperSlide key={`slide-${i}`}>
+                        <div className={classes.Container_pic}>
+
+                            <img
+                                src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
+                            />
+                        </div>
+                    </SwiperSlide>
+                );
+           
+         
+
+
+
     }
     return (
         <div className={classes.ContainerDetail}>
@@ -148,14 +156,14 @@ function DetailProduct({ match }) {
                             <div className={open ? classes.Download_on : classes.Download}>
                                 <div className={classes.download_links}>
                                     {
-                                    DetailInfo.download &&
+                                        DetailInfo.download &&
                                         Object.keys(DetailInfo.download).map((item, index) => {
                                             return (
                                                 <a href={DetailInfo.download[item][1]}><p className={classes.Link_text}>{DetailInfo.download[item][0]}</p></a>
                                             )
                                         })
                                     }
-                                    
+
 
 
 
