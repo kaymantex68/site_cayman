@@ -130,7 +130,7 @@ function DetailProduct({ match }) {
                             <p className={classes.coastModel}>
 
                                 {DetailInfo.old_coast != false ?
-                                    <><span className={classes.Old_coast} >{`${DetailInfo.old_coast} руб.`}</span><span className={classes.New_coast}>   {`${DetailInfo.coast} руб.`}</span></> :
+                                    <div><span className={classes.Old_coast} >{`${DetailInfo.old_coast} руб.`}</span><span className={classes.New_coast}>   {` ${DetailInfo.coast} руб.`}</span></div> :
                                     `${DetailInfo.coast} руб.`}
                             </p>
                         </div>

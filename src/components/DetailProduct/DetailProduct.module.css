@@ -532,6 +532,22 @@
       }
 }
 
+@media (max-width: 700px) {
+
+    .UpInfo{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .coastModel{
+        width: 100%;
+        
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+    }
+}
+
 
 @media (max-width: 414px) {  
     .Picture{
@@ -553,4 +569,16 @@
         
     }
 
+    .UpInfo{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .coastModel{
+        width: 100%;
+        
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+    }
 }
