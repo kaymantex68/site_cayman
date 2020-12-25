@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar/Navbar';
 import LiderOfSale from '../components/FastLink/LiderOfSale'
 import Rasprodaja from '../components/FastLink/Rasprodaja'
 import ModalWindow from '../components/Modal/ModalWindow'
+import Diller from '../components/Diller/Diller'
 import { Context } from '../Context'
 import { Data } from '../Data'
 
@@ -15,7 +16,7 @@ function Main() {
 
     const [Modal, setModal] = useState(false);
     const [Model, setModel] = useState('');
-    
+
     const OpenModal = () => {
         setModal(!Modal);
     }
@@ -34,7 +35,7 @@ function Main() {
 
     return (
         <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model }}>
-          
+
             <div className={classes.Content}>
                 <div className={classes.slider}>
                     <Slider />
@@ -53,11 +54,14 @@ function Main() {
                         </div>
                         <Rasprodaja />
                     </div>
+
                 </div>
-                { Modal && <ModalWindow />}
+                <div className={classes.Diller_main}>
+                    <Diller />
+                </div>
             </div>
-       
-            
+
+
         </Context.Provider >
     );
 };
