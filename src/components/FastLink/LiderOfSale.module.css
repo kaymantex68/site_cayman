@@ -303,4 +303,20 @@
     height: 90%; 
     
 }
+
+.Coast{
+    margin-top: 3px;
+    font-size: 0.8rem;
+    color: #3C475B;
+}
+.Old_coast{
+    /* font-size: 1rem; */
+    text-decoration: line-through;
+    color: #3C475B;
+}
+
+.New_coast{
+    color: red;
+    font-size: 0.9rem;
+}
 }

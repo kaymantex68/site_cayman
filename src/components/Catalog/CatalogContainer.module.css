@@ -261,4 +261,35 @@
       height: 60%; 
      
   }
+
+  .Coast{
+   /* margin-top: 3px; */
+   font-size: 0.8rem;
+   color: #3C475B;
+   margin-top:2px;
+}
+.Old_coast{
+   /* font-size: 1rem; */
+   text-decoration: line-through;
+   color: #3C475B;
+   margin-top:1.5px;
+   font-size: 0.6rem;
+}
+
+.New_coast{
+   color: red;
+   font-size: 0.8rem;
+}
+.Model{
+   color: #3C475B;
+   font-size: 0.68rem;
+   margin-bottom: 2px;
+   font-weight: bold;
+}
+
+.Lider_text >p{
+   color:#3C475B;
+   font-size: 0.68rem;
+}
+
 }

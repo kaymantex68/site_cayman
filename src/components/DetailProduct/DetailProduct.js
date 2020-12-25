@@ -58,7 +58,8 @@ function DetailProduct({ match }) {
         image.src =`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`;
         console.log(image);
         console.log(image.width);
-        if (image.width!=0) {
+        if (true){
+        // if (image.width!=0) {
             slides.push(
                 <SwiperSlide key={`slide-${i}`}>
                     <div className={classes.Container_pic}>
