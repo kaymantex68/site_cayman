@@ -33,27 +33,44 @@ function DetailProduct({ match }) {
     const DetailInfo = DataProducts.find(x => x.id === match.params.model);
 
 
-    const slides = [];
-   
-    for (let i = 1; i < 5; i += 1) {
-
-      
-                slides.push(
-                    <SwiperSlide key={`slide-${i}`}>
-                        <div className={classes.Container_pic}>
-
-                            <img
-                                src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
-                            />
-                        </div>
-                    </SwiperSlide>
-                );
-           
-         
 
 
+
+    function detect_image(url) {
+        var image = new Image();
+        image.src = url;
+        image.onload = function () {
+            console.log('1');
+            return 1; // Doesn't work
+        }
 
     }
+
+
+
+    const slides = [];
+
+    for (let i = 1; i < 5; i += 1) {
+        let detect_img = 0;
+        console.log(detect_image(`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`));
+        console.log(detect_img);
+
+
+        if (true) {
+            slides.push(
+                <SwiperSlide key={`slide-${i}`}>
+                    <div className={classes.Container_pic}>
+
+                        <img
+                            src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
+                        />
+                    </div>
+                </SwiperSlide>
+            );
+        }
+    }
+
+
     return (
         <div className={classes.ContainerDetail}>
             <div className={classes.Manual}>
