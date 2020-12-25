@@ -19,7 +19,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
 function DetailProduct({ match }) {
 
     const [open, setOpen] = useState(false);
-
+  
 
     const { Data } = useContext(Context);
     let DataProducts = [];
@@ -36,26 +36,25 @@ function DetailProduct({ match }) {
 
 
 
-    function detect_image(url) {
-        var image = new Image();
-        image.src = url;
-        image.onload = function () {
-            console.log('1');
-            return 1; // Doesn't work
-        }
-
-    }
+    // function detect(URL) {
+    //     let image = new Image();
+    //     image.src = URL;
+      
+    //     image.onload = function() {
+            
+    //     };
+    //     image.onError = function() {
+       
+    //     };   
+    // }
 
 
 
     const slides = [];
 
     for (let i = 1; i < 5; i += 1) {
-        let detect_img = 0;
-        console.log(detect_image(`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`));
-        console.log(detect_img);
-
-
+        
+       
         if (true) {
             slides.push(
                 <SwiperSlide key={`slide-${i}`}>
