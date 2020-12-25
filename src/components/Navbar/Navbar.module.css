@@ -41,12 +41,12 @@
     align-items: center;
     color:black;
     text-align: -webkit-center;
-    background-color:#ff73007c; 
+    background-color:#3C475B;
     /* background-color:red; */
 }
 
 .Kol_tovar_span{
-    color: #3C475B;
+    color: white;
     
     /* background-color:#ff660027;  */
     padding: 5px;
