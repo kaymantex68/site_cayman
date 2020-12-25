@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import classes from './DetailProduct.module.css'
 import { Context } from '../../Context'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
@@ -10,7 +10,7 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-import fs from 'fs';
+import imageExsists from 'image-exists';
 // install Swiper components
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
@@ -19,7 +19,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
 function DetailProduct({ match }) {
 
     const [open, setOpen] = useState(false);
-  
+
+
 
     const { Data } = useContext(Context);
     let DataProducts = [];
@@ -39,27 +40,28 @@ function DetailProduct({ match }) {
     // function detect(URL) {
     //     let image = new Image();
     //     image.src = URL;
-      
+
     //     image.onload = function() {
-            
+
     //     };
     //     image.onError = function() {
-       
+
     //     };   
     // }
-
-
-
+    
     const slides = [];
-
     for (let i = 1; i < 5; i += 1) {
+
         
-       
-        if (true) {
+        
+        let image = new Image();     
+        image.src =`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`;
+        console.log(image);
+        console.log(image.width);
+        if (image.width!=0) {
             slides.push(
                 <SwiperSlide key={`slide-${i}`}>
                     <div className={classes.Container_pic}>
-
                         <img
                             src={`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`}
                         />
@@ -68,6 +70,11 @@ function DetailProduct({ match }) {
             );
         }
     }
+
+
+
+
+
 
 
     return (
