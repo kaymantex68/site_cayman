@@ -21,7 +21,7 @@ function Diller() {
 
 
         < div className={classes.Main} >
-            <div className={classes.Text}>Дилеры</div>
+            <div className={classes.Text}>Мы являемся дилерами</div>
 
             <div className={classes.Container}>
                 {DataDiller.map((item, index) => {
