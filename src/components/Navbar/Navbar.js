@@ -271,7 +271,7 @@ function Navbar() {
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/domofon/complect/Hiwatch">Hiwatch</Link>
+                                                                    <Link to="/catalog/domofon/complect/HiWatch">HiWatch</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
