@@ -52,7 +52,7 @@ export const Data = [
         pic_brand: schneider_electric_brand,
         coast: 1900,
         old_coast: false,
-        rasprodaja: true,
+        // rasprodaja: true,
         // small_item: '0.67rem',
         new: true,
         inStock_outStock: 1,
@@ -988,6 +988,36 @@ export const Data = [
     /** 
     * -------------------------------------------------------------Dahua монтажные коробки
     **/
+   /**
+    *  Dahua DH-PFA135
+    */
+   {
+    model: 'DH-PFA135',
+    id: 'DH_PFA135',
+    brand: 'Dahua',
+    type: ['Монтажная коробка', 'montaj', 'mbox'],
+    description: 'Распределительная коробка для уличных видеокамер Dahua серии HFWxxR-Z/VF.',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: dahua_brand,
+    coast: 890,
+    old_coast: false,
+    // rasprodaja: true,
+    // small_item: '0.67rem',
+    // new: true,
+    inStock_outStock: 1,
+    // small_item: '0.69rem',
+    info: {
+        text: ['Тип крепления : ', 'настенный'],
+        text1: ['Размер : ', '90 x 33.7 мм'],
+        text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22'],
+        text8: ['Вес:', '500 гр'],
+        text9: ['Резьба:', 'M20 (G1/2”)'],
+        text10: ['Материал:', 'Алюминий'],
+        text11: ['Цвет:', 'Белый'],
+        
+    },
+},
     /**
     *  Dahua DH-PFB203W
     */
