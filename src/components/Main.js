@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Switch, Router } from 'react-router-dom'
+import { Switch, Router, useLocation } from 'react-router-dom'
 import classes from '../App.module.css';
 import Slider from '../components/Slider/Slider';
 import UpHeader from '../components/UpHeader';
@@ -13,6 +13,10 @@ import { Data } from '../Data'
 
 
 function Main() {
+
+    const location = useLocation();
+    console.log('pathname---------------');
+    console.log(location.pathname);
 
     const [Modal, setModal] = useState(false);
     const [Model, setModel] = useState('');

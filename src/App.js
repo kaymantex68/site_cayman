@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link, useLocation } from 'react-router-dom'
 import classes from './App.module.css';
 import UpHeader from './components/UpHeader';
 import Navbar from './components/Navbar/Navbar';
@@ -11,24 +11,37 @@ import Footer from './components/Footer';
 import DetailProduct from './components/DetailProduct/DetailProduct';
 import Contacts from './components/Contacts/Contacts';
 import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 
+
+
+var history = createBrowserHistory();
 
 function App() {
+
+ 
+
   ReactGA.initialize('UA-185966908-1');
-  
   useEffect(() => {
     // ReactGA.ga('send', 'pageview', '/');
-    ReactGA.pageview('/');
-    ReactGA.pageview('/catalog');
-    ReactGA.pageview('/contacts/adress');
-    ReactGA.pageview('/catalog/all');
-    ReactGA.pageview('/:model');
-  },[]);
+    // ReactGA.pageview('/');
+    // ReactGA.pageview('/catalog');
+    // ReactGA.pageview('/contacts/adress');
+    // ReactGA.pageview('/catalog/all');
+    // ReactGA.pageview('/:model');
 
+  }, []);
+
+  history.listen((location) => {
+    window.ga('set', 'page', location.pathname + location.search);
+    window.ga('send', 'pageview');
+
+    console.log(location.pathname + location.search);
+  });
 
   return (
 
-    
+
     <Context.Provider value={{
       // Modal, 
       // OpenModal, 
@@ -36,7 +49,8 @@ function App() {
       // IdModel, Model, 
       // getNav, Nav 
     }}>
-      <Router>
+      <BrowserRouter history={history}>
+
         <div className={classes.Main}>
           <div className={classes.Header}>
             <UpHeader />
@@ -63,9 +77,10 @@ function App() {
         {/* <div className={classes.FooterContainer}> */}
 
         {/* </div> */}
-      </Router>
+
+      </BrowserRouter>
     </Context.Provider>
-   
+
 
   );
 };

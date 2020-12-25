@@ -1,10 +1,14 @@
 import React, { useState, useContext, useEffect } from 'react';
 import classes from './Catalog.module.css'
 import CatalogContainer from './CatalogContainer'
-import { Link } from 'react-router-dom'
+import { Link ,useLocation} from 'react-router-dom'
 import { Context } from '../../Context'
 
 function Catalog({ match }) {
+    const location = useLocation();
+    console.log('pathname---------------');
+    console.log(location.pathname);
+
     // const { Unics, setUnics } = useContext(Context);
     const [Nalichie, setNalichie] = useState(false);
     const [Akciya, setAkciya] = useState(false);

@@ -1,9 +1,13 @@
 import React, { useState, useContext } from 'react';
 import classes from './Contacts.module.css'
+import {  useLocation } from 'react-router-dom'
 
 
 
 function Contacts() {
+    const location = useLocation();
+    console.log('pathname---------------');
+    console.log(location.pathname);
     return (
         <>
             <div className={classes.Main}>

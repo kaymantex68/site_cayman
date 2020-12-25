@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import classes from './DetailProduct.module.css'
 import { Context } from '../../Context'
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link ,useLocation} from 'react-router-dom'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import youtubePic from './youtube.svg';
@@ -17,6 +17,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
 
 
 function DetailProduct({ match }) {
+    const location = useLocation();
+    console.log('pathname---------------');
+    console.log(location.pathname);
+
+
 
     const [open, setOpen] = useState(false);
 
@@ -56,8 +61,8 @@ function DetailProduct({ match }) {
         
         let image = new Image();     
         image.src =`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`;
-        console.log(image);
-        console.log(image.width);
+        // console.log(image);
+        // console.log(image.width);
         if (true){
         // if (image.width!=0) {
             slides.push(
