@@ -5,9 +5,7 @@ import { Link ,useLocation} from 'react-router-dom'
 import { Context } from '../../Context'
 
 function Catalog({ match }) {
-    const location = useLocation();
-    console.log('pathname---------------');
-    console.log(location.pathname);
+    
 
     // const { Unics, setUnics } = useContext(Context);
     const [Nalichie, setNalichie] = useState(false);

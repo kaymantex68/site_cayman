@@ -13,14 +13,12 @@ import { Data } from '../Data'
 
 
 function Main() {
-
-    const location = useLocation();
-    console.log('pathname---------------');
-    console.log(location.pathname);
+   
+   
 
     const [Modal, setModal] = useState(false);
     const [Model, setModel] = useState('');
-
+    const [location1, setLocation1] = useState('');
     const OpenModal = () => {
         setModal(!Modal);
     }
@@ -35,10 +33,12 @@ function Main() {
         OpenModal();
     }
 
+    
+
 
 
     return (
-        <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model }}>
+        <Context.Provider value={{ Modal, OpenModal, Data, IdModel, Model ,setLocation1}}>
 
             <div className={classes.Content}>
                 <div className={classes.slider}>

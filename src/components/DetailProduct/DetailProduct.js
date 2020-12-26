@@ -10,24 +10,32 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-import imageExsists from 'image-exists';
+
+
 // install Swiper components
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Thumbs]);
 
 
 function DetailProduct({ match }) {
-    const location = useLocation();
-    console.log('pathname---------------');
-    console.log(location.pathname);
+    const { Data ,setLocation1} = useContext(Context);
+    var location = useLocation();
+   
+    
+    // useEffect(()=>{
+    //     setLocation1(1);
+    // })
+   
+    // console.log('pathname---------------');
+    // console.log(location1.pathname);
 
-
+    
 
     const [open, setOpen] = useState(false);
 
 
 
-    const { Data } = useContext(Context);
+    
     let DataProducts = [];
     {
         Data.map((item, index) => {

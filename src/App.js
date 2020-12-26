@@ -15,12 +15,14 @@ import { createBrowserHistory } from 'history';
 
 
 
-var history = createBrowserHistory();
+
 
 function App() {
 
+  var location = useLocation();
+    console.log('pathname---------------APP');
+    console.log(location.pathname);
  
-
   ReactGA.initialize('UA-185966908-1');
   useEffect(() => {
     // ReactGA.ga('send', 'pageview', '/');
@@ -29,27 +31,16 @@ function App() {
     // ReactGA.pageview('/contacts/adress');
     // ReactGA.pageview('/catalog/all');
     // ReactGA.pageview('/:model');
-
-  }, []);
-
-  history.listen((location) => {
-    window.ga('set', 'page', location.pathname + location.search);
-    window.ga('send', 'pageview');
-
-    console.log(location.pathname + location.search);
-  });
+    ReactGA.pageview(location.pathname);
+  }, [location]);
+  
+  
 
   return (
 
 
-    <Context.Provider value={{
-      // Modal, 
-      // OpenModal, 
-      Data,
-      // IdModel, Model, 
-      // getNav, Nav 
-    }}>
-      <BrowserRouter history={history}>
+    <>
+      
 
         <div className={classes.Main}>
           <div className={classes.Header}>
@@ -78,9 +69,9 @@ function App() {
 
         {/* </div> */}
 
-      </BrowserRouter>
-    </Context.Provider>
-
+     
+    
+</>
 
   );
 };
