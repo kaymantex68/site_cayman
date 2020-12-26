@@ -31,7 +31,208 @@ import slt_brand from '../src/Img_products/slt_brand.png';
 import buro_brand from '../src/Img_products/buro_brand.png';
 import itk_brand from '../src/Img_products/itk_brand.png';
 import schneider_electric_brand from '../src/Img_products/schneider_electric_brand.png';
+import sprut_brand from '../src/Img_products/sprut_brand.png';
+import slinex_brand from '../src/Img_products/slinex_brand.png';
+
 export const Data = [
+    /** 
+       * -------------------------------------------------------------------------------Slinex
+       **/
+    /** 
+     * -------------------------------------------------------------Slinex Электромеханический замок
+     **/
+    /**
+        *  Slinex EL-02
+        */
+    {
+        model: 'Slinex EL-02',
+        id: 'Slinex_EL-02',
+        brand: 'Slinex',
+        type: ['Электромеханический замок', 'zamki', 'electromex'],
+        description: 'Электромеханический замок выполнен из нержавеющей стали. Открывание замка: импульсом электрического тока в 1,5-3 А, ключом, с помощью встроенной механической кнопки.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: slinex_brand,
+        coast: 1600,
+        old_coast: false,
+        rasprodaja: false,
+        small_item: '0.67rem',
+        new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Тип: ', 'Электромеханический'],
+            text1: ['Питание: ', '+ 9-12 В'],
+            text2: ['Температура эксплуатации:', '-40 – +55 °C'],
+            text3: ['Размер:', '148×107×55 мм'],
+            text4: ['Вес:', ' 1250 г'],
+        },
+    },
+    /**
+ *  Slinex EL-01
+ */
+    {
+        model: 'Slinex EL-01',
+        id: 'Slinex_EL-01',
+        brand: 'Slinex',
+        type: ['Электромеханический замок', 'zamki', 'electromex'],
+        description: 'Электромеханический замок выполнен из нержавеющей стали. Открывание замка: импульсом электрического тока в 1,5-3 А, с помощью встроенной механической кнопки.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: slinex_brand,
+        coast: 1300,
+        old_coast: false,
+        rasprodaja: false,
+        small_item: '0.67rem',
+        new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Тип: ', 'Электромеханический'],
+            text1: ['Питание: ', '+ 9-12 В'],
+            text2: ['Температура эксплуатации:', '-40 – +55 °C'],
+            text3: ['Размер:', '148×107×55 мм'],
+            text4: ['Вес:', ' 1250 г'],
+        },
+    },
+    /** 
+        * -------------------------------------------------------------------------------Sprut
+        **/
+       /** 
+        * -------------------------------------------------------------Sprut Электромагнитный замок
+        **/
+       /**
+           *  Sprut Lock-295MA
+           */
+          {
+            model: 'Lock-295MA',
+            id: 'Lock-295MA',
+            brand: 'Sprut',
+            type: ['Электромагнитный замок', 'zamki', 'elmagzamok'],
+            description: 'SPRUT Lock-295MA обеспечивает запирание двери на общественно-административных, производственных или частных объектах длительный срок службы за счёт отсутствия движущихся частей высокую надёжность. Такой замок нельзя взломать при помощи сверления или отмычкой простоту монтажа и эксплуатации возможность дистанционного управления процессом открывания/закрывания двери возможность установки на любые двери, в том числе на металлические, пластиковые, деревянные, стеклянные стойкость к агрессивным средам, а также устойчивость к температурным перепадам минимальное потребление электроэнергии',
+            path: '/',
+            // pic: imou_cue_2,
+            pic_brand: sprut_brand,
+            coast: 1930,
+            old_coast: false,
+            rasprodaja: false,
+            // small_item: '0.67rem',
+            new: true,
+            inStock_outStock: 1,
+            // small_item: '0.69rem',
+            info: {
+                text: ['Тип: ','Электромагнитный'],
+                text1: ['Питание: ', '12 В'],
+                text2: ['Ток потребления: ', '400 мА'],
+                text3: ['Сила удержания на отрыв:', '280 кг'],
+                text4: ['Размер:', '1250х49х27 мм / 180х38х11'],
+                text5: ['Вес:', ' 1,65 кг'],
+            },
+        },
+        /**
+           *  Sprut Lock-180MA
+           */
+          {
+            model: 'Lock-180MA',
+            id: 'Lock-180MA',
+            brand: 'Sprut',
+            type: ['Электромагнитный замок', 'zamki', 'elmagzamok'],
+            description: 'SPRUT Lock-180MA обеспечивает запирание двери на общественно-административных, производственных или частных объектах длительный срок службы за счёт отсутствия движущихся частей высокую надёжность. Такой замок нельзя взломать при помощи сверления или отмычкой простоту монтажа и эксплуатации возможность дистанционного управления процессом открывания/закрывания двери возможность установки на любые двери, в том числе на металлические, пластиковые, деревянные, стеклянные стойкость к агрессивным средам, а также устойчивость к температурным перепадам минимальное потребление электроэнергии',
+            path: '/',
+            // pic: imou_cue_2,
+            pic_brand: sprut_brand,
+            coast: 1480,
+            old_coast: false,
+            rasprodaja: false,
+            // small_item: '0.67rem',
+            new: true,
+            inStock_outStock: 1,
+            // small_item: '0.69rem',
+            info: {
+                text: ['Тип: ','Электромагнитный'],
+                text1: ['Питание: ', '12 В'],
+                text2: ['Ток потребления: ', '400 мА'],
+                text3: ['Сила удержания на отрыв:', '180 кг'],
+                text4: ['Размер:', '170х40х23 мм / 130х33х10'],
+                text5: ['Вес:', ' 0,85 кг'],
+            },
+        },         
+    /** 
+     * -------------------------------------------------------------Sprut крепление
+     **/
+    /**
+        *  Sprut Bracket-180ZL
+        */
+    {
+        model: 'Bracket-180ZL',
+        id: 'Bracket_180ZL',
+        brand: 'Sprut',
+        type: ['Крепление', 'zamki', 'krep'],
+        description: 'SPRUT Bracket-180ZL обеспечивает надёжную установку электромагнитных замков на металлические, пластиковые, металлопластиковые, деревянные и стеклянные двери упрощение монтажа и регулировки за счет наличия в них удлиненных овальных пазов.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: sprut_brand,
+        coast: 1040,
+        old_coast: false,
+        rasprodaja: false,
+        // small_item: '0.67rem',
+        inStock_outStock: 1,
+        info: {
+            text: ['Размеры:', '140 х 36 х 36 мм'],
+            text1: ['Масса: ', ' 0,24 кг'],
+            text2: ['Материал:', 'анодированный алюминий'],
+        },
+    },
+    /**
+        *  Sprut Bracket-180U
+        */
+    {
+        model: 'Bracket-180U',
+        id: 'Bracket-180U_крепление',
+        brand: 'Sprut',
+        type: ['Крепление', 'zamki', 'krep'],
+        description: 'SPRUT Bracket-180U обеспечивает надёжную установку электромагнитных замков на металлические, пластиковые, металлопластиковые, деревянные и стеклянные двери упрощение монтажа и регулировки за счет наличия в них удлиненных овальных пазов.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: sprut_brand,
+        coast: 430,
+        old_coast: false,
+        rasprodaja: false,
+        small_item: '0.67rem',
+        new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Размеры:', '140 х 33 х 26 мм'],
+            text1: ['Масса: ', ' 0,16 кг'],
+            text2: ['Материал:', 'анодированный алюминий'],
+        },
+    },
+    /**
+  *  Sprut Bracket-295U
+  */
+    {
+        model: 'Bracket-295U',
+        id: 'Bracket-295U_крепление',
+        brand: 'Sprut',
+        type: ['Крепление', 'zamki', 'krep'],
+        description: 'SPRUT Bracket-295U обеспечивает надёжную установку электромагнитных замков на металлические, пластиковые, металлопластиковые, деревянные и стеклянные двери упрощение монтажа и регулировки за счет наличия в них удлиненных овальных пазов.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: sprut_brand,
+        coast: 630,
+        old_coast: false,
+        rasprodaja: false,
+        //  small_item: '0.67rem',
+        new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Размеры:', '180 х 39 х 28 мм'],
+            text1: ['Масса: ', ' 0,27 кг'],
+            text2: ['Материал:', 'анодированный алюминий'],
+        },
+    },
     /** 
        * -------------------------------------------------------------------------------Schneider
        **/
@@ -988,36 +1189,36 @@ export const Data = [
     /** 
     * -------------------------------------------------------------Dahua монтажные коробки
     **/
-   /**
-    *  Dahua DH-PFA135
-    */
-   {
-    model: 'DH-PFA135',
-    id: 'DH_PFA135',
-    brand: 'Dahua',
-    type: ['Монтажная коробка', 'montaj', 'mbox'],
-    description: 'Распределительная коробка для уличных видеокамер Dahua серии HFWxxR-Z/VF.',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: dahua_brand,
-    coast: 890,
-    old_coast: false,
-    // rasprodaja: true,
-    // small_item: '0.67rem',
-    // new: true,
-    inStock_outStock: 1,
-    // small_item: '0.69rem',
-    info: {
-        text: ['Тип крепления : ', 'настенный'],
-        text1: ['Размер : ', '90 x 33.7 мм'],
-        text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22'],
-        text8: ['Вес:', '500 гр'],
-        text9: ['Резьба:', 'M20 (G1/2”)'],
-        text10: ['Материал:', 'Алюминий'],
-        text11: ['Цвет:', 'Белый'],
-        
+    /**
+     *  Dahua DH-PFA135
+     */
+    {
+        model: 'DH-PFA135',
+        id: 'DH_PFA135',
+        brand: 'Dahua',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Распределительная коробка для уличных видеокамер Dahua серии HFWxxR-Z/VF.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: dahua_brand,
+        coast: 890,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Тип крепления : ', 'настенный'],
+            text1: ['Размер : ', '90 x 33.7 мм'],
+            text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22'],
+            text8: ['Вес:', '500 гр'],
+            text9: ['Резьба:', 'M20 (G1/2”)'],
+            text10: ['Материал:', 'Алюминий'],
+            text11: ['Цвет:', 'Белый'],
+
+        },
     },
-},
     /**
     *  Dahua DH-PFB203W
     */

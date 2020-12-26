@@ -321,6 +321,44 @@ function Navbar() {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/zamki">Замки</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/zamki/electromex">Замки электромеханические</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/electromex/Slinex">Slinex</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/zamki/elmagzamok">Замки электромагнитные</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/elmagzamok/Sprut">Sprut</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/zamki/krep">Крепления для замков</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/krep/Sprut">Sprut</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/security">Охранно-пожарное оборудование</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
