@@ -20,8 +20,8 @@ import { createBrowserHistory } from 'history';
 function App() {
 
   var location = useLocation();
-    console.log('pathname---------------APP');
-    console.log(location.pathname);
+    // console.log('pathname---------------APP');
+    // console.log(location.pathname);
  
   ReactGA.initialize('UA-185966908-1');
   useEffect(() => {

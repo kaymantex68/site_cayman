@@ -27,7 +27,7 @@ function Slider() {
                 <SwiperSlide key={`slide-${index}`}>
 
                     {item.link_a &&
-                        <a href={item.link_a}>
+                        <a key={`link-nav-${index}`} href={item.link_a}>
                             <ImgComp  key={index} obj={item} />
                         </a>
                     }

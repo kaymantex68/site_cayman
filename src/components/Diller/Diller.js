@@ -11,7 +11,7 @@ Data.map((item) => {
     )
 })
 
-console.log(DataDiller)
+// console.log(DataDiller)
 
 
 function Diller() {

@@ -38,11 +38,11 @@ function useWindowSize() {
 
 function LiderOfSale() {
 
-    const { Modal, OpenModal, Data, IdModel } = useContext(Context);
+    const {  Data } = useContext(Context);
 
-    function handleClick(model) {
-        IdModel(model);
-    }
+    // function handleClick(model) {
+    //     IdModel(model);
+    // }
 
     let slideArr = [];
     {
@@ -81,42 +81,42 @@ function LiderOfSale() {
                             {item.lider &&
                                 < SwiperSlide key={index} className={classes.SwiperSlide} >
 
-                                    <Link to={`/${item.id}`}>
-                                        <div className={classes.Lider_card} >
+                                    <Link key={`lider-link-${index}`} to={`/${item.id}`}>
+                                        <div key={`lider-div-${index}`} className={classes.Lider_card} >
 
-                                            <div className={classes.Lider_pic}>
+                                            <div key={`lider-div1-${index}`} className={classes.Lider_pic}>
                                                 {/* {console.log(this.info)} */}
                                                 {/* <img src={item.pic} /> */}
-                                                {item.akciya && <div className={classes.Akciya_container}>
+                                                {item.akciya && <div key={`lider-div2-${index}`} className={classes.Akciya_container}>
 
-                                                    <span className={classes.Akciya_span}>{`${item.akciya}`}</span>
-                                                    <img src={item.pic_akciya} className={classes.Pic_akcia} />
+                                                    <span key={`lider-span-${index}`} className={classes.Akciya_span}>{`${item.akciya}`}</span>
+                                                    <img key={`lider-img-${index}`} src={item.pic_akciya} className={classes.Pic_akcia} />
                                                 </div>}
-                                                <img src={`/img_products/${item.brand}/${item.model}/1.png`} />
-                                                <div className={classes.Back_pic}></div>
-                                                {item.pic_brand != false ?
-                                                    <><div className={classes.Brand}>
-                                                        <img src={item.pic_brand} />
+                                                <img  key={`lider-img2-${index}`}src={`/img_products/${item.brand}/${item.model}/1.png`} />
+                                                <div key={`lider-div3-${index}`} className={classes.Back_pic}></div>
+                                                {item.pic_brand !== false ?
+                                                    <><div key={`lider-div4-${index}`} className={classes.Brand}>
+                                                        <img key={`lider-img3-${index}`} src={item.pic_brand} />
                                                     </div></> : null}
                                             </div>
 
-                                            <div className={classes.Lider_text}>
-                                                <h1 className={classes.Model} style={{ fontSize: item.small_item }}> {item.model}</h1>
+                                            <div key={`lider-div5-${index}`} className={classes.Lider_text}>
+                                                <h1 key={`lider-h1-${index}`} className={classes.Model} style={{ fontSize: item.small_item }}> {item.model}</h1>
                                                 <p> {item.type[0]}</p>
                                                 <p> {item.info.text}</p>
                                                 <p> {item.info.text1[0]}  {item.info.text1[1]}</p>
 
-                                                {item.inStock_outStock == 1 &&
+                                                {item.inStock_outStock === 1 &&
                                                     <p className={classes.Stock_true}><span className={classes.Stock_span_true}>в наличии</span></p>
                                                 }
                                                 {!item.inStock_outStock &&
                                                     <p className={classes.Stock_false}><span className={classes.Stock_span_false}>под заказ</span></p>
                                                 }
-                                                {item.inStock_outStock == 2 &&
+                                                {item.inStock_outStock === 2 &&
                                                     <p className={classes.Stock_soon}><span className={classes.Stock_span_soon}>ожидается поступление</span></p>
                                                 }
                                                 <h1 className={classes.Coast}>
-                                                    {item.old_coast != false ?
+                                                    {item.old_coast !== false ?
                                                         <><span className={classes.Old_coast} >{`${item.old_coast} руб.`}</span><span className={classes.New_coast}>{`${item.coast} руб.`}</span></> :
                                                         `${item.coast} руб.`}
                                                 </h1>
