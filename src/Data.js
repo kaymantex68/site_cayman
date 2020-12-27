@@ -157,8 +157,9 @@ export const Data = [
     path: '/',
     // pic: imou_cue_2,
     pic_brand: sib_arsenal_brand,
-    coast: 13370,
-    old_coast: false,
+    coast: 10700,
+    old_coast: 13370,
+    rasprodaja: true,
     inStock_outStock: 1,
     info: {
         text: ['Кол-во номеров: ', '6'],
