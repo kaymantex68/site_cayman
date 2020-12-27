@@ -7561,7 +7561,7 @@ export const Data = [
         old_coast: false,
         lider: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
