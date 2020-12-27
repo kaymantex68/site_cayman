@@ -422,6 +422,17 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/gsm"> GSM сигнализации</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                            
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/gsm/Сибирский Арсенал">Сибирский арсенал</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/security/iz_opt_electr">Извещатели оптико-электронные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
