@@ -253,7 +253,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/apc/close">На DIN-рейку</Link>
+                                                        <Link to="/catalog/apc/din">На DIN-рейку</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
