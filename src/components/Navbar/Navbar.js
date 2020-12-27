@@ -117,6 +117,26 @@ function Navbar() {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/micro">Микрофоны</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/micro/analog">Аналоговые</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/micro/analog/ST">ST</Link>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/reg">Регистраторы</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
@@ -212,7 +232,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/open/IEK">IEK</Link>
                                                                 </li>
-
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/apc/open/Navigator">Navigator</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -222,6 +244,20 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/close/IEK">IEK</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/apc/close/ST">ST</Link>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/apc/close">На DIN-рейку</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/apc/din/ST">ST</Link>
                                                                 </li>
 
                                                             </ul>
