@@ -32,7 +32,7 @@
 
 .SwiperSlide{
     
-    text-align: -webkit-center;
+    text-align: -moz-center;
 }
 .Lider_card{
      /* background-color: red;  */
@@ -130,7 +130,7 @@
     /* background-color: green; */
     margin:0;
     padding: 10px;
-    /* text-align: -webkit-center; */
+    /* text-align: -moz-center; */
     overflow:hidden;
     /* border-radius:10px; */
 }

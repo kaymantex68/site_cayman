@@ -133,7 +133,7 @@
     bottom:0; 
      /* background-color: blue;    */
      padding-top:10px;  
-    /* text-align: -webkit-center;   */
+    /* text-align: -moz-center;   */
     
 }
 
@@ -144,7 +144,7 @@
     left: 50%;
     transform: translateX(-50%);
     
-    /* text-align: -webkit-center;  */
+    /* text-align: -moz-center;  */
  }
 
 

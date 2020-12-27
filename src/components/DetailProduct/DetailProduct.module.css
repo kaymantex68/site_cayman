@@ -161,7 +161,7 @@
      
      border-radius: 20px;  
      padding-top:10px;  
-    /* text-align: -webkit-center;   */
+    /* text-align: -moz-center;   */
     
 }
 
@@ -174,7 +174,7 @@
     left: 50%;
     transform: translate(-50% ,-50%);
     
-    /* text-align: -webkit-center;  */
+    /* text-align: -moz-center;  */
  }
 
 .Swiper_cont{

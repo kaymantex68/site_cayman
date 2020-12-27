@@ -26,7 +26,7 @@
 }
 .Mail{
     flex: 1;
-    text-align: -webkit-center;
+    text-align: -moz-center;
     
 }
  .Phone{   
@@ -35,7 +35,7 @@
     
      flex-direction:column;
      flex:1;
-    text-align: -webkit-center;  
+    text-align: -moz-center;  
     /* background-color: red; */
 } 
 
@@ -45,11 +45,11 @@
   
    flex-direction:column;
    flex:1;
-  text-align: -webkit-center;  
+  text-align: -moz-center;  
 }
 .Info{  
     flex:1;
-    text-align: -webkit-center; 
+    text-align: -moz-center; 
 }
 .span_info{
     color: #3C475B;
