@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: -moz-center; 
+   text-align: -webkit-center; 
     color: #3C475B;
 }
 

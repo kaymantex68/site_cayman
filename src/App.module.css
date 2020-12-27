@@ -89,7 +89,7 @@ a{
 .Lider_text{
     font-weight: bold;
     color:  #3C475B;
-    text-align: -moz-center;
+   text-align: -webkit-center;
     font-size: 1.3rem;
     padding-top:13px;
 }
