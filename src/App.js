@@ -53,7 +53,7 @@ function App() {
     <>
       <Helmet>
         <meta charset="utf-8" />
-
+        <meta name="referrer" content="origin"/>
         <meta name="yandex-verification" content="af6bf6599fd7f67e" />
         <meta name="google-site-verification" content="ZREAVCIqBSZg9W4q6hxEtVqggkIYbDP1o5fAWHsNmN0" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
