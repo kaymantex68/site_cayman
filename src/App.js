@@ -56,6 +56,7 @@ function App() {
         <meta name="referrer" content="origin"/>
         <meta name="yandex-verification" content="af6bf6599fd7f67e" />
         <meta name="google-site-verification" content="ZREAVCIqBSZg9W4q6hxEtVqggkIYbDP1o5fAWHsNmN0" />
+        <meta name="google-site-verification" content="ZREAVCIqBSZg9W4q6hxEtVqggkIYbDP1o5fAWHsNmN0" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="Продажа и монтаж систем видеонаблюдения. Пожарная и охранная сигнализация. ОПС. СКУД. Монтаж домофонов. Монтаж контроля доступа. Тамбов, тамбовская область.Моршанск, Кирсанов, Жердевка, Рассказово, Уварово, Умет, Мордово. В Тамбове."/>
