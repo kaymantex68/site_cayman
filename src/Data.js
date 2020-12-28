@@ -38,8 +38,40 @@ import sib_arsenal_brand from '../src/Img_products/sib_arsenal_brand.png';
 import paritet_brand from '../src/Img_products/paritet_brand.png';
 import optimus_brand from '../src/Img_products/optimus_brand.png';
 import noname_brand from '../src/Img_products/noname_brand.png';
+import tantos_brand from '../src/Img_products/tantos_brand.png';
 
 export const Data = [
+    /** 
+     * ------------------------------------------------------------------------Tantos
+     */
+    /** 
+     * ---------------------------------------------------Tantos Считыватели
+     */
+    /**
+     *  Tantos TS-RDR-E
+     */
+    {
+        model: 'Tantos TS-RDR-E',
+        id: 'Tantos_TS-RDR-E',
+        brand: 'Tantos',
+        type: ['Считыватели', 'skud', 'schit'],
+        description: 'Расстояние считывания 5-10 см, карты EM-marine, выход Wiegand. Цвет белый. Предназначен для использования в системах контроля доступа в качестве считывателя бесконтактных карт Proximity стандарта Em Marin и преобразования кода считанной карты в код и Wiegand 26.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: tantos_brand,
+        coast: 1250,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Cчитывания: ', 'до 10 см'],
+            text1: ['Материал корпуса: ', 'пластик '],
+            text2: ['Стандарт карт/ключей:', 'EM-Marine'],
+            text3: ['Выходной интерфейс:', 'Wiegand'],
+            text4: ['Питание:', '12 В DC'],
+            text5: ['Диапазон рабочих температур:', 'От -30° С до +50° С'],
+            text6: ['Габаритные размеры:', '102х43х16 мм'],
+        },
+    },
     /** 
  * --------------------------------------------------------------------NONAME
  */
@@ -504,6 +536,56 @@ export const Data = [
     /** 
  * ---------------------------------------Sprut считыватели 
  */
+ /**
+    *    Sprut RFID Reader-11WH
+    */  
+   {
+    model: 'RFID Reader-11WH',
+    id: 'RFID_Reader-11WH',
+    brand: 'Sprut',
+    type: ['Считыватель', 'skud', 'schit'],
+    description: 'Особенности. SPRUT RFID Reader-11WH обеспечивает считывание идентификационного признака с идентификаторов; работу в составе системы контроля доступа: ввод запоминаемого кода; преобразование введенной информации в электрический сигнал; передачу информации на контроллер доступа; световую и звуковую индикацию; возможность эксплуатации не только внутри здания, но и снаружи.',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: sprut_brand,
+    coast: 690,
+    old_coast: false,
+    inStock_outStock: 1,
+    info: {
+        text: ['Считывание: ', '5…15 см'],
+        text1: ['Материал: ', 'Пластик'],
+        text2: ['Стандарт карт/ключей:', 'EM-Marine'],
+        text3: ['Выходной интерфейс:', 'Wiegand'],
+        text4: ['Питание:', '9…12 DC'],
+        text5: ['Диапазон рабочих температур:', '-25…+75 °С'],
+        text6: ['Габаритные размеры:', '75х16х115 мм'],
+    },
+},
+/**
+    *    Sprut RFID Reader-12WH
+    */  
+   {
+    model: 'RFID Reader-12WH',
+    id: 'RFID_Reader-12WH',
+    brand: 'Sprut',
+    type: ['Считыватель', 'skud', 'schit'],
+    description: 'Считыватель идентификаторов EM-Marin, считывание идентификационного признака с идентификаторов; работа в составе системы контроля доступа: ввод запоминаемого кода; преобразование введенной информации в электрический сигнал; передачу информации на контроллер доступа; световая и звуковая индикация; возможность эксплуатации не только внутри здания, но и снаружи.',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: sprut_brand,
+    coast: 990,
+    old_coast: false,
+    inStock_outStock: 1,
+    info: {
+        text: ['Cчитывание: ', '5…15 см'],
+        text1: ['Материал корпуса: ', 'пластик '],
+        text2: ['Стандарт карт/ключей:', 'EM-Marine'],
+        text3: ['Выходной интерфейс:', 'Wiegand'],
+        text4: ['Питание:', '9…12 DC'],
+        text5: ['Диапазон рабочих температур:', 'От -30° С до +50° С'],
+        text6: ['Габаритные размеры:', '140х90х40 мм'],
+    },
+},
     /**
  *  Sprut RFID Reader-15GR-K
  */

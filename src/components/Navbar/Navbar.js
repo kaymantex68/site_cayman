@@ -379,6 +379,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/skud/schit/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/Tantos">Tantos</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
