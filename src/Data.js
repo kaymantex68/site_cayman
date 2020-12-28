@@ -210,8 +210,8 @@ export const Data = [
         old_coast: false,
         inStock_outStock: 1,
         info: {
-            text: ['Выходной: ', 'Touch Memory'],
-            text1: ['Материал: ', 'Металл '],
+            text: ['Интерфейс: ', 'EM-Marine'],
+            text1: ['Материал: ', 'Пластик'],
             text2: ['Габаритные размеры:', '86х54х0,8'],
         },
     },
@@ -231,8 +231,8 @@ export const Data = [
         old_coast: false,
         inStock_outStock: 1,
         info: {
-            text: ['Интерфейс: ', 'Touch Memory'],
-            text1: ['Материал: ', 'Металл '],
+            text: ['Интерфейс: ', 'EM-Marine'],
+            text1: ['Материал: ', 'Пластик'],
             text2: ['Габаритные размеры:', '86х54х1,6'],
         },
     },
