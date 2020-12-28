@@ -360,6 +360,30 @@ function Navbar() {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/skud">Контроль доступа</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/skud/exit">Кнопки "Выход"</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/exit/Sprut">Sprut</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/exit/Slinex">Slinex</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/exit/Noname">Noname</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/zamki">Замки</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
