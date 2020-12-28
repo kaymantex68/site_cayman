@@ -1,12 +1,12 @@
 .Main{
     position: relative;
     width: 100%;
-    /* min-height: 700px;   */
+    min-height: 1150px;   
     /* color: black; */
     /* background-color: khaki; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     /* border-top:1px solid rgb(199, 199, 199); */
     background-color: #3c475b33;
 }
