@@ -194,6 +194,157 @@ export const Data = [
     /** 
  * --------------------------------------------------------------------NONAME
  */
+ /**
+     *  Карта
+     */
+    {
+        model: 'EM-Marine c2',
+        id: 'EM-Marine_c2',
+        brand: 'Noname',
+        type: ['Карта', 'skud', 'key'],
+        description: 'Бесконтактная карта Proximity формата EM Marin. Тонкая, толщина 0,8 мм., под прямую печать. Габаритные размеры 86х54х0,8 мм.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 25,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Выходной: ', 'Touch Memory'],
+            text1: ['Материал: ', 'Металл '],
+            text2: ['Габаритные размеры:', '86х54х0,8'],
+        },
+    },
+ /**
+     *  Карта EM-Marine
+     */
+    {
+        model: 'EM-Marine card',
+        id: 'EM-Marine_card',
+        brand: 'Noname',
+        type: ['Карта', 'skud', 'key'],
+        description: 'Бесконтактный идентификатор EM-Marine со встроенным чипом, цвет белый, с вырезом для крепления и напечатанным идентификационным номером с обратной стороны. Стандартный размер карты — 86х54 мм.(стандарт ISO 7810). Толщина: 1,6 мм. Используется для систем контроля доступа.',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 25,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'Touch Memory'],
+            text1: ['Материал: ', 'Металл '],
+            text2: ['Габаритные размеры:', '86х54х1,6'],
+        },
+    },
+ /** 
+ * ---------------------------------------------------------NONAME Ключи
+ */
+ /**
+     *  Брелок Mifare
+     */
+    {
+        model: 'Mifare 1K',
+        id: 'Mifare_1K',
+        brand: 'Noname',
+        type: ['Брелок', 'skud', 'key'],
+        description: ' Брелок Mifare 1K, 13,56 Мгц, 40,5х32 мм',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 20,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'Mifare 1K'],
+            text1: ['Материал: ', 'Пластик'],
+            text2: ['Диапазон рабочих температур:', '-40…+85'],
+        },
+    },
+ /**
+     *  Брелок EM-Marine
+     */
+    {
+        model: 'EM-Marine',
+        id: 'EM-Marine',
+        brand: 'Noname',
+        type: ['Ключ', 'skud', 'key'],
+        description: 'Пластиковый брелок EM Marine, 125 кГц, 64-битный код, Read Only, пластик ABS, с нумерацией, синий',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 20,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'EM Marine'],
+            text1: ['Материал: ', 'Пластик'],
+            text2: ['Диапазон рабочих температур:', '-40…+85'],
+        },
+    },
+ /**
+     *  Ключ SB 1990 A
+     */
+    {
+        model: 'SB 1990 A',
+        id: 'SB_1990_A',
+        brand: 'Noname',
+        type: ['Ключ', 'skud', 'key'],
+        description: 'Предназначен для использования совместно с устройствами контроля доступа в помещениях в качестве ключа доступа',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 30,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'Touch Memory'],
+            text1: ['Материал: ', 'Пластик'],
+            text2: ['Диапазон рабочих температур:', '-40…+85'],
+        },
+    },
+       /** 
+ * -------------------------------------------------NONAME считыватели
+ */
+ /**
+     *  Считыватель СТМ-КР
+     */
+    {
+        model: 'СТМ-КР',
+        id: 'СТМ-КР',
+        brand: 'Noname',
+        type: ['Считыватель', 'skud', 'schit'],
+        description: 'Считыватель СТМ-Нк предназначен для использования в системах контроля и управления доступом и работает с контроллерами СКУД, поддерживающими интерфейсы Touch Memory.',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 200,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'Touch Memory'],
+            text1: ['Материал: ', 'Металл '],
+            text2: ['Габаритные размеры:', 'D49х21'],
+        },
+    },
+     /**
+     *  Считыватель СТМ-КР-А
+     */
+    {
+        model: 'СТМ-КР-А',
+        id: 'СТМ-КР-А',
+        brand: 'Noname',
+        type: ['Считыватель', 'skud', 'schit'],
+        description: 'Считыватель СТМ-Нк предназначен для использования в системах контроля и управления доступом и работает с контроллерами СКУД, поддерживающими интерфейсы Touch Memory.',
+        // pic: imou_cue_2,
+        pic_brand: noname_brand,
+        coast: 200,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Интерфейс: ', 'Touch Memory'],
+            text1: ['Материал: ', 'Металл '],
+            text2: ['Габаритные размеры:', 'D49х21'],
+        },
+    },
     /** 
     * ---------------------------------------NONAME Кнопки
     */
