@@ -24,15 +24,17 @@ function App() {
   let DataCatalog = [];
 
   Data.map((item) => {
+    if (item.inStock_outStock===1) {
     // console.log(`${item.model} --- ${item.coast}`)
-    // summa=summa+item.coast;
+     summa=summa+item.coast;
+    }
     return (
       DataCatalog.push(item)
       
     )
   })
   // summa=summa*0.8;
-  // console.log(summa);
+   console.log(summa);
 
 
   var location = useLocation();
