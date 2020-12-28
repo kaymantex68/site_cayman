@@ -19,15 +19,20 @@ import { Helmet } from 'react-helmet'
 
 
 function App() {
-
+  let summa=0;
   const { Data } = useContext(Context);
   let DataCatalog = [];
 
   Data.map((item) => {
+    // console.log(`${item.model} --- ${item.coast}`)
+    // summa=summa+item.coast;
     return (
       DataCatalog.push(item)
+      
     )
   })
+  // summa=summa*0.8;
+  // console.log(summa);
 
 
   var location = useLocation();
