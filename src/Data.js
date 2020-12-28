@@ -1908,6 +1908,7 @@ export const Data = [
     /** 
      * -------------------------------------------------------------Utepo poe коммутатор
      **/
+    
     /**
      *  Utepo SF6P-FHM
      */
@@ -1979,6 +1980,36 @@ export const Data = [
 
         },
     },
+     /**
+     *  Dahua DH-PFA137
+     */
+    {
+        model: 'DH-PFA137',
+        id: 'DH_PFA137',
+        brand: 'Dahua',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Монтажная коробка для купольных видеокамер серий HDBWxxR-Z/VF и HDWxxR-Z..',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: dahua_brand,
+        coast: 890,
+        old_coast: false,
+        // rasprodaja: true,
+        // small_item: '0.67rem',
+        // new: true,
+        inStock_outStock: 1,
+        // small_item: '0.69rem',
+        info: {
+            text: ['Тип крепления : ', 'настенный'],
+            text1: ['Размер : ', '122 x 33.7 мм'],
+            text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22'],
+            text8: ['Вес:', '500 гр'],
+            text9: ['Резьба:', 'M20 (G1/2”)'],
+            text10: ['Материал:', 'Алюминий'],
+            text11: ['Цвет:', 'Белый'],
+
+        },
+    },
     /**
     *  Dahua DH-PFB203W
     */
@@ -2005,6 +2036,32 @@ export const Data = [
             text8: ['Вес:', '500 гр'],
         },
     },
+     /**
+    *  Dahua DH-PFB203W
+    */
+   {
+    model: 'DH-PFB204W',
+    id: 'DH_PFB204W',
+    brand: 'Dahua',
+    type: ['Монтажная коробка', 'montaj', 'mbox'],
+    description: 'Настенный кроштейн для купольных камер Dahua серий HDBWxxF и HDWxxM ; Размеры:	160 × 122 × 76 мм; Вес: 0,49Kg',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: dahua_brand,
+    coast: 1190,
+    old_coast: false,
+    // rasprodaja: true,
+    // small_item: '0.67rem',
+    // new: true,
+    inStock_outStock: 1,
+    // small_item: '0.69rem',
+    info: {
+        text: ['Тип крепления : ', 'настенный'],
+        text1: ['Размер : ', '	160 × 122 × 76 мм'],
+        text2: ['Поддерживаемые модели : ', 'Купольные видеокамеры серий Dahua серий HDBWxxF и HDWxxM'],
+        text8: ['Вес:', '490 гр'],
+    },
+},
     /** 
      * -------------------------------------------------------------Dahua IP камеры
      **/
@@ -7009,7 +7066,55 @@ export const Data = [
         new: false
     },
     /** 
-     * ---------------------------------------EZ-IP
+     * ------------------------------------------------------------------------EZ-IP
+     */
+    /** 
+     * ----------------------------------------------------------EZ-IP коммутаторы
+     */
+    /**
+     *  EZ-IP EZ-355ET-L
+     */
+    {
+        model: 'EZ-355ET-L',
+        id: 'EZ-355ET-L',
+        brand: 'EZ-IP',
+        type: ['Коммутатор сетевой', 'net', 'switch'],
+        description: '5 портовый настольный коммутатор неуправляемый, 5 портов 10/100 Мбит/с Поддерживаемые стандарты: IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE802.3az Потребление: простой: 0.65 Вт, нагрузка: 1.3 Вт Размеры: 77 x 46 x 21 мм',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: ez_ip_brand,
+        coast: 690,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Порты: ', ' 5xUplink'],
+            text1: ['Питание: ', '5 В'],
+            text2: ['Цвет: ', 'Белый'],
+        },
+    },
+      /**
+     *  EZ-IP EZ-388ET-L
+     */
+    {
+        model: 'EZ-388ET-L',
+        id: 'EZ-388ET-L',
+        brand: 'EZ-IP',
+        type: ['Коммутатор сетевой', 'net', 'switch'],
+        description: '8 портовый настольный коммутатор неуправляемый, 8 портов 10/100 Мбит/с Поддерживаемые стандарты: IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE802.3az Потребление: простой: 0.69 Вт, нагрузка: 1.5 Вт Размеры: 125 x 65 x 22 мм',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: ez_ip_brand,
+        coast: 890,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Порты: ', ' 8xUplink'],
+            text1: ['Питание: ', '5 В'],
+            text2: ['Цвет: ', 'Белый'],
+        },
+    },
+    /** 
+     * ----------------------------------------------------------EZ-IP POE коммутаторы
      */
     /**
      *  EZ-IP EZ-PFS3006-4ET-60
@@ -7025,7 +7130,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         old_coast: false,
         new: true,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         info: {
             text: ['Порты: ', ' 4xPOE, 2xUplink'],
             text1: ['Бюджет POE: ', '≤60Вт'],

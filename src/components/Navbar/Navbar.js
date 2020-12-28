@@ -564,8 +564,9 @@ function Navbar() {
                                                                     <Link to="/catalog/net/switch/Dahua">Dahua</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/ip/outdoor/ST">Zyxel</Link>
+                                                                    <Link to="/catalog/net/switch/EZ-IP">EZ-IP</Link>
                                                                 </li>
+                                                                
                                                             </ul>
                                                         </div>
                                                     </li>
