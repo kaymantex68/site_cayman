@@ -131,7 +131,7 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    
+
 
                                                 </ul>
                                             </div>
@@ -364,6 +364,25 @@ function Navbar() {
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/skud/schit">Считыватели</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/TEKO">ТЕКО</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/Sprut">Sprut</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/Atis">Atis</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/skud/exit">Кнопки "Выход"</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
@@ -427,6 +446,16 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/zamki/komplekt">Комплектующие</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/komplekt/Atis">Atis</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                 </ul>
 
                                             </div>
@@ -452,7 +481,7 @@ function Navbar() {
                                                         <Link to="/catalog/security/gsm"> GSM сигнализации</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
-                                                            
+
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/gsm/Сибирский Арсенал">Сибирский арсенал</Link>
                                                                 </li>
@@ -734,11 +763,11 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/komplekt/raz/ITK">ITK</Link>
                                                                 </li>
-                                                               
+
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
