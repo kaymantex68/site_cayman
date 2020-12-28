@@ -746,7 +746,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: sprut_brand,
-        coast: 750,
+        coast: 550,
         old_coast: false,
         inStock_outStock: 1,
         info: {
