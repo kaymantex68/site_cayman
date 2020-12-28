@@ -289,6 +289,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/apc/accumulate/Rexant">Rexant</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/apc/accumulate/Optimus">Optimus</Link>
+                                                                </li>
 
                                                             </ul>
                                                         </div>
@@ -689,6 +692,29 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/komplekt">Комплектующие</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/komplekt/raz">Разъемы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/komplekt/raz/Rexant">Rexant</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/komplekt/raz/ITK">ITK</Link>
+                                                                </li>
+                                                               
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    
                                                 </ul>
 
                                             </div>
