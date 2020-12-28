@@ -363,6 +363,20 @@ function Navbar() {
                                             <Link to="/catalog/skud">Контроль доступа</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
+                                                <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/skud/controller">Контроллеры</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/controller/IronLogic">IronLogic</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/controller/Sprut">Sprut</Link>
+                                                                </li>
+                                                               
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/skud/schit">Считыватели</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -381,6 +395,9 @@ function Navbar() {
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/skud/schit/Tantos">Tantos</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/IronLogic">IronLogic</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
