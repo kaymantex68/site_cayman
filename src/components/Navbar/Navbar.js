@@ -597,7 +597,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/techno">Технологические датчики</Link>
+                                                        <Link to="/catalog/security/techno">Извещатели технологические</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
@@ -608,7 +608,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/komplekt">Коплектующие к датчикам</Link>
+                                                        <Link to="/catalog/security/komplekt">Комплектующие к извещателям</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
