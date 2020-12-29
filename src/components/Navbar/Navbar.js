@@ -547,19 +547,6 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/iz_opt_electr">Извещатели оптико-электронные</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/iz_opt_electr/TEKO">ТЕКО</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/iz_opt_electr/Сибирский Арсенал">Сибирский Арсенал</Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                    <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/security/iz_fire">Извещатели пожарные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
@@ -575,6 +562,20 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/iz_opt_electr">Извещатели оптико-электронные</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/iz_opt_electr/TEKO">ТЕКО</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/iz_opt_electr/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/security/op_fire">Оповещатели пожарные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
