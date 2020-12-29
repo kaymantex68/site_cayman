@@ -183,6 +183,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/storage/hdd/TOSHIBA">TOSHIBA</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/storage/hdd/Seagate">Seagate</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -831,6 +834,16 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/electro/izolenta/IEK">IEK</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/electro/klemma">Клеммы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/electro/klemma/WAGO">WAGO</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
