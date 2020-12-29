@@ -69,7 +69,7 @@ export const Data = [
         description: 'Ubiquiti NanoStation M2 — точка доступа для прокладки беспроводных мостов на расстояние 10 и более километров. Может работать в режиме радиомоста, точки доступа, репитера. Мощная (400 мВт) радиочасть, интегрирована с производительной панельной антенной с шириной развертки 55 .',
         path: '/',
         pic_brand: ubiquiti_brand,
-        coast: 6470,
+        coast: 6990,
         old_coast: false,
         inStock_outStock: 1,
         info: {
@@ -92,7 +92,7 @@ export const Data = [
         description: 'NanoStation Loco M2 — предназначена для передачи трафика на расстояние до 5 км. В компактном корпусе устройства, которое может использоваться как беспроводной мост, репитер или точка доступа, размещена радиочасть мощностью 400 мВт и новая панельная антенна с углом диаграммы 60 .',
         path: '/',
         pic_brand: ubiquiti_brand,
-        coast: 3610,
+        coast: 4490,
         old_coast: false,
         inStock_outStock: 1,
         info: {
@@ -2846,7 +2846,7 @@ export const Data = [
     path: '/',
     // pic: imou_cue_2,
     pic_brand: seagate_brand,
-    coast: 8390,
+    coast: 9490,
     old_coast: false,
     // rasprodaja: true,
     // small_item: '0.67rem',
