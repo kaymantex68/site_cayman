@@ -574,6 +574,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/op_fire/Электротехника и Автоматика">Электротехника и Автоматика</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/op_fire/Арсенал Безопасности">Арсенал Безопасности</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
