@@ -825,6 +825,16 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/electro/izolenta">Изолирующие материалы</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/electro/izolenta/IEK">IEK</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                 </ul>
 
                                             </div>
