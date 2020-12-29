@@ -82,7 +82,7 @@ function App() {
 
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-
+        
         <title>Кайман. Системы безопасности.</title>
       </Helmet>
 

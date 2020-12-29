@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route, Link ,useLocation} from 'react-router-dom
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import youtubePic from './youtube.svg';
+import { Helmet } from 'react-helmet'
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
@@ -90,6 +91,10 @@ function DetailProduct({ match }) {
 
 
     return (
+        <>
+        <Helmet>
+                <title>{`${DetailInfo.model} видеонаблюдение камера видеонаблюдения видеонаблюдение тамбов видеонаблюдение купить система видеонаблюдения камера купить пожарный сигнализация`}</title>
+        </Helmet>
         <div className={classes.ContainerDetail}>
             <div className={classes.Manual}>
                 <div className={classes.Direct}>
@@ -226,7 +231,7 @@ function DetailProduct({ match }) {
                 </div>
             </div>
         </div >
-
+</>
     )
 }
 

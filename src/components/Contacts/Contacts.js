@@ -1,13 +1,16 @@
 import React, { useState, useContext } from 'react';
 import classes from './Contacts.module.css'
-import {  useLocation } from 'react-router-dom'
-
+import { useLocation } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 
 function Contacts() {
-    
+
     return (
         <>
+            <Helmet>
+                <title>видеонаблюдение камера видеонаблюдения видеонаблюдение тамбов видеонаблюдение купить система видеонаблюдения камера купить пожарный сигнализация</title>
+            </Helmet>
             <div className={classes.Main}>
                 <div className={classes.Romb1}></div>
                 <div className={classes.Romb2}></div>
