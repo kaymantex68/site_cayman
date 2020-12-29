@@ -45,12 +45,66 @@ import electrotehnika_avtomatika_brand from '../src/Img_products/electrotehnika_
 import rubeg_brand from '../src/Img_products/rubeg_brand.png';
 import arsenal_bezopasnosty from '../src/Img_products/arsenal_bezopasnosty.png';
 import wago_brand from '../src/Img_products/wago_brand.png';
-import ubiquity_brand from '../src/Img_products/ubiquity_brand.png';
+import ubiquiti_brand from '../src/Img_products/ubiquity_brand.png';
 import seagate_brand from '../src/Img_products/seagate_brand.png';
 
 
 
 export const Data = [
+    /** 
+     * -----------------------------------------------------------------------Ubiquiti
+     */
+    /** 
+     * --------------------------------------Ubiquiti WI-FI тарелки
+     */
+    
+     /**
+     *  Ubiquiti Nanostation M2
+     */
+    {
+        model: 'Nanostation M2',
+        id: 'Nanostation_M2',
+        brand: 'Ubiquiti',
+        type: ['Wi-Fi тарелка', 'net', 'wi_fi'],
+        description: 'Ubiquiti NanoStation M2 — точка доступа для прокладки беспроводных мостов на расстояние 10 и более километров. Может работать в режиме радиомоста, точки доступа, репитера. Мощная (400 мВт) радиочасть, интегрирована с производительной панельной антенной с шириной развертки 55 .',
+        path: '/',
+        pic_brand: ubiquiti_brand,
+        coast: 6470,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Диапазон: ', '2.4 ГГц'],
+            text1: ['Интерфейс: ', '10/100BASE-TX'],
+            text2: ['Название процессора:', 'Atheros MIPS 24KC'],
+            text3: ['Скорость 802.11n, 2.4 ГГц:', '150 Мбит/с'],
+            text4: ['Тип антенн :', 'Встроенная, 2х2 MIMO с двойной поляризацией, усиление 7,4~8,2 dBi'],
+            text5: ['Поддержка Power over Ethernet (PoE):', 'есть'],
+        },
+    },
+     /**
+     *  Ubiquiti LOCO M2
+     */
+    {
+        model: 'LOCO M2',
+        id: 'LOCO_M2',
+        brand: 'Ubiquiti',
+        type: ['Wi-Fi тарелка', 'net', 'wi_fi'],
+        description: 'NanoStation Loco M2 — предназначена для передачи трафика на расстояние до 5 км. В компактном корпусе устройства, которое может использоваться как беспроводной мост, репитер или точка доступа, размещена радиочасть мощностью 400 мВт и новая панельная антенна с углом диаграммы 60 .',
+        path: '/',
+        pic_brand: ubiquiti_brand,
+        coast: 3610,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Диапазон: ', '2.4 ГГц'],
+            text1: ['Интерфейс: ', '10/100BASE-TX'],
+            text2: ['Название процессора:', 'Atheros MIPS 24KC'],
+            text3: ['Скорость 802.11n, 2.4 ГГц:', '150 Мбит/с'],
+            text4: ['Тип антенн :', 'Встроенная, 2х2 MIMO с двойной поляризацией, усиление 7,4~8,2 dBi'],
+            text5: ['Поддержка Power over Ethernet (PoE):', 'есть'],
+        },
+    },
+
     /** 
      * -----------------------------------------------------------------------WAGO
      */
