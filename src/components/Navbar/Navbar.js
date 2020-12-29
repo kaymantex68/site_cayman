@@ -515,7 +515,7 @@ function Navbar() {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/rele">Блоки реле</Link>
+                                                        <Link to="/catalog/security/rele">Дополнительное оборудование</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
@@ -532,17 +532,6 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/gsm/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/techno">Извещатели технологические</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/techno/TEKO">TEKO</Link>
-                                                                </li>
-                                                                
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -575,6 +564,52 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/akust">Извещатели акустические</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/akust/TEKO">ТЕКО</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/magnit">Извещатели магнито-контактные</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/magnit/РЗМКП">РЗМКП</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/magnit/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/techno">Извещатели технологические</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/techno/TEKO">TEKO</Link>
+                                                                </li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                   
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/komplekt">Комплектующие к извещателям</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/komplekt/TEKO">TEKO</Link>
+                                                                </li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                     
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/security/op_fire">Оповещатели пожарные</Link>
@@ -595,31 +630,9 @@ function Navbar() {
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/magnit">Извещатели магнито-контактные</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/magnit/РЗМКП">РЗМКП</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/magnit/Сибирский Арсенал">Сибирский Арсенал</Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
                                                     
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/komplekt">Комплектующие к извещателям</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/komplekt/TEKO">TEKO</Link>
-                                                                </li>
-                                                                
-                                                            </ul>
-                                                        </div>
-                                                    </li>
+                                                    
+                                                   
 
                                                 </ul>
                                             </div>
