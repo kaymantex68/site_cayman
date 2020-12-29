@@ -33,7 +33,8 @@ function DetailProduct({ match }) {
 
     const [open, setOpen] = useState(false);
 
-
+   
+    
 
     
     let DataProducts = [];
@@ -65,12 +66,9 @@ function DetailProduct({ match }) {
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
 
+       
         
         
-        let image = new Image();     
-        image.src =`/img_products/${DetailInfo.brand}/${DetailInfo.model}/${i}.png`;
-        // console.log(image);
-        // console.log(image.width);
         if (true){
         // if (image.width!=0) {
             slides.push(
