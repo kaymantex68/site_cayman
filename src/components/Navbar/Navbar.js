@@ -506,7 +506,7 @@ function Navbar() {
                                                                     <Link to="/catalog/security/head_unit/TEKO">ТЕКО</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/head_unit/Сибирский Арсенал">Сибирский арсенал</Link>
+                                                                    <Link to="/catalog/security/head_unit/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -527,7 +527,7 @@ function Navbar() {
                                                             <ul>
 
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/gsm/Сибирский Арсенал">Сибирский арсенал</Link>
+                                                                    <Link to="/catalog/security/gsm/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -540,7 +540,7 @@ function Navbar() {
                                                                     <Link to="/catalog/security/iz_opt_electr/TEKO">ТЕКО</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/iz_opt_electr/Syberian_arsenal">Сибирский арсенал</Link>
+                                                                    <Link to="/catalog/security/iz_opt_electr/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -553,7 +553,10 @@ function Navbar() {
                                                                     <Link to="/catalog/security/iz_fire/TEKO">ТЕКО</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/iz_fire/Syberian_arsenal">Сибирский арсенал</Link>
+                                                                    <Link to="/catalog/security/iz_fire/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/iz_fire/Рубеж">Рубеж</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -565,7 +568,12 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/op_fire/TEKO">ТЕКО</Link>
                                                                 </li>
-                                                                
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/op_fire/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/op_fire/Электротехника и Автоматика">Электротехника и Автоматика</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
