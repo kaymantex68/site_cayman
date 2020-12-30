@@ -147,7 +147,7 @@
     border-radius: 10px;
     /* background-color: green; */
     margin-right:10px;
-   background-color:rgba(243, 243, 243, 0.726);
+   background-color:rgb(255, 255, 255);
     
 }
 
@@ -201,7 +201,7 @@
     height: auto; */
     /* border: 1px solid #dee3ec; */
     border-radius: 10px;
-    background-color:rgba(248, 247, 247, 0.726);
+    background-color:rgb(255, 255, 255);
     
 }
 
@@ -382,7 +382,7 @@
     height: 100%;
     justify-content: center;
     align-items:center;
-    background-color:#78c47b2d;
+    background-color:#3c475b82;
     padding-left: 10px;
     padding-right: 10px;
     border-radius:2px;
@@ -393,7 +393,7 @@
 }
 
 .Button_download:hover{
-    background-color:#3c475b2f;
+    background-color:#3c475b82;
     font-weight: bold;
     transition: 0.3s;
 }
