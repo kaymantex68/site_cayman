@@ -47,17 +47,44 @@ import arsenal_bezopasnosty from '../src/Img_products/arsenal_bezopasnosty.png';
 import wago_brand from '../src/Img_products/wago_brand.png';
 import ubiquiti_brand from '../src/Img_products/ubiquity_brand.png';
 import seagate_brand from '../src/Img_products/seagate_brand.png';
+import cambox_brand from '../src/Img_products/cambox_brand.png';
 
 
 
 export const Data = [
     /** 
+     * -----------------------------------------------------------------------CamBox
+     */
+    /** 
+     * --------------------------------------CamBox Монтажные коробки
+     */
+
+     /**
+     *  CamBox Nx7 Note 7777
+     */
+    {
+        model: 'CamBox Nx7 Note 7777',
+        id: 'CamBox_Nx7_Note_7777',
+        brand: 'CamBox',
+        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        description: 'Монтажная коробка CamBox',
+        path: '/',
+        pic_brand: cambox_brand,
+        coast: 280,
+        old_coast: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Материал: ', 'Пластик'],
+            text1: ['Цвет: ', 'Белый'],
+            
+        },
+    },
+    /** 
      * -----------------------------------------------------------------------Ubiquiti
      */
     /** 
      * --------------------------------------Ubiquiti WI-FI тарелки
-     */
-    
+     */ 
      /**
      *  Ubiquiti Nanostation M2
      */
