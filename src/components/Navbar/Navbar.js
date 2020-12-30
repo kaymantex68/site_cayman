@@ -612,24 +612,18 @@ function Navbar() {
                                                     </li>
                                                     
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/security/op_fire">Оповещатели пожарные</Link>
+                                                        <Link to="/catalog/security/button">Тревожные кнопки</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/op_fire/TEKO">ТЕКО</Link>
+                                                                    <Link to="/catalog/security/button/TEKO">ТЕКО</Link>
                                                                 </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/op_fire/Сибирский Арсенал">Сибирский Арсенал</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/op_fire/Электротехника и Автоматика">Электротехника и Автоматика</Link>
-                                                                </li>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/security/op_fire/Арсенал Безопасности">Арсенал Безопасности</Link>
-                                                                </li>
+                                                                
                                                             </ul>
                                                         </div>
                                                     </li>
+
+
                                                     
                                                     
                                                    
@@ -859,6 +853,16 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/electro/klemma/WAGO">WAGO</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/electro/automat">Автоматические выключатели</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/electro/automat/IEK">IEK</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
