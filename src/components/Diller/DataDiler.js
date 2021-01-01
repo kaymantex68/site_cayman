@@ -2,6 +2,7 @@ import sib_arsenal_brand from './PicSlider/sib_arsenal_brand.png';
 import teko_brand from './PicSlider/teko_brand.png';
 import iek_brand from './PicSlider/iek_brand.png';
 import ez_ip_brand from './PicSlider/ez-ip_brand.png';
+import itk_brand from './PicSlider/itk_brand.png';
 export const Data = [
     /** 
        * -------------------------------------------------------------------------------Schneider
@@ -28,6 +29,12 @@ export const Data = [
         LTD: 'IEK GROUP',
         picture: iek_brand,
         link: 'https://www.iek.ru/',
+
+    },
+    {
+        LTD: 'ITK GROUP',
+        picture: itk_brand,
+        link: 'https://www.itk-group.ru/',
 
     },
     {
