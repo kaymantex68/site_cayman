@@ -38,12 +38,14 @@
     
     /* border: 1px solid black; */
     padding: 5px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .Diller_container:hover{
     transform: scale(1.03);
-    transition: 0.2s;
+    transition: 0.3s;
+  
+
 }
 
 .Diller{
@@ -53,6 +55,12 @@
     border: 1px rgba(128, 128, 128, 0.172) solid;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.Diller:hover{
+   background-color: #78c47b1e; 
+   transition: 0.3s;
 }
 
 .Picture{
