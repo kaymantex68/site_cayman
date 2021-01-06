@@ -1448,8 +1448,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: sib_arsenal_brand,
-        coast: 4995,
-        old_coast: false,
+        coast: 4450,
+        old_coast: 4995,
+        rasprodaja: true,
         inStock_outStock: 1,
         info: {
             text: ['Дальность обнаружения: ', '10 м'],
@@ -1481,8 +1482,14 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: sib_arsenal_brand,
+<<<<<<< HEAD
         coast: 8040,
         old_coast: false,
+=======
+        coast: 7150,
+        old_coast: 7950,
+        rasprodaja: true,
+>>>>>>> 06da9d663beb90fa575ca16f2957ca1c198b8a78
         inStock_outStock: 1,
         info: {
             text: ['Дальность обнаружения: ', '10 м'],
@@ -1521,8 +1528,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: sib_arsenal_brand,
-        coast: 4660,
-        old_coast: false,
+        coast: 4050,
+        old_coast: 4520,
+        rasprodaja: true,
         inStock_outStock: 1,
         info: {
             text: ['Время оповещения : ', '20-40 с'],
