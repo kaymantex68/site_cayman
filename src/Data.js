@@ -6891,9 +6891,9 @@ export const Data = [
             text22: ['Габариты видеокамеры, мм (d*l*k): ', '58х85х160'],
         },
     },
-/**
-     *  ST ST-5051
-     */
+    /**
+         *  ST ST-5051
+         */
     {
         model: 'ST-5051',
         id: 'ST_5051',
@@ -9316,6 +9316,91 @@ export const Data = [
      * ------------------------------------------------------------------------EZ-IP
      */
     /** 
+     * -------------------------------------------------EZ-IP IP камеры уличные
+     */
+    /**
+     *  EZ-IP EZ-IPC-B1B20-0280B
+     */
+    {
+        model: 'EZ-IPC-B1B20-0280B',
+        id: 'EZ-IPC-B1B20-0280B',
+        brand: 'EZ-IP',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: 'Видеокамера IP уличная цилиндрическая 2Мп, 1/2.7"" CMOS, ICR, фикс. Объектив 2,8 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 2Мп(1~30к\с); дальность ИК: 30м; питание: DC12В, PoE, IP67; Рабочая температура: -40 -+60 С.',
+        pic_brand: ez_ip_brand,
+        inStock_outStock: 0,
+        // rasprodaja: false,
+        coast: 5490,
+        old_coast: false,
+        info: {
+            text: ['Разрешение: ', '2MP'],
+            text1: ['Объектив: ', '2.8 мм'],
+            text2: ['Кол-во кадров в секунду:', '25/30fps 1080P'],
+            text3: ['RAM/ROM:', '64MB/16MB'],
+            text4: ['Сенсор: ', '1/2,7" Progressive Scan CMOS'],
+            text5: ['Светочувствительность (мин. освещенность): ', '0.09 Lux'],
+            text6: ['Угол обзора: ', '115°'],
+            text7: ['Видео сжатие: ', 'H.265+/H.264+/H.265/H.264/H.264B/MJPEG'],
+            text8: ['Функции улучшения изображения:', 'DWDR'],
+            text9: ['Дальность ИК подсветки:', 'до 30 м'],
+            text10: ['Функционал:', 'Обнаружение движения, Баланс белого, Шумоподавление, Усиление сигнала, Приватные зоны, Smart IR'],
+            text11: ['Ethernet :', 'RJ-45 (10/100Base-T)'],
+            text12: ['Сетевые протоколы: ', 'HTTP;TCP;ARP;RTSP;RTP;RTCP;UDP;DHCP;DNS;IPV4;NTP;Multicas; ICMP; IGMP'],
+            text13: ['Совместимость: ', 'ONVIF Profile S'],
+            text14: ['Максимальное число подключений: ', '10 (Unicast) / 20 (Multicast) пользователей одновременно'],
+            text15: ['Веб интерфейс: ', 'IE, Chrome, Firefox, Safari'],
+            text16: ['Программное обеспечение: ', 'Smart PSS, DSS, DMSS'],
+            text17: ['Мобильные платформы:', 'IOS, Android'],
+            text18: ['Питание:', 'DC12V, PoE (802.3af) , 4.2 Вт'],
+            text19: ['Рабочая температура: ', '-30°C ~ +60°C'],
+            text20: ['Степень защищенности/вандалостойкость: ', 'IP67'],
+            text21: ['Материал корпуса: ', 'пластик+металл'],
+            text22: ['Габариты видеокамеры:', '70х162.6 мм'],
+            text23: ['Масса:', '0,3 кг'],
+        },
+    },
+    /**
+     *  EZ-IP EZ-IPC-B1B20-0360B
+     */
+    {
+        model: 'EZ-IPC-B1B20-0360B',
+        id: 'EZ-IPC-B1B20-0360B',
+        brand: 'EZ-IP',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: 'Видеокамера IP уличная цилиндрическая 2Мп, 1/2.7"" CMOS, ICR, фикс. Объектив 3,6 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 2Мп(1~30к\с); дальность ИК: 30м; питание: DC12В, PoE, IP67; Рабочая температура: -40 -+60 С.',
+        pic_brand: ez_ip_brand,
+        inStock_outStock: 0,
+        // rasprodaja: false,
+        coast: 5490,
+        old_coast: false,
+        info: {
+            text: ['Разрешение: ', '2MP'],
+            text1: ['Объектив: ', '3.6 мм'],
+            text2: ['Кол-во кадров в секунду:', '25/30fps 1080P'],
+            text3: ['RAM/ROM:', '64MB/16MB'],
+            text4: ['Сенсор: ', '1/2,7" Progressive Scan CMOS'],
+            text5: ['Светочувствительность (мин. освещенность): ', '0.09 Lux'],
+            text6: ['Угол обзора: ', '87.5'],
+            text7: ['Видео сжатие: ', 'H.265+/H.264+/H.265/H.264/H.264B/MJPEG'],
+            text8: ['Функции улучшения изображения:', 'DWDR'],
+            text9: ['Дальность ИК подсветки:', 'до 30 м'],
+            text10: ['Функционал:', 'Обнаружение движения, Баланс белого, Шумоподавление, Усиление сигнала, Приватные зоны, Smart IR'],
+            text11: ['Ethernet :', 'RJ-45 (10/100Base-T)'],
+            text12: ['Сетевые протоколы: ', 'HTTP;TCP;ARP;RTSP;RTP;RTCP;UDP;DHCP;DNS;IPV4;NTP;Multicas; ICMP; IGMP'],
+            text13: ['Совместимость: ', 'ONVIF Profile S'],
+            text14: ['Максимальное число подключений: ', '10 (Unicast) / 20 (Multicast) пользователей одновременно'],
+            text15: ['Веб интерфейс: ', 'IE, Chrome, Firefox, Safari'],
+            text16: ['Программное обеспечение: ', 'Smart PSS, DSS, DMSS'],
+            text17: ['Мобильные платформы:', 'IOS, Android'],
+            text18: ['Питание:', 'DC12V, PoE (802.3af) , 4.2 Вт'],
+            text19: ['Рабочая температура: ', '-30°C ~ +60°C'],
+            text20: ['Степень защищенности/вандалостойкость: ', 'IP67'],
+            text21: ['Материал корпуса: ', 'пластик+металл'],
+            text22: ['Габариты видеокамеры:', '70х162.6 мм'],
+            text23: ['Масса:', '0,3 кг'],
+        },
+    },
+    /** 
      * ----------------------------------------------------------EZ-IP коммутаторы
      */
     /**
@@ -9503,12 +9588,13 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 2990,
+        coast: 2690,
+        old_coast: 2990,
         lider: true,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        old_coast: false,
-        new: true,
+
+
         inStock_outStock: 2,
         info: {
             text: ['Разрешение:', '2 Мп'],
@@ -9548,11 +9634,12 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 3890,
+        coast: 3500,
+        old_coast: 3890,
         lider: true,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        old_coast: false,
+
         new: true,
         inStock_outStock: 1,
         info: {
@@ -9597,8 +9684,8 @@ export const Data = [
         lider: true,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 4390,
-        old_coast: false,
+        coast: 3950,
+        old_coast: 4390,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -9644,8 +9731,8 @@ export const Data = [
         lider: true,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 4390,
-        old_coast: false,
+        coast: 3950,
+        old_coast: 4390,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -9688,8 +9775,8 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        coast: 7490,
-        old_coast: false,
+        coast: 6700,
+        old_coast: 7490,
         lider: false,
         akciya: 'Акция -10%',
         pic_akciya: shar,
@@ -9742,8 +9829,8 @@ export const Data = [
         lider: false,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6990,
-        old_coast: false,
+        coast: 6290,
+        old_coast: 6990,
         new: true,
         inStock_outStock: 0,
         info: {
@@ -9787,8 +9874,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 4290,
-        old_coast: false,
+        coast: 3861,
+        old_coast: 4290,
         new: true,
         inStock_outStock: 0,
         info: {
@@ -9833,8 +9920,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
-        old_coast: false,
+        coast: 5120,
+        old_coast: 5690,
         new: true,
         info: {
             text: ['Разрешение: ', '4 Мп'],
@@ -9878,8 +9965,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 4290,
-        old_coast: false,
+        coast: 3850,
+        old_coast: 4290,
         new: true,
         info: {
             text: ['Разрешение: ', '2 Мп'],
@@ -9923,8 +10010,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6590,
-        old_coast: false,
+        coast: 5900,
+        old_coast: 6590,
         new: true,
         info: {
             text: ['Разрешение: ', '4 Мп'],
@@ -9968,8 +10055,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5690,
-        old_coast: false,
+        coast: 5100,
+        old_coast: 5690,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -10012,8 +10099,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 7690,
-        old_coast: false,
+        coast: 6920,
+        old_coast: 7690,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -10056,8 +10143,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6590,
-        old_coast: false,
+        coast: 5930,
+        old_coast: 6590,
         inStock_outStock: 1,
         new: true,
         info: {
@@ -10102,8 +10189,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 5990,
-        old_coast: false,
+        coast: 5400,
+        old_coast: 5990,
         new: true,
         info: {
             text: ['Разрешение: ', '2 Мп'],
@@ -10149,8 +10236,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 8590,
-        old_coast: false,
+        coast: 7730,
+        old_coast: 8590,
         new: true,
         info: {
             text: ['Разрешение: ', '2 Мп'],
@@ -10198,8 +10285,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6590,
-        old_coast: false,
+        coast: 5930,
+        old_coast: 6590,
         new: true,
         info: {
             text: ['Разрешение: ', '2 Мп'],
@@ -10246,8 +10333,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6290,
-        old_coast: false,
+        coast: 5650,
+        old_coast: 6290,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -10294,8 +10381,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 7390,
-        old_coast: false,
+        coast: 6650,
+        old_coast: 7390,
         new: true,
         inStock_outStock: 1,
         info: {
@@ -10340,8 +10427,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 6990,
-        old_coast: false,
+        coast: 6300,
+        old_coast: 6990,
         new: true,
         inStock_outStock: 0,
         info: {
@@ -10387,8 +10474,8 @@ export const Data = [
         pic_brand: imou_brand,
         akciya: 'Акция -10%',
         pic_akciya: shar,
-        coast: 15990,
-        old_coast: false,
+        coast: 14400,
+        old_coast: 15990,
         new: true,
         inStock_outStock: 0,
         info: {

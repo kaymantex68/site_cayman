@@ -42,6 +42,9 @@ function Navbar() {
                                                                     <Link to="/catalog/ip/outdoor/Dahua">Dahua</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/outdoor/EZ-IP">EZ-IP</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/outdoor/Atis">Atis</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
