@@ -9509,7 +9509,7 @@ export const Data = [
         pic_akciya: shar,
         old_coast: false,
         new: true,
-        inStock_outStock: 1,
+        inStock_outStock: 2,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '3,6 мм'],
