@@ -1482,14 +1482,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: sib_arsenal_brand,
-<<<<<<< HEAD
-        coast: 8040,
-        old_coast: false,
-=======
         coast: 7150,
         old_coast: 7950,
         rasprodaja: true,
->>>>>>> 06da9d663beb90fa575ca16f2957ca1c198b8a78
         inStock_outStock: 1,
         info: {
             text: ['Дальность обнаружения: ', '10 м'],
