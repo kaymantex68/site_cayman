@@ -6123,7 +6123,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: rexant_brand,
-        coast: 18,
+        coast: 20,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -6149,7 +6149,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: rexant_brand,
-        coast: 26,
+        coast: 30,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -6171,15 +6171,13 @@ export const Data = [
         id: 'DC-17_(под_винт)',
         brand: 'Rexant',
         type: ['Разъем', 'komplekt', 'raz'],
-        description: 'Rexant DC-17 (под винт) папа  ',
+        description: 'Rexant DC-17 (под винт) штекер  ',
         path: '/',
-        // pic: imou_cue_2,
+ 
         pic_brand: rexant_brand,
-        coast: 16,
+        coast: 20,
         old_coast: false,
-        // rasprodaja: true,
-        // small_item: '0.67rem',
-        // new: true,
+
         inStock_outStock: 1,
 
         info: {
