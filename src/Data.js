@@ -9902,7 +9902,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         lider: true,
         new: true,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         info: {
             text: ['Разрешение:', '4 Мп'],
             text1: ['Объектив:', '2,8 мм'],
