@@ -82,6 +82,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/rotate/Atis">Atis</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/rotate/SVN">SVN</Link>
+                                                                </li>
 
                                                             </ul>
                                                         </div>

@@ -48,10 +48,67 @@ import wago_brand from '../src/Img_products/wago_brand.png';
 import ubiquiti_brand from '../src/Img_products/ubiquity_brand.png';
 import seagate_brand from '../src/Img_products/seagate_brand.png';
 import cambox_brand from '../src/Img_products/cambox_brand.png';
+import svn_brand from '../src/Img_products/svn_brand.png';
 
 
 
 export const Data = [
+    /** 
+     * -----------------------------------------------------------------------SVN
+     */
+    /** 
+     * --------------------------------------SVN IP повоторные
+     */
+    /**
+     *  SVN  SVN-PT5HS200IP
+    */
+   {
+    model: 'SVN-PT5HS200IP',
+    id: 'SVN-PT5HS200IP',
+    brand: 'SVN',
+    type: ['Поворотная IP камера', 'ip', 'rotate'],
+    description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
+    path: '/',
+    // pic: imou_cue_2,
+    pic_brand: svn_brand,
+    coast: 26500,
+    old_coast: false,
+    lider: true,
+    new: false,
+    inStock_outStock: 1,
+    info: {
+        text: ['Разрешение: ', '2 Мп'],
+        text1: ['Оптический зум:', '22х'],
+        text2: ['Объектив:', '3.9-85.5 мм'],
+        text3: ['Подсветка: ', '60 м'],
+        text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
+        text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
+        text6: ['Частота кадров:', '25/30fps@1080P'],
+        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+        text12: ['Приватные зоны: ', 'есть'],
+        text13: ['Детекция движения:', 'есть'],
+        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+        text16: ['Cовместимость:', 'ONVIF'],
+        text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
+        text18: ['Точки:', 'Preset:220, Тур:3'],
+        text19: ['Веб интерфейс:', 'есть'],
+        text20: ['Питание:', 'DC12V 2A/3A'],
+        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+        text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
+        text23: ['Степень защищенности', 'IP67'],
+        text24: ['Материал корпуса', 'маталл'],
+        text25: ['Размеры:', '295х280х170'],
+        text26: ['Вес:', '4.2 кг'],
+
+    },
+
+    // download: {
+    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+    // },
+
+},
     /** 
      * -----------------------------------------------------------------------CamBox
      */
