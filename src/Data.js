@@ -10931,7 +10931,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ezviz_brand,
-
+        coast: 2390,
+        old_coast: 2990,
+        rasprodaja: true,
         new: false,
         inStock_outStock: 1,
         info: {
@@ -10958,8 +10960,6 @@ export const Data = [
             text20: ['Вес:', '96 г'],
             text21: ['Комплект поставки:', 'Wi-Fi камера, адаптер питания, инструкция'],
         },
-        coast: 2990,
-        old_coast: false,
         download: {
             link1: ['Инструкция', 'https://ezviz.ru/manuals/c1c.pdf'],
         },
