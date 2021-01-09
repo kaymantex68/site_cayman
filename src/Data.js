@@ -62,53 +62,53 @@ export const Data = [
     /**
      *  SVN  SVN-PT5HS200IP
     */
-   {
-    model: 'SVN-PT5HS200IP',
-    id: 'SVN-PT5HS200IP',
-    brand: 'SVN',
-    type: ['Поворотная IP камера', 'ip', 'rotate'],
-    description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
-    path: '/',
-    // pic: imou_cue_2,
-    pic_brand: svn_brand,
-    coast: 26500,
-    old_coast: false,
-    lider: true,
-    new: false,
-    inStock_outStock: 1,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Оптический зум:', '22х'],
-        text2: ['Объектив:', '3.9-85.5 мм'],
-        text3: ['Подсветка: ', '60 м'],
-        text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
-        text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
-        text6: ['Частота кадров:', '25/30fps@1080P'],
-        text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
-        text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
-        text12: ['Приватные зоны: ', 'есть'],
-        text13: ['Детекция движения:', 'есть'],
-        text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
-        text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
-        text16: ['Cовместимость:', 'ONVIF'],
-        text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
-        text18: ['Точки:', 'Preset:220, Тур:3'],
-        text19: ['Веб интерфейс:', 'есть'],
-        text20: ['Питание:', 'DC12V 2A/3A'],
-        text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
-        text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
-        text23: ['Степень защищенности', 'IP67'],
-        text24: ['Материал корпуса', 'маталл'],
-        text25: ['Размеры:', '295х280х170'],
-        text26: ['Вес:', '4.2 кг'],
+    {
+        model: 'SVN-PT5HS200IP',
+        id: 'SVN-PT5HS200IP',
+        brand: 'SVN',
+        type: ['Поворотная IP камера', 'ip', 'rotate'],
+        description: ' - IP Speed Dome уличный - Разрешение 2Мп (1920х1080) real time - H.265/H.264/MJPEG - Моторизированный объектив 3.9-85.5мм - Оптическое увеличение 22х - Цифровое увеличение 16х - Вращение: 0°~360°, наклон: 0°~93° - Скорость вращения: 45°/cек, скорость наклона: 30°/cек - Точки: Preset:220, Тур:3 - Поддержка DWDR - ИК-подсветка-60м - Питание 12В',
+        path: '/',
+        // pic: imou_cue_2,
+        pic_brand: svn_brand,
+        coast: 26500,
+        old_coast: false,
+        lider: true,
+        new: false,
+        inStock_outStock: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Оптический зум:', '22х'],
+            text2: ['Объектив:', '3.9-85.5 мм'],
+            text3: ['Подсветка: ', '60 м'],
+            text4: ['Матрица:', '1/2.8" SONY IMX307 Starvis Back-illuminated CMOS sensor Starlight'],
+            text5: ['Сжатие видео:', '	H.265/H.264/MJPEG'],
+            text6: ['Частота кадров:', '25/30fps@1080P'],
+            text7: ['Чувствительность, Lux:', '	Color: 0.028 Lux @(F2.0; AGC ON), 0lux with IR'],
+            text8: ['Дополнительные функции:', 'Smart IR, OSD меню, Компенсация засветки, DWDR, Усиление сигнала, 3DNR, Баланс белого'],
+            text12: ['Приватные зоны: ', 'есть'],
+            text13: ['Детекция движения:', 'есть'],
+            text14: ['Ethernet:', '1 RJ-45 порт (10/100 Мбит)'],
+            text15: ['Сетевые протоколы:', 'TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTSP, RTCP, PPPoE, NTP, UPnP™, SMTP, SNMP, IGMP, 802.1X, QoS, IPv6, Bonjour'],
+            text16: ['Cовместимость:', 'ONVIF'],
+            text17: ['Вращение:', '0°~360°, наклон: 0°~93°'],
+            text18: ['Точки:', 'Preset:220, Тур:3'],
+            text19: ['Веб интерфейс:', 'есть'],
+            text20: ['Питание:', 'DC12V 2A/3A'],
+            text21: ['Потребляемая мощность:', '4Вт (DC12B)/5.5Вт (PoE)'],
+            text22: ['Условия эксплуатации', '	-40°C ~ +60°C'],
+            text23: ['Степень защищенности', 'IP67'],
+            text24: ['Материал корпуса', 'маталл'],
+            text25: ['Размеры:', '295х280х170'],
+            text26: ['Вес:', '4.2 кг'],
+
+        },
+
+        // download: {
+        //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
+        // },
 
     },
-
-    // download: {
-    //     link1: ['Инструкция','https://ezviz.ru/manuals/c1c.pdf'],
-    // },
-
-},
     /** 
      * -----------------------------------------------------------------------CamBox
      */
@@ -3709,7 +3709,7 @@ export const Data = [
      */
     {
         model: 'DH-IPC-HDW2230TP',
-        id: 'DH_IPC_HDW2230TP',
+        id: 'DH_IPC_HDW2230TP_AS_0280B',
         brand: 'Dahua',
         type: ['IP камера купольная', 'ip', 'outdoor'],
         description: 'Легкая настройка. Четкое изображение. Высокая чувствительность при низкой освещенности, ан улице почти ночь, а картинка цветная и яркая. Ночная подсветка выше всяких похвал, светит равномерно и далеко. Возможность записи на флешку SD до 256Gb. Корпус камеры металл. Есть возможность быстрого демонтажа камеры на защелке. Легко настроить в приложении. Отправка сообщения на e-mail при детекции движения.',
@@ -6230,7 +6230,7 @@ export const Data = [
         type: ['Разъем', 'komplekt', 'raz'],
         description: 'Rexant DC-17 (под винт) штекер  ',
         path: '/',
- 
+
         pic_brand: rexant_brand,
         coast: 20,
         old_coast: false,
@@ -9414,9 +9414,9 @@ export const Data = [
             text23: ['Масса:', '0,19 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-IPC-D1B20-0360B
-     */
+    /**
+         *  EZ-IP EZ-IPC-D1B20-0360B
+         */
     {
         model: 'EZ-IPC-D1B20-0360B',
         id: 'EZ-IPC-D1B20-0360B',
@@ -9455,9 +9455,9 @@ export const Data = [
             text23: ['Масса:', '0,19 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-IPC-D1B40-0280B
-     */
+    /**
+         *  EZ-IP EZ-IPC-D1B40-0280B
+         */
     {
         model: 'EZ-IPC-D1B40-0280B',
         id: 'EZ-IPC-D1B40-0280B',
@@ -9496,9 +9496,9 @@ export const Data = [
             text23: ['Масса:', '0,208 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-IPC-D1B40-0360B
-     */
+    /**
+         *  EZ-IP EZ-IPC-D1B40-0360B
+         */
     {
         model: 'EZ-IPC-D1B40-0360B',
         id: 'EZ-IPC-D1B40-0360B',
@@ -9536,10 +9536,10 @@ export const Data = [
             text22: ['Габариты видеокамеры:', '100х74.3'],
             text23: ['Масса:', '0,208 кг'],
         },
-    },    
-/**
-     *  EZ-IP EZ-IPC-D2B20-ZS
-     */
+    },
+    /**
+         *  EZ-IP EZ-IPC-D2B20-ZS
+         */
     {
         model: 'EZ-IPC-D2B20-ZS',
         id: 'EZ-IPC-D2B20-ZS',
@@ -9578,9 +9578,9 @@ export const Data = [
             text23: ['Масса:', '0,381 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-IPC-D2B40-ZS
-     */
+    /**
+         *  EZ-IP EZ-IPC-D2B40-ZS
+         */
     {
         model: 'EZ-IPC-D2B40-ZS',
         id: 'EZ-IPC-D2B40-ZS',
