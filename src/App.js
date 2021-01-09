@@ -96,6 +96,7 @@ function App() {
         <div className={classes.Content_Rout}>
           <Switch>
             <Route exact path="/" component={Main} />
+            <Route exact path="/company" component={Contacts} />
             <Route exact path="/contacts/adress" component={Contacts} />
             <Route exact path="/:model" component={DetailProduct} />
             <Route exact path="/catalog/all" component={Catalog} />
