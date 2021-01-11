@@ -1,6 +1,6 @@
 const initialState = {
     items: [],
-    productsReady: false,
+    lidersReady: false,
 }
 
 const liders = (state = initialState, action) => {
@@ -8,10 +8,9 @@ const liders = (state = initialState, action) => {
         case 'SET_LIDERS':
             return {
                 ...state,
-                items: action.payload,
-                productsReady: true,
+                items: action.payload.filter(item=>item.lider===true),
+                lidersReady: true,
             }
-
         default:
             return state;
     }

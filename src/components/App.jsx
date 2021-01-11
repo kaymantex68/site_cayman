@@ -1,14 +1,25 @@
-import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 // import classes from './App.module.css';
-import UpHeader from './UpHeader';
-import Navbar from './Navbar/Navbar';
+
+
 import Main from './Main';
 import Catalog from './Catalog/Catalog';
 import Footer from './Footer/Footer';
 import DetailProduct from './DetailProduct/DetailProduct';
 import Contacts from './Contacts/Contacts';
+//-----------------------------------------------------------------------------------------
+import React from 'react';
+
+import UpHeader from './UpHeader/UpHeader';
+
+import Liders from '../containers/Liders'
+import Sales from '../containers/Sales'
+import Slider from '../containers/Slider/Slider';
+
+import Navbar from './Navbar/Navbar.jsx'
+
 import { Data } from '../Data'
+import { SliderData } from '../SliderData/SliderData'
 
 
 
@@ -18,16 +29,19 @@ import { Data } from '../Data'
  */
 function App(props) {
   const { products } = props;
-  console.info('PRODUCTS: ', products)
-  console.info('DATA: ', Data)
+  console.info('PROPS: ', props)
   /**
    *  При первом запуске сайта весь массив product товаров
    *  передается с помощью функции setProduct (которая описана
-   *  в actions/products.js ) передается в Store. Reducer products
+   *  в actions/products.js ) передается в Store. Reducer products.
+   *  так же сразу делается выборка для лидеров продаж и для распродажи.
    */
   React.useState(() => {
-    const { setProducts } = props;
+    const { setProducts, setLiders, setSales, setSlides } = props;
     setProducts(Data);
+    setLiders(Data);
+    setSales(Data);
+    setSlides(SliderData);
   })
 
   return (
@@ -36,19 +50,13 @@ function App(props) {
       <div
       //className={classes.Main}
       >
-        {
-          products.map((product, key) => {
-            return(
-              <>
-              <h6 key={key}>{product.model}</h6>
-              <img src={product.pic_brand} style={{height:'20px'}}/>
-              </>
-            )
-          })
-        }
-      
+        {/* <UpHeader />
+        <Navbar />
+        <Liders />
+        <Sales /> */}
+        <Slider/>
         {/* <div className={classes.Header}>
-          <UpHeader />
+          
         </div>
         <div className={classes.Navbar}>
           <Navbar />

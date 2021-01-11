@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Switch, Router, useLocation } from 'react-router-dom'
 import classes from '../App.module.css';
 import Slider from '../components/Slider/Slider';
-import UpHeader from '../components/UpHeader';
+import UpHeader from './UpHeader/UpHeader';
 import Navbar from '../components/Navbar/Navbar';
 import LiderOfSale from '../components/FastLink/LiderOfSale'
 import Rasprodaja from '../components/FastLink/Rasprodaja'

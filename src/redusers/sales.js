@@ -1,6 +1,6 @@
 const initialState = {
     items: [],
-    productsReady: false,
+    salesReady: false,
 }
 
 const sales = (state = initialState, action) => {
@@ -8,8 +8,8 @@ const sales = (state = initialState, action) => {
         case 'SET_SALES':
             return {
                 ...state,
-                items: action.payload,
-                productsReady: true,
+                items: action.payload.filter(item => item.rasprodaja === true),
+                salesReady: true,
             }
 
         default:

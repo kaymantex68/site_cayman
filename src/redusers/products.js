@@ -11,7 +11,6 @@ const products = (state = initialState, action) => {
                 items: action.payload,
                 productsReady: true,
             }
-
         default:
             return state;
     }
