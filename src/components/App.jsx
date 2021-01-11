@@ -18,25 +18,8 @@ import { Data } from '../Data'
  */
 function App(props) {
   const { products } = props;
-  console.info('PROPS: ', products)
-
-  /**
-   *  promiseProducts получает аргумент Data из файла с базой товаров.
-   *  возвращает Promise с массивом товаров products
-   */
-  const promiseProducts = (Data) => {
-    return new Promise((resolve, reject) => {
-      let products = [];
-      Data.map((item) => {
-        return (
-          products.push(item)
-        )
-      })
-      resolve(
-        products
-      )
-    })
-  }
+  console.info('PRODUCTS: ', products)
+  console.info('DATA: ', Data)
   /**
    *  При первом запуске сайта весь массив product товаров
    *  передается с помощью функции setProduct (которая описана
@@ -44,22 +27,23 @@ function App(props) {
    */
   React.useState(() => {
     const { setProducts } = props;
-    promiseProducts(Data).then(result => setProducts(result))
+    setProducts(Data);
   })
 
-
   return (
+
     <>
       <div
       //className={classes.Main}
       >
         {
           products.map((product, key) => {
-            console.log('products')
-            console.log(product.model)
+            return(
+              <h6 key={key}>{product.model}</h6>
+            )
           })
         }
-        asdfasdf
+      
         {/* <div className={classes.Header}>
           <UpHeader />
         </div>
