@@ -48,12 +48,12 @@ function App(props) {
 
     <>
       <div
-      //className={classes.Main}
+      // className={classes.Main}
       >
-        {/* <UpHeader />
+        <UpHeader />
         <Navbar />
         <Liders />
-        <Sales /> */}
+        <Sales />
         <Slider/>
         {/* <div className={classes.Header}>
           

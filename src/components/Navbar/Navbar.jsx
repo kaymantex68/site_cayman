@@ -10,7 +10,7 @@ function Navbar() {
     // }
     return (
 
-        <div className={classes.Main}>
+        <div className={classes.navBar_container}>
 
             <div className={classes.Container}>
                 <input type="checkbox" name="" className={classes.check}></input>

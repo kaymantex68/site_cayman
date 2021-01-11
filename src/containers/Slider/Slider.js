@@ -6,7 +6,7 @@ import Slider from '../../components/Slider2/Slider.jsx'
 
 
 const mapStateToProps = (state) => ({
-    Slides: state,
+    Slides: state.slider.items,
 })
 
 const mapDispatchToProps = (dispatch) => ({

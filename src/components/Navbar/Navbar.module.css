@@ -1,86 +1,95 @@
-.Main{
-    position: absolute;
+.navBar_container {
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     /* background-color: cornflowerblue; */
     color: black;
+
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    z-index: 9999;
 }
 
 
-.Container{
-    max-width: 65rem;
+.Container {
+    width: 100%;
+    
     padding: 0 2rem;
-    background-color:white;
-    height: 3rem; 
+    background-color: white;
+    height: 3rem;
     display: flex;
     margin: 0 auto;
     position: relative;
     align-items: center;
 }
 
-.Logo{
-   /* background-color: blue; */
-   flex:1;
+.Logo {
+    /* background-color: blue; */
+    flex: 1;
 }
 
-.Logo img{
-   height:  3rem;
-   transition: 0.2s;
+.Logo img {
+    height: 3rem;
+    transition: 0.2s;
 }
 
-.Logo img:hover{
-   transform: scale(1.07) ;
-   transition: 0.2s;
- }
+.Logo img:hover {
+    transform: scale(1.07);
+    transition: 0.2s;
+}
 
-.Kol_tovar{
+.Kol_tovar {
     height: 100%;
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:black;
+    color: black;
     /*text-align: -webkit-center; */
-   text-align: -webkit-center;
-    background-color:#3C475B;
+    text-align: -webkit-center;
+    background-color: #3C475B;
     /* background-color:red; */
 }
 
-.Kol_tovar_span{
+.Kol_tovar_span {
     color: white;
-    
+
     /* background-color:#ff660027;  */
     padding: 5px;
     font-size: 0.74rem;
     /* font-weight: bold; */
     /* border: 1px solid  #3c475b25; */
-    border-radius:8px;
+    border-radius: 8px;
 }
 
-.Nav_btn{
+.Nav_btn {
     /* background-color: green; */
     flex: 3;
     display: flex;
 }
 
-.Nav_Links{
+.Nav_Links {
     flex: 6;
     /* background-color: chartreuse; */
 }
 
-.Nav_Links >ul{
+.Nav_Links>ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Links{
+.Links {
     position: relative;
     /* margin-top: 1px; */
 }
 
-.Links >a{
-    line-height: 3rem; 
+.Links>a {
+    line-height: 3rem;
     color: black;
     padding: 12px;
     margin-left: 7px;
@@ -95,19 +104,19 @@
     border-radius: 3px;
 }
 
-.Links >a:hover{
+.Links>a:hover {
     /* transform: scale(1.1); */
     cursor: pointer;
-    color:white;
+    color: white;
     background-color: #3C475B;
 }
 
-.Log_Sign{
+.Log_Sign {
     flex: 1;
     /* background-color: blueviolet; */
 }
 
-.Dropdown{
+.Dropdown {
     position: absolute;
     top: 100%;
     left: 0;
@@ -117,10 +126,10 @@
     opacity: 0;
     pointer-events: none;
     transition: .3s;
-    
+
 }
 
-.Dropdown ul{
+.Dropdown ul {
     position: relative;
 }
 
@@ -130,7 +139,7 @@
     
 } */
 
-.Dropdown_Links >a{ 
+.Dropdown_Links>a {
     display: flex;
     background-color: #3C475B;
     color: white;
@@ -139,23 +148,23 @@
     align-items: center;
     justify-content: space-between;
     transition: 0.3s;
- /*  округлость кнопок и расстояние между ними */
+    /*  округлость кнопок и расстояние между ними */
     border-radius: 3px;
-     margin-bottom: 1px; 
-   
+    margin-bottom: 1px;
+
 }
 
-.Dropdown_Links:hover >a{
+.Dropdown_Links:hover>a {
     background-color: white;
     color: #3C475B;
-    border: solid 1px #3C475B; 
+    border: solid 1px #3C475B;
 }
 
-.Dropdown_Links{
+.Dropdown_Links {
     position: relative;
 }
 
-.Dropdown.Second{
+.Dropdown.Second {
     position: absolute;
     width: 11rem;
     top: 0;
@@ -163,35 +172,35 @@
     padding-left: 0rem;
 }
 
-.Links:hover > .Dropdown, 
-.Dropdown_Links:hover > .Dropdown{
-    transform: translate(0,0);
+.Links:hover>.Dropdown,
+.Dropdown_Links:hover>.Dropdown {
+    transform: translate(0, 0);
     opacity: 1;
     pointer-events: auto;
 }
 
 
-.Hanburger_menu_container{
+.Hanburger_menu_container {
     flex: 1;
     display: none;
-    
+
     align-items: center;
     justify-content: flex-end;
 }
 
-.Hamburger_menu{
-    
+.Hamburger_menu {
+
     width: 2.5rem;
     height: 2.5rem;
-    background-color: white; 
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-.Hamburger_menu div{
-    
+.Hamburger_menu div {
+
     width: 1.6rem;
     height: 3px;
     border-radius: 3px;
@@ -202,7 +211,7 @@
 }
 
 .Hamburger_menu div:before,
-.Hamburger_menu div:after{
+.Hamburger_menu div:after {
     content: '';
     position: absolute;
     width: inherit;
@@ -212,15 +221,15 @@
     transition: .5s;
 }
 
-.Hamburger_menu div:before{
+.Hamburger_menu div:before {
     transform: translateY(-7px);
 }
 
-.Hamburger_menu div:after{
+.Hamburger_menu div:after {
     transform: translateY(7px);
 }
 
-.check{
+.check {
     position: absolute;
     top: 50%;
     right: 2rem;
@@ -233,34 +242,37 @@
     display: none;
 }
 
-.check:checked ~ .Hanburger_menu_container .Hamburger_menu div{
+.check:checked~.Hanburger_menu_container .Hamburger_menu div {
     background-color: transparent;
 }
 
-.check:checked ~ .Hanburger_menu_container .Hamburger_menu div:before{
-   transform: translateY(0) rotate(-45deg);
+.check:checked~.Hanburger_menu_container .Hamburger_menu div:before {
+    transform: translateY(0) rotate(-45deg);
 }
 
-.check:checked ~ .Hanburger_menu_container .Hamburger_menu div:after{
+.check:checked~.Hanburger_menu_container .Hamburger_menu div:after {
     transform: translateY(0) rotate(45deg);
- }
+}
 
-@media (max-width: 920px){
-    .Kol_tovar{
+@media (max-width: 920px) {
+    .Kol_tovar {
         display: none;
     }
-    .Hanburger_menu_container{ 
-        display:flex;
+
+    .Hanburger_menu_container {
+        display: flex;
     }
-    .check{
+
+    .check {
         display: block;
     }
-    .Nav_btn{
+
+    .Nav_btn {
         position: absolute;
         height: 100vh;
-        top:3rem;
-        left:0;
-        width:100%;
+        top: 3rem;
+        left: 0;
+        width: 100%;
         /* background-color: #3C475B; */
         background-color: white;
         flex-direction: column;
@@ -272,81 +284,86 @@
         transform: translate(100%);
         /* transition: .3s; */
     }
-    .check:checked ~ .Nav_btn{
+
+    .check:checked~.Nav_btn {
         transform: translateX(0);
     }
-    .Nav_Links{
-        flex:initial;
+
+    .Nav_Links {
+        flex: initial;
         width: 100%;
-        
+
     }
 
-    .Nav_Links > ul{
+    .Nav_Links>ul {
         flex-direction: column;
         width: 100%;
     }
 
-    .Nav_Links > a{
+    .Nav_Links>a {
         line-height: 1;
         padding: 1.6rem 2rem;
-       
-        
-        
+
+
+
     }
-    
-    .Links > a{
+
+    .Links>a {
         /* padding: ;
         width: 100%; */
-        color: white;    
+        color: white;
         /* border: 1px solid white; */
     }
 
-    .Links:hover > a{
+    .Links:hover>a {
         transform: scale(1);
         /* background-color: white;   */
-        color: white; 
-        
+        color: white;
+
     }
 
-    .Links{
+    .Links {
         width: 95%;
-        background-color:#3C475B;
+        background-color: #3C475B;
         border: 1px solid #525b6b;
         border-radius: 6px;
         margin-top: 2px;
     }
 
-    .Dropdown, .Dropdown.Second{
+    .Dropdown,
+    .Dropdown.Second {
         position: initial;
-        top:initial;
-        left:initial;
+        top: initial;
+        left: initial;
         transform: initial;
         opacity: 1;
         pointer-events: auto;
         width: 100%;
         padding: 0;
         display: none;
-        background-color: #233149;   
+        background-color: #233149;
     }
 
-    .Links:hover > .Dropdown,
-    .Dropdown_Links:hover > .Dropdown{
+    .Links:hover>.Dropdown,
+    .Dropdown_Links:hover>.Dropdown {
         display: block;
     }
 
-    .Dropdown_Links >a{
+    .Dropdown_Links>a {
         background-color: transparent;
         padding: 1.2rem;
         border: 1px solid #3C475B;
     }
-    .Dropdown.Second .Dropdown_Links >a{
+
+    .Dropdown.Second .Dropdown_Links>a {
         padding: 1.2rem 2rem 1.2rem 3rem;
     }
 
-    .Dropdown.Second .Dropdown.Second .Dropdown_Links >a{
+    .Dropdown.Second .Dropdown.Second .Dropdown_Links>a {
         padding: 1.2rem 2rem 1.2rem 4rem;
     }
-    .Dropdown_Links:not(:nth-last-child(2)){
-        border-bottom:none ;
+
+    .Dropdown_Links:not(:nth-last-child(2)) {
+        border-bottom: none;
     }
 }

@@ -1,0 +1,12 @@
+.slider_container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.slider_container_pagination {
+  height: 100%;
+  width: 100%;
+}
+
