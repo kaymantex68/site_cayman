@@ -39,7 +39,10 @@ function App(props) {
         {
           products.map((product, key) => {
             return(
+              <>
               <h6 key={key}>{product.model}</h6>
+              <img src={product.pic_brand} style={{height:'20px'}}/>
+              </>
             )
           })
         }
