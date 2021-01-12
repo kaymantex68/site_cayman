@@ -9993,11 +9993,11 @@ export const Data = [
         },
     },
     /**
-     *  EZ-IP EZ-IPC-B1B40-0360B
+     *  EZ-IP EZ-IPC-B1B41P-0360B
      */
     {
-        model: 'EZ-IPC-B1B40-0360B',
-        id: 'EZ-IPC-B1B40-0360B',
+        model: 'EZ-IPC-B1B41P-0360B',
+        id: 'EZ-IPC-B1B41P-0360B',
         brand: 'EZ-IP',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 4Мп 1/3"" CMOS, ICR, фикс. Объектив 3,6 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 4Мп(1~20к\с); дальность ИК: 30м; питание: DC12В, PoE, IP67; Рабочая температура: -40 -+60 С.',
@@ -10034,11 +10034,11 @@ export const Data = [
         },
     },
     /**
-         *  EZ-IP EZ-IPC-B1B40-0280B
+         *  EZ-IP EZ-IPC-B1B41P-0280B
          */
     {
-        model: 'EZ-IPC-B1B40-0280B',
-        id: 'EZ-IPC-B1B40-0280B',
+        model: 'EZ-IPC-B1B41P-0280B',
+        id: 'EZ-IPC-B1B41P-0280B',
         brand: 'EZ-IP',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 4Мп 1/3" CMOS, ICR, фикс. объектив; сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 4Мп(1~20к\с); дальность ИК: 30м; питание: DC12В PoE IP67; Рабочая температура: -40 -+60 С.',
@@ -10116,18 +10116,18 @@ export const Data = [
         },
     },
     /**
-         *  EZ-IPC-B2B40-ZS
+         *  EZ-IPC-B2B41P-ZS
          */
     {
-        model: 'EZ-IPC-B2B40-ZS',
-        id: 'EZ-IPC-B2B40-ZS',
+        model: 'EZ-IPC-B2B41P-ZS',
+        id: 'EZ-IPC-B2B41P-ZS',
         brand: 'EZ-IP',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 4 Mп; 1/3" 4 Mп CMOS; ICR; моторизированный объектив: 2,8-12 мм; Сжатие: H.265+/H.265/H.264+/H.264; разрешение и скорость трансляции видео: 4 Mп(1~20 к/с);  Дальность ИК :40 м; поддержка Micro SD; питание: DC12В/POE; IP67; Рабочая температура: -40 -+60 С.',
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 11990,
+        coast: 9990,
         old_coast: false,
         info: {
             text: ['Разрешение:', '4MP'],
@@ -10157,11 +10157,11 @@ export const Data = [
         },
     },
     /**
-     *  EZ-IP EZ-IPC-B1B20-0280B
+     *  EZ-IP EZ-IPC-B1B20P-0280B
      */
     {
-        model: 'EZ-IPC-B1B20-0280B',
-        id: 'EZ-IPC-B1B20-0280B',
+        model: 'EZ-IPC-B1B20P-0280B',
+        id: 'EZ-IPC-B1B20P-0280B',
         brand: 'EZ-IP',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 2Мп, 1/2.7"" CMOS, ICR, фикс. Объектив 2,8 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 2Мп(1~30к\с); дальность ИК: 30м; питание: DC12В, PoE, IP67; Рабочая температура: -40 -+60 С.',
@@ -10198,11 +10198,11 @@ export const Data = [
         },
     },
     /**
-     *  EZ-IP EZ-IPC-B1B20-0360B
+     *  EZ-IP EZ-IPC-B1B20P-0360B
      */
     {
-        model: 'EZ-IPC-B1B20-0360B',
-        id: 'EZ-IPC-B1B20-0360B',
+        model: 'EZ-IPC-B1B20P-0360B',
+        id: 'EZ-IPC-B1B20P-0360B',
         brand: 'EZ-IP',
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 2Мп, 1/2.7"" CMOS, ICR, фикс. Объектив 3,6 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 2Мп(1~30к\с); дальность ИК: 30м; питание: DC12В, PoE, IP67; Рабочая температура: -40 -+60 С.',
