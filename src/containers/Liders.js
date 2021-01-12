@@ -1,17 +1,17 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as productsActions from '../actions/products'
-import Liders from '../components/Liders/Liders.jsx'
+import ProductsSlider from '../components/ProductsSlider/ProductsSlider.jsx'
 
 
 
 const mapStateToProps =(state)=>({
-    
-    Liders: state.producst.items,
+    Description: 'ЛИДЕРЫ ПРОДАЖ',
+    Items: state.liders.items,
 })
 
 const mapDispatchToProps =(dispatch)=>({
     ...bindActionCreators(productsActions,dispatch),
 })
 
-export default connect(mapStateToProps,mapDispatchToProps)(Liders)
+export default connect(mapStateToProps,mapDispatchToProps)(ProductsSlider)

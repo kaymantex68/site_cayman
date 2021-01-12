@@ -1,21 +1,17 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import classes from './Navbar.module.css';
 import logo from '../../Logo/logo.svg'
-import { Context } from '../../Context'
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
-function Navbar() {
-    // const { Modal, OpenModal, Data, IdModel, Model, getNav, Nav } = useContext(Context);
-    // function handleClick(param) {
-    //     getNav(param);
-    // }
+import { Link } from 'react-router-dom'
+function Navbar(props) {
+    const { countProducts } = props;
+    // console.info('NAVBAR PROPS: ', props);
+    // console.info('NAVBAR countProducts: ', coutProducts);
     return (
-
-        <div className={classes.navBar_container}>
-
+        <div className={classes.Main}>
             <div className={classes.Container}>
                 <input type="checkbox" name="" className={classes.check}></input>
                 <div className={classes.Logo}>
-                    <Link to="/"><img src={logo} /></Link>
+                    <Link to="/"><img alt="Logo" src={logo} /></Link>
                 </div>
                 <div className={classes.Nav_btn}>
                     <div className={classes.Nav_Links}>
@@ -557,7 +553,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/techno/TEKO">TEKO</Link>
                                                                 </li>
-                                                                
+
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -568,11 +564,11 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/komplekt/TEKO">TEKO</Link>
                                                                 </li>
-                                                                
+
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    
+
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/security/button">Тревожные кнопки</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -580,7 +576,7 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/security/button/TEKO">ТЕКО</Link>
                                                                 </li>
-                                                                
+
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -895,7 +891,7 @@ function Navbar() {
                         </ul>
                     </div>
                 </div>
-                {/* <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${Data.length} позиций в наличии`}</span></div> */}
+                <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${countProducts} позиций в наличии`}</span></div>
                 <div className={classes.Hanburger_menu_container}>
                     <div className={classes.Hamburger_menu}>
                         <div></div>

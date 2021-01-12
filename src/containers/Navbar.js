@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar/Navbar.jsx'
 
 const mapStateToProps =(state)=>({
     
-    ccoutProducts: state.producst.items.length,
+    countProducts: state.producst.items.length,
 })
 
 const mapDispatchToProps =(dispatch)=>({

@@ -52,9 +52,9 @@ function App(props) {
       >
         <UpHeader />
         <Navbar />
+        <Slider/>
         <Liders />
         <Sales />
-        <Slider/>
         {/* <div className={classes.Header}>
           
         </div>
