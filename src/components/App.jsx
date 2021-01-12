@@ -16,7 +16,7 @@ import Liders from '../containers/Liders'
 import Sales from '../containers/Sales'
 import Slider from '../containers/Slider/Slider';
 
-import Navbar from './Navbar/Navbar.jsx'
+import Navbar from '../containers/Navbar'
 
 import { Data } from '../Data'
 import { SliderData } from '../SliderData/SliderData'
