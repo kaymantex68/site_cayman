@@ -9,7 +9,7 @@ import Rasprodaja from '../components/FastLink/Rasprodaja'
 import ModalWindow from '../components/Modal/ModalWindow'
 import Diller from '../components/Diller/Diller'
 import { Context } from '../Context'
-import { Data } from '../Data'
+import { Data } from '../Data/ProductsData/Data'
 
 
 function Main() {

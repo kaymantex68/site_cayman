@@ -1,14 +1,16 @@
 .swiper_container{
     width: 100%;
-    height: 390px;
+    height: 400px;
     /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
+  
 }
 .swiper_container_products{
-    padding-top: 10px; 
     
+     
+    position: relative;
+   
     height: 360px;
     width: 100%;
     /* border: 1px solid black; */
@@ -20,10 +22,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: red 1px solid; */
+
 }
 
 .swiper_container_description >span{
     color: #3C475B;
     font-weight: bold;
 }
+

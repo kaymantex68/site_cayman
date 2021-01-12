@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.gap{
+    height: 20px;
+}
 
 .Main{
     width:100%;

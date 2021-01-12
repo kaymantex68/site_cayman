@@ -1,9 +1,9 @@
-import sib_arsenal_brand from './PicSlider/sib_arsenal_brand.png';
-import teko_brand from './PicSlider/teko_brand.png';
-import iek_brand from './PicSlider/iek_brand.png';
-import ez_ip_brand from './PicSlider/ez-ip_brand.png';
-import itk_brand from './PicSlider/itk_brand.png';
-export const Data = [
+import sib_arsenal_brand from './PicDiller/sib_arsenal_brand.png';
+import teko_brand from './PicDiller/teko_brand.png';
+import iek_brand from './PicDiller/iek_brand.png';
+import ez_ip_brand from './PicDiller/ez-ip_brand.png';
+import itk_brand from './PicDiller/itk_brand.png';
+export const DillerData = [
     /** 
        * -------------------------------------------------------------------------------Schneider
        **/

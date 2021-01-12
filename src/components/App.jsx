@@ -1,12 +1,5 @@
 import { Switch, Route } from 'react-router-dom'
-// import classes from './App.module.css';
-
-
-import Main from './Main';
-import Catalog from './Catalog/Catalog';
-import Footer from './Footer/Footer';
-import DetailProduct from './DetailProduct/DetailProduct';
-import Contacts from './Contacts/Contacts';
+import classes from './App.module.css';
 //-----------------------------------------------------------------------------------------
 import React from 'react';
 
@@ -14,13 +7,14 @@ import UpHeader from './UpHeader/UpHeader';
 
 import Liders from '../containers/Liders'
 import Sales from '../containers/Sales'
-import Slider from '../containers/Slider/Slider';
-
+import Slider from '../containers/Slider/Slider'
+import Diller from '../containers/Diller'
 import Navbar from '../containers/Navbar'
+import Footer from '../components/Footer/Footer'
 
-import { Data } from '../Data'
-import { SliderData } from '../SliderData/SliderData'
-
+import { Data } from '../Data/ProductsData/Data'
+import { SliderData } from '../Data/SliderData/SliderData'
+import { DillerData } from '../Data/DillerData/DataDiler'
 
 
 /**
@@ -29,7 +23,8 @@ import { SliderData } from '../SliderData/SliderData'
  */
 function App(props) {
   const { products } = props;
-  console.info('PROPS: ', props)
+  console.info('PROPS APPS: ', props)
+  console.info('DILLER APPS: ', DillerData)
   /**
    *  При первом запуске сайта весь массив product товаров
    *  передается с помощью функции setProduct (которая описана
@@ -37,24 +32,26 @@ function App(props) {
    *  так же сразу делается выборка для лидеров продаж и для распродажи.
    */
   React.useState(() => {
-    const { setProducts, setLiders, setSales, setSlides } = props;
-    setProducts(Data);
-    setLiders(Data);
-    setSales(Data);
-    setSlides(SliderData);
+    const { setProducts, setLiders, setSales, setSlides, setDillers } = props;
+    setProducts(Data)
+    setLiders(Data)
+    setSales(Data)
+    setSlides(SliderData)
+    setDillers(DillerData)
   })
 
   return (
 
     <>
-      <div
-      // className={classes.Main}
-      >
+      <div className={classes.Main}>
         <UpHeader />
         <Navbar />
         <Slider/>
+        <dir className={classes.gap}></dir>
         <Liders />
         <Sales />
+        <Diller />
+        <Footer/>
         {/* <div className={classes.Header}>
           
         </div>
