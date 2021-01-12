@@ -103,6 +103,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/outdoor/ST">ST</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ahd/outdoor/EZ-IP">EZ-IP</Link>
+                                                                </li>
 
                                                             </ul>
                                                         </div>
@@ -114,7 +117,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/indoor/ST">ST</Link>
                                                                 </li>
-
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ahd/indoor/EZ-IP">EZ-IP</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
