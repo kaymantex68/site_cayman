@@ -161,7 +161,12 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/nvr/HiWatch">HiWatch</Link>
                                                                 </li>
-
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/EZ-IP">EZ-IP</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/Atis">Atis</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
 
@@ -176,7 +181,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/xvr/HiWatch">HiWatch</Link>
                                                                 </li>
-
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/xvr/EZ-IP">EZ-IP</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -356,6 +363,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/domofon/Schneider-Electric">Schneider-Electric</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/domofon/Hikvision">Hikvision</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -365,6 +375,12 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/panel/Atis">Atis</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/panel/Hikvision">Hikvision</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/panel/Dahua">Dahua</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -460,6 +476,9 @@ function Navbar() {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/zamki/electromex/Slinex">Slinex</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/electromex/Atis">Atis</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
