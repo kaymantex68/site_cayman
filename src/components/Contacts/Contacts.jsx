@@ -1,16 +1,10 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import classes from './Contacts.module.css'
-import { useLocation } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
-
 
 function Contacts() {
 
     return (
         <>
-            <Helmet>
-                <title>видеонаблюдение камера видеонаблюдения видеонаблюдение тамбов видеонаблюдение купить система видеонаблюдения камера купить пожарный сигнализация</title>
-            </Helmet>
             <div className={classes.Main}>
                 <div className={classes.Romb1}></div>
                 <div className={classes.Romb2}></div>
@@ -26,11 +20,12 @@ function Contacts() {
                             <p className={classes.AdressInfo}>Агапкина 25А, Системы безопасности Кайман.</p>
                             <p className={classes.Regim}>Режим работы: пн-вс 9:00-18:00 (без выходных)</p>
                             <p className={classes.NameLTD}>Наши контакты:</p>
-                            <p className={classes.Phone}>Тел: +7 (920) 489-74-37</p>
+                            <p className={classes.Phone}>Тел: 8 (4752) 42-47-27</p>
+                            <p className={classes.Phone}>Тел: +7 920 233-34-34</p>
                             <p className={classes.Mail}>Mail: mail@kaymantex.ru</p>
 
 
-                            <p className={classes.Question}>Все ваши вопросы вы можете задать нам в личном чате в Instagram. Будем рады ответить вам на все ваши вопросы.</p>
+                            <p className={classes.Question}>Все ваши вопросы вы можете задать нам в личном чате в Instagram. Будем рады ответить Вам.</p>
                         </div>
                     </div>
                 </div>

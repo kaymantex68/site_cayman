@@ -1,16 +1,14 @@
+import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import classes from './App.module.css';
-//-----------------------------------------------------------------------------------------
-import React from 'react';
 
 import UpHeader from './UpHeader/UpHeader';
 
-import Liders from '../containers/Liders'
-import Sales from '../containers/Sales'
-import Slider from '../containers/Slider/Slider'
-import Diller from '../containers/Diller'
 import Navbar from '../containers/Navbar'
 import Footer from '../components/Footer/Footer'
+import MainPage from '../components/MainPage/MainPage'
+import Contacts from '../components/Contacts/Contacts'
+import DetailProduct from '../containers/DetailProduct'
 
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
@@ -46,17 +44,17 @@ function App(props) {
       <div className={classes.Main}>
         <UpHeader />
         <Navbar />
-        <Slider/>
-        <dir className={classes.gap}></dir>
-        <Liders />
-        <Sales />
-        <Diller />
-        <Footer/>
+        <Switch>
+          <Route exact path="/" component={MainPage} />
+          <Route exact path="/product/:model" component={DetailProduct} />
+          <Route exact path="/contacts/adress" component={Contacts} />
+        </Switch>
+        <Footer />
         {/* <div className={classes.Header}>
           
         </div>
         <div className={classes.Navbar}>
-          <Navbar />
+          <Navbar />s
         </div>
         <div className={classes.Content_Rout}>
           <Switch>

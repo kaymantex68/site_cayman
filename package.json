@@ -10,6 +10,7 @@
     "babel-register": "^6.26.0",
     "fs": "0.0.1-security",
     "image-exists": "^1.1.0",
+    "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
