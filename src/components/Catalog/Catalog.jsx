@@ -63,6 +63,10 @@ const Catalog = (props) => {
                             url2='';
                             url2 = `${url}`
                         }
+                        if (!params.cat) {
+                            url2='';
+                            url2 = `${url}/${product.type[1]}/${product.type[2]}/${product.brand}`
+                        }
                         return (
                             <div key={`catalog-product-${key}`} className={classes.catalog_container_product_container}>
                                 <Link to={`${url2}/${product.model}`}>

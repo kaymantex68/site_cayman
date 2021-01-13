@@ -29,21 +29,19 @@ function useWindowSize() {
     if (window.innerWidth < 1100 && window.innerWidth > 900) { return 4 }
     if (window.innerWidth < 900 && window.innerWidth > 700) { return 3 }
     if (window.innerWidth < 700) { return 2 }
+    // return size;
 }
 
 
 
 const Liders = (props) => {
-
-    const { Items, Description} = props;
-   
+    
+    const { Items, Description } = props;
     const itemsArr = [];
     Items.map((item, index) => {
         itemsArr.push(
             <SwiperSlide key={`slider_${index}`}>
-                <Link to={`/product/${item.model}`}>
-                    <ProductCard {...item} />
-                </Link>
+                <ProductCard {...item} />
             </SwiperSlide>
         );
     })
