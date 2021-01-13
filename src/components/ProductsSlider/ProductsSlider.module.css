@@ -4,7 +4,8 @@
     /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
-  
+    
+   
 }
 .swiper_container_products{
     
@@ -15,10 +16,11 @@
     width: 100%;
     /* border: 1px solid black; */
     text-align: -webkit-center;
-    
+    /* box-shadow: 0 0 10px rgba(128, 128, 128, 0.26); */
 }
 .swiper_container_description{
     width: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,5 +30,8 @@
 .swiper_container_description >span{
     color: #3C475B;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(128, 128, 128, 0.171); */
 }
 
