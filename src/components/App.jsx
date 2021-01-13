@@ -9,6 +9,7 @@ import Footer from '../components/Footer/Footer'
 import MainPage from '../components/MainPage/MainPage'
 import Contacts from '../components/Contacts/Contacts'
 import DetailProduct from '../containers/DetailProduct'
+import Catalog from '../containers/Catalog'
 
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
@@ -21,8 +22,8 @@ import { DillerData } from '../Data/DillerData/DataDiler'
  */
 function App(props) {
   const { products } = props;
-  console.info('PROPS APPS: ', props)
-  console.info('DILLER APPS: ', DillerData)
+  // console.info('PROPS APPS: ', props)
+  // console.info('DILLER APPS: ', DillerData)
   /**
    *  При первом запуске сайта весь массив product товаров
    *  передается с помощью функции setProduct (которая описана
@@ -47,6 +48,11 @@ function App(props) {
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/product/:model" component={DetailProduct} />
+          <Route exact path="/catalog/all" component={Catalog} />
+          <Route exact path="/catalog/:cat" component={Catalog} />
+          <Route exact path="/catalog/:cat/:type" component={Catalog} />
+          <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
+          <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
           <Route exact path="/contacts/adress" component={Contacts} />
         </Switch>
         <Footer />

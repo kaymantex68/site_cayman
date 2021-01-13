@@ -19,13 +19,13 @@ function DetailProduct(props) {
     const { model } = props.match.params;
     const { products } = props;
 
-    console.info('DETAIL PROPS: ', props)
+    // console.info('DETAIL PROPS: ', props)
 
     const product = filter(products, function (item) {
         return item.model === model;
     })[0];
 
-    console.info('DETAIL Products: ', product)
+    // console.info('DETAIL Products: ', product)
 
     const slides = [];
     for (let i = 1; i < 5; i += 1) {
@@ -59,9 +59,7 @@ function DetailProduct(props) {
                 <div className={classes.Manual}>
                     <div className={classes.Direct}>
                     </div>
-
                 </div>
-
                 <div className={classes.DescriptionConteiner}>
                     <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>

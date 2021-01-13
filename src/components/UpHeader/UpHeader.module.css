@@ -5,6 +5,10 @@
     background-color: #ECEFF0; 
     flex-wrap: wrap;
     align-items: center;
+    /* position: fixed; */
+    /* z-index: 9999;
+    top:0;
+    left:0; */
 }
 .upHeader_container{
     display: flex;
