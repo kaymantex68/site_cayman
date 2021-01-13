@@ -47,7 +47,7 @@ const Catalog = (props) => {
     let url2='';
     return (
         <div className={classes.catalog_container}>
-            <CatalogFilter />
+            {/* <CatalogFilter /> */}
             <div className={classes.catalog_container_block}>
                 {
                     products.map((product, key) => {
