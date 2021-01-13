@@ -48,7 +48,7 @@ function App(props) {
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/product/:model" component={DetailProduct} />
-          <Route exact path="/catalog/all" component={Catalog} />
+          <Route exact path="/catalog/" component={Catalog} />
           <Route exact path="/catalog/:cat" component={Catalog} />
           <Route exact path="/catalog/:cat/:type" component={Catalog} />
           <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />

@@ -20,7 +20,7 @@ function Navbar(props) {
                                 <Link to="/">Главная</Link>
                             </li>
                             <li className={classes.Links}>
-                                <Link to="/catalog/all">Каталог</Link>
+                                <Link to="/catalog">Каталог</Link>
                                 <div className={classes.Dropdown}>
                                     <ul>
                                         <li className={classes.Dropdown_Links}>
