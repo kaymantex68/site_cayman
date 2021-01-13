@@ -53,7 +53,7 @@ const Liders = (props) => {
                 <span>{Description}</span>
             </div>
             <Swiper
-                spaceBetween={1}
+                spaceBetween={0}
                 slidesPerView={useWindowSize()}
                 pagination={{ clickable: true }}
                 loop={true}
