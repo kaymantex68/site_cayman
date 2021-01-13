@@ -15,7 +15,7 @@
     border-radius: 10px;
     transform: scale(1.02);
     /* transition: 0.3s; */
-    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    /* box-shadow: 0 0 6px rgba(0,0,0,0.5); */
 
 }
 
@@ -33,7 +33,7 @@
     padding: 10px;
     overflow:hidden;
     background-color: white;
-
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
@@ -112,6 +112,7 @@
     text-align: left;
     padding: 5px;
     background-color: rgb(243, 243, 243);
+ 
 }
 
 .product_card_container_info_model{
@@ -208,7 +209,7 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
- 
+    box-shadow: 0 0 px rgba(0,0,0,0.5);
    
     
 }
