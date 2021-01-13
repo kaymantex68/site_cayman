@@ -1,21 +1,21 @@
 .product_card_container{
     height: 310px;
     width: 200px;
-    border: 1px solid #DCDCDC;
+    /* border: 1px solid #dcdcdc2c; */
     border-radius: 10px;
     /* transition: 0.3s; */
     overflow: hidden;
+    box-shadow: 0 0 12px rgba(128, 128, 128, 0.212);
     
-    background-color: rgb(167, 167, 167);
     margin-top: 10px;
 }
 
 .product_card_container:hover{
-    border: 2px solid #3C475B;
+    /* border: 2px solid #3C475B; */
     border-radius: 10px;
     transform: scale(1.02);
     /* transition: 0.3s; */
-    /* box-shadow: 0 0 6px rgba(0,0,0,0.5); */
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.616);
 
 }
 
@@ -24,7 +24,7 @@
 .product_card_container_picture{
     height: 160px;
     width: 100%;
-    border-bottom: 1px solid #DCDCDC;
+    /* border-bottom: 1px solid #dcdcdc46; */
     display: flex;
     justify-content: center;
     align-items:center;
@@ -33,7 +33,7 @@
     padding: 10px;
     overflow:hidden;
     background-color: white;
-    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.219);
 }
 
 
@@ -49,18 +49,22 @@
     height: 20%;
     width: 40%;
     /* background-color: red; */
-    bottom: 0px;
+    bottom: 3px;
     right:5px;
     display: flex;
     align-items:center;
+    justify-content: flex-end;
     
 }
 
 .Brand >img{
     height: auto;
     max-height: 100%;
-  /* еще больше контроля с max-width */
+    background-color:rgba(218, 218, 218, 0.267);
+    padding: 5px;
+    border-radius:5px;
   max-width: 100%; 
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.322)
 }
 
 
@@ -138,6 +142,7 @@
     margin-top: 3px;
     padding-top: 3px;
     padding-bottom: 3px; 
+    
  }
  
  .Stock_span_true{
@@ -149,6 +154,7 @@
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.774);
  }
  
  .Stock_false{
@@ -166,6 +172,7 @@
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.774);
  }
 
  .Stock_soon{
@@ -184,6 +191,7 @@
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.774);
  }
 
 .Coast{
@@ -209,8 +217,9 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    box-shadow: 0 0 px rgba(0,0,0,0.5);
-   
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.616);
+    
+    background-color: rgba(197, 197, 197, 0.274);
     
 }
 
@@ -226,5 +235,12 @@
     top:18%;
     /* transform: translateY(-55%); */
     font-size: 0.8rem;
+    color: #3C475B;
+}
+
+.product_card_container_button:hover >span{ 
     color: white;
+    /* border: 1px solid white; */
+    
+   
 }

@@ -77,8 +77,8 @@ const Catalog = (props) => {
                     })
                 }
             </div>
-            <div className={classes.Romb1}></div>
-            <div className={classes.Romb2}></div>
+            {/* <div className={classes.Romb1}></div>
+            <div className={classes.Romb2}></div> */}
         </div>
     )
 }

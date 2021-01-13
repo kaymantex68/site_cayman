@@ -52,15 +52,16 @@
     display: flex;
     height: 100%;
     width: 100%;
-    border: 1px rgba(128, 128, 128, 0.172) solid;
+    border: 1px rgba(128, 128, 128, 0.048) solid;
     border-radius: 10px;
     padding: 10px;
     transition: 0.3s;
 }
 
 .Diller:hover{
-   background-color: #78c47b1e; 
+   /* background-color: #78c47b1e;  */
    transition: 0.3s;
+   box-shadow: 0 0 10px rgba(128, 128, 128, 0.616);
 }
 
 .Picture{
