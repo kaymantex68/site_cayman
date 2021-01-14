@@ -53,7 +53,7 @@ function DetailProduct(props) {
     return (
         <>
             <Helmet>
-                <title>{`${product.model} Видеонаблюдение Тамбов Кайман`}</title>
+                <title>{`${product.brand} ${product.model} Видеонаблюдение Тамбов Кайман`}</title>
             </Helmet>
             <div className={classes.ContainerDetail}>
                 <div className={classes.Manual}>
