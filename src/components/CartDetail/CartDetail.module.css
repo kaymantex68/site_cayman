@@ -1,6 +1,8 @@
 .CartDetail_container{
     min-height: 1150px;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .CartDetail_container_list_products{
     display: flex;

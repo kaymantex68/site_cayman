@@ -45,25 +45,20 @@ function DetailProduct(props) {
     }
 
 
-
-
-
-
-
     return (
         <>
             <Helmet>
                 <title>{`${product.brand} ${product.model} Видеонаблюдение Тамбов Кайман`}</title>
             </Helmet>
             <div className={classes.ContainerDetail}>
-                <div className={classes.Manual}>
+                {/* <div className={classes.Manual}>
                     <div className={classes.Direct}>
                     </div>
-                </div>
+                </div> */}
                 <div className={classes.DescriptionConteiner}>
-                    <div className={classes.Romb1}></div>
+                    {/* <div className={classes.Romb1}></div>
                     <div className={classes.Romb2}></div>
-                    <div className={classes.Romb3}></div>
+                    <div className={classes.Romb3}></div> */}
                     <div className={classes.Block}>
                         <div className={classes.Picture}>
                             <Swiper

@@ -2,11 +2,18 @@
     width: 60%;
     height: 100px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.281);
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.192);
     margin: 5px;
     display: flex;
     /* padding-left:20px; */
     align-items: center;
+    transition: 0.2s;
+}
+
+.ProductCard_container:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.589);
+    transition: 0.2s;
 }
 
 .ProductCard_picture {

@@ -148,6 +148,7 @@
     /* background-color: green; */
     margin-right:10px;
    background-color:rgb(255, 255, 255);
+   box-shadow: 0 0 10px rgba(128, 128, 128, 0.295);
     
 }
 
@@ -202,6 +203,7 @@
     /* border: 1px solid #dee3ec; */
     border-radius: 10px;
     background-color:rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.295);
     
 }
 
