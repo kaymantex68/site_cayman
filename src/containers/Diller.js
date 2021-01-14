@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as dillerActions from '../actions/dillers'
-import Diller from '../components/Diller/Diller'
+import Diller from '../components/Diller/Diller.jsx'
 
 
 

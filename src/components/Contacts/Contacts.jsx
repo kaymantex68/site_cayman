@@ -6,9 +6,9 @@ function Contacts() {
     return (
         <>
             <div className={classes.Main}>
-                <div className={classes.Romb1}></div>
+                {/* <div className={classes.Romb1}></div>
                 <div className={classes.Romb2}></div>
-                <div className={classes.Romb3}></div>
+                <div className={classes.Romb3}></div> */}
                 <div className={classes.AdressContainer}>
                     <div className={classes.Map}>
                         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa75e51849bb3f473dd8ffed77e5d846a1ff134970372d9a4b6941ba133dc2229&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>

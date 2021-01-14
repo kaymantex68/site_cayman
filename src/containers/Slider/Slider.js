@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as sliderActions from '../../actions/slider'
-import Slider from '../../components/Slider2/Slider.jsx'
+import Slider from '../../components/Slider/Slider.jsx'
 
 
 

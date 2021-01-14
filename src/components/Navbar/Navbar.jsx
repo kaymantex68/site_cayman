@@ -1,6 +1,7 @@
-import React from 'react';
-import classes from './Navbar.module.css';
+import React from 'react'
+import classes from './Navbar.module.css'
 import logo from '../../Logo/logo.svg'
+import CartMinimal from '../../containers/CartMinimal'
 import { Link } from 'react-router-dom'
 function Navbar(props) {
     const { countProducts } = props;
@@ -892,6 +893,9 @@ function Navbar(props) {
                     </div>
                 </div>
                 <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${countProducts} позиций в наличии`}</span></div>
+                <div className={classes.cartMini}>
+                    <CartMinimal />
+                </div>
                 <div className={classes.Hanburger_menu_container}>
                     <div className={classes.Hamburger_menu}>
                         <div></div>

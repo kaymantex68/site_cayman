@@ -4,7 +4,9 @@ import classes from './Diller.module.css';
 
 function Diller(props) {
     const { dillers } = props;
-    return (
+    console.info('DILLERS NEW PROPS: ', props)
+    return (    
+        dillers ?
         < div className={classes.Main} >
             <div className={classes.Text}>Мы являемся дилерами</div>
 
@@ -27,7 +29,11 @@ function Diller(props) {
                 })}
             </div>
         </div >
+        :
+        <>
+        </>
     )
+
 }
 
 export default Diller;

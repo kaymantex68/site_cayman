@@ -12,7 +12,7 @@ const dillers = (state = initialState, action) => {
                 dillersReady: true,
             }
         default:
-            return dillers;
+            return state;
     }
 }
 

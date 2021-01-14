@@ -46,6 +46,13 @@
     transition: 0.2s;
 }
 
+.cartMini{
+    height: 60px;
+    /* width: 170px; */
+    
+    flex:1;
+}
+
 .Kol_tovar {
     height: 40px;
     width: 150px;
@@ -55,7 +62,7 @@
     color: black;
     /*text-align: -webkit-center; */
     text-align: -webkit-center;
-    background-color: #3C475B;
+    background-color: #3c475bb9;
     /* background-color:red; */
     box-shadow: 0 0px 12px rgba(128, 128, 128, 0.932);
     border-radius:5px;

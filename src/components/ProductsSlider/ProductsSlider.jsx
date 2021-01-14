@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom'
-import ProductCard from '../ProductsCard/ProductsCard'
+import ProductCard from '../../containers/ProductsCard'
 import classes from './ProductsSlider.module.css'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -35,13 +35,15 @@ function useWindowSize() {
 
 
 const Liders = (props) => {
-    
+    let url2 ='';
     const { Items, Description } = props;
     const itemsArr = [];
     Items.map((item, index) => {
+        url2 ='';
+        url2 = `catalog/${item.type[1]}/${item.type[2]}/${item.brand}`
         itemsArr.push(
             <SwiperSlide key={`slider_${index}`}>
-                <ProductCard {...item} />
+                <ProductCard {...item} link={url2} />
             </SwiperSlide>
         );
     })

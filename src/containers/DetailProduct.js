@@ -8,9 +8,9 @@ import DetailProduct from '../components/DetailProduct/DetailProduct.jsx'
 
 
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({ producst }) => {
     return {
-        products: state.producst.items,
+        products: producst.items,
     }
 }
 

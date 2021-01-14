@@ -4,6 +4,8 @@ import liders from './liders'
 import sales from './sales'
 import slider from './slider'
 import dillers from './dillers'
+import cart from './cart'
+
 
 const rootReducers=combineReducers({
     producst,
@@ -11,6 +13,7 @@ const rootReducers=combineReducers({
     sales,
     slider,
     dillers,
+    cart
 })
 
 export default rootReducers;

@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
-import ProductsCard from '../ProductsCard/ProductsCard'
+import ProductsCard from '../../containers/ProductsCard'
 import CatalogFilter from './CatalogFilter'
 
 import classes from './Catalog.module.css'
@@ -44,34 +45,38 @@ const Catalog = (props) => {
 
 
 
-    let url2='';
+    let url2 = '';
     return (
+
         <div className={classes.catalog_container}>
+            <Helmet>
+                <title>{ `Видеонаблюдение Тамбов Кайман`}</title>
+            </Helmet>
             {/* <CatalogFilter /> */}
             <div className={classes.catalog_container_block}>
                 {
                     products.map((product, key) => {
                         if (params.cat) {
-                            url2='';
+                            url2 = '';
                             url2 = `${url}/${product.type[2]}/${product.brand}`
                         }
                         if (params.cat && params.type) {
-                            url2='';
+                            url2 = '';
                             url2 = `${url}/${product.brand}`
                         }
                         if (params.cat && params.type && params.brand) {
-                            url2='';
+                            url2 = '';
                             url2 = `${url}`
                         }
                         if (!params.cat) {
-                            url2='';
+                            url2 = '';
                             url2 = `${url}/${product.type[1]}/${product.type[2]}/${product.brand}`
                         }
                         return (
                             <div key={`catalog-product-${key}`} className={classes.catalog_container_product_container}>
-                                <Link to={`${url2}/${product.model}`}>
-                                    <ProductsCard {...product} />
-                                </Link>
+                                {/* <Link to={`${url2}/${product.model}`}> */}
+                                    <ProductsCard {...product} link={url2} />
+                                {/* </Link> */}
                             </div>
                         )
                     })

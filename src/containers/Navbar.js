@@ -5,13 +5,14 @@ import Navbar from '../components/Navbar/Navbar.jsx'
 
 
 
-const mapStateToProps =(state)=>({
-    
+const mapStateToProps = (state) => ({
+
     countProducts: state.producst.items.length,
+    cart: state.cart,
 })
 
-const mapDispatchToProps =(dispatch)=>({
-    ...bindActionCreators(productsActions,dispatch),
+const mapDispatchToProps = (dispatch) => ({
+    ...bindActionCreators(productsActions, dispatch),
 })
 
-export default connect(mapStateToProps,mapDispatchToProps)(Navbar)
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar)
