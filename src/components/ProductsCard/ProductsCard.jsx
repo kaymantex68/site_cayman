@@ -46,7 +46,7 @@ const ProductCard = (model) => {
                 </div>
             </Link>
             
-            <div className={classes.product_card_container_button} style={addedCount>0? {backgroundColor:'rgb(253, 140, 87)'}:{}}  onClick={()=>addProductToCart(model)}><span className={classes.product_card_container_button_span} style={addedCount>0? {color:'white'}:{}} >в корзину {addedCount>0 && `(${addedCount})`}</span></div>
+            <div className={classes.product_card_container_button} style={addedCount>0? {backgroundColor:'rgb(253, 140, 87)'}:{}}  onClick={()=>addProductToCart({...model})}><span className={classes.product_card_container_button_span} style={addedCount>0? {color:'white'}:{}} >в корзину {addedCount>0 && `(${addedCount})`}</span></div>
         </div >
     )
 }

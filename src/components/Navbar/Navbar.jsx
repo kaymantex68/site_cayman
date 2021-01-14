@@ -894,7 +894,9 @@ function Navbar(props) {
                 </div>
                 <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${countProducts} позиций в наличии`}</span></div>
                 <div className={classes.cartMini}>
-                    <CartMinimal />
+                    <Link to="/cart">
+                        <CartMinimal />
+                    </Link>
                 </div>
                 <div className={classes.Hanburger_menu_container}>
                     <div className={classes.Hamburger_menu}>

@@ -14,7 +14,7 @@ const mapStateToProps = (state) => {
     return {
         products: state.producst.items,
         slides: state.slider.items,
-        dillers: state.dillers.items,
+        // dillers: state.dillers.items,
     }
 }
 

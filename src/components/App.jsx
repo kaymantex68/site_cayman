@@ -10,6 +10,7 @@ import MainPage from '../components/MainPage/MainPage'
 import Contacts from '../components/Contacts/Contacts'
 import DetailProduct from '../containers/DetailProduct'
 import Catalog from '../containers/Catalog'
+import CartDetail from '../containers/CartDetail'
 
 import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
@@ -49,6 +50,7 @@ function App(props) {
         <Navbar />
         <Switch>
           <Route exact path="/" component={MainPage} />
+          <Route exact path="/cart" component={CartDetail} />
           <Route exact path="/product/:model" component={DetailProduct} />
           <Route exact path="/catalog/" component={Catalog} />
           <Route exact path="/catalog/:cat" component={Catalog} />
