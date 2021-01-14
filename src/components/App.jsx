@@ -24,7 +24,7 @@ import { SliderData } from '../Data/SliderData/SliderData'
  */
 function App(props) {
   const { products } = props;
-  console.info('PROPS APPS: ', props)
+  // console.info('PROPS APPS: ', props)
   // console.info('DILLER APPS: ', DillerData)
   /**
    *  При первом запуске сайта весь массив product товаров

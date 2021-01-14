@@ -4,7 +4,7 @@ import classes from './Diller.module.css';
 
 function Diller(props) {
     const { dillers } = props;
-    console.info('DILLERS NEW PROPS: ', props)
+    // console.info('DILLERS NEW PROPS: ', props)
     return (    
         dillers ?
         < div className={classes.Main} >

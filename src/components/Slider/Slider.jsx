@@ -34,7 +34,6 @@ const Slider = (props) => {
                 }
             </SwiperSlide>
         );
-        console.log(item.title)
     })
 
 

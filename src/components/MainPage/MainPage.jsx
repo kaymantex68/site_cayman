@@ -7,7 +7,7 @@ import Diller from '../../containers/Diller'
 import Slider from '../../containers/Slider/Slider'
 
 const MainPage = (props) => {
-    console.info('MAINPAGE PROPS: ', props)
+    // console.info('MAINPAGE PROPS: ', props)
     return (
         <div className={classes.mainPage_container}>
             <Slider />

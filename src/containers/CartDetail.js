@@ -7,12 +7,32 @@ import uniqBy from 'lodash/uniqBy'
 import CartDetail from '../components/CartDetail/CartDetail.jsx'
 
 
+const Unic = (cart) => {
+    
+    const unicCart =uniqBy(cart.items, o => o.model);
+    const Cart=cart.items;
+    let newUniCart=[];
+    console.info('unicCart', unicCart);
+    console.info('Cart', Cart);
 
+    for (let i=0; i<unicCart.length;i++){
+        let count=0;
+        for(let j=0; j<Cart.length;j++){
+            if(unicCart[i].model === Cart[j].model) {
+                count++;
+            }
+        }
+        newUniCart.push({...unicCart[i],count: count})
+        count=0;
+    }
+    // console.info('NEW UNICART',newUniCart)
+    return newUniCart
+}
 
 
 const mapStateToProps = ({ cart }) => {
     return {
-        cartUniq: uniqBy(cart.items, o => o.model),
+        cartUniq: Unic(cart),
         cartCount: cart.items.length,
         cartSumm: cart.items.reduce((count, product) => count + product.coast, 0)
     }

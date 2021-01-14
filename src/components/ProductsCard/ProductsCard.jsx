@@ -6,7 +6,7 @@ const ProductCard = (model) => {
     const { addProductToCart, addedCount } = model;
 
 
-    console.info('PRODUCT CARD: ', addedCount)
+    // console.info('PRODUCT CARD: ', addedCount)
     return (
         <div className={classes.product_card_container} >
             <Link to={`${model.link}/${model.model}`}>

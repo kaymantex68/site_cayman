@@ -4,8 +4,8 @@ import cart from '../../../src/Img_products/cart.svg'
 
 function cartMinimal(props) {
     const { cartCount, cartSumm } = props;
-    console.info('CART MINIMAL PROPS', props)
-    console.info('CART MINIMAL', cartCount)
+    // console.info('CART MINIMAL PROPS', props)
+    // console.info('CART MINIMAL', cartCount)
     return (
         <div className={classes.cartMini_container}>
             <div className={classes.cartMini_container_block}>
