@@ -2,9 +2,9 @@ import React from 'react'
 import classes from './ProductCardInCart.module.css'
 
 const ProductCardInCart = (props) => {
-    // console.info('CART PRODUct: ',props)
-    const { model, brand, type, info, count,coast } = props;
-
+    console.info('CART PRODUct: ', props)
+    const { model, brand, type, info, count, coast } = props;
+    const { addProductToCart, removeProductFromCart, removePositionFromCart } = props;
     return (
         <div className={classes.ProductCard_container}>
             <div className={classes.ProductCard_picture}>
@@ -23,7 +23,18 @@ const ProductCardInCart = (props) => {
                 <p className={classes.Model_description_coast}>{`${coast} руб.`}</p>
             </div>
             <div className={classes.ProductCard_summ}>
-                <p className={classes.Model_description_summ}>{`${coast*count} руб.`}</p>
+                <p className={classes.Model_description_summ}>{`${coast * count} руб.`}</p>
+            </div>
+            <div className={classes.Buttons}>
+                <div className={classes.ProductCard_button_minus}>
+                    <p className={classes.button_minus} onClick={() => removeProductFromCart(props.model)}>-</p>
+                </div>
+                <div className={classes.ProductCard_button_plus}>
+                    <p className={classes.button_plus} onClick={() => addProductToCart(props)}>+</p>
+                </div>
+                <div className={classes.ProductCard_button_remove}>
+                    <p className={classes.button_remove} onClick={() => removePositionFromCart(props.model)}>удалить</p>
+                </div>
             </div>
         </div>
     )

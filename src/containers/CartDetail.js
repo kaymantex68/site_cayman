@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as cartActions from '../actions/cart'
 import uniqBy from 'lodash/uniqBy'
-
+import orderBy from 'lodash/orderBy'
 
 import CartDetail from '../components/CartDetail/CartDetail.jsx'
 
@@ -32,7 +32,7 @@ const Unic = (cart) => {
 
 const mapStateToProps = ({ cart }) => {
     return {
-        cartUniq: Unic(cart),
+        cartUniq: orderBy(Unic(cart), o=> o.model),
         cartCount: cart.items.length,
         cartSumm: cart.items.reduce((count, product) => count + product.coast, 0)
     }
