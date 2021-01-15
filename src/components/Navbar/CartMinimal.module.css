@@ -1,6 +1,6 @@
 .cartMini_container{
     display: flex;
-    width: 200px;
+    width: 220px;
     height: 60px;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     padding-left: 5px;
-    width: 180px;
+    width: 200px;
     height: 40px;
     border-radius: 5px;
     box-shadow: 0 0px 12px rgba(128, 128, 128, 0.583);

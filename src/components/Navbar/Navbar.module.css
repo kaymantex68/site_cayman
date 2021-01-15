@@ -68,6 +68,10 @@
     border-radius:5px;
 }
 
+.Kol_tovar:hover{
+    background-color: #3c475b;
+}
+
 .Kol_tovar_span {
     color: white;
 
