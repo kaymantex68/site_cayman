@@ -42,6 +42,9 @@
     color: #3C475B;
     font-size: 1rem;
 }
+.Model_name:hover {
+    font-weight: bold;
+}
 
 .Model_description {
     color: #3C475B;
@@ -190,7 +193,7 @@
 .button_remove:hover{
     transform: scale(1.06);
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
-    background-color: #3c475bbd;;
+    background-color: #3c475bd9;;
     transition: 0.2s;
 }
 

@@ -11,6 +11,7 @@ const CartDetail = (props) => {
         <div className={classes.CartDetail_container}>
             <div className={classes.CartDetail_block}>
                 <div className={classes.CartDetail_global_operation}>
+                    <span className={classes.Сheckout}>оформить заказ</span>
                     <span className={classes.Summa_fixed}>{`сумма: ${cartSumm} руб.`}</span>
                     <span className={classes.Remove_all_button_span} onClick={() => clearCart([])}>очистить корзину</span>
                 </div>

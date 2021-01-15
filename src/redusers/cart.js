@@ -1,4 +1,4 @@
-import orderBy from 'lodash/orderBy.js';
+
 
 const initialState = {
     items: [],

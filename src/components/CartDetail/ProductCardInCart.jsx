@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './ProductCardInCart.module.css'
-
+import { Link } from 'react-router-dom'
 
 const ProductCardInCart = (props) => {
     // console.info('CART PRODUct: ', props)
@@ -13,7 +13,7 @@ const ProductCardInCart = (props) => {
         if (e.target.value > count) {
             for (let i = 0; i < e.target.value - count; i++) addProductToCart(props)
         }
-        if (e.target.value < count && e.target.value>=1 ) {
+        if (e.target.value < count && e.target.value >= 1) {
             for (let i = 0; i < count - e.target.value; i++) removeProductFromCart(props.model)
 
         }
@@ -22,18 +22,23 @@ const ProductCardInCart = (props) => {
 
     return (
         <div className={classes.ProductCard_container}>
+
             <div className={classes.ProductCard_picture}>
                 <img className={classes.ProducCard_picture_img} alt={model} src={`/img_products/${brand}/${model}/1.png`} />
             </div>
+
             <div className={classes.ProductCard_description}>
-                <p className={classes.Model_name}>{model}</p>
-                <p className={classes.Model_description}>{type[0]}</p>
-                <p className={classes.Model_description}>{info.text}</p>
-                <p className={classes.Model_description}>{info.text1}</p>
+                <Link to={`${props.link}/${props.model}`}>
+                    <p className={classes.Model_name}>{model}</p>
+                    <p className={classes.Model_description}>{type[0]}</p>
+                    <p className={classes.Model_description}>{info.text}</p>
+                    <p className={classes.Model_description}>{info.text1}</p>
+                </Link>
             </div>
+
             <div className={classes.ProductCard_count}>
                 {/* <p className={classes.Model_description_count}>{count}</p> */}
-                <input className={classes.count_input} onChange={(e) => reloadPages(e)} defaultValue={count} min="1" />
+                <input className={classes.count_input} onChange={(e) => reloadPages(e)} value={count} defaultValue={count} min="1" />
             </div>
             <div className={classes.ProductCard_coast}>
                 <p className={classes.Model_description_coast}>{`${coast} руб.`}</p>

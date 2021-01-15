@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as cartActions from '../actions/cart'
-
+import uniqBy from 'lodash/uniqBy'
 
 import CartMinimal from '../components/Navbar/CartMinimal.jsx'
 

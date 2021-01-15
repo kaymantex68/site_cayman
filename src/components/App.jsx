@@ -58,6 +58,7 @@ function App(props) {
           <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
           <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
           <Route exact path="/contacts/adress" component={Contacts} />
+          <Route  path="*" exact={true} component={MainPage} />
         </Switch>
         <Footer />
       </div>
