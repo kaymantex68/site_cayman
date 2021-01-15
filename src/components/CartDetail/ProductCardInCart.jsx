@@ -1,10 +1,25 @@
 import React from 'react'
 import classes from './ProductCardInCart.module.css'
 
+
 const ProductCardInCart = (props) => {
-    console.info('CART PRODUct: ', props)
+    // console.info('CART PRODUct: ', props)
     const { model, brand, type, info, count, coast } = props;
     const { addProductToCart, removeProductFromCart, removePositionFromCart } = props;
+
+
+    const [changeInput, setChangeInput] = React.useState(false);
+    const reloadPages = (e) => {
+        if (e.target.value > count) {
+            for (let i = 0; i < e.target.value - count; i++) addProductToCart(props)
+        }
+        if (e.target.value < count && e.target.value>=1 ) {
+            for (let i = 0; i < count - e.target.value; i++) removeProductFromCart(props.model)
+
+        }
+        setChangeInput(!changeInput);
+    }
+
     return (
         <div className={classes.ProductCard_container}>
             <div className={classes.ProductCard_picture}>
@@ -17,7 +32,8 @@ const ProductCardInCart = (props) => {
                 <p className={classes.Model_description}>{info.text1}</p>
             </div>
             <div className={classes.ProductCard_count}>
-                <p className={classes.Model_description_count}>{count}</p>
+                {/* <p className={classes.Model_description_count}>{count}</p> */}
+                <input className={classes.count_input} onChange={(e) => reloadPages(e)} defaultValue={count} min="1" />
             </div>
             <div className={classes.ProductCard_coast}>
                 <p className={classes.Model_description_coast}>{`${coast} руб.`}</p>

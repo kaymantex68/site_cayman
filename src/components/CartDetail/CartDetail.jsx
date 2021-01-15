@@ -5,7 +5,7 @@ import ProductCardInCart from './ProductCardInCart'
 const CartDetail = (props) => {
     const { cartUniq, cartSumm } = props;
     const { clearCart } = props;
-    console.info('CART DETAIL PROPS: ', props)
+    // console.info('CART DETAIL PROPS: ', props)
     // console.info('CART DETATIL: ', cartUniq)
     return (
         <div className={classes.CartDetail_container}>
