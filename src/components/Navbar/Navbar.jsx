@@ -47,6 +47,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/outdoor/ST">ST</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/outdoor/HiWatch">HiWatch</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -311,6 +314,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/domofon/Schneider-Electric">Schneider-Electric</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/domofon/Hikvision">Hikvision</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -320,6 +326,12 @@ function Navbar(props) {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/panel/Atis">Atis</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/panel/Hikvision">Hikvision</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/panel/Dahua">Dahua</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -411,6 +423,9 @@ function Navbar(props) {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/zamki/electromex/Slinex">Slinex</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/zamki/electromex/Atis">Atis</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
