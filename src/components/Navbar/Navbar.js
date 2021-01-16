@@ -50,6 +50,9 @@ function Navbar() {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ip/outdoor/ST">ST</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ip/outdoor/HiWatch">HiWatch</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
