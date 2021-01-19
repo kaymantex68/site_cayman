@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors())
 
-// app.use(function(req, res, next) {
-//     res.header("Access-Control-Allow-Origin", "http://localhost:3001"); // update to match the domain you will make the request from
-//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-//   });
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "http://localhost:3001"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
 
 
 async function getDATA(message){
@@ -45,7 +45,7 @@ app.post('/SendOrder', (req, res) => {
 
     getDATA(message).then(response=>console.log(response))
 
-    res.redirect('https://cayman-store.ru/cart')
+    // res.redirect('https://cayman-store.ru/cart')
   
     
 })
