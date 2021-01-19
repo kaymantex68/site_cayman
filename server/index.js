@@ -45,7 +45,7 @@ app.post('/SendOrder', (req, res) => {
 
     getDATA(message).then(response=>console.log(response))
 
-    res.redirect('http://cayman-store/cart')
+    res.redirect('http://localhost/cart')
   
     
 })
