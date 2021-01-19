@@ -11,7 +11,7 @@
 .CartDetail_block{
     display: flex;
     /* border: 1px solid black; */
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
   
 }

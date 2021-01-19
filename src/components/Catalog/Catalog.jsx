@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import ProductsCard from '../../containers/ProductsCard'
-import CatalogFilter from './CatalogFilter'
+// import CatalogFilter from './CatalogFilter'
 
 import classes from './Catalog.module.css'
 
@@ -14,9 +14,9 @@ import filter from 'lodash/filter'
 const Catalog = (props) => {
     let { products } = props;
     let { params, url } = props.match;
-    console.info('CATALOG PROPS: ', props)
-    console.info('CATALOG Products: ', products)
-    console.info('CATALOG MATCH PARAMS: ', props.match)
+    // console.info('CATALOG PROPS: ', props)
+    // console.info('CATALOG Products: ', products)
+    // console.info('CATALOG MATCH PARAMS: ', props.match)
 
     if (params.cat) {
         products = filter(products, function (item) {
