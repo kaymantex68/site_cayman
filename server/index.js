@@ -9,18 +9,16 @@ const app = express()
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-// app.use('/SendOrder', createProxyMiddleware({
-//     target: 'http://localhost:3001/SendOrder', //original url
-//     changeOrigin: true,
-//     //secure: false,
-//     onProxyRes: function (proxyRes, req, res) {
-//         proxyRes.headers['Access-Control-Allow-Origin'] = '*';
-//     }
-// }));
-app.use(cors())
-// app.use( function(req,res,next){
-//     res.header("Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
-// })
+app.use(function(req,res,next){
+    res.header("Access-Control-Allow-Origin","*");
+    res.header("Access-Control-Allow-Methods","OPTIONS,GET,POST,PUT,PATCH,DELETE");
+    res.header("Access-Control-Allow-Headers","Origin,X-Requested-With,Content-Type,Accept");
+
+    if (req.method==='OPTIONS') {
+        return res.sendStatus(200);
+    }
+    next();
+});
 
 async function getDATA(message){
     return new Promise((resolve,res)=>{
