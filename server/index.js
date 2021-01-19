@@ -18,14 +18,24 @@ app.use(bodyParser.json())
 //     }
 // }));
 app.use(cors())
+// app.use( function(req,res,next){
+//     res.header("Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
+// })
+
+async function getDATA(message){
+    return new Promise((resolve,res)=>{
+        resolve( mailer(message))
+
+    })
+}
 
 app.post('/SendOrder', (req, res) => {
 
     const information = req.body;
-    console.info('INFORMATION: ', information)
+    // console.info('INFORMATION: ', information.data)
     const text = '';
     // console.log(information.length)
-    res.redirect('/cart')
+    
 
 
 
@@ -35,10 +45,13 @@ app.post('/SendOrder', (req, res) => {
         subject: 'ZAKAZ SITE',
         //text: String(information.join("\n"))
         // text: String(information)
-        text: 'dfhdf'
+        text: req.body.join("\n")
     }
 
-    mailer(message)
+    getDATA(message).then(response=>console.log(response))
+
+    res.send({message:"Order Send"})
+    res.redirect('/cart')
 })
 
 
