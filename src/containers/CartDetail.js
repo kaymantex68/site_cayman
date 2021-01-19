@@ -12,8 +12,8 @@ const Unic = (cart) => {
     const unicCart =uniqBy(cart.items, o => o.model);
     const Cart=cart.items;
     let newUniCart=[];
-    console.info('unicCart', unicCart);
-    console.info('Cart', Cart);
+    // console.info('unicCart', unicCart);
+    // console.info('Cart', Cart);
 
     for (let i=0; i<unicCart.length;i++){
         let count=0;

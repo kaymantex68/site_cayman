@@ -38,7 +38,7 @@ const ProductCardInCart = (props) => {
 
             <div className={classes.ProductCard_count}>
                 {/* <p className={classes.Model_description_count}>{count}</p> */}
-                <input className={classes.count_input} onChange={(e) => reloadPages(e)} value={count} defaultValue={count} min="1" />
+                <input className={classes.count_input} onChange={(e) => reloadPages(e)} value={count}  min="1" />
             </div>
             <div className={classes.ProductCard_coast}>
                 <p className={classes.Model_description_coast}>{`${coast} руб.`}</p>
