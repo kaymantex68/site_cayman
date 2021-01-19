@@ -45,7 +45,7 @@ app.post('/SendOrder', cors(), (req, res) => {
 
     getDATA(message).then(response=>console.log(response))
 
-    // res.redirect('/cart')
+    res.redirect('/cart')
   
     
 })
