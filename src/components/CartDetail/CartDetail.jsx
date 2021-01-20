@@ -4,7 +4,7 @@ import ProductCardInCart from './ProductCardInCart'
 import axios from 'axios'
 
 const sendMail = async (message) => {
-    const resp = await axios.post('/SendOrder', message).then(response => console.log(response.data.message))
+    const resp = await axios.post('http://localhost:3001/SendOrder', message).then(response => console.log(response.data.message))
 }
 
 
