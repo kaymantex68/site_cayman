@@ -3,8 +3,8 @@ import classes from './CartDetail.module.css'
 import ProductCardInCart from './ProductCardInCart'
 import axios from 'axios'
 
-const sendMail = async (message) => {
-    const resp = await axios.post('/SendOrder', message).then(response => console.log(response.data.message))
+const sendMail = (message) => {
+    axios.post('http://localhost:3001/SendOrder', message).then(response => console.log(response.data.message))
 }
 
 
@@ -12,11 +12,11 @@ const CartDetail = (props) => {
     const { cartUniq, cartSumm } = props;
     const { clearCart } = props;
 
-    let message= [`Сумма заказа: ${cartSumm}`]
-    message = [...message ,...cartUniq.map((model, key) => {
+    let message = [`Сумма заказа: ${cartSumm}`]
+    message = [...message, ...cartUniq.map((model, key) => {
         return `${model.model} | количество: ${model.count} | цена: ${model.coast}`
     })]
-    
+
     // console.info('MESSAGE: ', message)
     // console.info('CART DETAIL PROPS: ', props)
     // console.info('CART DETATIL: ', cartUniq)

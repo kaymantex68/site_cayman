@@ -41,6 +41,7 @@ app.post('/SendOrder', (req, res) => {
         subject: 'ZAKAZ SITE',
         text: req.body.join("\n")
     }
+    res.send({...req.body,message:"ok"})
     mailer(message);
     return(res)
 })
