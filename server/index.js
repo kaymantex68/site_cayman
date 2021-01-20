@@ -8,7 +8,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express()
 app.use(cors())
-app.use(morgan('dev'))
+// app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(function (req, res, next) {
@@ -21,29 +21,20 @@ app.use(function (req, res, next) {
     }
     next();
 });
-// app.use(
-//     cors({
-//         credentials: true,
-//         origin: ["http://localhost:3001"],
-//         optionsSuccessStatus: 200
-//     })
-// );
-
+app.use(
+    cors({
+        credentials: true,
+        origin: ["http://localhost:3001"],
+        optionsSuccessStatus: 200
+    })
+);
 app.use(createProxyMiddleware("/SendOrder", {
     target: "http://localhost:3001",
-    changeOrigin: true
+    changeOrigin: false
 }));
 
+/**---------------------------------------------------------------------------- */
 
-
-
-
-async function getDATA(message) {
-    return new Promise((resolve, res) => {
-        resolve(mailer(message))
-
-    })
-}
 
 app.post('/SendOrder', (req, res) => {
 
@@ -62,7 +53,7 @@ app.post('/SendOrder', (req, res) => {
         text: req.body.join("\n")
     }
 
-    getDATA(message).then(response => console.log(response))
+    mailer(message);
 
     // res.redirect('https://cayman-store.ru/cart')
 
