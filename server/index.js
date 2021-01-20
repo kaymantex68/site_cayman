@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const morgan = require('morgan')
 const mailer = require('./nodemailer')
-
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 
 const app = express()
@@ -28,6 +28,13 @@ app.use(
         optionsSuccessStatus: 200
     })
 );
+
+app.use(createProxyMiddleware("/SendOrder", {
+    target: "http://localhost:3001",
+    changeOrigin: true
+}));
+
+
 
 
 
