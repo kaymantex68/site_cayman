@@ -21,7 +21,13 @@ app.use(function (req, res, next) {
     }
     next();
 });
-
+app.use(
+    cors({
+        credentials: true,
+        origin: ["http://localhost:3001"],
+        optionsSuccessStatus: 200
+    })
+);
 
 
 
