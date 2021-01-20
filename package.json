@@ -11,6 +11,7 @@
     "babel-register": "^6.26.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "http-proxy-middleware": "^1.0.6",
     "image-exists": "^1.1.0",
     "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
