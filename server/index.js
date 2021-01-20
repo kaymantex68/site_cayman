@@ -57,7 +57,7 @@ app.post('/SendOrder', (req, res) => {
 
     // res.redirect('https://cayman-store.ru/cart')
 
-
+    return(res)
 })
 
 
