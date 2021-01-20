@@ -12422,9 +12422,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: ezviz_brand,
-        coast: 3990,
-        old_coast: 4990,
-        rasprodaja: true,
+        coast: 4990,
+        // old_coast: 4990,
+        rasprodaja: false,
         new: false,
         inStock_outStock: 1,
         info: {
