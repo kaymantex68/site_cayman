@@ -10899,7 +10899,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 10990,
+        coast: 8990,
         old_coast: false,
         info: {
             text: ['Разрешение:', '2MP'],
