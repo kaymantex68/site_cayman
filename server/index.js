@@ -21,17 +21,17 @@ app.use(function (req, res, next) {
     }
     next();
 });
-app.use(
-    cors({
-        credentials: true,
-        origin: ["http://localhost:3001"],
-        optionsSuccessStatus: 200
-    })
-);
-app.use(createProxyMiddleware("/SendOrder", {
-    target: "http://localhost:3001",
-    changeOrigin: false
-}));
+// app.use(
+//     cors({
+//         credentials: true,
+//         origin: ["http://localhost:3001"],
+//         optionsSuccessStatus: 200
+//     })
+// );
+// app.use(createProxyMiddleware("/SendOrder", {
+//     target: "http://localhost:3001",
+//     changeOrigin: false
+// }));
 
 /**---------------------------------------------------------------------------- */
 
