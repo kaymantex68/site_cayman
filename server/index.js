@@ -21,13 +21,7 @@ app.use(function (req, res, next) {
     }
     next();
 });
-// app.use(
-//     cors({
-//         credentials: true,
-//         origin: ["http://localhost:3001"],
-//         optionsSuccessStatus: 200
-//     })
-// );
+
 // app.use(createProxyMiddleware("/SendOrder", {
 //     target: "http://localhost:3001",
 //     changeOrigin: false
@@ -41,22 +35,13 @@ app.post('/SendOrder', (req, res) => {
     const information = req.body;
     console.info('INFORMATION: ', information.data)
     const text = '';
-
-
-
-
-
     const message = {
         from: 'CAYMAN-ZAKAZ <kaymantex68@yandex.ru>',
         to: "andrey.s.h.68@yandex.ru",
         subject: 'ZAKAZ SITE',
         text: req.body.join("\n")
     }
-
     mailer(message);
-
-    // res.redirect('https://cayman-store.ru/cart')
-
     return(res)
 })
 
