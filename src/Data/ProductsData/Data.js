@@ -2666,7 +2666,7 @@ export const Data = [
         // rasprodaja: true,
         // small_item: '0.67rem',
         // new: true,
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         // small_item: '0.69rem',
         info: {
             text: ['Тип: ', 'IP-видеопанель'],
