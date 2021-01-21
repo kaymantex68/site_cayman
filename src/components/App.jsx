@@ -23,7 +23,7 @@ import { SliderData } from '../Data/SliderData/SliderData'
  *  connect
  */
 function App(props) {
-  const { products } = props;
+  // const { products } = props;
   // console.info('PROPS APPS: ', props)
   // console.info('DILLER APPS: ', DillerData)
   /**
@@ -33,35 +33,54 @@ function App(props) {
    *  так же сразу делается выборка для лидеров продаж и для распродажи.
    */
 
+  const [isReadyAll, setIsReadyAll] = React.useState(false)
+  const { setProducts, setLiders, setSales, setSlides, setDillers } = props;
+
+  // const delay = (ms) => {
+  //   return new Promise((resolve, regect) => {
+  //     setTimeout(() => {
+  //       resolve()
+  //     }, ms)
+  //   })
+  // }
+
+  const Load = async () => {
+    const products = await setProducts(Data)
+    const liders = await setLiders(Data)
+    const sales = await setSales(Data)
+    const slides = await setSlides(SliderData)
+    const dillers = await setDillers(DillerData)
+    await setIsReadyAll(true)
+    return {status:'load'}
+  }
 
   React.useState(() => {
-    const { setProducts, setLiders, setSales, setSlides, setDillers } = props;
-    setProducts(Data)
-    setLiders(Data)
-    setSales(Data)
-    setSlides(SliderData)
-    setDillers(DillerData)
-  })
+    Load().then(response=>console.log(response))
+  }, [])
 
   return (
     <>
+
       <div className={classes.Main}>
         <UpHeader />
         <Navbar />
-        <Switch>
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/cart" component={CartDetail} />
-          <Route exact path="/product/:model" component={DetailProduct} />
-          <Route exact path="/catalog/" component={Catalog} />
-          <Route exact path="/catalog/:cat" component={Catalog} />
-          <Route exact path="/catalog/:cat/:type" component={Catalog} />
-          <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
-          <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
-          <Route exact path="/contacts/adress" component={Contacts} />
-          <Route  path="*" exact={true} component={MainPage} />
-        </Switch>
+        {isReadyAll ?
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route exact path="/cart" component={CartDetail} />
+            <Route exact path="/product/:model" component={DetailProduct} />
+            <Route exact path="/catalog/" component={Catalog} />
+            <Route exact path="/catalog/:cat" component={Catalog} />
+            <Route exact path="/catalog/:cat/:type" component={Catalog} />
+            <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
+            <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
+            <Route exact path="/contacts/adress" component={Contacts} />
+            <Route path="*" exact={true} component={MainPage} />
+          </Switch>
+          : <div>loading</div>}
         <Footer />
       </div>
+
     </>
   );
 };
