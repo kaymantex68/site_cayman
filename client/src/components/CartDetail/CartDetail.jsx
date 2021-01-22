@@ -3,8 +3,8 @@ import classes from './CartDetail.module.css'
 import ProductCardInCart from './ProductCardInCart'
 import axios from 'axios'
 
-const sendMail = (message) => {
-    axios.post('http://localhost:3001/SendOrder', message).then(response => console.log(response.data.message))
+const sendMail = async (message) => {
+    await axios.post('/SendOrder', message).then(response => console.log(response.data.message))
 }
 
 

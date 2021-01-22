@@ -3,10 +3,16 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const morgan = require('morgan')
 const mailer = require('./nodemailer')
+const path = require('path')
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 
 const app = express()
+
+app.use('/', express.static(path.join(__dirname,'client','public')))
+app.get('*',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'client','public','index.html'))
+})
 app.use(cors())
 // app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
