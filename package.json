@@ -2,7 +2,6 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -29,8 +28,7 @@
     "redux": "^4.0.5",
     "styled-components": "^5.2.1",
     "swiper": "^6.3.5",
-    "web-vitals": "^0.2.4",
-    "webpack-dev-server": "^3.11.2"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
